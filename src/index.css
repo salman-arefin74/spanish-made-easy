@@ -1,0 +1,62 @@
+@import "tailwindcss";
+@import "@fontsource/source-sans-3/latin-400.css";
+@import "@fontsource/source-sans-3/latin-ext-400.css";
+@import "@fontsource/source-sans-3/latin-600.css";
+@import "@fontsource/source-sans-3/latin-ext-600.css";
+
+@theme {
+  --font-sans: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --color-ink: #141210;
+  --color-card: #1e1b18;
+  --color-raised: #2a2622;
+  --color-line: #3a342e;
+  --color-cream: #f4efe8;
+  --color-muted: #b7aea3;
+  --color-copper: #e0a15a;
+  --color-copper-ink: #1a1208;
+  --color-danger: #e07a6a;
+}
+
+html {
+  background: var(--color-ink);
+  color: var(--color-cream);
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  font-family: var(--font-sans);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-copper);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  z-index: 40;
+  transform: translateY(-200%);
+  border-radius: 0.75rem;
+  background: var(--color-copper);
+  padding: 0.5rem 0.75rem;
+  color: var(--color-copper-ink);
+  font-weight: 600;
+}
+
+.skip-link:focus {
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
