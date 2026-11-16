@@ -9,6 +9,7 @@ import { AuthProvider, RequireAuth, type AuthState } from "./features/auth/Requi
 import { SettingsPage } from "./features/auth/SettingsPage.tsx"
 import { SignInPage } from "./features/auth/SignInPage.tsx"
 import { SignUpPage } from "./features/auth/SignUpPage.tsx"
+import { LessonRoute, SentenceBuilderPage } from "./features/sentence-builder/LessonPage.tsx"
 import { VocabularyPage } from "./features/vocabulary/CategoryList.tsx"
 import { VocabularySessionPage } from "./features/vocabulary/FlashcardSession.tsx"
 
@@ -48,8 +49,24 @@ export function App({ initialAuth }: { initialAuth?: AuthState } = {}) {
                 </RequireAuth>
               }
             />
+            <Route
+              path="/sentence-builder"
+              element={
+                <RequireAuth allow="ready">
+                  <SentenceBuilderPage />
+                </RequireAuth>
+              }
+            />
+            <Route
+              path="/sentence-builder/:topicId"
+              element={
+                <RequireAuth allow="ready">
+                  <LessonRoute />
+                </RequireAuth>
+              }
+            />
             {sections
-              .filter((section) => section.to !== "/vocabulary")
+              .filter((section) => section.to !== "/vocabulary" && section.to !== "/sentence-builder")
               .map((section) => (
                 <Route
                   key={section.to}

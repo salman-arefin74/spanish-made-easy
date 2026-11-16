@@ -27,7 +27,7 @@ export const sections: Section[] = [
     label: 'Sentence Builder',
     lede: 'How words become sentences.',
     empty:
-      'Sentence Builder is not built yet. Grammar lessons and sentence exercises are not available.',
+      'Lessons open after the grammar tables are seeded. This page does not show sample sentences.',
   },
   {
     to: '/revision',
