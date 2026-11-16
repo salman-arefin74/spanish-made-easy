@@ -1,43 +1,64 @@
-import { BrowserRouter, Route, Routes } from 'react-router'
-import { sections } from './app/sections.ts'
-import { AppShell } from './components/layout/AppShell.tsx'
-import { EmptyState } from './components/ui/EmptyState.tsx'
-import { PageHeading } from './components/ui/PageHeading.tsx'
+import { BrowserRouter, Route, Routes } from "react-router"
+import { sections, type Section } from "./app/sections.ts"
+import { AppShell } from "./components/layout/AppShell.tsx"
+import { EmptyState } from "./components/ui/EmptyState.tsx"
+import { PageHeading } from "./components/ui/PageHeading.tsx"
+import { OnboardingPage } from "./features/auth/OnboardingPage.tsx"
+import { PrivacyPage } from "./features/auth/PrivacyPage.tsx"
+import { AuthProvider, RequireAuth, type AuthState } from "./features/auth/RequireAuth.tsx"
+import { SettingsPage } from "./features/auth/SettingsPage.tsx"
+import { SignInPage } from "./features/auth/SignInPage.tsx"
+import { SignUpPage } from "./features/auth/SignUpPage.tsx"
 
-export function App() {
+function StudyPage({ section }: { section: Section }) {
+  return (
+    <>
+      <PageHeading title={section.label} lede={section.lede} />
+      <EmptyState>{section.empty}</EmptyState>
+    </>
+  )
+}
+
+export function App({ initialAuth }: { initialAuth?: AuthState } = {}) {
   return (
     <BrowserRouter>
-      <AppShell>
-        <Routes>
-          {sections.map((section) => (
+      <AuthProvider initialAuth={initialAuth}>
+        <AppShell>
+          <Routes>
+            <Route path="/sign-in" element={<SignInPage />} />
+            <Route path="/sign-up" element={<SignUpPage />} />
+            <Route path="/privacy" element={<PrivacyPage />} />
+            <Route path="/onboarding" element={<OnboardingPage />} />
+            <Route path="/settings" element={<SettingsPage />} />
+            {sections.map((section) => (
+              <Route
+                key={section.to}
+                path={section.to}
+                element={
+                  <RequireAuth allow="ready">
+                    <StudyPage section={section} />
+                  </RequireAuth>
+                }
+              />
+            ))}
             <Route
-              key={section.to}
-              path={section.to}
+              path="*"
               element={
                 <>
-                  <PageHeading title={section.label} lede={section.lede} />
-                  <EmptyState>{section.empty}</EmptyState>
+                  <PageHeading
+                    title="Page not found"
+                    lede="That address is not part of Spanish Made Easy."
+                  />
+                  <EmptyState>
+                    Use the navigation to open Progress, Vocabulary, Sentence
+                    Builder, Revision, Exams, or Real-Life Spanish.
+                  </EmptyState>
                 </>
               }
             />
-          ))}
-          <Route
-            path="*"
-            element={
-              <>
-                <PageHeading
-                  title="Page not found"
-                  lede="That address is not part of Spanish Made Easy."
-                />
-                <EmptyState>
-                  Use the navigation to open Progress, Vocabulary, Sentence
-                  Builder, Revision, Exams, or Real-Life Spanish.
-                </EmptyState>
-              </>
-            }
-          />
-        </Routes>
-      </AppShell>
+          </Routes>
+        </AppShell>
+      </AuthProvider>
     </BrowserRouter>
   )
 }

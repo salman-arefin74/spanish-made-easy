@@ -1,0 +1,123 @@
+import { useCallback, useState, type FormEvent } from "react"
+import { Link, Navigate } from "react-router"
+import { PageHeading } from "../../components/ui/PageHeading.tsx"
+import { getSupabase, turnstileSiteKey } from "../../lib/supabase/client.ts"
+import { ProfileMissing, useAuth } from "./RequireAuth.tsx"
+import { TurnstileWidget } from "./TurnstileWidget.tsx"
+import {
+  authEmailForUsername,
+  interpretSignIn,
+  passwordError,
+  usernameError,
+} from "./username.ts"
+
+const inputClass =
+  "mt-2 w-full rounded-xl border border-line bg-ink px-4 py-3 text-lg text-cream"
+
+export function SignInPage() {
+  const auth = useAuth()
+  const siteKey = turnstileSiteKey()
+  const [username, setUsername] = useState("")
+  const [password, setPassword] = useState("")
+  const [token, setToken] = useState<string | null>(null)
+  const [widgetKey, setWidgetKey] = useState(0)
+  const [formError, setFormError] = useState<string | null>(null)
+  const [submitting, setSubmitting] = useState(false)
+  const onToken = useCallback((nextToken: string) => setToken(nextToken), [])
+
+  if (auth.status === "loading") {
+    return <p className="text-lg text-muted">Checking your account…</p>
+  }
+  if (auth.status === "profile-missing") return <ProfileMissing />
+  if (auth.status === "ready") return <Navigate to="/" replace />
+  if (auth.status === "needs-onboarding") return <Navigate to="/onboarding" replace />
+
+  async function onSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault()
+    const nameError = usernameError(username)
+    const passError = passwordError(password)
+    if (nameError || passError) {
+      setFormError(nameError ?? passError)
+      return
+    }
+    const supabase = getSupabase()
+    if (!supabase) {
+      setFormError("Add the Supabase URL and anon key to .env, then restart the dev server.")
+      return
+    }
+
+    setSubmitting(true)
+    setFormError(null)
+    const { error } = await supabase.auth.signInWithPassword({
+      email: authEmailForUsername(username),
+      password,
+      options: token ? { captchaToken: token } : undefined,
+    })
+    setSubmitting(false)
+    const message = interpretSignIn(error?.message ?? null)
+    if (message) {
+      setFormError(message)
+      setToken(null)
+      setWidgetKey((key) => key + 1)
+    }
+  }
+
+  return (
+    <>
+      <PageHeading title="Sign in" lede="Use the username and password you chose." />
+      {!auth.configured ? (
+        <p className="mt-6 max-w-prose text-lg text-danger" role="alert">
+          Add VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY to .env, then restart
+          the dev server. The README section “Create the Supabase project” says
+          which key to copy. Use the publishable or anon key, never a secret or
+          service-role key.
+        </p>
+      ) : null}
+      <form className="mt-8 max-w-md space-y-5" onSubmit={(event) => void onSubmit(event)}>
+        <label className="block text-lg" htmlFor="username">
+          Username
+          <input
+            id="username"
+            className={inputClass}
+            autoCapitalize="none"
+            autoComplete="username"
+            spellCheck={false}
+            value={username}
+            onChange={(event) => setUsername(event.target.value)}
+          />
+        </label>
+        <label className="block text-lg" htmlFor="password">
+          Password
+          <input
+            id="password"
+            type="password"
+            className={inputClass}
+            autoComplete="current-password"
+            value={password}
+            onChange={(event) => setPassword(event.target.value)}
+          />
+        </label>
+        {siteKey ? <TurnstileWidget key={widgetKey} siteKey={siteKey} onToken={onToken} /> : null}
+        {formError ? (
+          <p className="text-lg text-danger" role="alert">
+            {formError}
+          </p>
+        ) : null}
+        <button
+          type="submit"
+          className="inline-flex min-h-12 items-center justify-center rounded-xl bg-copper px-5 py-3 font-semibold text-copper-ink disabled:opacity-50"
+          disabled={submitting || !auth.configured || (siteKey !== null && !token)}
+        >
+          {submitting ? "Signing in…" : "Sign in"}
+        </button>
+      </form>
+      <p className="mt-6 text-lg text-muted">
+        New here?{" "}
+        <Link className="text-cream underline decoration-copper underline-offset-4" to="/sign-up">
+          Create account
+        </Link>
+        .
+      </p>
+    </>
+  )
+}

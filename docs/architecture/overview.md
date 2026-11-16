@@ -2,11 +2,11 @@
 
 Spanish Made Easy is a static Vite single-page app. The browser will talk to Supabase with the public anon key and the signed-in user's JWT. There is no application server, no AI API, and no paid service.
 
-This document records decisions that the shell does not implement yet. The current screens are empty on purpose.
+Accounts are implemented. The study pages are still empty on purpose.
 
 ## Accounts
 
-Supabase Auth has no username provider. Sign-up will still ask only for a username and a password. The app will store a hidden address the learner never sees:
+Supabase Auth has no username provider. Sign-up asks only for a username and a password. The app stores a hidden address the learner never sees:
 
 `{username}@users.spanishmadeeasy.invalid`
 
@@ -14,11 +14,11 @@ Supabase Auth has no username provider. Sign-up will still ask only for a userna
 
 Email confirmation must be turned off in the Supabase dashboard. With that setting, sign-up returns a session. With it left on, the account cannot be confirmed, because the message has nowhere to go.
 
-A duplicate username comes back from Auth as "User already registered" and is shown as "That username is already taken. Choose a different one." `profiles.username` will also have a unique constraint.
+A duplicate username comes back from Auth as "User already registered" and is shown as "That username is already taken. Choose a different one." `profiles.username` has a unique constraint, and a trigger blocks renaming.
 
-There is no password recovery, because there is no mailbox. Sign-up will say that a forgotten password cannot be reset and that the username stays taken. A signed-in learner can change their password. There is no delete button in the app. An operator can remove a user from the Supabase dashboard. A short privacy page will say that the username and study progress stay for as long as the project exists.
+There is no password recovery, because there is no mailbox. Sign-up says that a forgotten password cannot be reset and that the username stays taken. A signed-in learner can change their password. There is no delete button in the app. An operator can remove a user from the Supabase dashboard. The privacy page says that the username and study progress stay for as long as the project exists.
 
-Sign-up will send a Cloudflare Turnstile token to Supabase Auth. Supabase checks it. The Turnstile secret stays in the Supabase dashboard.
+Sign-up sends a Cloudflare Turnstile token to Supabase Auth. Supabase checks it. The Turnstile secret stays in the Supabase dashboard.
 
 ## Database size
 
