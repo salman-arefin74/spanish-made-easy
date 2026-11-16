@@ -1,6 +1,11 @@
 import { cleanup, render, screen } from "@testing-library/react"
-import { describe, expect, it } from "vitest"
+import { describe, expect, it, vi } from "vitest"
 import { App } from "./App.tsx"
+
+vi.mock("./lib/supabase/client.ts", () => ({
+  getSupabase: () => null,
+  turnstileSiteKey: () => null,
+}))
 import type { AuthState } from "./features/auth/RequireAuth.tsx"
 
 const labels = [
@@ -52,7 +57,7 @@ describe("application shell", () => {
     expect(
       await screen.findByRole("heading", { level: 1, name: "Vocabulary" }),
     ).toBeInTheDocument()
-    expect(screen.getByText(/flashcards and the word bank are not available/i)).toBeInTheDocument()
+    expect(screen.getByText(/does not show sample words/i)).toBeInTheDocument()
   })
 
   it("asks a signed-out visitor to sign in before the study sections", async () => {

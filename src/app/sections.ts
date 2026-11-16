@@ -20,7 +20,7 @@ export const sections: Section[] = [
     label: 'Vocabulary',
     lede: 'Words for everyday Spanish from Spain.',
     empty:
-      'Vocabulary is not built yet. Flashcards and the word bank are not available.',
+      'Choose a category once the word bank is seeded. There is no sample deck on this page.',
   },
   {
     to: '/sentence-builder',

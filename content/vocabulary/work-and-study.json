@@ -1,0 +1,549 @@
+{
+  "id": "work-and-study",
+  "label": "Work and study",
+  "description": "Jobs, school, and a normal working day.",
+  "sortOrder": 8,
+  "recommendedLevel": "A1",
+  "words": [
+    {
+      "id": "work-and-study-trabajo",
+      "spanish": "trabajo",
+      "english": "work or job",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Empiezo el trabajo a las nueve.",
+      "exampleEnglish": "I start work at nine.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-oficina",
+      "spanish": "oficina",
+      "english": "office",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La oficina está en el centro.",
+      "exampleEnglish": "The office is in the centre.",
+      "article": "la"
+    },
+    {
+      "id": "work-and-study-jefe",
+      "spanish": "jefe",
+      "english": "boss",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi jefe se llama Andrés.",
+      "exampleEnglish": "My boss is called Andrés.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-jefa",
+      "spanish": "jefa",
+      "english": "boss, female",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi jefa llega temprano.",
+      "exampleEnglish": "My boss arrives early.",
+      "article": "la"
+    },
+    {
+      "id": "work-and-study-reunion",
+      "spanish": "reunión",
+      "english": "meeting",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La reunión es a las diez.",
+      "exampleEnglish": "The meeting is at ten.",
+      "article": "la"
+    },
+    {
+      "id": "work-and-study-ordenador",
+      "spanish": "ordenador",
+      "english": "computer",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El ordenador está encendido.",
+      "exampleEnglish": "The computer is on.",
+      "article": "el",
+      "spainNote": "Spain says ordenador. Much of Latin America says computadora."
+    },
+    {
+      "id": "work-and-study-movil",
+      "spanish": "móvil",
+      "english": "mobile phone",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi móvil está en la mesa.",
+      "exampleEnglish": "My phone is on the table.",
+      "article": "el",
+      "spainNote": "Spain says móvil. Much of Latin America says celular."
+    },
+    {
+      "id": "work-and-study-correo-electronico",
+      "spanish": "correo electrónico",
+      "english": "email",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Te envío un correo electrónico.",
+      "exampleEnglish": "I'll send you an email.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-mensaje",
+      "spanish": "mensaje",
+      "english": "message",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Tengo un mensaje nuevo.",
+      "exampleEnglish": "I have a new message.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-contrasena",
+      "spanish": "contraseña",
+      "english": "password",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Olvido la contraseña.",
+      "exampleEnglish": "I forget the password.",
+      "article": "la"
+    },
+    {
+      "id": "work-and-study-pantalla",
+      "spanish": "pantalla",
+      "english": "screen",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La pantalla está apagada.",
+      "exampleEnglish": "The screen is off.",
+      "article": "la"
+    },
+    {
+      "id": "work-and-study-teclado",
+      "spanish": "teclado",
+      "english": "keyboard",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El teclado es nuevo.",
+      "exampleEnglish": "The keyboard is new.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-raton",
+      "spanish": "ratón",
+      "english": "mouse",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El ratón no funciona.",
+      "exampleEnglish": "The mouse does not work.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-impresora",
+      "spanish": "impresora",
+      "english": "printer",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La impresora no tiene papel.",
+      "exampleEnglish": "The printer has no paper.",
+      "article": "la"
+    },
+    {
+      "id": "work-and-study-papel",
+      "spanish": "papel",
+      "english": "paper",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Necesito más papel.",
+      "exampleEnglish": "I need more paper.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-lapiz",
+      "spanish": "lápiz",
+      "english": "pencil",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Me dejas un lápiz?",
+      "exampleEnglish": "Can I borrow a pencil?",
+      "article": "el",
+      "plural": "lápices"
+    },
+    {
+      "id": "work-and-study-goma",
+      "spanish": "goma",
+      "english": "eraser",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La goma está en el estuche.",
+      "exampleEnglish": "The eraser is in the pencil case.",
+      "article": "la"
+    },
+    {
+      "id": "work-and-study-estuche",
+      "spanish": "estuche",
+      "english": "pencil case",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El estuche está en la mochila.",
+      "exampleEnglish": "The pencil case is in the backpack.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-mochila",
+      "spanish": "mochila",
+      "english": "backpack",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La mochila pesa mucho.",
+      "exampleEnglish": "The backpack is very heavy.",
+      "article": "la"
+    },
+    {
+      "id": "work-and-study-libro",
+      "spanish": "libro",
+      "english": "book",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Este libro es de español.",
+      "exampleEnglish": "This book is a Spanish book.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-pagina",
+      "spanish": "página",
+      "english": "page",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La respuesta está en la página diez.",
+      "exampleEnglish": "The answer is on page ten.",
+      "article": "la"
+    },
+    {
+      "id": "work-and-study-clase",
+      "spanish": "clase",
+      "english": "class",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La clase empieza a las nueve.",
+      "exampleEnglish": "The class starts at nine.",
+      "article": "la"
+    },
+    {
+      "id": "work-and-study-profesor",
+      "spanish": "profesor",
+      "english": "teacher",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El profesor habla despacio.",
+      "exampleEnglish": "The teacher speaks slowly.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-profesora",
+      "spanish": "profesora",
+      "english": "teacher, female",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La profesora es de Sevilla.",
+      "exampleEnglish": "The teacher is from Seville.",
+      "article": "la"
+    },
+    {
+      "id": "work-and-study-alumno",
+      "spanish": "alumno",
+      "english": "student",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El alumno llega tarde.",
+      "exampleEnglish": "The student arrives late.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-alumna",
+      "spanish": "alumna",
+      "english": "student, female",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La alumna estudia mucho.",
+      "exampleEnglish": "The student studies a lot.",
+      "article": "la"
+    },
+    {
+      "id": "work-and-study-examen",
+      "spanish": "examen",
+      "english": "exam",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El examen es el viernes.",
+      "exampleEnglish": "The exam is on Friday.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-deberes",
+      "spanish": "deberes",
+      "english": "homework",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Hago los deberes por la tarde.",
+      "exampleEnglish": "I do my homework in the afternoon.",
+      "article": "los"
+    },
+    {
+      "id": "work-and-study-pregunta",
+      "spanish": "pregunta",
+      "english": "question",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Tengo una pregunta.",
+      "exampleEnglish": "I have a question.",
+      "article": "la"
+    },
+    {
+      "id": "work-and-study-respuesta",
+      "spanish": "respuesta",
+      "english": "answer",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La respuesta es sí.",
+      "exampleEnglish": "The answer is yes.",
+      "article": "la"
+    },
+    {
+      "id": "work-and-study-idioma",
+      "spanish": "idioma",
+      "english": "language",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El español es un idioma útil.",
+      "exampleEnglish": "Spanish is a useful language.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-palabra",
+      "spanish": "palabra",
+      "english": "word",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Esta palabra es nueva.",
+      "exampleEnglish": "This word is new.",
+      "article": "la"
+    },
+    {
+      "id": "work-and-study-frase",
+      "spanish": "frase",
+      "english": "sentence",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Leo la frase en voz alta.",
+      "exampleEnglish": "I read the sentence aloud.",
+      "article": "la"
+    },
+    {
+      "id": "work-and-study-error",
+      "spanish": "error",
+      "english": "mistake",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Hay un error en la frase.",
+      "exampleEnglish": "There is a mistake in the sentence.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-nota",
+      "spanish": "nota",
+      "english": "grade or note",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La nota del examen es un siete.",
+      "exampleEnglish": "The exam grade is a seven.",
+      "article": "la"
+    },
+    {
+      "id": "work-and-study-medico",
+      "spanish": "médico",
+      "english": "doctor",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi hermano es médico.",
+      "exampleEnglish": "My brother is a doctor.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-enfermero",
+      "spanish": "enfermero",
+      "english": "nurse",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El enfermero trabaja de noche.",
+      "exampleEnglish": "The nurse works at night.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-enfermera",
+      "spanish": "enfermera",
+      "english": "nurse, female",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La enfermera es muy amable.",
+      "exampleEnglish": "The nurse is very kind.",
+      "article": "la"
+    },
+    {
+      "id": "work-and-study-cocinero",
+      "spanish": "cocinero",
+      "english": "cook",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El cocinero prepara la paella.",
+      "exampleEnglish": "The cook makes the paella.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-peluquero",
+      "spanish": "peluquero",
+      "english": "hairdresser",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El peluquero abre a las diez.",
+      "exampleEnglish": "The hairdresser opens at ten.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-vendedor",
+      "spanish": "vendedor",
+      "english": "salesperson",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El vendedor trabaja en la tienda.",
+      "exampleEnglish": "The salesperson works in the shop.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-estudiante",
+      "spanish": "estudiante",
+      "english": "student",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Soy estudiante de español.",
+      "exampleEnglish": "I am a Spanish student.",
+      "article": "el"
+    },
+    {
+      "id": "work-and-study-trabajar",
+      "spanish": "trabajar",
+      "english": "to work",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Trabajo en una oficina.",
+      "exampleEnglish": "I work in an office."
+    },
+    {
+      "id": "work-and-study-estudiar",
+      "spanish": "estudiar",
+      "english": "to study",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Estudio español por la tarde.",
+      "exampleEnglish": "I study Spanish in the afternoon."
+    },
+    {
+      "id": "work-and-study-aprender",
+      "spanish": "aprender",
+      "english": "to learn",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Aprendo diez palabras al día.",
+      "exampleEnglish": "I learn ten words a day."
+    },
+    {
+      "id": "work-and-study-ensenar",
+      "spanish": "enseñar",
+      "english": "to teach",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Ella enseña inglés.",
+      "exampleEnglish": "She teaches English."
+    },
+    {
+      "id": "work-and-study-leer",
+      "spanish": "leer",
+      "english": "to read",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Leo el periódico.",
+      "exampleEnglish": "I read the newspaper."
+    },
+    {
+      "id": "work-and-study-escribir",
+      "spanish": "escribir",
+      "english": "to write",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Escribo un correo.",
+      "exampleEnglish": "I write an email."
+    },
+    {
+      "id": "work-and-study-escuchar",
+      "spanish": "escuchar",
+      "english": "to listen",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Escucho al profesor.",
+      "exampleEnglish": "I listen to the teacher."
+    },
+    {
+      "id": "work-and-study-hablar",
+      "spanish": "hablar",
+      "english": "to speak",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Hablo un poco de español.",
+      "exampleEnglish": "I speak a little Spanish."
+    },
+    {
+      "id": "work-and-study-preguntar",
+      "spanish": "preguntar",
+      "english": "to ask",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Pregunto el precio.",
+      "exampleEnglish": "I ask the price."
+    },
+    {
+      "id": "work-and-study-contestar",
+      "spanish": "contestar",
+      "english": "to answer",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Contesto el mensaje.",
+      "exampleEnglish": "I answer the message."
+    },
+    {
+      "id": "work-and-study-entender",
+      "spanish": "entender",
+      "english": "to understand",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "No entiendo esta palabra.",
+      "exampleEnglish": "I don't understand this word."
+    },
+    {
+      "id": "work-and-study-empezar",
+      "spanish": "empezar",
+      "english": "to start",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Empiezo a las nueve.",
+      "exampleEnglish": "I start at nine."
+    },
+    {
+      "id": "work-and-study-terminar",
+      "spanish": "terminar",
+      "english": "to finish",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Termino a las seis.",
+      "exampleEnglish": "I finish at six."
+    }
+  ]
+}

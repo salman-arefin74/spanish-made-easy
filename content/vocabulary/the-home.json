@@ -1,0 +1,552 @@
+{
+  "id": "the-home",
+  "label": "The home",
+  "description": "Rooms, furniture, and the things around the house.",
+  "sortOrder": 4,
+  "recommendedLevel": "A1",
+  "words": [
+    {
+      "id": "the-home-casa",
+      "spanish": "casa",
+      "english": "house",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi casa está cerca.",
+      "exampleEnglish": "My house is nearby.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-piso",
+      "spanish": "piso",
+      "english": "flat",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Vivo en un piso pequeño.",
+      "exampleEnglish": "I live in a small flat.",
+      "article": "el",
+      "spainNote": "In Spain, a flat is un piso. The floor of a building is also un piso."
+    },
+    {
+      "id": "the-home-apartamento",
+      "spanish": "apartamento",
+      "english": "apartment",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El apartamento tiene dos habitaciones.",
+      "exampleEnglish": "The apartment has two bedrooms.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-habitacion",
+      "spanish": "habitación",
+      "english": "bedroom or room",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La habitación es grande.",
+      "exampleEnglish": "The room is big.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-salon",
+      "spanish": "salón",
+      "english": "living room",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Estamos en el salón.",
+      "exampleEnglish": "We are in the living room.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-cocina",
+      "spanish": "cocina",
+      "english": "kitchen",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La cocina está limpia.",
+      "exampleEnglish": "The kitchen is clean.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-bano",
+      "spanish": "baño",
+      "english": "bathroom",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El baño está al fondo.",
+      "exampleEnglish": "The bathroom is at the back.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-aseo",
+      "spanish": "aseo",
+      "english": "toilet",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Dónde está el aseo?",
+      "exampleEnglish": "Where is the toilet?",
+      "article": "el"
+    },
+    {
+      "id": "the-home-comedor",
+      "spanish": "comedor",
+      "english": "dining room",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Comemos en el comedor.",
+      "exampleEnglish": "We eat in the dining room.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-pasillo",
+      "spanish": "pasillo",
+      "english": "hallway",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El pasillo es estrecho.",
+      "exampleEnglish": "The hallway is narrow.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-balcon",
+      "spanish": "balcón",
+      "english": "balcony",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El piso tiene un balcón.",
+      "exampleEnglish": "The flat has a balcony.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-jardin",
+      "spanish": "jardín",
+      "english": "garden",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Los niños están en el jardín.",
+      "exampleEnglish": "The children are in the garden.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-puerta",
+      "spanish": "puerta",
+      "english": "door",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La puerta está abierta.",
+      "exampleEnglish": "The door is open.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-ventana",
+      "spanish": "ventana",
+      "english": "window",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Abre la ventana, por favor.",
+      "exampleEnglish": "Open the window, please.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-pared",
+      "spanish": "pared",
+      "english": "wall",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El cuadro está en la pared.",
+      "exampleEnglish": "The picture is on the wall.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-suelo",
+      "spanish": "suelo",
+      "english": "floor",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El suelo está frío.",
+      "exampleEnglish": "The floor is cold.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-techo",
+      "spanish": "techo",
+      "english": "ceiling",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La lámpara está en el techo.",
+      "exampleEnglish": "The lamp is on the ceiling.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-mesa",
+      "spanish": "mesa",
+      "english": "table",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El libro está en la mesa.",
+      "exampleEnglish": "The book is on the table.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-silla",
+      "spanish": "silla",
+      "english": "chair",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Hay cuatro sillas.",
+      "exampleEnglish": "There are four chairs.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-sofa",
+      "spanish": "sofá",
+      "english": "sofa",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El gato está en el sofá.",
+      "exampleEnglish": "The cat is on the sofa.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-cama",
+      "spanish": "cama",
+      "english": "bed",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La cama es cómoda.",
+      "exampleEnglish": "The bed is comfortable.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-almohada",
+      "spanish": "almohada",
+      "english": "pillow",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Necesito una almohada.",
+      "exampleEnglish": "I need a pillow.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-manta",
+      "spanish": "manta",
+      "english": "blanket",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La manta está en la cama.",
+      "exampleEnglish": "The blanket is on the bed.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-armario",
+      "spanish": "armario",
+      "english": "wardrobe",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La ropa está en el armario.",
+      "exampleEnglish": "The clothes are in the wardrobe.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-estanteria",
+      "spanish": "estantería",
+      "english": "bookshelf",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Los libros están en la estantería.",
+      "exampleEnglish": "The books are on the bookshelf.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-lampara",
+      "spanish": "lámpara",
+      "english": "lamp",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Enciende la lámpara, por favor.",
+      "exampleEnglish": "Turn on the lamp, please.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-luz",
+      "spanish": "luz",
+      "english": "light",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La luz de la cocina está encendida.",
+      "exampleEnglish": "The kitchen light is on.",
+      "article": "la",
+      "plural": "luces"
+    },
+    {
+      "id": "the-home-espejo",
+      "spanish": "espejo",
+      "english": "mirror",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El espejo está en el baño.",
+      "exampleEnglish": "The mirror is in the bathroom.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-ducha",
+      "spanish": "ducha",
+      "english": "shower",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La ducha está caliente.",
+      "exampleEnglish": "The shower is hot.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-banera",
+      "spanish": "bañera",
+      "english": "bathtub",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La bañera es pequeña.",
+      "exampleEnglish": "The bathtub is small.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-lavabo",
+      "spanish": "lavabo",
+      "english": "washbasin",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El jabón está en el lavabo.",
+      "exampleEnglish": "The soap is at the basin.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-jabon",
+      "spanish": "jabón",
+      "english": "soap",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Necesito jabón.",
+      "exampleEnglish": "I need soap.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-toalla",
+      "spanish": "toalla",
+      "english": "towel",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La toalla está limpia.",
+      "exampleEnglish": "The towel is clean.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-nevera",
+      "spanish": "nevera",
+      "english": "fridge",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La leche está en la nevera.",
+      "exampleEnglish": "The milk is in the fridge.",
+      "article": "la",
+      "spainNote": "Spain usually says nevera. Frigorífico is also used."
+    },
+    {
+      "id": "the-home-horno",
+      "spanish": "horno",
+      "english": "oven",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El pan está en el horno.",
+      "exampleEnglish": "The bread is in the oven.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-fregadero",
+      "spanish": "fregadero",
+      "english": "kitchen sink",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Los platos están en el fregadero.",
+      "exampleEnglish": "The dishes are in the sink.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-llave",
+      "spanish": "llave",
+      "english": "key",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Dónde está la llave?",
+      "exampleEnglish": "Where is the key?",
+      "article": "la"
+    },
+    {
+      "id": "the-home-reloj",
+      "spanish": "reloj",
+      "english": "clock",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El reloj está en la pared.",
+      "exampleEnglish": "The clock is on the wall.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-telefono",
+      "spanish": "teléfono",
+      "english": "telephone",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El teléfono está en la mesa.",
+      "exampleEnglish": "The telephone is on the table.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-television",
+      "spanish": "televisión",
+      "english": "television",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La televisión está en el salón.",
+      "exampleEnglish": "The television is in the living room.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-cuadro",
+      "spanish": "cuadro",
+      "english": "picture",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Ese cuadro es de mi abuela.",
+      "exampleEnglish": "That picture is my grandmother's.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-planta",
+      "spanish": "planta",
+      "english": "plant",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La planta necesita agua.",
+      "exampleEnglish": "The plant needs water.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-gato",
+      "spanish": "gato",
+      "english": "cat",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El gato duerme en el sofá.",
+      "exampleEnglish": "The cat sleeps on the sofa.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-perro",
+      "spanish": "perro",
+      "english": "dog",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El perro está en el jardín.",
+      "exampleEnglish": "The dog is in the garden.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-escalera",
+      "spanish": "escalera",
+      "english": "stairs",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La escalera está a la derecha.",
+      "exampleEnglish": "The stairs are on the right.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-ascensor",
+      "spanish": "ascensor",
+      "english": "lift",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El ascensor no funciona.",
+      "exampleEnglish": "The lift is not working.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-portal",
+      "spanish": "portal",
+      "english": "entrance hall",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Espero en el portal.",
+      "exampleEnglish": "I'll wait in the entrance hall.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-direccion",
+      "spanish": "dirección",
+      "english": "address",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Cuál es tu dirección?",
+      "exampleEnglish": "What is your address?",
+      "article": "la"
+    },
+    {
+      "id": "the-home-buzon",
+      "spanish": "buzón",
+      "english": "letterbox",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La carta está en el buzón.",
+      "exampleEnglish": "The letter is in the letterbox.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-basura",
+      "spanish": "basura",
+      "english": "rubbish",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Saco la basura por la noche.",
+      "exampleEnglish": "I take the rubbish out at night.",
+      "article": "la"
+    },
+    {
+      "id": "the-home-cubo",
+      "spanish": "cubo",
+      "english": "bucket or bin",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El cubo de la basura está lleno.",
+      "exampleEnglish": "The rubbish bin is full.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-portero",
+      "spanish": "portero",
+      "english": "doorman",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El portero abre la puerta.",
+      "exampleEnglish": "The doorman opens the door.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-alquiler",
+      "spanish": "alquiler",
+      "english": "rent",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El alquiler es de seiscientos euros.",
+      "exampleEnglish": "The rent is six hundred euros.",
+      "article": "el"
+    },
+    {
+      "id": "the-home-propietario",
+      "spanish": "propietario",
+      "english": "owner",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El propietario vive arriba.",
+      "exampleEnglish": "The owner lives upstairs.",
+      "article": "el"
+    }
+  ]
+}

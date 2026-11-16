@@ -1,0 +1,564 @@
+{
+  "id": "food-and-drink",
+  "label": "Food and drink",
+  "description": "Meals, the market, and ordering in a Spanish bar.",
+  "sortOrder": 3,
+  "recommendedLevel": "A1",
+  "words": [
+    {
+      "id": "food-and-drink-agua",
+      "spanish": "agua",
+      "english": "water",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El agua está fría.",
+      "exampleEnglish": "The water is cold.",
+      "article": "el",
+      "spainNote": "Agua is feminine, but the singular takes el: el agua."
+    },
+    {
+      "id": "food-and-drink-pan",
+      "spanish": "pan",
+      "english": "bread",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Quiero pan con tomate.",
+      "exampleEnglish": "I want bread with tomato.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-leche",
+      "spanish": "leche",
+      "english": "milk",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El café con leche está caliente.",
+      "exampleEnglish": "The coffee with milk is hot.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-cafe",
+      "spanish": "café",
+      "english": "coffee",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Un café, por favor.",
+      "exampleEnglish": "A coffee, please.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-te",
+      "spanish": "té",
+      "english": "tea",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Quiero un té con limón.",
+      "exampleEnglish": "I want a tea with lemon.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-zumo",
+      "spanish": "zumo",
+      "english": "juice",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Un zumo de naranja, por favor.",
+      "exampleEnglish": "An orange juice, please.",
+      "article": "el",
+      "spainNote": "Spain says zumo. Much of Latin America says jugo."
+    },
+    {
+      "id": "food-and-drink-vino",
+      "spanish": "vino",
+      "english": "wine",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Una copa de vino tinto, por favor.",
+      "exampleEnglish": "A glass of red wine, please.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-cerveza",
+      "spanish": "cerveza",
+      "english": "beer",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Una cerveza, por favor.",
+      "exampleEnglish": "A beer, please.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-carne",
+      "spanish": "carne",
+      "english": "meat",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "No como carne.",
+      "exampleEnglish": "I don't eat meat.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-pollo",
+      "spanish": "pollo",
+      "english": "chicken",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El pollo está muy rico.",
+      "exampleEnglish": "The chicken is very tasty.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-pescado",
+      "spanish": "pescado",
+      "english": "fish",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Hoy hay pescado fresco.",
+      "exampleEnglish": "There is fresh fish today.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-huevo",
+      "spanish": "huevo",
+      "english": "egg",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Quiero dos huevos.",
+      "exampleEnglish": "I want two eggs.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-queso",
+      "spanish": "queso",
+      "english": "cheese",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El queso es de cabra.",
+      "exampleEnglish": "The cheese is goat's cheese.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-mantequilla",
+      "spanish": "mantequilla",
+      "english": "butter",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Pan con mantequilla, por favor.",
+      "exampleEnglish": "Bread with butter, please.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-aceite",
+      "spanish": "aceite",
+      "english": "oil",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El aceite de oliva es de aquí.",
+      "exampleEnglish": "The olive oil is from here.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-sal",
+      "spanish": "sal",
+      "english": "salt",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La sopa necesita sal.",
+      "exampleEnglish": "The soup needs salt.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-azucar",
+      "spanish": "azúcar",
+      "english": "sugar",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El café, sin azúcar.",
+      "exampleEnglish": "The coffee, with no sugar.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-manzana",
+      "spanish": "manzana",
+      "english": "apple",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Como una manzana.",
+      "exampleEnglish": "I eat an apple.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-naranja",
+      "spanish": "naranja",
+      "english": "orange",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La naranja está dulce.",
+      "exampleEnglish": "The orange is sweet.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-platano",
+      "spanish": "plátano",
+      "english": "banana",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Un plátano, por favor.",
+      "exampleEnglish": "A banana, please.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-tomate",
+      "spanish": "tomate",
+      "english": "tomato",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El pan con tomate es típico.",
+      "exampleEnglish": "Bread with tomato is typical.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-patata",
+      "spanish": "patata",
+      "english": "potato",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Quiero patatas fritas.",
+      "exampleEnglish": "I want fried potatoes.",
+      "article": "la",
+      "spainNote": "Spain says patata. Much of Latin America says papa."
+    },
+    {
+      "id": "food-and-drink-arroz",
+      "spanish": "arroz",
+      "english": "rice",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El arroz está caliente.",
+      "exampleEnglish": "The rice is hot.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-ensalada",
+      "spanish": "ensalada",
+      "english": "salad",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Una ensalada verde, por favor.",
+      "exampleEnglish": "A green salad, please.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-sopa",
+      "spanish": "sopa",
+      "english": "soup",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La sopa del día es de verduras.",
+      "exampleEnglish": "The soup of the day is vegetable.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-verdura",
+      "spanish": "verdura",
+      "english": "vegetable",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Como mucha verdura.",
+      "exampleEnglish": "I eat a lot of vegetables.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-fruta",
+      "spanish": "fruta",
+      "english": "fruit",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La fruta es fresca.",
+      "exampleEnglish": "The fruit is fresh.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-postre",
+      "spanish": "postre",
+      "english": "dessert",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Qué hay de postre?",
+      "exampleEnglish": "What is there for dessert?",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-helado",
+      "spanish": "helado",
+      "english": "ice cream",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Un helado de vainilla, por favor.",
+      "exampleEnglish": "A vanilla ice cream, please.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-desayuno",
+      "spanish": "desayuno",
+      "english": "breakfast",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El desayuno es a las ocho.",
+      "exampleEnglish": "Breakfast is at eight.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-comida",
+      "spanish": "comida",
+      "english": "lunch",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La comida es a las dos.",
+      "exampleEnglish": "Lunch is at two.",
+      "article": "la",
+      "spainNote": "In Spain, comida is the midday meal, often around two."
+    },
+    {
+      "id": "food-and-drink-cena",
+      "spanish": "cena",
+      "english": "dinner",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La cena es a las nueve.",
+      "exampleEnglish": "Dinner is at nine.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-menu",
+      "spanish": "menú",
+      "english": "menu",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Tiene el menú del día?",
+      "exampleEnglish": "Do you have the set lunch menu?",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-cuenta",
+      "spanish": "cuenta",
+      "english": "bill",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La cuenta, por favor.",
+      "exampleEnglish": "The bill, please.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-camarero",
+      "spanish": "camarero",
+      "english": "waiter",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El camarero trae el café.",
+      "exampleEnglish": "The waiter brings the coffee.",
+      "article": "el",
+      "spainNote": "Spain says camarero. Much of Latin America says mesero."
+    },
+    {
+      "id": "food-and-drink-camarera",
+      "spanish": "camarera",
+      "english": "waitress",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La camarera es muy amable.",
+      "exampleEnglish": "The waitress is very kind.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-restaurante",
+      "spanish": "restaurante",
+      "english": "restaurant",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El restaurante está lleno.",
+      "exampleEnglish": "The restaurant is full.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-bar",
+      "spanish": "bar",
+      "english": "bar",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Quedamos en un bar.",
+      "exampleEnglish": "We're meeting in a bar.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-cafeteria",
+      "spanish": "cafetería",
+      "english": "cafe",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Desayuno en la cafetería.",
+      "exampleEnglish": "I have breakfast in the cafe.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-tapa",
+      "spanish": "tapa",
+      "english": "small portion",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Pedimos una tapa de tortilla.",
+      "exampleEnglish": "We order a portion of potato omelette.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-tortilla",
+      "spanish": "tortilla",
+      "english": "potato omelette",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La tortilla de patatas está rica.",
+      "exampleEnglish": "The potato omelette is tasty.",
+      "article": "la",
+      "spainNote": "In Spain, tortilla usually means a potato omelette, not a maize flatbread."
+    },
+    {
+      "id": "food-and-drink-bocadillo",
+      "spanish": "bocadillo",
+      "english": "sandwich on a roll",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Quiero un bocadillo de jamón.",
+      "exampleEnglish": "I want a ham roll.",
+      "article": "el",
+      "spainNote": "A bocadillo is a sandwich in a roll. A sandwich in sliced bread is often un sándwich."
+    },
+    {
+      "id": "food-and-drink-jamon",
+      "spanish": "jamón",
+      "english": "ham",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El jamón está en el bocadillo.",
+      "exampleEnglish": "The ham is in the roll.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-chorizo",
+      "spanish": "chorizo",
+      "english": "chorizo",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Un poco de chorizo, por favor.",
+      "exampleEnglish": "A little chorizo, please.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-paella",
+      "spanish": "paella",
+      "english": "paella",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La paella es para dos.",
+      "exampleEnglish": "The paella is for two.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-plato",
+      "spanish": "plato",
+      "english": "plate or dish",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El plato está vacío.",
+      "exampleEnglish": "The plate is empty.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-vaso",
+      "spanish": "vaso",
+      "english": "glass",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Un vaso de agua, por favor.",
+      "exampleEnglish": "A glass of water, please.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-taza",
+      "spanish": "taza",
+      "english": "cup",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Una taza de té, por favor.",
+      "exampleEnglish": "A cup of tea, please.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-botella",
+      "spanish": "botella",
+      "english": "bottle",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Una botella de agua, por favor.",
+      "exampleEnglish": "A bottle of water, please.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-cuchara",
+      "spanish": "cuchara",
+      "english": "spoon",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La cuchara está en la mesa.",
+      "exampleEnglish": "The spoon is on the table.",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-tenedor",
+      "spanish": "tenedor",
+      "english": "fork",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Necesito un tenedor.",
+      "exampleEnglish": "I need a fork.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-cuchillo",
+      "spanish": "cuchillo",
+      "english": "knife",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El cuchillo está al lado del plato.",
+      "exampleEnglish": "The knife is beside the plate.",
+      "article": "el"
+    },
+    {
+      "id": "food-and-drink-servilleta",
+      "spanish": "servilleta",
+      "english": "napkin",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Me da una servilleta?",
+      "exampleEnglish": "Could you give me a napkin?",
+      "article": "la"
+    },
+    {
+      "id": "food-and-drink-hambre",
+      "spanish": "tener hambre",
+      "english": "to be hungry",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Tengo hambre.",
+      "exampleEnglish": "I'm hungry."
+    },
+    {
+      "id": "food-and-drink-sed",
+      "spanish": "tener sed",
+      "english": "to be thirsty",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Tengo sed.",
+      "exampleEnglish": "I'm thirsty."
+    }
+  ]
+}

@@ -1,0 +1,535 @@
+{
+  "id": "clothes-and-appearance",
+  "label": "Clothes and appearance",
+  "description": "Clothes and simple words for how people look.",
+  "sortOrder": 12,
+  "recommendedLevel": "A1",
+  "words": [
+    {
+      "id": "clothes-and-appearance-ropa",
+      "spanish": "ropa",
+      "english": "clothes",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La ropa está en el armario.",
+      "exampleEnglish": "The clothes are in the wardrobe.",
+      "article": "la"
+    },
+    {
+      "id": "clothes-and-appearance-camiseta",
+      "spanish": "camiseta",
+      "english": "T-shirt",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Llevo una camiseta blanca.",
+      "exampleEnglish": "I'm wearing a white T-shirt.",
+      "article": "la"
+    },
+    {
+      "id": "clothes-and-appearance-camisa",
+      "spanish": "camisa",
+      "english": "shirt",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La camisa es azul.",
+      "exampleEnglish": "The shirt is blue.",
+      "article": "la"
+    },
+    {
+      "id": "clothes-and-appearance-pantalon",
+      "spanish": "pantalón",
+      "english": "trousers",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Este pantalón es negro.",
+      "exampleEnglish": "These trousers are black.",
+      "article": "el"
+    },
+    {
+      "id": "clothes-and-appearance-vaqueros",
+      "spanish": "vaqueros",
+      "english": "jeans",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Los vaqueros son cómodos.",
+      "exampleEnglish": "The jeans are comfortable.",
+      "article": "los"
+    },
+    {
+      "id": "clothes-and-appearance-falda",
+      "spanish": "falda",
+      "english": "skirt",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La falda es larga.",
+      "exampleEnglish": "The skirt is long.",
+      "article": "la"
+    },
+    {
+      "id": "clothes-and-appearance-vestido",
+      "spanish": "vestido",
+      "english": "dress",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El vestido es rojo.",
+      "exampleEnglish": "The dress is red.",
+      "article": "el"
+    },
+    {
+      "id": "clothes-and-appearance-chaqueta",
+      "spanish": "chaqueta",
+      "english": "jacket",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Llevo una chaqueta.",
+      "exampleEnglish": "I'm wearing a jacket.",
+      "article": "la"
+    },
+    {
+      "id": "clothes-and-appearance-abrigo",
+      "spanish": "abrigo",
+      "english": "coat",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El abrigo es de lana.",
+      "exampleEnglish": "The coat is wool.",
+      "article": "el"
+    },
+    {
+      "id": "clothes-and-appearance-jersey",
+      "spanish": "jersey",
+      "english": "jumper",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "En invierno llevo jersey.",
+      "exampleEnglish": "In winter I wear a jumper.",
+      "article": "el",
+      "spainNote": "Spain says jersey for a jumper. Suéter is also understood."
+    },
+    {
+      "id": "clothes-and-appearance-sudadera",
+      "spanish": "sudadera",
+      "english": "sweatshirt",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La sudadera es gris.",
+      "exampleEnglish": "The sweatshirt is grey.",
+      "article": "la"
+    },
+    {
+      "id": "clothes-and-appearance-zapatos",
+      "spanish": "zapatos",
+      "english": "shoes",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Los zapatos son nuevos.",
+      "exampleEnglish": "The shoes are new.",
+      "article": "los"
+    },
+    {
+      "id": "clothes-and-appearance-zapatillas",
+      "spanish": "zapatillas",
+      "english": "trainers or slippers",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Llevo zapatillas en casa.",
+      "exampleEnglish": "I wear slippers at home.",
+      "article": "las"
+    },
+    {
+      "id": "clothes-and-appearance-botas",
+      "spanish": "botas",
+      "english": "boots",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Las botas son para la lluvia.",
+      "exampleEnglish": "The boots are for the rain.",
+      "article": "las"
+    },
+    {
+      "id": "clothes-and-appearance-calcetines",
+      "spanish": "calcetines",
+      "english": "socks",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Los calcetines están en el cajón.",
+      "exampleEnglish": "The socks are in the drawer.",
+      "article": "los"
+    },
+    {
+      "id": "clothes-and-appearance-ropa-interior",
+      "spanish": "ropa interior",
+      "english": "underwear",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La ropa interior está limpia.",
+      "exampleEnglish": "The underwear is clean.",
+      "article": "la"
+    },
+    {
+      "id": "clothes-and-appearance-pijama",
+      "spanish": "pijama",
+      "english": "pyjamas",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El pijama es de algodón.",
+      "exampleEnglish": "The pyjamas are cotton.",
+      "article": "el"
+    },
+    {
+      "id": "clothes-and-appearance-banador",
+      "spanish": "bañador",
+      "english": "swimming costume",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Llevo el bañador a la playa.",
+      "exampleEnglish": "I take my swimming costume to the beach.",
+      "article": "el"
+    },
+    {
+      "id": "clothes-and-appearance-gorra",
+      "spanish": "gorra",
+      "english": "cap",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La gorra es azul.",
+      "exampleEnglish": "The cap is blue.",
+      "article": "la"
+    },
+    {
+      "id": "clothes-and-appearance-sombrero",
+      "spanish": "sombrero",
+      "english": "hat",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "En verano llevo sombrero.",
+      "exampleEnglish": "In summer I wear a hat.",
+      "article": "el"
+    },
+    {
+      "id": "clothes-and-appearance-bufanda",
+      "spanish": "bufanda",
+      "english": "scarf",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La bufanda es de lana.",
+      "exampleEnglish": "The scarf is wool.",
+      "article": "la"
+    },
+    {
+      "id": "clothes-and-appearance-guantes",
+      "spanish": "guantes",
+      "english": "gloves",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Los guantes están en el bolsillo.",
+      "exampleEnglish": "The gloves are in the pocket.",
+      "article": "los"
+    },
+    {
+      "id": "clothes-and-appearance-cinturon",
+      "spanish": "cinturón",
+      "english": "belt",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El cinturón es de cuero.",
+      "exampleEnglish": "The belt is leather.",
+      "article": "el"
+    },
+    {
+      "id": "clothes-and-appearance-bolsillo",
+      "spanish": "bolsillo",
+      "english": "pocket",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Las llaves están en el bolsillo.",
+      "exampleEnglish": "The keys are in the pocket.",
+      "article": "el"
+    },
+    {
+      "id": "clothes-and-appearance-gafas",
+      "spanish": "gafas",
+      "english": "glasses",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Dónde están mis gafas?",
+      "exampleEnglish": "Where are my glasses?",
+      "article": "las",
+      "spainNote": "Spain says gafas. Anteojos and lentes are more common in parts of Latin America."
+    },
+    {
+      "id": "clothes-and-appearance-gafas-sol",
+      "spanish": "gafas de sol",
+      "english": "sunglasses",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Llevo gafas de sol en la playa.",
+      "exampleEnglish": "I wear sunglasses on the beach.",
+      "article": "las"
+    },
+    {
+      "id": "clothes-and-appearance-reloj-ropa",
+      "spanish": "reloj",
+      "english": "watch",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El reloj es un regalo.",
+      "exampleEnglish": "The watch is a present.",
+      "article": "el"
+    },
+    {
+      "id": "clothes-and-appearance-anillo",
+      "spanish": "anillo",
+      "english": "ring",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El anillo es de plata.",
+      "exampleEnglish": "The ring is silver.",
+      "article": "el"
+    },
+    {
+      "id": "clothes-and-appearance-pendientes",
+      "spanish": "pendientes",
+      "english": "earrings",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Los pendientes son pequeños.",
+      "exampleEnglish": "The earrings are small.",
+      "article": "los"
+    },
+    {
+      "id": "clothes-and-appearance-collar",
+      "spanish": "collar",
+      "english": "necklace",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El collar es corto.",
+      "exampleEnglish": "The necklace is short.",
+      "article": "el"
+    },
+    {
+      "id": "clothes-and-appearance-aspecto",
+      "spanish": "aspecto",
+      "english": "appearance",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Tiene buen aspecto.",
+      "exampleEnglish": "He looks well.",
+      "article": "el"
+    },
+    {
+      "id": "clothes-and-appearance-alto",
+      "spanish": "alto",
+      "english": "tall",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Mi hermano es alto.",
+      "exampleEnglish": "My brother is tall."
+    },
+    {
+      "id": "clothes-and-appearance-bajo",
+      "spanish": "bajo",
+      "english": "short",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Soy más bajo que mi padre.",
+      "exampleEnglish": "I am shorter than my father."
+    },
+    {
+      "id": "clothes-and-appearance-delgado",
+      "spanish": "delgado",
+      "english": "slim",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Es una persona delgada.",
+      "exampleEnglish": "He is a slim person."
+    },
+    {
+      "id": "clothes-and-appearance-gordo",
+      "spanish": "gordo",
+      "english": "fat",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El gato está gordo.",
+      "exampleEnglish": "The cat is fat."
+    },
+    {
+      "id": "clothes-and-appearance-joven",
+      "spanish": "joven",
+      "english": "young",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Es una chica joven.",
+      "exampleEnglish": "She is a young woman."
+    },
+    {
+      "id": "clothes-and-appearance-mayor",
+      "spanish": "mayor",
+      "english": "older",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Mi hermana es mayor que yo.",
+      "exampleEnglish": "My sister is older than me."
+    },
+    {
+      "id": "clothes-and-appearance-guapo",
+      "spanish": "guapo",
+      "english": "good-looking",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Su novio es guapo.",
+      "exampleEnglish": "Her boyfriend is good-looking."
+    },
+    {
+      "id": "clothes-and-appearance-feo",
+      "spanish": "feo",
+      "english": "ugly",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Este abrigo no es feo.",
+      "exampleEnglish": "This coat is not ugly."
+    },
+    {
+      "id": "clothes-and-appearance-rubio",
+      "spanish": "rubio",
+      "english": "blond",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Tiene el pelo rubio.",
+      "exampleEnglish": "She has blond hair."
+    },
+    {
+      "id": "clothes-and-appearance-moreno",
+      "spanish": "moreno",
+      "english": "dark-haired",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Tiene el pelo moreno.",
+      "exampleEnglish": "He has dark hair."
+    },
+    {
+      "id": "clothes-and-appearance-barba",
+      "spanish": "barba",
+      "english": "beard",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Lleva barba.",
+      "exampleEnglish": "He has a beard.",
+      "article": "la"
+    },
+    {
+      "id": "clothes-and-appearance-bigote",
+      "spanish": "bigote",
+      "english": "moustache",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Lleva bigote.",
+      "exampleEnglish": "He has a moustache.",
+      "article": "el"
+    },
+    {
+      "id": "clothes-and-appearance-calvo",
+      "spanish": "calvo",
+      "english": "bald",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Mi tío es calvo.",
+      "exampleEnglish": "My uncle is bald."
+    },
+    {
+      "id": "clothes-and-appearance-llevar-ropa",
+      "spanish": "ponerse",
+      "english": "to put on",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Me pongo el abrigo.",
+      "exampleEnglish": "I put on my coat."
+    },
+    {
+      "id": "clothes-and-appearance-quitarse",
+      "spanish": "quitarse",
+      "english": "to take off",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Me quito los zapatos.",
+      "exampleEnglish": "I take off my shoes."
+    },
+    {
+      "id": "clothes-and-appearance-probarse",
+      "spanish": "probarse",
+      "english": "to try on",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Me pruebo esta camisa.",
+      "exampleEnglish": "I try on this shirt."
+    },
+    {
+      "id": "clothes-and-appearance-quedar",
+      "spanish": "quedar bien",
+      "english": "to suit",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Esta chaqueta me queda bien.",
+      "exampleEnglish": "This jacket suits me."
+    },
+    {
+      "id": "clothes-and-appearance-algodon",
+      "spanish": "algodón",
+      "english": "cotton",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La camiseta es de algodón.",
+      "exampleEnglish": "The T-shirt is cotton.",
+      "article": "el"
+    },
+    {
+      "id": "clothes-and-appearance-lana",
+      "spanish": "lana",
+      "english": "wool",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El jersey es de lana.",
+      "exampleEnglish": "The jumper is wool.",
+      "article": "la"
+    },
+    {
+      "id": "clothes-and-appearance-cuero",
+      "spanish": "cuero",
+      "english": "leather",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Los zapatos son de cuero.",
+      "exampleEnglish": "The shoes are leather.",
+      "article": "el"
+    },
+    {
+      "id": "clothes-and-appearance-seda",
+      "spanish": "seda",
+      "english": "silk",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La bufanda no es de seda.",
+      "exampleEnglish": "The scarf is not silk.",
+      "article": "la"
+    },
+    {
+      "id": "clothes-and-appearance-uniforme",
+      "spanish": "uniforme",
+      "english": "uniform",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El uniforme es azul.",
+      "exampleEnglish": "The uniform is blue.",
+      "article": "el"
+    },
+    {
+      "id": "clothes-and-appearance-cambiarse",
+      "spanish": "cambiarse",
+      "english": "to get changed",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Me cambio después del trabajo.",
+      "exampleEnglish": "I get changed after work."
+    }
+  ]
+}

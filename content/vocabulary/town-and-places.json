@@ -1,0 +1,536 @@
+{
+  "id": "town-and-places",
+  "label": "Town and places",
+  "description": "Streets, shops, and the places you go in a Spanish town.",
+  "sortOrder": 5,
+  "recommendedLevel": "A1",
+  "words": [
+    {
+      "id": "town-and-places-ciudad",
+      "spanish": "ciudad",
+      "english": "city",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Madrid es una ciudad grande.",
+      "exampleEnglish": "Madrid is a big city.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-pueblo",
+      "spanish": "pueblo",
+      "english": "village or town",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mis abuelos viven en un pueblo.",
+      "exampleEnglish": "My grandparents live in a village.",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-calle",
+      "spanish": "calle",
+      "english": "street",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi calle es tranquila.",
+      "exampleEnglish": "My street is quiet.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-plaza",
+      "spanish": "plaza",
+      "english": "square",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Quedamos en la plaza.",
+      "exampleEnglish": "We're meeting in the square.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-barrio",
+      "spanish": "barrio",
+      "english": "neighbourhood",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Vivo en este barrio.",
+      "exampleEnglish": "I live in this neighbourhood.",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-centro",
+      "spanish": "centro",
+      "english": "city centre",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El museo está en el centro.",
+      "exampleEnglish": "The museum is in the centre.",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-ayuntamiento",
+      "spanish": "ayuntamiento",
+      "english": "town hall",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El ayuntamiento está en la plaza.",
+      "exampleEnglish": "The town hall is on the square.",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-oficina-correos",
+      "spanish": "oficina de correos",
+      "english": "post office",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La oficina de correos cierra a las dos.",
+      "exampleEnglish": "The post office closes at two.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-banco",
+      "spanish": "banco",
+      "english": "bank",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El banco abre a las nueve.",
+      "exampleEnglish": "The bank opens at nine.",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-farmacia",
+      "spanish": "farmacia",
+      "english": "pharmacy",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La farmacia está de guardia.",
+      "exampleEnglish": "The pharmacy is the one on duty.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-hospital",
+      "spanish": "hospital",
+      "english": "hospital",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El hospital está fuera del centro.",
+      "exampleEnglish": "The hospital is outside the centre.",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-colegio",
+      "spanish": "colegio",
+      "english": "school",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El colegio está cerca de casa.",
+      "exampleEnglish": "The school is near home.",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-universidad",
+      "spanish": "universidad",
+      "english": "university",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La universidad está en el norte.",
+      "exampleEnglish": "The university is in the north.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-biblioteca",
+      "spanish": "biblioteca",
+      "english": "library",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Estudio en la biblioteca.",
+      "exampleEnglish": "I study in the library.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-museo",
+      "spanish": "museo",
+      "english": "museum",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El museo es gratis el domingo.",
+      "exampleEnglish": "The museum is free on Sunday.",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-cine",
+      "spanish": "cine",
+      "english": "cinema",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Vamos al cine esta noche.",
+      "exampleEnglish": "We're going to the cinema tonight.",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-teatro",
+      "spanish": "teatro",
+      "english": "theatre",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El teatro está en la plaza.",
+      "exampleEnglish": "The theatre is on the square.",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-parque",
+      "spanish": "parque",
+      "english": "park",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Los niños juegan en el parque.",
+      "exampleEnglish": "The children play in the park.",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-iglesia",
+      "spanish": "iglesia",
+      "english": "church",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La iglesia es muy antigua.",
+      "exampleEnglish": "The church is very old.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-mercado",
+      "spanish": "mercado",
+      "english": "market",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Compro fruta en el mercado.",
+      "exampleEnglish": "I buy fruit at the market.",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-supermercado",
+      "spanish": "supermercado",
+      "english": "supermarket",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El supermercado cierra tarde.",
+      "exampleEnglish": "The supermarket closes late.",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-tienda",
+      "spanish": "tienda",
+      "english": "shop",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Esa tienda vende pan.",
+      "exampleEnglish": "That shop sells bread.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-panaderia",
+      "spanish": "panadería",
+      "english": "bakery",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La panadería abre temprano.",
+      "exampleEnglish": "The bakery opens early.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-carniceria",
+      "spanish": "carnicería",
+      "english": "butcher's",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Compro pollo en la carnicería.",
+      "exampleEnglish": "I buy chicken at the butcher's.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-pescaderia",
+      "spanish": "pescadería",
+      "english": "fishmonger's",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La pescadería huele a mar.",
+      "exampleEnglish": "The fishmonger's smells of the sea.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-fruteria",
+      "spanish": "frutería",
+      "english": "greengrocer's",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La frutería tiene tomates buenos.",
+      "exampleEnglish": "The greengrocer's has good tomatoes.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-kiosco",
+      "spanish": "quiosco",
+      "english": "kiosk",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Compro el periódico en el quiosco.",
+      "exampleEnglish": "I buy the newspaper at the kiosk.",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-estacion",
+      "spanish": "estación",
+      "english": "station",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La estación de tren está lejos.",
+      "exampleEnglish": "The railway station is far away.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-parada",
+      "spanish": "parada",
+      "english": "stop",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La parada del autobús está aquí.",
+      "exampleEnglish": "The bus stop is here.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-aeropuerto",
+      "spanish": "aeropuerto",
+      "english": "airport",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El aeropuerto está a veinte minutos.",
+      "exampleEnglish": "The airport is twenty minutes away.",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-hotel",
+      "spanish": "hotel",
+      "english": "hotel",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El hotel está en el centro.",
+      "exampleEnglish": "The hotel is in the centre.",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-playa",
+      "spanish": "playa",
+      "english": "beach",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La playa está a diez minutos.",
+      "exampleEnglish": "The beach is ten minutes away.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-rio",
+      "spanish": "río",
+      "english": "river",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El río pasa por la ciudad.",
+      "exampleEnglish": "The river runs through the city.",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-puente",
+      "spanish": "puente",
+      "english": "bridge",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El puente es muy antiguo.",
+      "exampleEnglish": "The bridge is very old.",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-semaforo",
+      "spanish": "semáforo",
+      "english": "traffic light",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El semáforo está en rojo.",
+      "exampleEnglish": "The traffic light is red.",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-esquina",
+      "spanish": "esquina",
+      "english": "corner",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La farmacia está en la esquina.",
+      "exampleEnglish": "The pharmacy is on the corner.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-acera",
+      "spanish": "acera",
+      "english": "pavement",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Camina por la acera.",
+      "exampleEnglish": "Walk on the pavement.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-mapa",
+      "spanish": "mapa",
+      "english": "map",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Tiene un mapa de la ciudad?",
+      "exampleEnglish": "Do you have a map of the city?",
+      "article": "el"
+    },
+    {
+      "id": "town-and-places-direccion-lugar",
+      "spanish": "señal",
+      "english": "sign",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La señal dice centro.",
+      "exampleEnglish": "The sign says centre.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-izquierda",
+      "spanish": "izquierda",
+      "english": "left",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Gira a la izquierda.",
+      "exampleEnglish": "Turn left.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-derecha",
+      "spanish": "derecha",
+      "english": "right",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La tienda está a la derecha.",
+      "exampleEnglish": "The shop is on the right.",
+      "article": "la"
+    },
+    {
+      "id": "town-and-places-recto",
+      "spanish": "recto",
+      "english": "straight on",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Siga recto.",
+      "exampleEnglish": "Go straight on."
+    },
+    {
+      "id": "town-and-places-cerca",
+      "spanish": "cerca",
+      "english": "near",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "El banco está cerca.",
+      "exampleEnglish": "The bank is nearby."
+    },
+    {
+      "id": "town-and-places-lejos",
+      "spanish": "lejos",
+      "english": "far",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "La playa está lejos.",
+      "exampleEnglish": "The beach is far away."
+    },
+    {
+      "id": "town-and-places-aqui-mismo",
+      "spanish": "delante",
+      "english": "in front",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "El cine está delante del parque.",
+      "exampleEnglish": "The cinema is in front of the park."
+    },
+    {
+      "id": "town-and-places-detras",
+      "spanish": "detrás",
+      "english": "behind",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "El hotel está detrás de la iglesia.",
+      "exampleEnglish": "The hotel is behind the church."
+    },
+    {
+      "id": "town-and-places-entre",
+      "spanish": "entre",
+      "english": "between",
+      "partOfSpeech": "preposition",
+      "level": "A1",
+      "exampleSpanish": "La farmacia está entre el banco y el bar.",
+      "exampleEnglish": "The pharmacy is between the bank and the bar."
+    },
+    {
+      "id": "town-and-places-al-lado",
+      "spanish": "al lado de",
+      "english": "next to",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Vivo al lado del mercado.",
+      "exampleEnglish": "I live next to the market."
+    },
+    {
+      "id": "town-and-places-enfrente",
+      "spanish": "enfrente de",
+      "english": "opposite",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "El museo está enfrente del teatro.",
+      "exampleEnglish": "The museum is opposite the theatre."
+    },
+    {
+      "id": "town-and-places-dentro",
+      "spanish": "dentro",
+      "english": "inside",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "El baño está dentro.",
+      "exampleEnglish": "The toilet is inside."
+    },
+    {
+      "id": "town-and-places-fuera",
+      "spanish": "fuera",
+      "english": "outside",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Los niños están fuera.",
+      "exampleEnglish": "The children are outside."
+    },
+    {
+      "id": "town-and-places-arriba",
+      "spanish": "arriba",
+      "english": "upstairs",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "El salón está arriba.",
+      "exampleEnglish": "The living room is upstairs."
+    },
+    {
+      "id": "town-and-places-abajo",
+      "spanish": "abajo",
+      "english": "downstairs",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "La cocina está abajo.",
+      "exampleEnglish": "The kitchen is downstairs."
+    },
+    {
+      "id": "town-and-places-alli-mismo",
+      "spanish": "allí mismo",
+      "english": "right there",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "La parada está allí mismo.",
+      "exampleEnglish": "The stop is right there."
+    }
+  ]
+}

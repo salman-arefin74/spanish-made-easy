@@ -83,6 +83,18 @@ The profile trigger stores the username in lowercase. `Ana` and `ana` are the sa
 
 Two-account check, once the project exists: create two usernames in two browsers. Each Settings page shows only that username. This is not run by `npm test`, because it needs your Supabase project.
 
+## Load the word bank
+
+The flashcards read words from Supabase. The browser cannot create those tables.
+
+1. In the Supabase SQL editor, run [supabase/migrations/0002_vocabulary.sql](supabase/migrations/0002_vocabulary.sql) after the profiles migration.
+2. In `.env`, set `SUPABASE_SERVICE_ROLE_KEY` to the secret key from Project Settings → API Keys. Do not prefix it with `VITE_`. That key bypasses Row Level Security and is only for the seed command.
+3. From `spanish-made-easy/`, run `npm run seed`. It checks the JSON, then upserts categories and words. Running it again updates the same ids.
+
+A learner can read the bank and can write only their own progress. Open Vocabulary, choose Today's words or a category, and study. "Still learning" shows that card once more in the session. "I know this" schedules it for the next local day. Neither answer marks the word known yet.
+
+These headwords are the Spain-specific ones to check first: vale, ordenador, móvil, coger, conducir, zumo, patata, tortilla, bocadillo, camarero, piso, coche, gafas, jersey, billete, gasolinera, aparcamiento, quedar, apetecer, echar de menos, and vosotros. The card note says what the rest of the Spanish-speaking world often uses instead.
+
 ## Hosting
 
 The site is a static Vite app. `public/_redirects` sends unknown paths to `index.html` so client-side routes work on Cloudflare Pages. Deployment is not part of this milestone.

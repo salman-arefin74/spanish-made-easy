@@ -11,10 +11,12 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "test": "vitest run"
+    "test": "vitest run",
+    "seed": "node --env-file=.env --experimental-strip-types scripts/seed-content.ts"
   },
   "dependencies": {
     "@fontsource/source-sans-3": "^5.3.1",
+    "@supabase/supabase-js": "^2.119.0",
     "lucide-react": "^1.72.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",

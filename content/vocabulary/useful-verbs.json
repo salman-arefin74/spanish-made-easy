@@ -1,0 +1,515 @@
+{
+  "id": "useful-verbs",
+  "label": "Useful verbs",
+  "description": "Everyday infinitives and the fixed chunks people actually say.",
+  "sortOrder": 15,
+  "recommendedLevel": "A1",
+  "words": [
+    {
+      "id": "useful-verbs-ser",
+      "spanish": "ser",
+      "english": "to be, identity",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Soy de Madrid.",
+      "exampleEnglish": "I am from Madrid."
+    },
+    {
+      "id": "useful-verbs-estar",
+      "spanish": "estar",
+      "english": "to be, state or place",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Estoy en casa.",
+      "exampleEnglish": "I am at home."
+    },
+    {
+      "id": "useful-verbs-tener",
+      "spanish": "tener",
+      "english": "to have",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Tengo dos hermanos.",
+      "exampleEnglish": "I have two brothers."
+    },
+    {
+      "id": "useful-verbs-hacer",
+      "spanish": "hacer",
+      "english": "to do or make",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Hago la comida.",
+      "exampleEnglish": "I make lunch."
+    },
+    {
+      "id": "useful-verbs-ir",
+      "spanish": "ir",
+      "english": "to go",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Voy al mercado.",
+      "exampleEnglish": "I go to the market."
+    },
+    {
+      "id": "useful-verbs-venir",
+      "spanish": "venir",
+      "english": "to come",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "¿Vienes mañana?",
+      "exampleEnglish": "Are you coming tomorrow?"
+    },
+    {
+      "id": "useful-verbs-poder",
+      "spanish": "poder",
+      "english": "to be able to",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "¿Puede repetir, por favor?",
+      "exampleEnglish": "Can you repeat, please?"
+    },
+    {
+      "id": "useful-verbs-deber",
+      "spanish": "deber",
+      "english": "to have to",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Debo estudiar hoy.",
+      "exampleEnglish": "I have to study today."
+    },
+    {
+      "id": "useful-verbs-hay",
+      "spanish": "hay",
+      "english": "there is",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Hay un banco en la esquina.",
+      "exampleEnglish": "There is a bank on the corner."
+    },
+    {
+      "id": "useful-verbs-gustar",
+      "spanish": "gustar",
+      "english": "to be pleasing",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Me gusta el café.",
+      "exampleEnglish": "I like coffee."
+    },
+    {
+      "id": "useful-verbs-encantar",
+      "spanish": "encantar",
+      "english": "to love",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Me encanta esta ciudad.",
+      "exampleEnglish": "I love this city."
+    },
+    {
+      "id": "useful-verbs-apetecer",
+      "spanish": "apetecer",
+      "english": "to fancy",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Me apetece un zumo.",
+      "exampleEnglish": "I fancy a juice.",
+      "spainNote": "Spain uses apetecer for what you feel like having."
+    },
+    {
+      "id": "useful-verbs-preferir",
+      "spanish": "preferir",
+      "english": "to prefer",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Prefiero el tren.",
+      "exampleEnglish": "I prefer the train."
+    },
+    {
+      "id": "useful-verbs-necesitar-verbo",
+      "spanish": "hacer falta",
+      "english": "to be needed",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Hace falta un mapa.",
+      "exampleEnglish": "A map is needed."
+    },
+    {
+      "id": "useful-verbs-querer-verbo",
+      "spanish": "querer decir",
+      "english": "to mean",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "¿Qué quiere decir esta palabra?",
+      "exampleEnglish": "What does this word mean?"
+    },
+    {
+      "id": "useful-verbs-decir",
+      "spanish": "decir",
+      "english": "to say",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "¿Cómo se dice esto?",
+      "exampleEnglish": "How do you say this?"
+    },
+    {
+      "id": "useful-verbs-pedir",
+      "spanish": "pedir",
+      "english": "to ask for",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Pido la cuenta.",
+      "exampleEnglish": "I ask for the bill."
+    },
+    {
+      "id": "useful-verbs-dar",
+      "spanish": "dar",
+      "english": "to give",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "¿Me da la carta?",
+      "exampleEnglish": "Could you give me the menu?"
+    },
+    {
+      "id": "useful-verbs-traer",
+      "spanish": "traer",
+      "english": "to bring",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "¿Me puede traer agua?",
+      "exampleEnglish": "Could you bring me water?"
+    },
+    {
+      "id": "useful-verbs-poner",
+      "spanish": "poner",
+      "english": "to put",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Pongo la mesa.",
+      "exampleEnglish": "I lay the table."
+    },
+    {
+      "id": "useful-verbs-abrir",
+      "spanish": "abrir",
+      "english": "to open",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "El banco abre a las nueve.",
+      "exampleEnglish": "The bank opens at nine."
+    },
+    {
+      "id": "useful-verbs-cerrar",
+      "spanish": "cerrar",
+      "english": "to close",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "La tienda cierra a las ocho.",
+      "exampleEnglish": "The shop closes at eight."
+    },
+    {
+      "id": "useful-verbs-llamar",
+      "spanish": "llamar",
+      "english": "to call",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "¿Cómo te llamas?",
+      "exampleEnglish": "What is your name?"
+    },
+    {
+      "id": "useful-verbs-llamarse",
+      "spanish": "llamarse",
+      "english": "to be called",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Me llamo Pablo.",
+      "exampleEnglish": "My name is Pablo."
+    },
+    {
+      "id": "useful-verbs-vivir",
+      "spanish": "vivir",
+      "english": "to live",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Vivo en un piso.",
+      "exampleEnglish": "I live in a flat."
+    },
+    {
+      "id": "useful-verbs-conocer",
+      "spanish": "conocer",
+      "english": "to know a person or place",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Conozco bien el barrio.",
+      "exampleEnglish": "I know the neighbourhood well."
+    },
+    {
+      "id": "useful-verbs-saber",
+      "spanish": "saber",
+      "english": "to know a fact",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "No sé la respuesta.",
+      "exampleEnglish": "I don't know the answer."
+    },
+    {
+      "id": "useful-verbs-pensar",
+      "spanish": "pensar",
+      "english": "to think",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Pienso que es fácil.",
+      "exampleEnglish": "I think it is easy."
+    },
+    {
+      "id": "useful-verbs-creer",
+      "spanish": "creer",
+      "english": "to believe",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Creo que sí.",
+      "exampleEnglish": "I think so."
+    },
+    {
+      "id": "useful-verbs-encontrar",
+      "spanish": "encontrar",
+      "english": "to find",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "No encuentro las llaves.",
+      "exampleEnglish": "I can't find the keys."
+    },
+    {
+      "id": "useful-verbs-dejar",
+      "spanish": "dejar",
+      "english": "to leave something",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Dejo el libro en la mesa.",
+      "exampleEnglish": "I leave the book on the table."
+    },
+    {
+      "id": "useful-verbs-sacar",
+      "spanish": "sacar",
+      "english": "to take out",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Saco la basura.",
+      "exampleEnglish": "I take the rubbish out."
+    },
+    {
+      "id": "useful-verbs-entrar",
+      "spanish": "entrar",
+      "english": "to go in",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Entramos en el museo.",
+      "exampleEnglish": "We go into the museum."
+    },
+    {
+      "id": "useful-verbs-seguir",
+      "spanish": "seguir",
+      "english": "to continue",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Siga recto.",
+      "exampleEnglish": "Continue straight on."
+    },
+    {
+      "id": "useful-verbs-parar",
+      "spanish": "parar",
+      "english": "to stop",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "El autobús para aquí.",
+      "exampleEnglish": "The bus stops here."
+    },
+    {
+      "id": "useful-verbs-cambiar",
+      "spanish": "cambiar",
+      "english": "to change",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Cambio dinero en el banco.",
+      "exampleEnglish": "I change money at the bank."
+    },
+    {
+      "id": "useful-verbs-ayudar",
+      "spanish": "ayudar",
+      "english": "to help",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "¿Me ayuda, por favor?",
+      "exampleEnglish": "Can you help me, please?"
+    },
+    {
+      "id": "useful-verbs-mirar",
+      "spanish": "mirar",
+      "english": "to look",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Miro el mapa.",
+      "exampleEnglish": "I look at the map."
+    },
+    {
+      "id": "useful-verbs-usar",
+      "spanish": "usar",
+      "english": "to use",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Uso el móvil poco.",
+      "exampleEnglish": "I don't use my phone much."
+    },
+    {
+      "id": "useful-verbs-comer",
+      "spanish": "comer",
+      "english": "to eat",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Como a las dos.",
+      "exampleEnglish": "I eat at two."
+    },
+    {
+      "id": "useful-verbs-beber",
+      "spanish": "beber",
+      "english": "to drink",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Bebo agua.",
+      "exampleEnglish": "I drink water."
+    },
+    {
+      "id": "useful-verbs-desayunar",
+      "spanish": "desayunar",
+      "english": "to have breakfast",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Desayuno café con leche.",
+      "exampleEnglish": "I have coffee with milk for breakfast."
+    },
+    {
+      "id": "useful-verbs-cenar",
+      "spanish": "cenar",
+      "english": "to have dinner",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Cenamos a las nueve.",
+      "exampleEnglish": "We have dinner at nine."
+    },
+    {
+      "id": "useful-verbs-levantarse",
+      "spanish": "levantarse",
+      "english": "to get up",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Me levanto a las siete.",
+      "exampleEnglish": "I get up at seven."
+    },
+    {
+      "id": "useful-verbs-ducharse",
+      "spanish": "ducharse",
+      "english": "to shower",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Me ducho por la mañana.",
+      "exampleEnglish": "I shower in the morning."
+    },
+    {
+      "id": "useful-verbs-lavarse",
+      "spanish": "lavarse",
+      "english": "to wash",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Me lavo las manos.",
+      "exampleEnglish": "I wash my hands."
+    },
+    {
+      "id": "useful-verbs-acostarse",
+      "spanish": "acostarse",
+      "english": "to go to bed",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Me acuesto a las once.",
+      "exampleEnglish": "I go to bed at eleven."
+    },
+    {
+      "id": "useful-verbs-por-favor-chunk",
+      "spanish": "¿me puede traer?",
+      "english": "could you bring me?",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "¿Me puede traer la cuenta?",
+      "exampleEnglish": "Could you bring me the bill?"
+    },
+    {
+      "id": "useful-verbs-me-gustaria",
+      "spanish": "me gustaría",
+      "english": "I would like",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Me gustaría un café.",
+      "exampleEnglish": "I would like a coffee."
+    },
+    {
+      "id": "useful-verbs-cuanto-cuesta",
+      "spanish": "¿cuánto cuesta?",
+      "english": "how much is it?",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "¿Cuánto cuesta el billete?",
+      "exampleEnglish": "How much is the ticket?"
+    },
+    {
+      "id": "useful-verbs-no-pasa-nada",
+      "spanish": "no pasa nada",
+      "english": "it's fine",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "No pasa nada.",
+      "exampleEnglish": "It's fine."
+    },
+    {
+      "id": "useful-verbs-de-acuerdo",
+      "spanish": "de acuerdo",
+      "english": "agreed",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "De acuerdo, a las ocho.",
+      "exampleEnglish": "Agreed, at eight."
+    },
+    {
+      "id": "useful-verbs-por-eso",
+      "spanish": "por eso",
+      "english": "that's why",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Llueve, por eso llevo paraguas.",
+      "exampleEnglish": "It's raining, that's why I take an umbrella."
+    },
+    {
+      "id": "useful-verbs-claro-que-si",
+      "spanish": "claro que sí",
+      "english": "yes, of course",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "¿Vienes? Claro que sí.",
+      "exampleEnglish": "Are you coming? Yes, of course."
+    },
+    {
+      "id": "useful-verbs-hasta-ahora",
+      "spanish": "hasta ahora",
+      "english": "so far",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Hasta ahora todo bien.",
+      "exampleEnglish": "So far everything is fine."
+    },
+    {
+      "id": "useful-verbs-echar-de-menos",
+      "spanish": "echar de menos",
+      "english": "to miss someone",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Echo de menos a mi familia.",
+      "exampleEnglish": "I miss my family.",
+      "spainNote": "Spain says echar de menos. Extrañar is more common in Latin America."
+    }
+  ]
+}

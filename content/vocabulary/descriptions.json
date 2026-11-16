@@ -1,0 +1,505 @@
+{
+  "id": "descriptions",
+  "label": "Descriptions",
+  "description": "Size, colour, and simple opinions.",
+  "sortOrder": 14,
+  "recommendedLevel": "A1",
+  "words": [
+    {
+      "id": "descriptions-color",
+      "spanish": "color",
+      "english": "colour",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿De qué color es?",
+      "exampleEnglish": "What colour is it?",
+      "article": "el"
+    },
+    {
+      "id": "descriptions-blanco",
+      "spanish": "blanco",
+      "english": "white",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "La camisa es blanca.",
+      "exampleEnglish": "The shirt is white."
+    },
+    {
+      "id": "descriptions-negro",
+      "spanish": "negro",
+      "english": "black",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El gato es negro.",
+      "exampleEnglish": "The cat is black."
+    },
+    {
+      "id": "descriptions-rojo",
+      "spanish": "rojo",
+      "english": "red",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El vestido es rojo.",
+      "exampleEnglish": "The dress is red."
+    },
+    {
+      "id": "descriptions-azul",
+      "spanish": "azul",
+      "english": "blue",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El cielo está azul.",
+      "exampleEnglish": "The sky is blue."
+    },
+    {
+      "id": "descriptions-verde",
+      "spanish": "verde",
+      "english": "green",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "La manzana está verde.",
+      "exampleEnglish": "The apple is green."
+    },
+    {
+      "id": "descriptions-amarillo",
+      "spanish": "amarillo",
+      "english": "yellow",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El sol es amarillo.",
+      "exampleEnglish": "The sun is yellow."
+    },
+    {
+      "id": "descriptions-naranja-color",
+      "spanish": "naranja",
+      "english": "orange",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "La bufanda es naranja.",
+      "exampleEnglish": "The scarf is orange."
+    },
+    {
+      "id": "descriptions-marron",
+      "spanish": "marrón",
+      "english": "brown",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Los zapatos son marrones.",
+      "exampleEnglish": "The shoes are brown."
+    },
+    {
+      "id": "descriptions-gris",
+      "spanish": "gris",
+      "english": "grey",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El abrigo es gris.",
+      "exampleEnglish": "The coat is grey."
+    },
+    {
+      "id": "descriptions-rosa",
+      "spanish": "rosa",
+      "english": "pink",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "La flor es rosa.",
+      "exampleEnglish": "The flower is pink."
+    },
+    {
+      "id": "descriptions-morado",
+      "spanish": "morado",
+      "english": "purple",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El jersey es morado.",
+      "exampleEnglish": "The jumper is purple."
+    },
+    {
+      "id": "descriptions-claro-color",
+      "spanish": "claro",
+      "english": "light",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Quiero un azul claro.",
+      "exampleEnglish": "I want a light blue."
+    },
+    {
+      "id": "descriptions-oscuro",
+      "spanish": "oscuro",
+      "english": "dark",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El verde oscuro me gusta.",
+      "exampleEnglish": "I like dark green."
+    },
+    {
+      "id": "descriptions-nuevo",
+      "spanish": "nuevo",
+      "english": "new",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El móvil es nuevo.",
+      "exampleEnglish": "The phone is new."
+    },
+    {
+      "id": "descriptions-viejo",
+      "spanish": "viejo",
+      "english": "old",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Este libro es viejo.",
+      "exampleEnglish": "This book is old."
+    },
+    {
+      "id": "descriptions-antiguo",
+      "spanish": "antiguo",
+      "english": "old or historic",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El puente es antiguo.",
+      "exampleEnglish": "The bridge is historic."
+    },
+    {
+      "id": "descriptions-moderno",
+      "spanish": "moderno",
+      "english": "modern",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El piso es moderno.",
+      "exampleEnglish": "The flat is modern."
+    },
+    {
+      "id": "descriptions-bonito",
+      "spanish": "bonito",
+      "english": "pretty",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El pueblo es bonito.",
+      "exampleEnglish": "The village is pretty."
+    },
+    {
+      "id": "descriptions-feo-desc",
+      "spanish": "feo",
+      "english": "ugly",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Este edificio no es feo.",
+      "exampleEnglish": "This building is not ugly."
+    },
+    {
+      "id": "descriptions-grande-desc",
+      "spanish": "grande",
+      "english": "big",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "La casa es grande.",
+      "exampleEnglish": "The house is big."
+    },
+    {
+      "id": "descriptions-pequeno",
+      "spanish": "pequeño",
+      "english": "small",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El piso es pequeño.",
+      "exampleEnglish": "The flat is small."
+    },
+    {
+      "id": "descriptions-largo",
+      "spanish": "largo",
+      "english": "long",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El viaje es largo.",
+      "exampleEnglish": "The journey is long."
+    },
+    {
+      "id": "descriptions-corto",
+      "spanish": "corto",
+      "english": "short",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El pelo es corto.",
+      "exampleEnglish": "The hair is short."
+    },
+    {
+      "id": "descriptions-ancho",
+      "spanish": "ancho",
+      "english": "wide",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "La calle es ancha.",
+      "exampleEnglish": "The street is wide."
+    },
+    {
+      "id": "descriptions-estrecho",
+      "spanish": "estrecho",
+      "english": "narrow",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El pasillo es estrecho.",
+      "exampleEnglish": "The hallway is narrow."
+    },
+    {
+      "id": "descriptions-alto-lugar",
+      "spanish": "alto",
+      "english": "high",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El precio es alto.",
+      "exampleEnglish": "The price is high."
+    },
+    {
+      "id": "descriptions-bajo-precio",
+      "spanish": "bajo",
+      "english": "low",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El precio es bajo.",
+      "exampleEnglish": "The price is low."
+    },
+    {
+      "id": "descriptions-rapido",
+      "spanish": "rápido",
+      "english": "fast",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El tren es rápido.",
+      "exampleEnglish": "The train is fast."
+    },
+    {
+      "id": "descriptions-lento",
+      "spanish": "lento",
+      "english": "slow",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El autobús es lento.",
+      "exampleEnglish": "The bus is slow."
+    },
+    {
+      "id": "descriptions-facil",
+      "spanish": "fácil",
+      "english": "easy",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Esta frase es fácil.",
+      "exampleEnglish": "This sentence is easy."
+    },
+    {
+      "id": "descriptions-dificil",
+      "spanish": "difícil",
+      "english": "difficult",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El examen es difícil.",
+      "exampleEnglish": "The exam is difficult."
+    },
+    {
+      "id": "descriptions-importante",
+      "spanish": "importante",
+      "english": "important",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Esta palabra es importante.",
+      "exampleEnglish": "This word is important."
+    },
+    {
+      "id": "descriptions-interesante",
+      "spanish": "interesante",
+      "english": "interesting",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "La película es interesante.",
+      "exampleEnglish": "The film is interesting."
+    },
+    {
+      "id": "descriptions-aburrido",
+      "spanish": "aburrido",
+      "english": "boring",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El partido es aburrido.",
+      "exampleEnglish": "The match is boring."
+    },
+    {
+      "id": "descriptions-divertido",
+      "spanish": "divertido",
+      "english": "fun",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "La fiesta es divertida.",
+      "exampleEnglish": "The party is fun."
+    },
+    {
+      "id": "descriptions-util",
+      "spanish": "útil",
+      "english": "useful",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El mapa es útil.",
+      "exampleEnglish": "The map is useful."
+    },
+    {
+      "id": "descriptions-necesario",
+      "spanish": "necesario",
+      "english": "necessary",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El paraguas es necesario.",
+      "exampleEnglish": "The umbrella is necessary."
+    },
+    {
+      "id": "descriptions-posible",
+      "spanish": "posible",
+      "english": "possible",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "¿Es posible pagar con tarjeta?",
+      "exampleEnglish": "Is it possible to pay by card?"
+    },
+    {
+      "id": "descriptions-imposible",
+      "spanish": "imposible",
+      "english": "impossible",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Es imposible llegar a tiempo.",
+      "exampleEnglish": "It is impossible to arrive on time."
+    },
+    {
+      "id": "descriptions-mismo",
+      "spanish": "mismo",
+      "english": "same",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Queremos el mismo horario.",
+      "exampleEnglish": "We want the same timetable."
+    },
+    {
+      "id": "descriptions-diferente",
+      "spanish": "diferente",
+      "english": "different",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Es un barrio diferente.",
+      "exampleEnglish": "It is a different neighbourhood."
+    },
+    {
+      "id": "descriptions-primero",
+      "spanish": "primero",
+      "english": "first",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Es mi primer día.",
+      "exampleEnglish": "It is my first day."
+    },
+    {
+      "id": "descriptions-ultimo",
+      "spanish": "último",
+      "english": "last",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Es el último tren.",
+      "exampleEnglish": "It is the last train."
+    },
+    {
+      "id": "descriptions-mejor-adj",
+      "spanish": "mejor",
+      "english": "better",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Esta sopa es mejor.",
+      "exampleEnglish": "This soup is better."
+    },
+    {
+      "id": "descriptions-peor",
+      "spanish": "peor",
+      "english": "worse",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Hoy me siento peor.",
+      "exampleEnglish": "I feel worse today."
+    },
+    {
+      "id": "descriptions-mucho",
+      "spanish": "mucho",
+      "english": "a lot",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Trabajo mucho.",
+      "exampleEnglish": "I work a lot."
+    },
+    {
+      "id": "descriptions-poco",
+      "spanish": "poco",
+      "english": "a little",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Hablo poco español.",
+      "exampleEnglish": "I speak little Spanish."
+    },
+    {
+      "id": "descriptions-muy",
+      "spanish": "muy",
+      "english": "very",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "El café está muy caliente.",
+      "exampleEnglish": "The coffee is very hot."
+    },
+    {
+      "id": "descriptions-bastante",
+      "spanish": "bastante",
+      "english": "quite",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "La casa es bastante grande.",
+      "exampleEnglish": "The house is quite big."
+    },
+    {
+      "id": "descriptions-demasiado",
+      "spanish": "demasiado",
+      "english": "too",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "El precio es demasiado alto.",
+      "exampleEnglish": "The price is too high."
+    },
+    {
+      "id": "descriptions-tambien",
+      "spanish": "también",
+      "english": "also",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Yo también quiero un café.",
+      "exampleEnglish": "I also want a coffee."
+    },
+    {
+      "id": "descriptions-solo",
+      "spanish": "solo",
+      "english": "only",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Solo quiero agua.",
+      "exampleEnglish": "I only want water."
+    },
+    {
+      "id": "descriptions-cerca-de-aqui",
+      "spanish": "cerca de aquí",
+      "english": "near here",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Hay una farmacia cerca de aquí.",
+      "exampleEnglish": "There is a pharmacy near here."
+    },
+    {
+      "id": "descriptions-un-poco",
+      "spanish": "un poco",
+      "english": "a little bit",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "El café está un poco frío.",
+      "exampleEnglish": "The coffee is a bit cold."
+    }
+  ]
+}

@@ -9,6 +9,8 @@ import { AuthProvider, RequireAuth, type AuthState } from "./features/auth/Requi
 import { SettingsPage } from "./features/auth/SettingsPage.tsx"
 import { SignInPage } from "./features/auth/SignInPage.tsx"
 import { SignUpPage } from "./features/auth/SignUpPage.tsx"
+import { VocabularyPage } from "./features/vocabulary/CategoryList.tsx"
+import { VocabularySessionPage } from "./features/vocabulary/FlashcardSession.tsx"
 
 function StudyPage({ section }: { section: Section }) {
   return (
@@ -30,17 +32,35 @@ export function App({ initialAuth }: { initialAuth?: AuthState } = {}) {
             <Route path="/privacy" element={<PrivacyPage />} />
             <Route path="/onboarding" element={<OnboardingPage />} />
             <Route path="/settings" element={<SettingsPage />} />
-            {sections.map((section) => (
-              <Route
-                key={section.to}
-                path={section.to}
-                element={
-                  <RequireAuth allow="ready">
-                    <StudyPage section={section} />
-                  </RequireAuth>
-                }
-              />
-            ))}
+            <Route
+              path="/vocabulary"
+              element={
+                <RequireAuth allow="ready">
+                  <VocabularyPage />
+                </RequireAuth>
+              }
+            />
+            <Route
+              path="/vocabulary/:categoryId"
+              element={
+                <RequireAuth allow="ready">
+                  <VocabularySessionPage />
+                </RequireAuth>
+              }
+            />
+            {sections
+              .filter((section) => section.to !== "/vocabulary")
+              .map((section) => (
+                <Route
+                  key={section.to}
+                  path={section.to}
+                  element={
+                    <RequireAuth allow="ready">
+                      <StudyPage section={section} />
+                    </RequireAuth>
+                  }
+                />
+              ))}
             <Route
               path="*"
               element={

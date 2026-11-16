@@ -1,0 +1,543 @@
+{
+  "id": "free-time",
+  "label": "Free time",
+  "description": "Hobbies, sport, and going out.",
+  "sortOrder": 13,
+  "recommendedLevel": "A1",
+  "words": [
+    {
+      "id": "free-time-tiempo-libre",
+      "spanish": "tiempo libre",
+      "english": "free time",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El sábado tengo tiempo libre.",
+      "exampleEnglish": "On Saturday I have free time.",
+      "article": "el"
+    },
+    {
+      "id": "free-time-ocio",
+      "spanish": "ocio",
+      "english": "leisure",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Me gusta el ocio tranquilo.",
+      "exampleEnglish": "I like quiet leisure.",
+      "article": "el"
+    },
+    {
+      "id": "free-time-aficion",
+      "spanish": "afición",
+      "english": "hobby",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi afición es la música.",
+      "exampleEnglish": "My hobby is music.",
+      "article": "la"
+    },
+    {
+      "id": "free-time-deporte",
+      "spanish": "deporte",
+      "english": "sport",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El deporte favorito es el fútbol.",
+      "exampleEnglish": "My favourite sport is football.",
+      "article": "el"
+    },
+    {
+      "id": "free-time-futbol",
+      "spanish": "fútbol",
+      "english": "football",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Jugamos al fútbol el domingo.",
+      "exampleEnglish": "We play football on Sunday.",
+      "article": "el"
+    },
+    {
+      "id": "free-time-baloncesto",
+      "spanish": "baloncesto",
+      "english": "basketball",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El baloncesto es los sábados.",
+      "exampleEnglish": "Basketball is on Saturdays.",
+      "article": "el"
+    },
+    {
+      "id": "free-time-tenis",
+      "spanish": "tenis",
+      "english": "tennis",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Juego al tenis con Ana.",
+      "exampleEnglish": "I play tennis with Ana.",
+      "article": "el"
+    },
+    {
+      "id": "free-time-natacion",
+      "spanish": "natación",
+      "english": "swimming",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La natación es por la mañana.",
+      "exampleEnglish": "Swimming is in the morning.",
+      "article": "la"
+    },
+    {
+      "id": "free-time-piscina",
+      "spanish": "piscina",
+      "english": "swimming pool",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La piscina abre a las nueve.",
+      "exampleEnglish": "The pool opens at nine.",
+      "article": "la"
+    },
+    {
+      "id": "free-time-gimnasio",
+      "spanish": "gimnasio",
+      "english": "gym",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Voy al gimnasio después del trabajo.",
+      "exampleEnglish": "I go to the gym after work.",
+      "article": "el"
+    },
+    {
+      "id": "free-time-partido",
+      "spanish": "partido",
+      "english": "match",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El partido empieza a las nueve.",
+      "exampleEnglish": "The match starts at nine.",
+      "article": "el"
+    },
+    {
+      "id": "free-time-equipo",
+      "spanish": "equipo",
+      "english": "team",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi equipo gana.",
+      "exampleEnglish": "My team wins.",
+      "article": "el"
+    },
+    {
+      "id": "free-time-musica",
+      "spanish": "música",
+      "english": "music",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Escucho música en casa.",
+      "exampleEnglish": "I listen to music at home.",
+      "article": "la"
+    },
+    {
+      "id": "free-time-cancion",
+      "spanish": "canción",
+      "english": "song",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Esta canción es española.",
+      "exampleEnglish": "This song is Spanish.",
+      "article": "la"
+    },
+    {
+      "id": "free-time-guitarra",
+      "spanish": "guitarra",
+      "english": "guitar",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Toca la guitarra.",
+      "exampleEnglish": "He plays the guitar.",
+      "article": "la"
+    },
+    {
+      "id": "free-time-pelicula",
+      "spanish": "película",
+      "english": "film",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La película es de las ocho.",
+      "exampleEnglish": "The film is at eight.",
+      "article": "la"
+    },
+    {
+      "id": "free-time-serie",
+      "spanish": "serie",
+      "english": "series",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Veo una serie por la noche.",
+      "exampleEnglish": "I watch a series at night.",
+      "article": "la"
+    },
+    {
+      "id": "free-time-concierto",
+      "spanish": "concierto",
+      "english": "concert",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El concierto es el viernes.",
+      "exampleEnglish": "The concert is on Friday.",
+      "article": "el"
+    },
+    {
+      "id": "free-time-entrada-ocio",
+      "spanish": "entrada",
+      "english": "ticket for an event",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La entrada cuesta doce euros.",
+      "exampleEnglish": "The ticket costs twelve euros.",
+      "article": "la"
+    },
+    {
+      "id": "free-time-baile",
+      "spanish": "baile",
+      "english": "dance",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El baile es en la plaza.",
+      "exampleEnglish": "The dance is in the square.",
+      "article": "el"
+    },
+    {
+      "id": "free-time-fiesta",
+      "spanish": "fiesta",
+      "english": "party",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La fiesta es en casa de Ana.",
+      "exampleEnglish": "The party is at Ana's.",
+      "article": "la"
+    },
+    {
+      "id": "free-time-invitacion",
+      "spanish": "invitación",
+      "english": "invitation",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Gracias por la invitación.",
+      "exampleEnglish": "Thank you for the invitation.",
+      "article": "la"
+    },
+    {
+      "id": "free-time-plan",
+      "spanish": "plan",
+      "english": "plan",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Tienes algún plan para hoy?",
+      "exampleEnglish": "Do you have any plans for today?",
+      "article": "el"
+    },
+    {
+      "id": "free-time-quedar",
+      "spanish": "quedar",
+      "english": "to meet up",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Quedamos a las ocho.",
+      "exampleEnglish": "We meet at eight.",
+      "spainNote": "In Spain, quedar is the usual verb for arranging to meet."
+    },
+    {
+      "id": "free-time-cita-ocio",
+      "spanish": "cita con amigos",
+      "english": "plan with friends",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Tengo una cita con amigos.",
+      "exampleEnglish": "I have plans with friends."
+    },
+    {
+      "id": "free-time-paseo",
+      "spanish": "paseo",
+      "english": "walk",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Doy un paseo por el parque.",
+      "exampleEnglish": "I go for a walk in the park.",
+      "article": "el"
+    },
+    {
+      "id": "free-time-excursion",
+      "spanish": "excursión",
+      "english": "trip",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El domingo hacemos una excursión.",
+      "exampleEnglish": "On Sunday we go on a trip.",
+      "article": "la"
+    },
+    {
+      "id": "free-time-foto",
+      "spanish": "foto",
+      "english": "photo",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Hago una foto en la playa.",
+      "exampleEnglish": "I take a photo on the beach.",
+      "article": "la"
+    },
+    {
+      "id": "free-time-camara",
+      "spanish": "cámara",
+      "english": "camera",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La cámara está en la mochila.",
+      "exampleEnglish": "The camera is in the backpack.",
+      "article": "la"
+    },
+    {
+      "id": "free-time-juego",
+      "spanish": "juego",
+      "english": "game",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Este juego es para dos.",
+      "exampleEnglish": "This game is for two.",
+      "article": "el"
+    },
+    {
+      "id": "free-time-juguete",
+      "spanish": "juguete",
+      "english": "toy",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El juguete es para el niño.",
+      "exampleEnglish": "The toy is for the child.",
+      "article": "el"
+    },
+    {
+      "id": "free-time-pintura",
+      "spanish": "pintura",
+      "english": "painting",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La pintura está en el museo.",
+      "exampleEnglish": "The painting is in the museum.",
+      "article": "la"
+    },
+    {
+      "id": "free-time-dibujo",
+      "spanish": "dibujo",
+      "english": "drawing",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El dibujo es de mi hija.",
+      "exampleEnglish": "The drawing is my daughter's.",
+      "article": "el"
+    },
+    {
+      "id": "free-time-cocinar",
+      "spanish": "cocinar",
+      "english": "to cook",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "El domingo cocino para la familia.",
+      "exampleEnglish": "On Sunday I cook for the family."
+    },
+    {
+      "id": "free-time-cantar",
+      "spanish": "cantar",
+      "english": "to sing",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Canta muy bien.",
+      "exampleEnglish": "She sings very well."
+    },
+    {
+      "id": "free-time-bailar",
+      "spanish": "bailar",
+      "english": "to dance",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Bailamos en la fiesta.",
+      "exampleEnglish": "We dance at the party."
+    },
+    {
+      "id": "free-time-tocar",
+      "spanish": "tocar",
+      "english": "to play an instrument",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Toco la guitarra.",
+      "exampleEnglish": "I play the guitar."
+    },
+    {
+      "id": "free-time-jugar",
+      "spanish": "jugar",
+      "english": "to play",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Juego al tenis.",
+      "exampleEnglish": "I play tennis."
+    },
+    {
+      "id": "free-time-nadar",
+      "spanish": "nadar",
+      "english": "to swim",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Nado en la piscina.",
+      "exampleEnglish": "I swim in the pool."
+    },
+    {
+      "id": "free-time-correr",
+      "spanish": "correr",
+      "english": "to run",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Corro por el parque.",
+      "exampleEnglish": "I run in the park."
+    },
+    {
+      "id": "free-time-pasear",
+      "spanish": "pasear",
+      "english": "to go for a walk",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Paseo por la playa.",
+      "exampleEnglish": "I walk along the beach."
+    },
+    {
+      "id": "free-time-ver",
+      "spanish": "ver",
+      "english": "to watch or see",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Veo una película.",
+      "exampleEnglish": "I watch a film."
+    },
+    {
+      "id": "free-time-oir",
+      "spanish": "oír",
+      "english": "to hear",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Oigo la música desde la calle.",
+      "exampleEnglish": "I hear the music from the street."
+    },
+    {
+      "id": "free-time-salir-ocio",
+      "spanish": "salir con amigos",
+      "english": "to go out with friends",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "El viernes salgo con amigos.",
+      "exampleEnglish": "On Friday I go out with friends."
+    },
+    {
+      "id": "free-time-pasatiempo",
+      "spanish": "pasatiempo",
+      "english": "pastime",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi pasatiempo es leer.",
+      "exampleEnglish": "My pastime is reading.",
+      "article": "el"
+    },
+    {
+      "id": "free-time-novela",
+      "spanish": "novela",
+      "english": "novel",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Esta novela es fácil.",
+      "exampleEnglish": "This novel is easy.",
+      "article": "la"
+    },
+    {
+      "id": "free-time-revista-ocio",
+      "spanish": "revista de viajes",
+      "english": "travel magazine",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Leo una revista de viajes.",
+      "exampleEnglish": "I read a travel magazine.",
+      "article": "la"
+    },
+    {
+      "id": "free-time-radio",
+      "spanish": "radio",
+      "english": "radio",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Escucho la radio por la mañana.",
+      "exampleEnglish": "I listen to the radio in the morning.",
+      "article": "la",
+      "spainNote": "In Spain the radio set is la radio."
+    },
+    {
+      "id": "free-time-bicicleta-ocio",
+      "spanish": "montar en bici",
+      "english": "to ride a bike",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "El domingo monto en bici.",
+      "exampleEnglish": "On Sunday I ride a bike."
+    },
+    {
+      "id": "free-time-playa-ocio",
+      "spanish": "tomar el sol",
+      "english": "to sunbathe",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "En la playa tomo el sol.",
+      "exampleEnglish": "On the beach I sunbathe."
+    },
+    {
+      "id": "free-time-montar",
+      "spanish": "montar",
+      "english": "to ride",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Monto a caballo en el pueblo.",
+      "exampleEnglish": "I ride a horse in the village."
+    },
+    {
+      "id": "free-time-ganar",
+      "spanish": "ganar",
+      "english": "to win",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Mi equipo gana el partido.",
+      "exampleEnglish": "My team wins the match."
+    },
+    {
+      "id": "free-time-perder-partido",
+      "spanish": "perder el partido",
+      "english": "to lose the match",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Hoy perdemos el partido.",
+      "exampleEnglish": "Today we lose the match."
+    },
+    {
+      "id": "free-time-empate",
+      "spanish": "empate",
+      "english": "draw",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El partido acaba en empate.",
+      "exampleEnglish": "The match ends in a draw.",
+      "article": "el"
+    },
+    {
+      "id": "free-time-aficionado",
+      "spanish": "aficionado",
+      "english": "fan",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Soy aficionado al fútbol.",
+      "exampleEnglish": "I'm a football fan.",
+      "article": "el"
+    }
+  ]
+}

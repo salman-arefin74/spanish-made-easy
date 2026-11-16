@@ -1,0 +1,497 @@
+{
+  "id": "everyday-essentials",
+  "label": "Everyday essentials",
+  "description": "Greetings, courtesy, numbers, and the phrases you need on day one.",
+  "sortOrder": 1,
+  "recommendedLevel": "A1",
+  "words": [
+    {
+      "id": "everyday-essentials-hola",
+      "spanish": "hola",
+      "english": "hello",
+      "partOfSpeech": "interjection",
+      "level": "A1",
+      "exampleSpanish": "Hola, me llamo Ana.",
+      "exampleEnglish": "Hello, my name is Ana."
+    },
+    {
+      "id": "everyday-essentials-adios",
+      "spanish": "adiós",
+      "english": "goodbye",
+      "partOfSpeech": "interjection",
+      "level": "A1",
+      "exampleSpanish": "Adiós, hasta mañana.",
+      "exampleEnglish": "Goodbye, see you tomorrow."
+    },
+    {
+      "id": "everyday-essentials-buenos-dias",
+      "spanish": "buenos días",
+      "english": "good morning",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Buenos días, ¿qué tal?",
+      "exampleEnglish": "Good morning, how are you?"
+    },
+    {
+      "id": "everyday-essentials-buenas-tardes",
+      "spanish": "buenas tardes",
+      "english": "good afternoon",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Buenas tardes, señora García.",
+      "exampleEnglish": "Good afternoon, Mrs García."
+    },
+    {
+      "id": "everyday-essentials-buenas-noches",
+      "spanish": "buenas noches",
+      "english": "good evening",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Buenas noches, hasta mañana.",
+      "exampleEnglish": "Good evening, see you tomorrow."
+    },
+    {
+      "id": "everyday-essentials-por-favor",
+      "spanish": "por favor",
+      "english": "please",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Un café, por favor.",
+      "exampleEnglish": "A coffee, please."
+    },
+    {
+      "id": "everyday-essentials-gracias",
+      "spanish": "gracias",
+      "english": "thank you",
+      "partOfSpeech": "interjection",
+      "level": "A1",
+      "exampleSpanish": "Gracias por tu ayuda.",
+      "exampleEnglish": "Thank you for your help."
+    },
+    {
+      "id": "everyday-essentials-de-nada",
+      "spanish": "de nada",
+      "english": "you're welcome",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "De nada.",
+      "exampleEnglish": "You're welcome."
+    },
+    {
+      "id": "everyday-essentials-si",
+      "spanish": "sí",
+      "english": "yes",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Sí, quiero un café.",
+      "exampleEnglish": "Yes, I want a coffee."
+    },
+    {
+      "id": "everyday-essentials-no",
+      "spanish": "no",
+      "english": "no",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "No, gracias.",
+      "exampleEnglish": "No, thank you."
+    },
+    {
+      "id": "everyday-essentials-perdon",
+      "spanish": "perdón",
+      "english": "excuse me",
+      "partOfSpeech": "interjection",
+      "level": "A1",
+      "exampleSpanish": "Perdón, ¿dónde está el baño?",
+      "exampleEnglish": "Excuse me, where is the toilet?"
+    },
+    {
+      "id": "everyday-essentials-lo-siento",
+      "spanish": "lo siento",
+      "english": "I'm sorry",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Lo siento, no entiendo.",
+      "exampleEnglish": "I'm sorry, I don't understand."
+    },
+    {
+      "id": "everyday-essentials-vale",
+      "spanish": "vale",
+      "english": "okay",
+      "partOfSpeech": "interjection",
+      "level": "A1",
+      "exampleSpanish": "Vale, nos vemos luego.",
+      "exampleEnglish": "Okay, see you later.",
+      "spainNote": "In Spain, vale means okay."
+    },
+    {
+      "id": "everyday-essentials-bien",
+      "spanish": "bien",
+      "english": "well",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Estoy bien, gracias.",
+      "exampleEnglish": "I'm well, thanks."
+    },
+    {
+      "id": "everyday-essentials-mal",
+      "spanish": "mal",
+      "english": "badly",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Hoy me encuentro mal.",
+      "exampleEnglish": "I'm feeling bad today."
+    },
+    {
+      "id": "everyday-essentials-que-tal",
+      "spanish": "¿qué tal?",
+      "english": "how are you?",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Hola, ¿qué tal?",
+      "exampleEnglish": "Hello, how are you?"
+    },
+    {
+      "id": "everyday-essentials-me-llamo",
+      "spanish": "me llamo",
+      "english": "my name is",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Me llamo Lucía.",
+      "exampleEnglish": "My name is Lucía."
+    },
+    {
+      "id": "everyday-essentials-mucho-gusto",
+      "spanish": "mucho gusto",
+      "english": "nice to meet you",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Mucho gusto, Ana.",
+      "exampleEnglish": "Nice to meet you, Ana."
+    },
+    {
+      "id": "everyday-essentials-hasta-luego",
+      "spanish": "hasta luego",
+      "english": "see you later",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Hasta luego.",
+      "exampleEnglish": "See you later."
+    },
+    {
+      "id": "everyday-essentials-hasta-manana",
+      "spanish": "hasta mañana",
+      "english": "see you tomorrow",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Hasta mañana, Ana.",
+      "exampleEnglish": "See you tomorrow, Ana."
+    },
+    {
+      "id": "everyday-essentials-claro",
+      "spanish": "claro",
+      "english": "of course",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Claro, te ayudo.",
+      "exampleEnglish": "Of course, I'll help you."
+    },
+    {
+      "id": "everyday-essentials-por-supuesto",
+      "spanish": "por supuesto",
+      "english": "of course",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Por supuesto, pase.",
+      "exampleEnglish": "Of course, come in."
+    },
+    {
+      "id": "everyday-essentials-no-entiendo",
+      "spanish": "no entiendo",
+      "english": "I don't understand",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "No entiendo la pregunta.",
+      "exampleEnglish": "I don't understand the question."
+    },
+    {
+      "id": "everyday-essentials-no-se",
+      "spanish": "no sé",
+      "english": "I don't know",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "No sé su nombre.",
+      "exampleEnglish": "I don't know his name."
+    },
+    {
+      "id": "everyday-essentials-mas-despacio",
+      "spanish": "más despacio",
+      "english": "more slowly",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "¿Puede hablar más despacio?",
+      "exampleEnglish": "Can you speak more slowly?"
+    },
+    {
+      "id": "everyday-essentials-un-momento",
+      "spanish": "un momento",
+      "english": "one moment",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Un momento, por favor.",
+      "exampleEnglish": "One moment, please."
+    },
+    {
+      "id": "everyday-essentials-aqui",
+      "spanish": "aquí",
+      "english": "here",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "El baño está aquí.",
+      "exampleEnglish": "The toilet is here."
+    },
+    {
+      "id": "everyday-essentials-alli",
+      "spanish": "allí",
+      "english": "there",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "La estación está allí.",
+      "exampleEnglish": "The station is over there."
+    },
+    {
+      "id": "everyday-essentials-donde-esta",
+      "spanish": "¿dónde está?",
+      "english": "where is it?",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "¿Dónde está la estación?",
+      "exampleEnglish": "Where is the station?"
+    },
+    {
+      "id": "everyday-essentials-como-se-dice",
+      "spanish": "¿cómo se dice?",
+      "english": "how do you say?",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "¿Cómo se dice esto en español?",
+      "exampleEnglish": "How do you say this in Spanish?"
+    },
+    {
+      "id": "everyday-essentials-que-significa",
+      "spanish": "¿qué significa?",
+      "english": "what does it mean?",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "¿Qué significa esta palabra?",
+      "exampleEnglish": "What does this word mean?"
+    },
+    {
+      "id": "everyday-essentials-habla-ingles",
+      "spanish": "¿habla inglés?",
+      "english": "do you speak English?",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Perdón, ¿habla inglés?",
+      "exampleEnglish": "Excuse me, do you speak English?"
+    },
+    {
+      "id": "everyday-essentials-no-hablo",
+      "spanish": "no hablo mucho español",
+      "english": "I don't speak much Spanish",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Lo siento, no hablo mucho español.",
+      "exampleEnglish": "I'm sorry, I don't speak much Spanish."
+    },
+    {
+      "id": "everyday-essentials-cero",
+      "spanish": "cero",
+      "english": "zero",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "La temperatura es cero grados.",
+      "exampleEnglish": "The temperature is zero degrees."
+    },
+    {
+      "id": "everyday-essentials-uno",
+      "spanish": "uno",
+      "english": "one",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "Tengo un hermano.",
+      "exampleEnglish": "I have one brother."
+    },
+    {
+      "id": "everyday-essentials-dos",
+      "spanish": "dos",
+      "english": "two",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "Quiero dos cafés.",
+      "exampleEnglish": "I want two coffees."
+    },
+    {
+      "id": "everyday-essentials-tres",
+      "spanish": "tres",
+      "english": "three",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "Hay tres sillas.",
+      "exampleEnglish": "There are three chairs."
+    },
+    {
+      "id": "everyday-essentials-cuatro",
+      "spanish": "cuatro",
+      "english": "four",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "Son las cuatro.",
+      "exampleEnglish": "It is four o'clock."
+    },
+    {
+      "id": "everyday-essentials-cinco",
+      "spanish": "cinco",
+      "english": "five",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "Necesito cinco euros.",
+      "exampleEnglish": "I need five euros."
+    },
+    {
+      "id": "everyday-essentials-seis",
+      "spanish": "seis",
+      "english": "six",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "Tengo seis libros.",
+      "exampleEnglish": "I have six books."
+    },
+    {
+      "id": "everyday-essentials-siete",
+      "spanish": "siete",
+      "english": "seven",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "El número es el siete.",
+      "exampleEnglish": "The number is seven."
+    },
+    {
+      "id": "everyday-essentials-ocho",
+      "spanish": "ocho",
+      "english": "eight",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "Son las ocho de la mañana.",
+      "exampleEnglish": "It is eight in the morning."
+    },
+    {
+      "id": "everyday-essentials-nueve",
+      "spanish": "nueve",
+      "english": "nine",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "Llego a las nueve.",
+      "exampleEnglish": "I arrive at nine."
+    },
+    {
+      "id": "everyday-essentials-diez",
+      "spanish": "diez",
+      "english": "ten",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "Cuesta diez euros.",
+      "exampleEnglish": "It costs ten euros."
+    },
+    {
+      "id": "everyday-essentials-once",
+      "spanish": "once",
+      "english": "eleven",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "Son las once.",
+      "exampleEnglish": "It is eleven o'clock."
+    },
+    {
+      "id": "everyday-essentials-doce",
+      "spanish": "doce",
+      "english": "twelve",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "Son las doce.",
+      "exampleEnglish": "It is twelve o'clock."
+    },
+    {
+      "id": "everyday-essentials-trece",
+      "spanish": "trece",
+      "english": "thirteen",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "Tengo trece años.",
+      "exampleEnglish": "I am thirteen."
+    },
+    {
+      "id": "everyday-essentials-catorce",
+      "spanish": "catorce",
+      "english": "fourteen",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "Hay catorce alumnos.",
+      "exampleEnglish": "There are fourteen students."
+    },
+    {
+      "id": "everyday-essentials-quince",
+      "spanish": "quince",
+      "english": "fifteen",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "El billete cuesta quince euros.",
+      "exampleEnglish": "The ticket costs fifteen euros."
+    },
+    {
+      "id": "everyday-essentials-dieciseis",
+      "spanish": "dieciséis",
+      "english": "sixteen",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "Vivo en el número dieciséis.",
+      "exampleEnglish": "I live at number sixteen."
+    },
+    {
+      "id": "everyday-essentials-diecisiete",
+      "spanish": "diecisiete",
+      "english": "seventeen",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "Son las diecisiete.",
+      "exampleEnglish": "It is five in the afternoon."
+    },
+    {
+      "id": "everyday-essentials-dieciocho",
+      "spanish": "dieciocho",
+      "english": "eighteen",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "Tengo dieciocho años.",
+      "exampleEnglish": "I am eighteen."
+    },
+    {
+      "id": "everyday-essentials-diecinueve",
+      "spanish": "diecinueve",
+      "english": "nineteen",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "La habitación es la diecinueve.",
+      "exampleEnglish": "The room is number nineteen."
+    },
+    {
+      "id": "everyday-essentials-veinte",
+      "spanish": "veinte",
+      "english": "twenty",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "exampleSpanish": "Son las veinte.",
+      "exampleEnglish": "It is eight in the evening.",
+      "spainNote": "Spain often says the hour on a 24-hour clock, so las veinte is 8 p.m."
+    }
+  ]
+}

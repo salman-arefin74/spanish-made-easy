@@ -1,0 +1,543 @@
+{
+  "id": "weather-and-nature",
+  "label": "Weather and nature",
+  "description": "The weather, the seasons outside, and simple landscape words.",
+  "sortOrder": 10,
+  "recommendedLevel": "A1",
+  "words": [
+    {
+      "id": "weather-and-nature-tiempo",
+      "spanish": "tiempo",
+      "english": "weather or time",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Hoy hace buen tiempo.",
+      "exampleEnglish": "The weather is good today.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-sol",
+      "spanish": "sol",
+      "english": "sun",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Hoy hay sol.",
+      "exampleEnglish": "It is sunny today.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-calor",
+      "spanish": "calor",
+      "english": "heat",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Hace mucho calor.",
+      "exampleEnglish": "It is very hot.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-frio",
+      "spanish": "frío",
+      "english": "cold",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Hace frío por la mañana.",
+      "exampleEnglish": "It is cold in the morning.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-lluvia",
+      "spanish": "lluvia",
+      "english": "rain",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La lluvia empieza ahora.",
+      "exampleEnglish": "The rain is starting now.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-nieve",
+      "spanish": "nieve",
+      "english": "snow",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "En la sierra hay nieve.",
+      "exampleEnglish": "There is snow in the mountains.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-viento",
+      "spanish": "viento",
+      "english": "wind",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Hoy hace viento.",
+      "exampleEnglish": "It is windy today.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-nube",
+      "spanish": "nube",
+      "english": "cloud",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Hay una nube grande.",
+      "exampleEnglish": "There is a big cloud.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-niebla",
+      "spanish": "niebla",
+      "english": "fog",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Por la mañana hay niebla.",
+      "exampleEnglish": "There is fog in the morning.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-tormenta",
+      "spanish": "tormenta",
+      "english": "storm",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Viene una tormenta.",
+      "exampleEnglish": "A storm is coming.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-cielo",
+      "spanish": "cielo",
+      "english": "sky",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El cielo está azul.",
+      "exampleEnglish": "The sky is blue.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-temperatura",
+      "spanish": "temperatura",
+      "english": "temperature",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La temperatura es de veinte grados.",
+      "exampleEnglish": "The temperature is twenty degrees.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-grado",
+      "spanish": "grado",
+      "english": "degree",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Estamos a quince grados.",
+      "exampleEnglish": "It is fifteen degrees.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-paraguas",
+      "spanish": "paraguas",
+      "english": "umbrella",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Llevo el paraguas.",
+      "exampleEnglish": "I take the umbrella.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-impermeable",
+      "spanish": "impermeable",
+      "english": "raincoat",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Con esta lluvia necesito el impermeable.",
+      "exampleEnglish": "With this rain I need the raincoat.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-naturaleza",
+      "spanish": "naturaleza",
+      "english": "nature",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Me gusta la naturaleza.",
+      "exampleEnglish": "I like nature.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-arbol",
+      "spanish": "árbol",
+      "english": "tree",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El árbol es muy alto.",
+      "exampleEnglish": "The tree is very tall.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-flor",
+      "spanish": "flor",
+      "english": "flower",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La flor es roja.",
+      "exampleEnglish": "The flower is red.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-hierba",
+      "spanish": "hierba",
+      "english": "grass",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La hierba está verde.",
+      "exampleEnglish": "The grass is green.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-bosque",
+      "spanish": "bosque",
+      "english": "forest",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Caminamos por el bosque.",
+      "exampleEnglish": "We walk through the forest.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-montana",
+      "spanish": "montaña",
+      "english": "mountain",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La montaña está lejos.",
+      "exampleEnglish": "The mountain is far away.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-mar",
+      "spanish": "mar",
+      "english": "sea",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El mar está en calma.",
+      "exampleEnglish": "The sea is calm.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-ola",
+      "spanish": "ola",
+      "english": "wave",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La ola es alta.",
+      "exampleEnglish": "The wave is high.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-arena",
+      "spanish": "arena",
+      "english": "sand",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La arena está caliente.",
+      "exampleEnglish": "The sand is hot.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-isla",
+      "spanish": "isla",
+      "english": "island",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La isla es pequeña.",
+      "exampleEnglish": "The island is small.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-lago",
+      "spanish": "lago",
+      "english": "lake",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El lago está cerca del pueblo.",
+      "exampleEnglish": "The lake is near the village.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-campo",
+      "spanish": "campo",
+      "english": "countryside",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El domingo vamos al campo.",
+      "exampleEnglish": "On Sunday we go to the countryside.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-animal",
+      "spanish": "animal",
+      "english": "animal",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El perro es un animal tranquilo.",
+      "exampleEnglish": "The dog is a calm animal.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-pajaro",
+      "spanish": "pájaro",
+      "english": "bird",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El pájaro está en el árbol.",
+      "exampleEnglish": "The bird is in the tree.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-pez",
+      "spanish": "pez",
+      "english": "fish",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "En el río hay peces.",
+      "exampleEnglish": "There are fish in the river.",
+      "article": "el",
+      "plural": "peces"
+    },
+    {
+      "id": "weather-and-nature-caballo",
+      "spanish": "caballo",
+      "english": "horse",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El caballo está en el campo.",
+      "exampleEnglish": "The horse is in the countryside.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-vaca",
+      "spanish": "vaca",
+      "english": "cow",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La vaca está en el campo.",
+      "exampleEnglish": "The cow is in the countryside.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-oveja",
+      "spanish": "oveja",
+      "english": "sheep",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La oveja come hierba.",
+      "exampleEnglish": "The sheep eats grass.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-rocio",
+      "spanish": "rocío",
+      "english": "dew",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Por la mañana hay rocío.",
+      "exampleEnglish": "There is dew in the morning.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-hace-sol",
+      "spanish": "hace sol",
+      "english": "it is sunny",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Hoy hace sol.",
+      "exampleEnglish": "It is sunny today."
+    },
+    {
+      "id": "weather-and-nature-hace-calor",
+      "spanish": "hace calor",
+      "english": "it is hot",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "En agosto hace calor.",
+      "exampleEnglish": "In August it is hot."
+    },
+    {
+      "id": "weather-and-nature-hace-frio",
+      "spanish": "hace frío",
+      "english": "it is cold",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Por la noche hace frío.",
+      "exampleEnglish": "At night it is cold."
+    },
+    {
+      "id": "weather-and-nature-llover",
+      "spanish": "llover",
+      "english": "to rain",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Hoy llueve mucho.",
+      "exampleEnglish": "It is raining a lot today."
+    },
+    {
+      "id": "weather-and-nature-nevar",
+      "spanish": "nevar",
+      "english": "to snow",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "En invierno nieva en la sierra.",
+      "exampleEnglish": "In winter it snows in the mountains."
+    },
+    {
+      "id": "weather-and-nature-buen-tiempo",
+      "spanish": "hace buen tiempo",
+      "english": "the weather is good",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Este domingo hace buen tiempo.",
+      "exampleEnglish": "The weather is good this Sunday."
+    },
+    {
+      "id": "weather-and-nature-mal-tiempo",
+      "spanish": "hace mal tiempo",
+      "english": "the weather is bad",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Hoy hace mal tiempo.",
+      "exampleEnglish": "The weather is bad today."
+    },
+    {
+      "id": "weather-and-nature-atardecer",
+      "spanish": "atardecer",
+      "english": "dusk",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El atardecer es a las ocho.",
+      "exampleEnglish": "Dusk is at eight.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-sombra",
+      "spanish": "sombra",
+      "english": "shade",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Busco la sombra.",
+      "exampleEnglish": "I look for the shade.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-rayo",
+      "spanish": "rayo",
+      "english": "ray",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Entra un rayo de sol.",
+      "exampleEnglish": "A ray of sunshine comes in.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-estrella",
+      "spanish": "estrella",
+      "english": "star",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Por la noche se ve una estrella.",
+      "exampleEnglish": "At night you can see a star.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-luna",
+      "spanish": "luna",
+      "english": "moon",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La luna está llena.",
+      "exampleEnglish": "The moon is full.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-aire",
+      "spanish": "aire",
+      "english": "air",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Abro la ventana para que entre aire.",
+      "exampleEnglish": "I open the window so air comes in.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-fuego",
+      "spanish": "fuego",
+      "english": "fire",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El fuego está en la chimenea.",
+      "exampleEnglish": "The fire is in the fireplace.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-tierra",
+      "spanish": "tierra",
+      "english": "earth or soil",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La tierra del jardín está húmeda.",
+      "exampleEnglish": "The garden soil is damp.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-piedra",
+      "spanish": "piedra",
+      "english": "stone",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Hay una piedra en el camino.",
+      "exampleEnglish": "There is a stone on the path.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-hoja",
+      "spanish": "hoja",
+      "english": "leaf",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La hoja es verde.",
+      "exampleEnglish": "The leaf is green.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-orilla",
+      "spanish": "orilla",
+      "english": "shore",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Caminamos por la orilla.",
+      "exampleEnglish": "We walk along the shore.",
+      "article": "la"
+    },
+    {
+      "id": "weather-and-nature-sendero",
+      "spanish": "sendero",
+      "english": "path",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El sendero va al lago.",
+      "exampleEnglish": "The path goes to the lake.",
+      "article": "el"
+    },
+    {
+      "id": "weather-and-nature-clima",
+      "spanish": "clima",
+      "english": "climate",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El clima de la costa es suave.",
+      "exampleEnglish": "The climate on the coast is mild.",
+      "article": "el"
+    }
+  ]
+}

@@ -1,0 +1,549 @@
+{
+  "id": "time-and-calendar",
+  "label": "Time and calendar",
+  "description": "Hours, days, months, and how often things happen.",
+  "sortOrder": 9,
+  "recommendedLevel": "A1",
+  "words": [
+    {
+      "id": "time-and-calendar-hora",
+      "spanish": "hora",
+      "english": "hour",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El viaje dura una hora.",
+      "exampleEnglish": "The journey lasts an hour.",
+      "article": "la"
+    },
+    {
+      "id": "time-and-calendar-minuto",
+      "spanish": "minuto",
+      "english": "minute",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Llego en diez minutos.",
+      "exampleEnglish": "I arrive in ten minutes.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-segundo",
+      "spanish": "segundo",
+      "english": "second",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Espera un segundo.",
+      "exampleEnglish": "Wait a second.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-reloj-pulsera",
+      "spanish": "reloj de pulsera",
+      "english": "watch",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi reloj de pulsera es nuevo.",
+      "exampleEnglish": "My watch is new.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-hoy",
+      "spanish": "hoy",
+      "english": "today",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Hoy no trabajo.",
+      "exampleEnglish": "I don't work today."
+    },
+    {
+      "id": "time-and-calendar-manana",
+      "spanish": "mañana",
+      "english": "tomorrow",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Mañana es lunes.",
+      "exampleEnglish": "Tomorrow is Monday."
+    },
+    {
+      "id": "time-and-calendar-ayer",
+      "spanish": "ayer",
+      "english": "yesterday",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Ayer fui al mercado.",
+      "exampleEnglish": "I went to the market yesterday."
+    },
+    {
+      "id": "time-and-calendar-ahora-mismo",
+      "spanish": "ahora",
+      "english": "now",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Ahora estoy en casa.",
+      "exampleEnglish": "I'm at home now."
+    },
+    {
+      "id": "time-and-calendar-luego",
+      "spanish": "luego",
+      "english": "later",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Hablamos luego.",
+      "exampleEnglish": "We'll talk later."
+    },
+    {
+      "id": "time-and-calendar-pronto",
+      "spanish": "pronto",
+      "english": "soon",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Llego pronto.",
+      "exampleEnglish": "I arrive soon."
+    },
+    {
+      "id": "time-and-calendar-tarde",
+      "spanish": "tarde",
+      "english": "late or afternoon",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Llego tarde.",
+      "exampleEnglish": "I arrive late."
+    },
+    {
+      "id": "time-and-calendar-temprano",
+      "spanish": "temprano",
+      "english": "early",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Me levanto temprano.",
+      "exampleEnglish": "I get up early."
+    },
+    {
+      "id": "time-and-calendar-siempre",
+      "spanish": "siempre",
+      "english": "always",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Siempre desayuno en casa.",
+      "exampleEnglish": "I always have breakfast at home."
+    },
+    {
+      "id": "time-and-calendar-nunca",
+      "spanish": "nunca",
+      "english": "never",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Nunca como carne.",
+      "exampleEnglish": "I never eat meat."
+    },
+    {
+      "id": "time-and-calendar-a-veces",
+      "spanish": "a veces",
+      "english": "sometimes",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "A veces voy en metro.",
+      "exampleEnglish": "I sometimes go by metro."
+    },
+    {
+      "id": "time-and-calendar-todos-los-dias",
+      "spanish": "todos los días",
+      "english": "every day",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Estudio todos los días.",
+      "exampleEnglish": "I study every day."
+    },
+    {
+      "id": "time-and-calendar-semana",
+      "spanish": "semana",
+      "english": "week",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La próxima semana estoy de vacaciones.",
+      "exampleEnglish": "Next week I'm on holiday.",
+      "article": "la"
+    },
+    {
+      "id": "time-and-calendar-fin-de-semana",
+      "spanish": "fin de semana",
+      "english": "weekend",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El fin de semana voy a la playa.",
+      "exampleEnglish": "At the weekend I go to the beach.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-mes",
+      "spanish": "mes",
+      "english": "month",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Este mes estudio mucho.",
+      "exampleEnglish": "This month I study a lot.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-ano",
+      "spanish": "año",
+      "english": "year",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Este año vivo en Madrid.",
+      "exampleEnglish": "This year I live in Madrid.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-fecha",
+      "spanish": "fecha",
+      "english": "date",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Cuál es la fecha de hoy?",
+      "exampleEnglish": "What is today's date?",
+      "article": "la"
+    },
+    {
+      "id": "time-and-calendar-cumpleanos",
+      "spanish": "cumpleaños",
+      "english": "birthday",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi cumpleaños es en mayo.",
+      "exampleEnglish": "My birthday is in May.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-lunes",
+      "spanish": "lunes",
+      "english": "Monday",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El lunes empiezo el curso.",
+      "exampleEnglish": "On Monday I start the course.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-martes",
+      "spanish": "martes",
+      "english": "Tuesday",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El martes tengo clase.",
+      "exampleEnglish": "On Tuesday I have class.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-miercoles",
+      "spanish": "miércoles",
+      "english": "Wednesday",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El miércoles cierro yo.",
+      "exampleEnglish": "On Wednesday I close up.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-jueves",
+      "spanish": "jueves",
+      "english": "Thursday",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El jueves como con Ana.",
+      "exampleEnglish": "On Thursday I have lunch with Ana.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-viernes",
+      "spanish": "viernes",
+      "english": "Friday",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El viernes salgo pronto.",
+      "exampleEnglish": "On Friday I leave early.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-sabado",
+      "spanish": "sábado",
+      "english": "Saturday",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El sábado voy al mercado.",
+      "exampleEnglish": "On Saturday I go to the market.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-domingo",
+      "spanish": "domingo",
+      "english": "Sunday",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El domingo descanso.",
+      "exampleEnglish": "On Sunday I rest.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-enero",
+      "spanish": "enero",
+      "english": "January",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "En enero hace frío.",
+      "exampleEnglish": "In January it is cold.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-febrero",
+      "spanish": "febrero",
+      "english": "February",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi hermano nace en febrero.",
+      "exampleEnglish": "My brother was born in February.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-marzo",
+      "spanish": "marzo",
+      "english": "March",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "En marzo empieza la primavera.",
+      "exampleEnglish": "Spring starts in March.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-abril",
+      "spanish": "abril",
+      "english": "April",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "En abril llueve mucho.",
+      "exampleEnglish": "It rains a lot in April.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-mayo",
+      "spanish": "mayo",
+      "english": "May",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "En mayo voy a Sevilla.",
+      "exampleEnglish": "In May I go to Seville.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-junio",
+      "spanish": "junio",
+      "english": "June",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "En junio termina el curso.",
+      "exampleEnglish": "The course ends in June.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-julio",
+      "spanish": "julio",
+      "english": "July",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "En julio hace calor.",
+      "exampleEnglish": "In July it is hot.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-agosto",
+      "spanish": "agosto",
+      "english": "August",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "En agosto mucha gente está de vacaciones.",
+      "exampleEnglish": "In August a lot of people are on holiday.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-septiembre",
+      "spanish": "septiembre",
+      "english": "September",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "En septiembre vuelvo al trabajo.",
+      "exampleEnglish": "In September I go back to work.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-octubre",
+      "spanish": "octubre",
+      "english": "October",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "En octubre cambia la hora.",
+      "exampleEnglish": "In October the clocks change.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-noviembre",
+      "spanish": "noviembre",
+      "english": "November",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "En noviembre llueve.",
+      "exampleEnglish": "It rains in November.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-diciembre",
+      "spanish": "diciembre",
+      "english": "December",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "En diciembre hay muchas luces.",
+      "exampleEnglish": "In December there are a lot of lights.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-estacion-ano",
+      "spanish": "estación del año",
+      "english": "season",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi estación del año favorita es la primavera.",
+      "exampleEnglish": "My favourite season is spring.",
+      "article": "la"
+    },
+    {
+      "id": "time-and-calendar-primavera",
+      "spanish": "primavera",
+      "english": "spring",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "En primavera hace buen tiempo.",
+      "exampleEnglish": "In spring the weather is good.",
+      "article": "la"
+    },
+    {
+      "id": "time-and-calendar-verano",
+      "spanish": "verano",
+      "english": "summer",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "En verano voy a la playa.",
+      "exampleEnglish": "In summer I go to the beach.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-otono",
+      "spanish": "otoño",
+      "english": "autumn",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "En otoño las tardes son cortas.",
+      "exampleEnglish": "In autumn the afternoons are short.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-invierno",
+      "spanish": "invierno",
+      "english": "winter",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "En invierno hace frío.",
+      "exampleEnglish": "In winter it is cold.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-manana-hora",
+      "spanish": "por la mañana",
+      "english": "in the morning",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Trabajo por la mañana.",
+      "exampleEnglish": "I work in the morning."
+    },
+    {
+      "id": "time-and-calendar-mediodia",
+      "spanish": "mediodía",
+      "english": "midday",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Como al mediodía.",
+      "exampleEnglish": "I have lunch at midday.",
+      "article": "el"
+    },
+    {
+      "id": "time-and-calendar-tarde-hora",
+      "spanish": "por la tarde",
+      "english": "in the afternoon",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Estudio por la tarde.",
+      "exampleEnglish": "I study in the afternoon."
+    },
+    {
+      "id": "time-and-calendar-noche",
+      "spanish": "noche",
+      "english": "night",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Por la noche leo.",
+      "exampleEnglish": "At night I read.",
+      "article": "la"
+    },
+    {
+      "id": "time-and-calendar-media",
+      "spanish": "y media",
+      "english": "half past",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Son las tres y media.",
+      "exampleEnglish": "It is half past three."
+    },
+    {
+      "id": "time-and-calendar-cuarto",
+      "spanish": "y cuarto",
+      "english": "quarter past",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Son las cuatro y cuarto.",
+      "exampleEnglish": "It is quarter past four."
+    },
+    {
+      "id": "time-and-calendar-menos-cuarto",
+      "spanish": "menos cuarto",
+      "english": "quarter to",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Son las cinco menos cuarto.",
+      "exampleEnglish": "It is quarter to five."
+    },
+    {
+      "id": "time-and-calendar-en-punto",
+      "spanish": "en punto",
+      "english": "exactly",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Son las nueve en punto.",
+      "exampleEnglish": "It is nine o'clock exactly."
+    },
+    {
+      "id": "time-and-calendar-proxima",
+      "spanish": "la próxima vez",
+      "english": "next time",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "La próxima vez llego pronto.",
+      "exampleEnglish": "Next time I arrive early."
+    },
+    {
+      "id": "time-and-calendar-pasada",
+      "spanish": "la semana pasada",
+      "english": "last week",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "La semana pasada estuve en Valencia.",
+      "exampleEnglish": "Last week I was in Valencia."
+    }
+  ]
+}

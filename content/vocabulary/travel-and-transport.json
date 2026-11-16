@@ -1,0 +1,544 @@
+{
+  "id": "travel-and-transport",
+  "label": "Travel and transport",
+  "description": "Trains, buses, the metro, and getting around.",
+  "sortOrder": 6,
+  "recommendedLevel": "A1",
+  "words": [
+    {
+      "id": "travel-and-transport-viaje",
+      "spanish": "viaje",
+      "english": "journey",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El viaje dura dos horas.",
+      "exampleEnglish": "The journey lasts two hours.",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-vacaciones",
+      "spanish": "vacaciones",
+      "english": "holiday",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Estoy de vacaciones.",
+      "exampleEnglish": "I'm on holiday.",
+      "article": "las"
+    },
+    {
+      "id": "travel-and-transport-maleta",
+      "spanish": "maleta",
+      "english": "suitcase",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi maleta es pequeña.",
+      "exampleEnglish": "My suitcase is small.",
+      "article": "la"
+    },
+    {
+      "id": "travel-and-transport-pasaporte",
+      "spanish": "pasaporte",
+      "english": "passport",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Dónde está mi pasaporte?",
+      "exampleEnglish": "Where is my passport?",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-billete",
+      "spanish": "billete",
+      "english": "ticket",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Un billete de ida y vuelta, por favor.",
+      "exampleEnglish": "A return ticket, please.",
+      "article": "el",
+      "spainNote": "Spain says billete. Much of Latin America says boleto."
+    },
+    {
+      "id": "travel-and-transport-ida",
+      "spanish": "ida",
+      "english": "outbound journey",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Quiero un billete de ida.",
+      "exampleEnglish": "I want a single ticket.",
+      "article": "la"
+    },
+    {
+      "id": "travel-and-transport-vuelta",
+      "spanish": "vuelta",
+      "english": "return",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La vuelta es el domingo.",
+      "exampleEnglish": "The return is on Sunday.",
+      "article": "la"
+    },
+    {
+      "id": "travel-and-transport-anden",
+      "spanish": "andén",
+      "english": "platform",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El tren sale del andén tres.",
+      "exampleEnglish": "The train leaves from platform three.",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-tren",
+      "spanish": "tren",
+      "english": "train",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El tren llega a las diez.",
+      "exampleEnglish": "The train arrives at ten.",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-autobus",
+      "spanish": "autobús",
+      "english": "bus",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El autobús pasa cada diez minutos.",
+      "exampleEnglish": "The bus comes every ten minutes.",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-metro",
+      "spanish": "metro",
+      "english": "metro",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Voy en metro.",
+      "exampleEnglish": "I go by metro.",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-taxi",
+      "spanish": "taxi",
+      "english": "taxi",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Paramos un taxi.",
+      "exampleEnglish": "We stop a taxi.",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-coche",
+      "spanish": "coche",
+      "english": "car",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El coche está en la calle.",
+      "exampleEnglish": "The car is in the street.",
+      "article": "el",
+      "spainNote": "Spain says coche. Much of Latin America says carro or auto."
+    },
+    {
+      "id": "travel-and-transport-moto",
+      "spanish": "moto",
+      "english": "motorbike",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Va al trabajo en moto.",
+      "exampleEnglish": "He goes to work by motorbike.",
+      "article": "la"
+    },
+    {
+      "id": "travel-and-transport-bici",
+      "spanish": "bici",
+      "english": "bicycle",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Voy en bici al centro.",
+      "exampleEnglish": "I cycle to the centre.",
+      "article": "la"
+    },
+    {
+      "id": "travel-and-transport-avion",
+      "spanish": "avión",
+      "english": "plane",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El avión sale a las ocho.",
+      "exampleEnglish": "The plane leaves at eight.",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-barco",
+      "spanish": "barco",
+      "english": "boat",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El barco sale del puerto.",
+      "exampleEnglish": "The boat leaves from the port.",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-parada-taxi",
+      "spanish": "parada de taxi",
+      "english": "taxi rank",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La parada de taxi está en la esquina.",
+      "exampleEnglish": "The taxi rank is on the corner.",
+      "article": "la"
+    },
+    {
+      "id": "travel-and-transport-conductor",
+      "spanish": "conductor",
+      "english": "driver",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El conductor para en la plaza.",
+      "exampleEnglish": "The driver stops in the square.",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-conductora",
+      "spanish": "conductora",
+      "english": "driver, female",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La conductora es muy amable.",
+      "exampleEnglish": "The driver is very kind.",
+      "article": "la"
+    },
+    {
+      "id": "travel-and-transport-pasajero",
+      "spanish": "pasajero",
+      "english": "passenger",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El pasajero baja aquí.",
+      "exampleEnglish": "The passenger gets off here.",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-estacion-servicio",
+      "spanish": "gasolinera",
+      "english": "petrol station",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La gasolinera está en la carretera.",
+      "exampleEnglish": "The petrol station is on the road.",
+      "article": "la",
+      "spainNote": "Spain says gasolinera."
+    },
+    {
+      "id": "travel-and-transport-carretera",
+      "spanish": "carretera",
+      "english": "road",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La carretera está cortada.",
+      "exampleEnglish": "The road is closed.",
+      "article": "la"
+    },
+    {
+      "id": "travel-and-transport-trafico",
+      "spanish": "tráfico",
+      "english": "traffic",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Hay mucho tráfico hoy.",
+      "exampleEnglish": "There is a lot of traffic today.",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-atasco",
+      "spanish": "atasco",
+      "english": "traffic jam",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Hay un atasco en el centro.",
+      "exampleEnglish": "There is a traffic jam in the centre.",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-aparcamiento",
+      "spanish": "aparcamiento",
+      "english": "car park",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El aparcamiento está lleno.",
+      "exampleEnglish": "The car park is full.",
+      "article": "el",
+      "spainNote": "Spain says aparcamiento. Much of Latin America says estacionamiento."
+    },
+    {
+      "id": "travel-and-transport-mapa-metro",
+      "spanish": "plano",
+      "english": "street or metro map",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Tiene un plano del metro?",
+      "exampleEnglish": "Do you have a metro map?",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-salida",
+      "spanish": "salida",
+      "english": "exit",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La salida está a la derecha.",
+      "exampleEnglish": "The exit is on the right.",
+      "article": "la"
+    },
+    {
+      "id": "travel-and-transport-entrada",
+      "spanish": "entrada",
+      "english": "entrance",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La entrada del museo es gratis.",
+      "exampleEnglish": "The museum entrance is free.",
+      "article": "la"
+    },
+    {
+      "id": "travel-and-transport-retraso",
+      "spanish": "retraso",
+      "english": "delay",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El tren lleva retraso.",
+      "exampleEnglish": "The train is delayed.",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-horario",
+      "spanish": "horario",
+      "english": "timetable",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El horario está en la parada.",
+      "exampleEnglish": "The timetable is at the stop.",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-asiento",
+      "spanish": "asiento",
+      "english": "seat",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Está libre este asiento?",
+      "exampleEnglish": "Is this seat free?",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-ventana-tren",
+      "spanish": "ventanilla",
+      "english": "ticket window",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Los billetes están en la ventanilla.",
+      "exampleEnglish": "The tickets are at the window.",
+      "article": "la"
+    },
+    {
+      "id": "travel-and-transport-equipaje",
+      "spanish": "equipaje",
+      "english": "luggage",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El equipaje está en el tren.",
+      "exampleEnglish": "The luggage is on the train.",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-pasillo-tren",
+      "spanish": "pasillo del tren",
+      "english": "aisle",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi asiento está en el pasillo.",
+      "exampleEnglish": "My seat is on the aisle.",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-reserva",
+      "spanish": "reserva",
+      "english": "booking",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Tengo una reserva a mi nombre.",
+      "exampleEnglish": "I have a booking in my name.",
+      "article": "la"
+    },
+    {
+      "id": "travel-and-transport-hotel-viaje",
+      "spanish": "recepcion",
+      "english": "reception",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La recepción está abierta.",
+      "exampleEnglish": "Reception is open.",
+      "article": "la"
+    },
+    {
+      "id": "travel-and-transport-llave-habitacion",
+      "spanish": "llave de la habitación",
+      "english": "room key",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La llave de la habitación es esta.",
+      "exampleEnglish": "This is the room key.",
+      "article": "la"
+    },
+    {
+      "id": "travel-and-transport-piso-hotel",
+      "spanish": "planta",
+      "english": "floor of a building",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi habitación está en la planta dos.",
+      "exampleEnglish": "My room is on floor two.",
+      "article": "la"
+    },
+    {
+      "id": "travel-and-transport-ascensor-hotel",
+      "spanish": "ascensor del hotel",
+      "english": "hotel lift",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El ascensor del hotel es pequeño.",
+      "exampleEnglish": "The hotel lift is small.",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-playa-viaje",
+      "spanish": "costa",
+      "english": "coast",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Pasamos el verano en la costa.",
+      "exampleEnglish": "We spend the summer on the coast.",
+      "article": "la"
+    },
+    {
+      "id": "travel-and-transport-mapa-carretera",
+      "spanish": "autopista",
+      "english": "motorway",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La autopista va a Barcelona.",
+      "exampleEnglish": "The motorway goes to Barcelona.",
+      "article": "la"
+    },
+    {
+      "id": "travel-and-transport-peaje",
+      "spanish": "peaje",
+      "english": "toll",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Hay un peaje en la autopista.",
+      "exampleEnglish": "There is a toll on the motorway.",
+      "article": "el"
+    },
+    {
+      "id": "travel-and-transport-caminar",
+      "spanish": "a pie",
+      "english": "on foot",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Voy al centro a pie.",
+      "exampleEnglish": "I go to the centre on foot."
+    },
+    {
+      "id": "travel-and-transport-coger",
+      "spanish": "coger",
+      "english": "to catch",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Cojo el autobús a las ocho.",
+      "exampleEnglish": "I catch the bus at eight.",
+      "spainNote": "In Spain, coger means to take or catch. In much of Latin America the verb is avoided."
+    },
+    {
+      "id": "travel-and-transport-conducir",
+      "spanish": "conducir",
+      "english": "to drive",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Conduzco poco en la ciudad.",
+      "exampleEnglish": "I don't drive much in the city.",
+      "spainNote": "Spain says conducir. Much of Latin America says manejar."
+    },
+    {
+      "id": "travel-and-transport-bajar",
+      "spanish": "bajar",
+      "english": "to get off",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Bajo en la próxima parada.",
+      "exampleEnglish": "I get off at the next stop."
+    },
+    {
+      "id": "travel-and-transport-subir",
+      "spanish": "subir",
+      "english": "to get on",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Subimos al tren.",
+      "exampleEnglish": "We get on the train."
+    },
+    {
+      "id": "travel-and-transport-perder",
+      "spanish": "perder",
+      "english": "to miss",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Pierdo el tren de las nueve.",
+      "exampleEnglish": "I miss the nine o'clock train."
+    },
+    {
+      "id": "travel-and-transport-esperar",
+      "spanish": "esperar",
+      "english": "to wait",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Espero el autobús.",
+      "exampleEnglish": "I wait for the bus."
+    },
+    {
+      "id": "travel-and-transport-llegar",
+      "spanish": "llegar",
+      "english": "to arrive",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "El tren llega tarde.",
+      "exampleEnglish": "The train arrives late."
+    },
+    {
+      "id": "travel-and-transport-salir",
+      "spanish": "salir",
+      "english": "to leave",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "El avión sale a las seis.",
+      "exampleEnglish": "The plane leaves at six."
+    },
+    {
+      "id": "travel-and-transport-volver",
+      "spanish": "volver",
+      "english": "to return",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Vuelvo el lunes.",
+      "exampleEnglish": "I come back on Monday."
+    },
+    {
+      "id": "travel-and-transport-preguntar-camino",
+      "spanish": "¿cómo llego?",
+      "english": "how do I get there?",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "¿Cómo llego al centro?",
+      "exampleEnglish": "How do I get to the centre?"
+    }
+  ]
+}

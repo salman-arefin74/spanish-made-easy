@@ -1,0 +1,528 @@
+{
+  "id": "shopping-and-money",
+  "label": "Shopping and money",
+  "description": "Prices, shops, and paying.",
+  "sortOrder": 7,
+  "recommendedLevel": "A1",
+  "words": [
+    {
+      "id": "shopping-and-money-dinero",
+      "spanish": "dinero",
+      "english": "money",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "No llevo mucho dinero.",
+      "exampleEnglish": "I don't have much money on me.",
+      "article": "el"
+    },
+    {
+      "id": "shopping-and-money-euro",
+      "spanish": "euro",
+      "english": "euro",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Cuesta cinco euros.",
+      "exampleEnglish": "It costs five euros.",
+      "article": "el"
+    },
+    {
+      "id": "shopping-and-money-centimo",
+      "spanish": "céntimo",
+      "english": "cent",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Son cincuenta céntimos.",
+      "exampleEnglish": "That is fifty cents.",
+      "article": "el"
+    },
+    {
+      "id": "shopping-and-money-precio",
+      "spanish": "precio",
+      "english": "price",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El precio está en la etiqueta.",
+      "exampleEnglish": "The price is on the label.",
+      "article": "el"
+    },
+    {
+      "id": "shopping-and-money-tarjeta",
+      "spanish": "tarjeta",
+      "english": "card",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Pago con tarjeta.",
+      "exampleEnglish": "I pay by card.",
+      "article": "la"
+    },
+    {
+      "id": "shopping-and-money-efectivo",
+      "spanish": "efectivo",
+      "english": "cash",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Puedo pagar en efectivo?",
+      "exampleEnglish": "Can I pay in cash?",
+      "article": "el"
+    },
+    {
+      "id": "shopping-and-money-caja",
+      "spanish": "caja",
+      "english": "till",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La caja está al fondo.",
+      "exampleEnglish": "The till is at the back.",
+      "article": "la"
+    },
+    {
+      "id": "shopping-and-money-cajero",
+      "spanish": "cajero",
+      "english": "ATM or cashier",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Hay un cajero en la esquina.",
+      "exampleEnglish": "There is a cash machine on the corner.",
+      "article": "el"
+    },
+    {
+      "id": "shopping-and-money-bolsa",
+      "spanish": "bolsa",
+      "english": "bag",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Me da una bolsa?",
+      "exampleEnglish": "Could you give me a bag?",
+      "article": "la"
+    },
+    {
+      "id": "shopping-and-money-recibo",
+      "spanish": "recibo",
+      "english": "receipt",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Me da el recibo?",
+      "exampleEnglish": "Could you give me the receipt?",
+      "article": "el"
+    },
+    {
+      "id": "shopping-and-money-oferta",
+      "spanish": "oferta",
+      "english": "offer",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Esta semana hay una oferta.",
+      "exampleEnglish": "There is an offer this week.",
+      "article": "la"
+    },
+    {
+      "id": "shopping-and-money-rebajas",
+      "spanish": "rebajas",
+      "english": "sales",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Las rebajas empiezan en enero.",
+      "exampleEnglish": "The sales start in January.",
+      "article": "las"
+    },
+    {
+      "id": "shopping-and-money-talla",
+      "spanish": "talla",
+      "english": "size",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Tiene esta camisa en otra talla?",
+      "exampleEnglish": "Do you have this shirt in another size?",
+      "article": "la"
+    },
+    {
+      "id": "shopping-and-money-probador",
+      "spanish": "probador",
+      "english": "fitting room",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Dónde está el probador?",
+      "exampleEnglish": "Where is the fitting room?",
+      "article": "el"
+    },
+    {
+      "id": "shopping-and-money-cliente",
+      "spanish": "cliente",
+      "english": "customer",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El cliente paga en la caja.",
+      "exampleEnglish": "The customer pays at the till.",
+      "article": "el"
+    },
+    {
+      "id": "shopping-and-money-dependiente",
+      "spanish": "dependiente",
+      "english": "shop assistant",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El dependiente me ayuda.",
+      "exampleEnglish": "The shop assistant helps me.",
+      "article": "el"
+    },
+    {
+      "id": "shopping-and-money-dependienta",
+      "spanish": "dependienta",
+      "english": "shop assistant, female",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La dependienta es muy amable.",
+      "exampleEnglish": "The shop assistant is very kind.",
+      "article": "la"
+    },
+    {
+      "id": "shopping-and-money-abierto",
+      "spanish": "abierto",
+      "english": "open",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "La tienda está abierta.",
+      "exampleEnglish": "The shop is open."
+    },
+    {
+      "id": "shopping-and-money-cerrado",
+      "spanish": "cerrado",
+      "english": "closed",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El banco está cerrado.",
+      "exampleEnglish": "The bank is closed."
+    },
+    {
+      "id": "shopping-and-money-barato",
+      "spanish": "barato",
+      "english": "cheap",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Este pan es barato.",
+      "exampleEnglish": "This bread is cheap."
+    },
+    {
+      "id": "shopping-and-money-caro",
+      "spanish": "caro",
+      "english": "expensive",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "El hotel es caro.",
+      "exampleEnglish": "The hotel is expensive."
+    },
+    {
+      "id": "shopping-and-money-gratis",
+      "spanish": "gratis",
+      "english": "free",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "La entrada es gratis.",
+      "exampleEnglish": "Entry is free."
+    },
+    {
+      "id": "shopping-and-money-cuesta",
+      "spanish": "¿cuánto cuesta?",
+      "english": "how much does it cost?",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "¿Cuánto cuesta este libro?",
+      "exampleEnglish": "How much does this book cost?"
+    },
+    {
+      "id": "shopping-and-money-costar",
+      "spanish": "costar",
+      "english": "to cost",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Cuesta diez euros.",
+      "exampleEnglish": "It costs ten euros."
+    },
+    {
+      "id": "shopping-and-money-pagar",
+      "spanish": "pagar",
+      "english": "to pay",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Pago con tarjeta.",
+      "exampleEnglish": "I pay by card."
+    },
+    {
+      "id": "shopping-and-money-comprar",
+      "spanish": "comprar",
+      "english": "to buy",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Compro fruta en el mercado.",
+      "exampleEnglish": "I buy fruit at the market."
+    },
+    {
+      "id": "shopping-and-money-vender",
+      "spanish": "vender",
+      "english": "to sell",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Esta tienda vende periódicos.",
+      "exampleEnglish": "This shop sells newspapers."
+    },
+    {
+      "id": "shopping-and-money-llevar",
+      "spanish": "llevar",
+      "english": "to take or to wear",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Me llevo este libro.",
+      "exampleEnglish": "I'll take this book."
+    },
+    {
+      "id": "shopping-and-money-buscar",
+      "spanish": "buscar",
+      "english": "to look for",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Busco una talla más grande.",
+      "exampleEnglish": "I'm looking for a bigger size."
+    },
+    {
+      "id": "shopping-and-money-necesitar",
+      "spanish": "necesitar",
+      "english": "to need",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Necesito una bolsa.",
+      "exampleEnglish": "I need a bag."
+    },
+    {
+      "id": "shopping-and-money-querer",
+      "spanish": "querer",
+      "english": "to want",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Quiero este, por favor.",
+      "exampleEnglish": "I want this one, please."
+    },
+    {
+      "id": "shopping-and-money-gustaria",
+      "spanish": "me gustaría",
+      "english": "I would like",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "exampleSpanish": "Me gustaría ver otro color.",
+      "exampleEnglish": "I would like to see another colour."
+    },
+    {
+      "id": "shopping-and-money-propina",
+      "spanish": "propina",
+      "english": "tip",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Dejo una propina.",
+      "exampleEnglish": "I leave a tip.",
+      "article": "la"
+    },
+    {
+      "id": "shopping-and-money-factura",
+      "spanish": "factura",
+      "english": "invoice",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Necesito una factura.",
+      "exampleEnglish": "I need an invoice.",
+      "article": "la"
+    },
+    {
+      "id": "shopping-and-money-descuento",
+      "spanish": "descuento",
+      "english": "discount",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Hay un descuento del diez por ciento.",
+      "exampleEnglish": "There is a ten percent discount.",
+      "article": "el"
+    },
+    {
+      "id": "shopping-and-money-cambio",
+      "spanish": "cambio",
+      "english": "change",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Tiene cambio?",
+      "exampleEnglish": "Do you have change?",
+      "article": "el"
+    },
+    {
+      "id": "shopping-and-money-moneda",
+      "spanish": "moneda",
+      "english": "coin",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Solo tengo una moneda.",
+      "exampleEnglish": "I only have one coin.",
+      "article": "la"
+    },
+    {
+      "id": "shopping-and-money-billete-dinero",
+      "spanish": "billete de diez",
+      "english": "ten-euro note",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Pago con un billete de diez.",
+      "exampleEnglish": "I pay with a ten-euro note.",
+      "article": "el"
+    },
+    {
+      "id": "shopping-and-money-cartera",
+      "spanish": "cartera",
+      "english": "wallet",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La cartera está en el bolso.",
+      "exampleEnglish": "The wallet is in the bag.",
+      "article": "la"
+    },
+    {
+      "id": "shopping-and-money-bolso",
+      "spanish": "bolso",
+      "english": "handbag",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El móvil está en el bolso.",
+      "exampleEnglish": "The phone is in the handbag.",
+      "article": "el"
+    },
+    {
+      "id": "shopping-and-money-regalo",
+      "spanish": "regalo",
+      "english": "present",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Este libro es un regalo.",
+      "exampleEnglish": "This book is a present.",
+      "article": "el"
+    },
+    {
+      "id": "shopping-and-money-tienda-ropa",
+      "spanish": "tienda de ropa",
+      "english": "clothes shop",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La tienda de ropa cierra a las ocho.",
+      "exampleEnglish": "The clothes shop closes at eight.",
+      "article": "la"
+    },
+    {
+      "id": "shopping-and-money-libreria",
+      "spanish": "librería",
+      "english": "bookshop",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Compro el libro en la librería.",
+      "exampleEnglish": "I buy the book at the bookshop.",
+      "article": "la"
+    },
+    {
+      "id": "shopping-and-money-papeleria",
+      "spanish": "papelería",
+      "english": "stationery shop",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La papelería vende bolígrafos.",
+      "exampleEnglish": "The stationery shop sells pens.",
+      "article": "la"
+    },
+    {
+      "id": "shopping-and-money-boligrafo",
+      "spanish": "bolígrafo",
+      "english": "pen",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Necesito un bolígrafo.",
+      "exampleEnglish": "I need a pen.",
+      "article": "el"
+    },
+    {
+      "id": "shopping-and-money-cuaderno",
+      "spanish": "cuaderno",
+      "english": "notebook",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Compro un cuaderno.",
+      "exampleEnglish": "I buy a notebook.",
+      "article": "el"
+    },
+    {
+      "id": "shopping-and-money-periodico",
+      "spanish": "periódico",
+      "english": "newspaper",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Leo el periódico por la mañana.",
+      "exampleEnglish": "I read the newspaper in the morning.",
+      "article": "el"
+    },
+    {
+      "id": "shopping-and-money-revista",
+      "spanish": "revista",
+      "english": "magazine",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Esta revista es de cocina.",
+      "exampleEnglish": "This magazine is about cooking.",
+      "article": "la"
+    },
+    {
+      "id": "shopping-and-money-numero-talla",
+      "spanish": "pequeño",
+      "english": "small",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Este tamaño es pequeño.",
+      "exampleEnglish": "This size is small."
+    },
+    {
+      "id": "shopping-and-money-mediano",
+      "spanish": "mediano",
+      "english": "medium",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Un café mediano, por favor.",
+      "exampleEnglish": "A medium coffee, please."
+    },
+    {
+      "id": "shopping-and-money-grande",
+      "spanish": "grande",
+      "english": "big",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Quiero un bolso más grande.",
+      "exampleEnglish": "I want a bigger bag."
+    },
+    {
+      "id": "shopping-and-money-otro",
+      "spanish": "otro",
+      "english": "another",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Quiero otro color.",
+      "exampleEnglish": "I want another colour."
+    },
+    {
+      "id": "shopping-and-money-este",
+      "spanish": "este",
+      "english": "this one",
+      "partOfSpeech": "pronoun",
+      "level": "A1",
+      "exampleSpanish": "Me llevo este.",
+      "exampleEnglish": "I'll take this one."
+    },
+    {
+      "id": "shopping-and-money-ese",
+      "spanish": "ese",
+      "english": "that one",
+      "partOfSpeech": "pronoun",
+      "level": "A1",
+      "exampleSpanish": "Ese es más barato.",
+      "exampleEnglish": "That one is cheaper."
+    }
+  ]
+}

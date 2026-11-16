@@ -1,0 +1,538 @@
+{
+  "id": "people-and-family",
+  "label": "People and family",
+  "description": "Family, friends, and the words for talking about people.",
+  "sortOrder": 2,
+  "recommendedLevel": "A1",
+  "words": [
+    {
+      "id": "people-and-family-yo",
+      "spanish": "yo",
+      "english": "I",
+      "partOfSpeech": "pronoun",
+      "level": "A1",
+      "exampleSpanish": "Yo soy Ana.",
+      "exampleEnglish": "I am Ana."
+    },
+    {
+      "id": "people-and-family-tu",
+      "spanish": "tú",
+      "english": "you, informal",
+      "partOfSpeech": "pronoun",
+      "level": "A1",
+      "exampleSpanish": "Tú eres de Madrid.",
+      "exampleEnglish": "You are from Madrid."
+    },
+    {
+      "id": "people-and-family-usted",
+      "spanish": "usted",
+      "english": "you, formal",
+      "partOfSpeech": "pronoun",
+      "level": "A1",
+      "exampleSpanish": "¿Cómo está usted?",
+      "exampleEnglish": "How are you?"
+    },
+    {
+      "id": "people-and-family-el-pronombre",
+      "spanish": "él",
+      "english": "he",
+      "partOfSpeech": "pronoun",
+      "level": "A1",
+      "exampleSpanish": "Él es mi hermano.",
+      "exampleEnglish": "He is my brother."
+    },
+    {
+      "id": "people-and-family-ella",
+      "spanish": "ella",
+      "english": "she",
+      "partOfSpeech": "pronoun",
+      "level": "A1",
+      "exampleSpanish": "Ella es mi madre.",
+      "exampleEnglish": "She is my mother."
+    },
+    {
+      "id": "people-and-family-nosotros",
+      "spanish": "nosotros",
+      "english": "we, masculine",
+      "partOfSpeech": "pronoun",
+      "level": "A1",
+      "exampleSpanish": "Nosotros vivimos aquí.",
+      "exampleEnglish": "We live here."
+    },
+    {
+      "id": "people-and-family-nosotras",
+      "spanish": "nosotras",
+      "english": "we, feminine",
+      "partOfSpeech": "pronoun",
+      "level": "A1",
+      "exampleSpanish": "Nosotras somos amigas.",
+      "exampleEnglish": "We are friends."
+    },
+    {
+      "id": "people-and-family-vosotros",
+      "spanish": "vosotros",
+      "english": "you plural, informal",
+      "partOfSpeech": "pronoun",
+      "level": "A1",
+      "exampleSpanish": "¿Vosotros sois de aquí?",
+      "exampleEnglish": "Are you from here?",
+      "spainNote": "Spain uses vosotros for you plural among friends. Much of Latin America uses ustedes instead."
+    },
+    {
+      "id": "people-and-family-vosotras",
+      "spanish": "vosotras",
+      "english": "you plural, feminine",
+      "partOfSpeech": "pronoun",
+      "level": "A1",
+      "exampleSpanish": "Vosotras tenéis razón.",
+      "exampleEnglish": "You are right."
+    },
+    {
+      "id": "people-and-family-ellos",
+      "spanish": "ellos",
+      "english": "they, masculine",
+      "partOfSpeech": "pronoun",
+      "level": "A1",
+      "exampleSpanish": "Ellos son mis padres.",
+      "exampleEnglish": "They are my parents."
+    },
+    {
+      "id": "people-and-family-ellas",
+      "spanish": "ellas",
+      "english": "they, feminine",
+      "partOfSpeech": "pronoun",
+      "level": "A1",
+      "exampleSpanish": "Ellas son mis hermanas.",
+      "exampleEnglish": "They are my sisters."
+    },
+    {
+      "id": "people-and-family-ustedes",
+      "spanish": "ustedes",
+      "english": "you plural, formal",
+      "partOfSpeech": "pronoun",
+      "level": "A1",
+      "exampleSpanish": "¿Ustedes quieren café?",
+      "exampleEnglish": "Would you like coffee?"
+    },
+    {
+      "id": "people-and-family-hombre",
+      "spanish": "hombre",
+      "english": "man",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Ese hombre es mi tío.",
+      "exampleEnglish": "That man is my uncle.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-mujer",
+      "spanish": "mujer",
+      "english": "woman",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Esa mujer es mi tía.",
+      "exampleEnglish": "That woman is my aunt.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-nino",
+      "spanish": "niño",
+      "english": "boy",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El niño tiene diez años.",
+      "exampleEnglish": "The boy is ten.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-nina",
+      "spanish": "niña",
+      "english": "girl",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La niña lee un libro.",
+      "exampleEnglish": "The girl is reading a book.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-chico",
+      "spanish": "chico",
+      "english": "boy",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El chico estudia español.",
+      "exampleEnglish": "The boy is studying Spanish.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-chica",
+      "spanish": "chica",
+      "english": "girl",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La chica vive en Sevilla.",
+      "exampleEnglish": "The girl lives in Seville.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-bebe",
+      "spanish": "bebé",
+      "english": "baby",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El bebé duerme.",
+      "exampleEnglish": "The baby is sleeping.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-amigo",
+      "spanish": "amigo",
+      "english": "friend, male",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Luis es mi amigo.",
+      "exampleEnglish": "Luis is my friend.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-amiga",
+      "spanish": "amiga",
+      "english": "friend, female",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Ana es mi amiga.",
+      "exampleEnglish": "Ana is my friend.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-familia",
+      "spanish": "familia",
+      "english": "family",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi familia vive en España.",
+      "exampleEnglish": "My family lives in Spain.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-padre",
+      "spanish": "padre",
+      "english": "father",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi padre se llama Pablo.",
+      "exampleEnglish": "My father is called Pablo.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-madre",
+      "spanish": "madre",
+      "english": "mother",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi madre es profesora.",
+      "exampleEnglish": "My mother is a teacher.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-padres",
+      "spanish": "padres",
+      "english": "parents",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mis padres están en casa.",
+      "exampleEnglish": "My parents are at home.",
+      "article": "los"
+    },
+    {
+      "id": "people-and-family-hermano",
+      "spanish": "hermano",
+      "english": "brother",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Tengo un hermano.",
+      "exampleEnglish": "I have a brother.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-hermana",
+      "spanish": "hermana",
+      "english": "sister",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi hermana se llama Eva.",
+      "exampleEnglish": "My sister is called Eva.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-hijo",
+      "spanish": "hijo",
+      "english": "son",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Su hijo tiene cinco años.",
+      "exampleEnglish": "His son is five.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-hija",
+      "spanish": "hija",
+      "english": "daughter",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Su hija estudia medicina.",
+      "exampleEnglish": "Her daughter studies medicine.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-abuelo",
+      "spanish": "abuelo",
+      "english": "grandfather",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi abuelo vive en el pueblo.",
+      "exampleEnglish": "My grandfather lives in the village.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-abuela",
+      "spanish": "abuela",
+      "english": "grandmother",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi abuela cocina muy bien.",
+      "exampleEnglish": "My grandmother cooks very well.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-tio",
+      "spanish": "tío",
+      "english": "uncle",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi tío trabaja en un banco.",
+      "exampleEnglish": "My uncle works in a bank.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-tia",
+      "spanish": "tía",
+      "english": "aunt",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi tía vive en Valencia.",
+      "exampleEnglish": "My aunt lives in Valencia.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-primo",
+      "spanish": "primo",
+      "english": "cousin, male",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi primo viene mañana.",
+      "exampleEnglish": "My cousin is coming tomorrow.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-prima",
+      "spanish": "prima",
+      "english": "cousin, female",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi prima estudia en Madrid.",
+      "exampleEnglish": "My cousin studies in Madrid.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-marido",
+      "spanish": "marido",
+      "english": "husband",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Su marido es médico.",
+      "exampleEnglish": "Her husband is a doctor.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-esposa",
+      "spanish": "esposa",
+      "english": "wife",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Su esposa es de Bilbao.",
+      "exampleEnglish": "His wife is from Bilbao.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-novio",
+      "spanish": "novio",
+      "english": "boyfriend",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Su novio se llama Marcos.",
+      "exampleEnglish": "Her boyfriend is called Marcos.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-novia",
+      "spanish": "novia",
+      "english": "girlfriend",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Su novia habla inglés.",
+      "exampleEnglish": "His girlfriend speaks English.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-persona",
+      "spanish": "persona",
+      "english": "person",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Es una persona amable.",
+      "exampleEnglish": "He is a kind person.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-gente",
+      "spanish": "gente",
+      "english": "people",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Hay mucha gente en el mercado.",
+      "exampleEnglish": "There are a lot of people at the market.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-nombre",
+      "spanish": "nombre",
+      "english": "first name",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi nombre es Ana.",
+      "exampleEnglish": "My name is Ana.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-apellido",
+      "spanish": "apellido",
+      "english": "surname",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi apellido es García.",
+      "exampleEnglish": "My surname is García.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-senor",
+      "spanish": "señor",
+      "english": "Mr",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El señor López llega hoy.",
+      "exampleEnglish": "Mr López arrives today.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-senora",
+      "spanish": "señora",
+      "english": "Mrs",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La señora Ruiz es mi vecina.",
+      "exampleEnglish": "Mrs Ruiz is my neighbour.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-vecino",
+      "spanish": "vecino",
+      "english": "neighbour, male",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi vecino es muy amable.",
+      "exampleEnglish": "My neighbour is very kind.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-vecina",
+      "spanish": "vecina",
+      "english": "neighbour, female",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi vecina tiene un perro.",
+      "exampleEnglish": "My neighbour has a dog.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-companero",
+      "spanish": "compañero",
+      "english": "colleague or classmate, male",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi compañero de trabajo llega tarde.",
+      "exampleEnglish": "My colleague arrives late.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-companera",
+      "spanish": "compañera",
+      "english": "colleague or classmate, female",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi compañera de clase es de Cádiz.",
+      "exampleEnglish": "My classmate is from Cádiz.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-pareja",
+      "spanish": "pareja",
+      "english": "partner or couple",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Viene con su pareja.",
+      "exampleEnglish": "He is coming with his partner.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-sobrino",
+      "spanish": "sobrino",
+      "english": "nephew",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi sobrino tiene dos años.",
+      "exampleEnglish": "My nephew is two.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-sobrina",
+      "spanish": "sobrina",
+      "english": "niece",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Mi sobrina vive en Granada.",
+      "exampleEnglish": "My niece lives in Granada.",
+      "article": "la"
+    },
+    {
+      "id": "people-and-family-nieto",
+      "spanish": "nieto",
+      "english": "grandson",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Su nieto estudia aquí.",
+      "exampleEnglish": "His grandson studies here.",
+      "article": "el"
+    },
+    {
+      "id": "people-and-family-nieta",
+      "spanish": "nieta",
+      "english": "granddaughter",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Su nieta tiene siete años.",
+      "exampleEnglish": "Her granddaughter is seven.",
+      "article": "la"
+    }
+  ]
+}

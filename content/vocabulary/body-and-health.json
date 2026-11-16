@@ -1,0 +1,550 @@
+{
+  "id": "body-and-health",
+  "label": "Body and health",
+  "description": "The body, feeling ill, and the pharmacy.",
+  "sortOrder": 11,
+  "recommendedLevel": "A1",
+  "words": [
+    {
+      "id": "body-and-health-cabeza",
+      "spanish": "cabeza",
+      "english": "head",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Me duele la cabeza.",
+      "exampleEnglish": "My head hurts.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-pelo",
+      "spanish": "pelo",
+      "english": "hair",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Tiene el pelo corto.",
+      "exampleEnglish": "His hair is short.",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-cara",
+      "spanish": "cara",
+      "english": "face",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Tiene la cara cansada.",
+      "exampleEnglish": "Her face looks tired.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-ojo",
+      "spanish": "ojo",
+      "english": "eye",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Me duele el ojo.",
+      "exampleEnglish": "My eye hurts.",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-oreja",
+      "spanish": "oreja",
+      "english": "ear",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Me pica la oreja.",
+      "exampleEnglish": "My ear itches.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-nariz",
+      "spanish": "nariz",
+      "english": "nose",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Me duele la nariz.",
+      "exampleEnglish": "My nose hurts.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-boca",
+      "spanish": "boca",
+      "english": "mouth",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Abre la boca, por favor.",
+      "exampleEnglish": "Open your mouth, please.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-diente",
+      "spanish": "diente",
+      "english": "tooth",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Me duele un diente.",
+      "exampleEnglish": "A tooth hurts.",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-labio",
+      "spanish": "labio",
+      "english": "lip",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Tiene el labio cortado.",
+      "exampleEnglish": "His lip is cut.",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-cuello",
+      "spanish": "cuello",
+      "english": "neck",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Me duele el cuello.",
+      "exampleEnglish": "My neck hurts.",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-hombro",
+      "spanish": "hombro",
+      "english": "shoulder",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Me duele el hombro.",
+      "exampleEnglish": "My shoulder hurts.",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-brazo",
+      "spanish": "brazo",
+      "english": "arm",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Levanta el brazo.",
+      "exampleEnglish": "Lift your arm.",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-codo",
+      "spanish": "codo",
+      "english": "elbow",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Me golpeo el codo.",
+      "exampleEnglish": "I hit my elbow.",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-mano",
+      "spanish": "mano",
+      "english": "hand",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Dame la mano.",
+      "exampleEnglish": "Give me your hand.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-dedo",
+      "spanish": "dedo",
+      "english": "finger",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Me corto el dedo.",
+      "exampleEnglish": "I cut my finger.",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-una",
+      "spanish": "uña",
+      "english": "nail",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Me rompo una uña.",
+      "exampleEnglish": "I break a nail.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-pecho",
+      "spanish": "pecho",
+      "english": "chest",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Me duele el pecho.",
+      "exampleEnglish": "My chest hurts.",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-espalda",
+      "spanish": "espalda",
+      "english": "back",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Me duele la espalda.",
+      "exampleEnglish": "My back hurts.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-estomago",
+      "spanish": "estómago",
+      "english": "stomach",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Me duele el estómago.",
+      "exampleEnglish": "My stomach hurts.",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-pierna",
+      "spanish": "pierna",
+      "english": "leg",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Me duele la pierna.",
+      "exampleEnglish": "My leg hurts.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-rodilla",
+      "spanish": "rodilla",
+      "english": "knee",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Me duele la rodilla.",
+      "exampleEnglish": "My knee hurts.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-pie",
+      "spanish": "pie",
+      "english": "foot",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Me duele el pie.",
+      "exampleEnglish": "My foot hurts.",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-piel",
+      "spanish": "piel",
+      "english": "skin",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La piel está seca.",
+      "exampleEnglish": "My skin is dry.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-corazon",
+      "spanish": "corazón",
+      "english": "heart",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El corazón late rápido.",
+      "exampleEnglish": "The heart beats fast.",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-salud",
+      "spanish": "salud",
+      "english": "health",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La salud es lo primero.",
+      "exampleEnglish": "Health comes first.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-dolor",
+      "spanish": "dolor",
+      "english": "pain",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Tengo un dolor de cabeza.",
+      "exampleEnglish": "I have a headache.",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-fiebre",
+      "spanish": "fiebre",
+      "english": "fever",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El niño tiene fiebre.",
+      "exampleEnglish": "The child has a fever.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-tos",
+      "spanish": "tos",
+      "english": "cough",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Tengo tos.",
+      "exampleEnglish": "I have a cough.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-gripe",
+      "spanish": "gripe",
+      "english": "flu",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Estoy con gripe.",
+      "exampleEnglish": "I have the flu.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-resfriado",
+      "spanish": "resfriado",
+      "english": "cold",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Tengo un resfriado.",
+      "exampleEnglish": "I have a cold.",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-alergia",
+      "spanish": "alergia",
+      "english": "allergy",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Tengo alergia al polvo.",
+      "exampleEnglish": "I am allergic to dust.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-medicina",
+      "spanish": "medicina",
+      "english": "medicine",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Esta medicina es para la tos.",
+      "exampleEnglish": "This medicine is for the cough.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-pastilla",
+      "spanish": "pastilla",
+      "english": "tablet",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Tomo una pastilla.",
+      "exampleEnglish": "I take a tablet.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-jarabe",
+      "spanish": "jarabe",
+      "english": "syrup",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El jarabe es para la tos.",
+      "exampleEnglish": "The syrup is for the cough.",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-cita",
+      "spanish": "cita",
+      "english": "appointment",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Tengo cita a las cinco.",
+      "exampleEnglish": "I have an appointment at five.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-consulta",
+      "spanish": "consulta",
+      "english": "consultation",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La consulta es en el centro de salud.",
+      "exampleEnglish": "The appointment is at the health centre.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-centro-salud",
+      "spanish": "centro de salud",
+      "english": "health centre",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El centro de salud abre a las ocho.",
+      "exampleEnglish": "The health centre opens at eight.",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-urgencia",
+      "spanish": "urgencias",
+      "english": "accident and emergency",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Vamos a urgencias.",
+      "exampleEnglish": "We go to accident and emergency.",
+      "article": "las"
+    },
+    {
+      "id": "body-and-health-ambulancia",
+      "spanish": "ambulancia",
+      "english": "ambulance",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Llama a una ambulancia.",
+      "exampleEnglish": "Call an ambulance.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-seguro",
+      "spanish": "seguro",
+      "english": "insurance",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "¿Tiene el seguro?",
+      "exampleEnglish": "Do you have the insurance?",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-receta",
+      "spanish": "receta",
+      "english": "prescription",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "La receta está en la farmacia.",
+      "exampleEnglish": "The prescription is at the pharmacy.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-venda",
+      "spanish": "venda",
+      "english": "bandage",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Necesito una venda.",
+      "exampleEnglish": "I need a bandage.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-tirita",
+      "spanish": "tirita",
+      "english": "plaster",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Pon una tirita en el dedo.",
+      "exampleEnglish": "Put a plaster on the finger.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-cansancio",
+      "spanish": "cansancio",
+      "english": "tiredness",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "El cansancio es normal.",
+      "exampleEnglish": "Feeling tired is normal.",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-sueno",
+      "spanish": "sueño",
+      "english": "sleepiness",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Tengo sueño.",
+      "exampleEnglish": "I'm sleepy.",
+      "article": "el"
+    },
+    {
+      "id": "body-and-health-energia",
+      "spanish": "energía",
+      "english": "energy",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "exampleSpanish": "Hoy no tengo energía.",
+      "exampleEnglish": "I have no energy today.",
+      "article": "la"
+    },
+    {
+      "id": "body-and-health-enfermo",
+      "spanish": "enfermo",
+      "english": "ill",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Estoy enfermo.",
+      "exampleEnglish": "I'm ill."
+    },
+    {
+      "id": "body-and-health-sano",
+      "spanish": "sano",
+      "english": "healthy",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "exampleSpanish": "Como fruta para estar sano.",
+      "exampleEnglish": "I eat fruit to stay healthy."
+    },
+    {
+      "id": "body-and-health-doler",
+      "spanish": "doler",
+      "english": "to hurt",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Me duele la cabeza.",
+      "exampleEnglish": "My head hurts."
+    },
+    {
+      "id": "body-and-health-tomar",
+      "spanish": "tomar",
+      "english": "to take",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Tomo la medicina después de comer.",
+      "exampleEnglish": "I take the medicine after eating."
+    },
+    {
+      "id": "body-and-health-descansar",
+      "spanish": "descansar",
+      "english": "to rest",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Hoy descanso en casa.",
+      "exampleEnglish": "Today I rest at home."
+    },
+    {
+      "id": "body-and-health-dormir",
+      "spanish": "dormir",
+      "english": "to sleep",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Duermo ocho horas.",
+      "exampleEnglish": "I sleep eight hours."
+    },
+    {
+      "id": "body-and-health-despertarse",
+      "spanish": "despertarse",
+      "english": "to wake up",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Me despierto a las siete.",
+      "exampleEnglish": "I wake up at seven."
+    },
+    {
+      "id": "body-and-health-sentirse",
+      "spanish": "sentirse",
+      "english": "to feel",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "exampleSpanish": "Me siento mejor.",
+      "exampleEnglish": "I feel better."
+    },
+    {
+      "id": "body-and-health-mejor",
+      "spanish": "mejor",
+      "english": "better",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "exampleSpanish": "Hoy estoy mejor.",
+      "exampleEnglish": "I'm better today."
+    }
+  ]
+}
