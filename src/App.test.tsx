@@ -60,6 +60,14 @@ describe("application shell", () => {
     expect(screen.getByText(/does not show sample words/i)).toBeInTheDocument()
   })
 
+  it("opens sentence builder without sample sentences", async () => {
+    render(<App initialAuth={readyLearner} />)
+    screen.getByRole("link", { name: "Sentence Builder" }).click()
+    expect(await screen.findByRole("heading", { level: 1, name: "Sentence Builder" })).toBeInTheDocument()
+    expect(screen.getByText(/does not show sample sentences/i)).toBeInTheDocument()
+    expect(screen.queryByText(/not built yet/i)).not.toBeInTheDocument()
+  })
+
   it("asks a signed-out visitor to sign in before the study sections", async () => {
     render(<App />)
     expect(await screen.findByRole("heading", { name: "Sign in" })).toBeInTheDocument()

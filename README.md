@@ -95,6 +95,17 @@ A learner can read the bank and can write only their own progress. Open Vocabula
 
 These headwords are the Spain-specific ones to check first: vale, ordenador, móvil, coger, conducir, zumo, patata, tortilla, bocadillo, camarero, piso, coche, gafas, jersey, billete, gasolinera, aparcamiento, quedar, apetecer, echar de menos, and vosotros. The card note says what the rest of the Spanish-speaking world often uses instead.
 
+## Load the grammar
+
+Sentence Builder reads lessons from the same project.
+
+1. In the SQL editor, run [supabase/migrations/0003_grammar.sql](supabase/migrations/0003_grammar.sql) after the vocabulary migration.
+2. From `spanish-made-easy/`, run `npm run seed` again. The same command updates the word bank and the lessons.
+
+If the grammar tables are already loaded, run [supabase/migrations/0004_exercise_translation.sql](supabase/migrations/0004_exercise_translation.sql) as well, then `npm run seed` again. Check then shows the English of the listed sentence.
+
+A topic finishes at 80 percent, rounded up. Twelve exercises need 10 correct. Try again replaces the stored score. A later topic names the earlier one to study first, and the lesson still opens. Grammar does not use the daily vocabulary target. The checker accepts the answers listed for that exercise, including a listed Latin American variant, and it keeps accents. It does not claim to judge every possible Spanish sentence.
+
 ## Hosting
 
 The site is a static Vite app. `public/_redirects` sends unknown paths to `index.html` so client-side routes work on Cloudflare Pages. Deployment is not part of this milestone.
