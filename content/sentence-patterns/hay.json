@@ -1,0 +1,48 @@
+[
+  {
+    "id": "hay-there",
+    "topicId": "hay",
+    "title": "There is or there are",
+    "frame": "hay + noun",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "hay",
+        "wordIds": []
+      },
+      {
+        "name": "thing",
+        "description": "what exists, such as un banco or libros",
+        "wordIds": [
+          "town-and-places-banco",
+          "work-and-study-libro",
+          "food-and-drink-cafe"
+        ]
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "hay-none",
+    "topicId": "hay",
+    "title": "There is none",
+    "frame": "no hay + noun",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "no hay",
+        "wordIds": []
+      },
+      {
+        "name": "thing",
+        "description": "what is missing, such as leche or pan",
+        "wordIds": [
+          "food-and-drink-leche",
+          "food-and-drink-pan",
+          "food-and-drink-agua"
+        ]
+      }
+    ],
+    "sortOrder": 1
+  }
+]

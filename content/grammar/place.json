@@ -1,0 +1,50 @@
+{
+  "id": "place",
+  "title": "Place",
+  "sortOrder": 19,
+  "prerequisiteId": "estar",
+  "explanation": "En says in, on, or at: el libro está en la mesa. A says toward: voy a la estación. A plus el becomes al, and de plus el becomes del.\n\nCerca de means near. La casa está cerca del parque uses del because de and el combine.",
+  "commonMistake": "Saying en el when you mean toward, or leaving a el and de el uncontracted.",
+  "examples": [
+    {
+      "spanish": "El libro está en la mesa.",
+      "english": "The book is on the table.",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "Estoy en el parque.",
+      "english": "I am in the park.",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "Estoy en casa.",
+      "english": "I am at home.",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "Voy a la estación.",
+      "english": "I am going to the station.",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "Voy al banco.",
+      "english": "I am going to the bank.",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "Vamos al museo.",
+      "english": "We are going to the museum.",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "La casa está cerca del parque.",
+      "english": "The house is near the park.",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "El café está en la mesa.",
+      "english": "The coffee is on the table.",
+      "sortOrder": 7
+    }
+  ]
+}

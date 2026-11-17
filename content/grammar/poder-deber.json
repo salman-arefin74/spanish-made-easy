@@ -1,0 +1,50 @@
+{
+  "id": "poder-deber",
+  "title": "Poder, deber, and preferir",
+  "sortOrder": 18,
+  "prerequisiteId": "querer",
+  "explanation": "Poder, deber, and preferir are followed by an infinitive when the sentence is about an action. Puedo hablar means I can speak. Debo estudiar means I must study. Preferir can also take a noun: prefiero el café.\n\nThe yo and tú forms change the stem. Puedo, puedes, puede. Debo, debes, debe. Prefiero, prefieres, prefiere. In Spain, juice is zumo.",
+  "commonMistake": "Conjugating the second verb. The second verb stays in the infinitive: puedo hablar, not puedo hablo.",
+  "examples": [
+    {
+      "spanish": "Puedo hablar.",
+      "english": "I can speak.",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "Puedes comer.",
+      "english": "You can eat.",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "Puede estudiar.",
+      "english": "She can study.",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "Podemos ir.",
+      "english": "We can go.",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "Debo estudiar.",
+      "english": "I must study.",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "Debes comer.",
+      "english": "You must eat.",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "Prefiero el café.",
+      "english": "I prefer coffee.",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "Prefiero el zumo.",
+      "english": "I prefer juice.",
+      "sortOrder": 7
+    }
+  ]
+}

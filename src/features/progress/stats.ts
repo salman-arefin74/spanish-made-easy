@@ -71,6 +71,7 @@ export function buildBoard(input: {
   studyDays: readonly string[]
   topics: readonly BoardTopic[]
   exams: readonly BoardExam[]
+  situations: readonly { finished: boolean }[]
   today: string
   dailyTarget: number
 }): BoardFigures {
@@ -103,8 +104,8 @@ export function buildBoard(input: {
     a2Known,
     a2Total,
     introduced,
-    situationsFinished: 0,
-    situationsTotal: 12,
+    situationsFinished: input.situations.filter((situation) => situation.finished).length,
+    situationsTotal: input.situations.length,
     target: input.dailyTarget,
     reviewsToday,
     introducedToday,

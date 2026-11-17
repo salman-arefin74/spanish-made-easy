@@ -1,0 +1,78 @@
+{
+  "id": "ordering-a-drink",
+  "title": "Ordering a drink",
+  "aim": "Order a coffee or a juice and ask for the bill.",
+  "spainNote": "Spain says zumo. Much of Latin America says jugo.",
+  "sortOrder": 2,
+  "phrases": [
+    { "wordId": "food-and-drink-cafe", "spanish": "café", "english": "coffee" },
+    { "wordId": "food-and-drink-zumo", "spanish": "zumo", "english": "juice" },
+    { "wordId": "everyday-essentials-por-favor", "spanish": "por favor", "english": "please" },
+    { "wordId": "food-and-drink-cuenta", "spanish": "cuenta", "english": "bill" },
+    { "wordId": "everyday-essentials-vale", "spanish": "vale", "english": "okay" }
+  ],
+  "turns": [
+    { "speaker": "Ana", "spanish": "Un café, por favor.", "english": "A coffee, please." },
+    { "speaker": "Camarero", "spanish": "Vale. ¿Algo más?", "english": "Okay. Anything else?" },
+    { "speaker": "Ana", "spanish": "Un zumo, por favor.", "english": "A juice, please." },
+    { "speaker": "Camarero", "spanish": "Aquí tiene.", "english": "Here you are." },
+    { "speaker": "Ana", "spanish": "La cuenta, por favor.", "english": "The bill, please." },
+    { "speaker": "Camarero", "spanish": "Vale.", "english": "Okay." }
+  ],
+  "exercises": [
+    {
+      "id": "ordering-a-drink-first",
+      "kind": "comprehension",
+      "prompt": "Which line is Ana's first order?",
+      "choices": ["Un café, por favor.", "Un zumo, por favor.", "La cuenta, por favor."],
+      "acceptedAnswers": ["Un café, por favor."],
+      "translation": "A coffee, please.",
+      "explanation": "The first order is un café."
+    },
+    {
+      "id": "ordering-a-drink-second",
+      "kind": "comprehension",
+      "prompt": "Which line is Ana's second order?",
+      "choices": ["Un zumo, por favor.", "Un café, por favor.", "La cuenta, por favor."],
+      "acceptedAnswers": ["Un zumo, por favor."],
+      "translation": "A juice, please.",
+      "explanation": "In Spain, juice is un zumo."
+    },
+    {
+      "id": "ordering-a-drink-bill",
+      "kind": "comprehension",
+      "prompt": "Which line asks for the bill?",
+      "choices": ["La cuenta, por favor.", "Un café, por favor.", "Un zumo, por favor."],
+      "acceptedAnswers": ["La cuenta, por favor."],
+      "translation": "The bill, please.",
+      "explanation": "Ana asks for the bill at the end."
+    },
+    {
+      "id": "ordering-a-drink-coffee",
+      "kind": "construct",
+      "prompt": "Order a coffee politely.",
+      "tokens": ["Un", "café", "por", "favor"],
+      "acceptedAnswers": ["Un café por favor"],
+      "translation": "A coffee, please.",
+      "explanation": "Por favor keeps the order polite."
+    },
+    {
+      "id": "ordering-a-drink-juice",
+      "kind": "construct",
+      "prompt": "Order a juice politely.",
+      "tokens": ["Un", "zumo", "por", "favor"],
+      "acceptedAnswers": ["Un zumo por favor"],
+      "translation": "A juice, please.",
+      "explanation": "Use zumo for juice in Spain."
+    },
+    {
+      "id": "ordering-a-drink-ask-bill",
+      "kind": "construct",
+      "prompt": "Ask for the bill politely.",
+      "tokens": ["La", "cuenta", "por", "favor"],
+      "acceptedAnswers": ["La cuenta por favor"],
+      "translation": "The bill, please.",
+      "explanation": "La cuenta is the bill."
+    }
+  ]
+}

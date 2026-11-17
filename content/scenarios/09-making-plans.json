@@ -1,0 +1,79 @@
+{
+  "id": "making-plans",
+  "title": "Making plans",
+  "aim": "Arrange to meet friends on Saturday.",
+  "spainNote": "Spain uses vosotros for you plural among friends. Much of Latin America uses ustedes instead.",
+  "sortOrder": 9,
+  "phrases": [
+    { "wordId": "free-time-quedar", "spanish": "quedar", "english": "to meet up" },
+    { "wordId": "people-and-family-vosotros", "spanish": "vosotros", "english": "you plural, informal" },
+    { "wordId": "time-and-calendar-sabado", "spanish": "sábado", "english": "Saturday" },
+    { "wordId": "time-and-calendar-tarde-hora", "spanish": "por la tarde", "english": "in the afternoon" },
+    { "wordId": "everyday-essentials-vale", "spanish": "vale", "english": "okay" },
+    { "wordId": "everyday-essentials-hasta-luego", "spanish": "hasta luego", "english": "see you later" }
+  ],
+  "turns": [
+    { "speaker": "Ana", "spanish": "¿Quedamos el sábado por la tarde?", "english": "Shall we meet on Saturday afternoon?" },
+    { "speaker": "Luis", "spanish": "Vale.", "english": "Okay." },
+    { "speaker": "Ana", "spanish": "¿Venís vosotros?", "english": "Are you coming?" },
+    { "speaker": "Luis", "spanish": "Sí, nosotros vamos.", "english": "Yes, we are going." },
+    { "speaker": "Ana", "spanish": "Hasta el sábado.", "english": "See you on Saturday." },
+    { "speaker": "Luis", "spanish": "Hasta luego.", "english": "See you later." }
+  ],
+  "exercises": [
+    {
+      "id": "making-plans-when",
+      "kind": "comprehension",
+      "prompt": "Which line suggests Saturday afternoon?",
+      "choices": ["¿Quedamos el sábado por la tarde?", "¿Venís vosotros?", "Hasta luego."],
+      "acceptedAnswers": ["¿Quedamos el sábado por la tarde?"],
+      "translation": "Shall we meet on Saturday afternoon?",
+      "explanation": "El sábado por la tarde is Saturday afternoon."
+    },
+    {
+      "id": "making-plans-you",
+      "kind": "comprehension",
+      "prompt": "Which line uses vosotros?",
+      "choices": ["¿Venís vosotros?", "Sí, nosotros vamos.", "Hasta el sábado."],
+      "acceptedAnswers": ["¿Venís vosotros?"],
+      "translation": "Are you coming?",
+      "explanation": "Among friends in Spain, you plural is vosotros."
+    },
+    {
+      "id": "making-plans-answer",
+      "kind": "comprehension",
+      "prompt": "Which line says they are coming?",
+      "choices": ["Sí, nosotros vamos.", "¿Quedamos el sábado por la tarde?", "Hasta luego."],
+      "acceptedAnswers": ["Sí, nosotros vamos."],
+      "translation": "Yes, we are going.",
+      "explanation": "Luis says they are going."
+    },
+    {
+      "id": "making-plans-meet",
+      "kind": "construct",
+      "prompt": "Suggest meeting on Saturday afternoon.",
+      "tokens": ["Quedamos", "el", "sábado", "por", "la", "tarde"],
+      "acceptedAnswers": ["Quedamos el sábado por la tarde"],
+      "translation": "Shall we meet on Saturday afternoon?",
+      "explanation": "Quedar is to meet up."
+    },
+    {
+      "id": "making-plans-coming",
+      "kind": "construct",
+      "prompt": "Ask if you all are coming.",
+      "tokens": ["Venís", "vosotros"],
+      "acceptedAnswers": ["Venís vosotros"],
+      "translation": "Are you coming?",
+      "explanation": "The spoken question is ¿Venís vosotros?"
+    },
+    {
+      "id": "making-plans-later",
+      "kind": "construct",
+      "prompt": "Say see you later.",
+      "tokens": ["Hasta", "luego"],
+      "acceptedAnswers": ["Hasta luego"],
+      "translation": "See you later.",
+      "explanation": "Luis closes with hasta luego."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "at-the-office",
+  "title": "At the office",
+  "aim": "Talk about the computer and the phone at work.",
+  "spainNote": "Spain says ordenador and móvil. Much of Latin America says computadora and celular.",
+  "sortOrder": 11,
+  "phrases": [
+    { "wordId": "work-and-study-oficina", "spanish": "oficina", "english": "office" },
+    { "wordId": "work-and-study-ordenador", "spanish": "ordenador", "english": "computer" },
+    { "wordId": "work-and-study-movil", "spanish": "móvil", "english": "mobile phone" },
+    { "wordId": "work-and-study-mensaje", "spanish": "mensaje", "english": "message" },
+    { "wordId": "work-and-study-trabajo", "spanish": "trabajo", "english": "work or job" }
+  ],
+  "turns": [
+    { "speaker": "Jefe", "spanish": "¿Estás en la oficina?", "english": "Are you in the office?" },
+    { "speaker": "Ana", "spanish": "Sí, estoy en la oficina.", "english": "Yes, I am in the office." },
+    { "speaker": "Jefe", "spanish": "El ordenador no funciona.", "english": "The computer does not work." },
+    { "speaker": "Ana", "spanish": "Mi móvil sí funciona.", "english": "My phone does work." },
+    { "speaker": "Jefe", "spanish": "¿Hay un mensaje?", "english": "Is there a message?" },
+    { "speaker": "Ana", "spanish": "Sí, hay un mensaje del trabajo.", "english": "Yes, there is a message from work." }
+  ],
+  "exercises": [
+    {
+      "id": "at-the-office-where",
+      "kind": "comprehension",
+      "prompt": "Which line says Ana is in the office?",
+      "choices": ["Sí, estoy en la oficina.", "El ordenador no funciona.", "Mi móvil sí funciona."],
+      "acceptedAnswers": ["Sí, estoy en la oficina."],
+      "translation": "Yes, I am in the office.",
+      "explanation": "La oficina is the office."
+    },
+    {
+      "id": "at-the-office-broken",
+      "kind": "comprehension",
+      "prompt": "Which line says the computer does not work?",
+      "choices": ["El ordenador no funciona.", "Mi móvil sí funciona.", "Sí, hay un mensaje del trabajo."],
+      "acceptedAnswers": ["El ordenador no funciona."],
+      "translation": "The computer does not work.",
+      "explanation": "In Spain, a computer is un ordenador."
+    },
+    {
+      "id": "at-the-office-message",
+      "kind": "comprehension",
+      "prompt": "Which line says there is a message?",
+      "choices": ["Sí, hay un mensaje del trabajo.", "¿Hay un mensaje?", "El ordenador no funciona."],
+      "acceptedAnswers": ["Sí, hay un mensaje del trabajo."],
+      "translation": "Yes, there is a message from work.",
+      "explanation": "Un mensaje is a message."
+    },
+    {
+      "id": "at-the-office-here",
+      "kind": "construct",
+      "prompt": "Say you are in the office.",
+      "tokens": ["Estoy", "en", "la", "oficina"],
+      "acceptedAnswers": ["Estoy en la oficina"],
+      "translation": "I am in the office.",
+      "explanation": "Oficina is the office."
+    },
+    {
+      "id": "at-the-office-computer",
+      "kind": "construct",
+      "prompt": "Say the computer does not work.",
+      "tokens": ["El", "ordenador", "no", "funciona"],
+      "acceptedAnswers": ["El ordenador no funciona"],
+      "translation": "The computer does not work.",
+      "explanation": "Use ordenador in Spain."
+    },
+    {
+      "id": "at-the-office-phone",
+      "kind": "construct",
+      "prompt": "Say your phone does work.",
+      "tokens": ["Mi", "móvil", "sí", "funciona"],
+      "acceptedAnswers": ["Mi móvil sí funciona"],
+      "translation": "My phone does work.",
+      "explanation": "In Spain, a mobile phone is un móvil."
+    }
+  ]
+}

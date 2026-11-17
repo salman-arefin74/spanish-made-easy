@@ -1,0 +1,49 @@
+[
+  {
+    "id": "present-er-ir-eat",
+    "topicId": "present-er-ir",
+    "title": "An -er verb",
+    "frame": "como, comes, come, comemos, coméis, or comen",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "a form of comer or beber",
+        "wordIds": [
+          "useful-verbs-comer"
+        ]
+      },
+      {
+        "name": "thing",
+        "description": "what you eat or drink, such as pan or agua",
+        "wordIds": [
+          "food-and-drink-pan",
+          "food-and-drink-agua"
+        ]
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "present-er-ir-live",
+    "topicId": "present-er-ir",
+    "title": "An -ir verb",
+    "frame": "vivo, vives, vive, vivimos, vivís, or viven",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "a form of vivir",
+        "wordIds": [
+          "useful-verbs-vivir"
+        ]
+      },
+      {
+        "name": "place",
+        "description": "en + place",
+        "wordIds": [
+          "the-home-casa"
+        ]
+      }
+    ],
+    "sortOrder": 1
+  }
+]

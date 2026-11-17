@@ -1,0 +1,67 @@
+[
+  {
+    "id": "questions-negation-where",
+    "topicId": "questions-negation",
+    "title": "Where",
+    "frame": "¿Dónde está + noun?",
+    "slots": [
+      {
+        "name": "question",
+        "description": "dónde está",
+        "wordIds": []
+      },
+      {
+        "name": "place",
+        "description": "a place such as el banco",
+        "wordIds": [
+          "town-and-places-banco"
+        ]
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "questions-negation-what",
+    "topicId": "questions-negation",
+    "title": "What",
+    "frame": "¿Qué quieres?",
+    "slots": [
+      {
+        "name": "question",
+        "description": "qué quieres",
+        "wordIds": [
+          "shopping-and-money-querer"
+        ]
+      },
+      {
+        "name": "thing",
+        "description": "the thing, when you add one",
+        "wordIds": [
+          "food-and-drink-cafe"
+        ]
+      }
+    ],
+    "sortOrder": 1
+  },
+  {
+    "id": "questions-negation-no",
+    "topicId": "questions-negation",
+    "title": "Not",
+    "frame": "no + verb",
+    "slots": [
+      {
+        "name": "no",
+        "description": "no directly before the verb",
+        "wordIds": []
+      },
+      {
+        "name": "verb",
+        "description": "the verb, such as quiero or estoy",
+        "wordIds": [
+          "shopping-and-money-querer"
+        ]
+      }
+    ],
+    "sortOrder": 2
+  }
+]

@@ -1,0 +1,215 @@
+[
+  {
+    "id": "articles-understand-1",
+    "topicId": "articles",
+    "kind": "understand",
+    "prompt": "You mean one coffee, not a particular one.",
+    "choices": [
+      "un café",
+      "el café"
+    ],
+    "acceptedAnswers": [
+      "un café"
+    ],
+    "explanation": "Un introduces a coffee that is new.",
+    "sortOrder": 0,
+    "translation": "a coffee"
+  },
+  {
+    "id": "articles-understand-2",
+    "topicId": "articles",
+    "kind": "understand",
+    "prompt": "You mean the house you are both looking at.",
+    "choices": [
+      "la casa",
+      "una casa"
+    ],
+    "acceptedAnswers": [
+      "la casa"
+    ],
+    "explanation": "La points to that house.",
+    "sortOrder": 1,
+    "translation": "the house"
+  },
+  {
+    "id": "articles-understand-3",
+    "topicId": "articles",
+    "kind": "understand",
+    "prompt": "You ask for the water.",
+    "choices": [
+      "el agua",
+      "la agua"
+    ],
+    "acceptedAnswers": [
+      "el agua"
+    ],
+    "explanation": "Agua is feminine, and the singular article is el.",
+    "sortOrder": 2,
+    "translation": "the water"
+  },
+  {
+    "id": "articles-understand-4",
+    "topicId": "articles",
+    "kind": "understand",
+    "prompt": "You mean those particular books.",
+    "choices": [
+      "los libros",
+      "las libros"
+    ],
+    "acceptedAnswers": [
+      "los libros"
+    ],
+    "explanation": "Libros is masculine plural, so the article is los.",
+    "sortOrder": 3,
+    "translation": "the books"
+  },
+  {
+    "id": "articles-construct-1",
+    "topicId": "articles",
+    "kind": "construct",
+    "prompt": "Build: a coffee.",
+    "tokens": [
+      "Un",
+      "El",
+      "café",
+      "casa"
+    ],
+    "acceptedAnswers": [
+      "Un café"
+    ],
+    "explanation": "Un café.",
+    "sortOrder": 4,
+    "translation": "a coffee"
+  },
+  {
+    "id": "articles-construct-2",
+    "topicId": "articles",
+    "kind": "construct",
+    "prompt": "Build: the house.",
+    "tokens": [
+      "La",
+      "Una",
+      "casa",
+      "café"
+    ],
+    "acceptedAnswers": [
+      "La casa"
+    ],
+    "explanation": "La casa.",
+    "sortOrder": 5,
+    "translation": "the house"
+  },
+  {
+    "id": "articles-construct-3",
+    "topicId": "articles",
+    "kind": "construct",
+    "prompt": "Build: the water.",
+    "tokens": [
+      "El",
+      "La",
+      "agua",
+      "leche"
+    ],
+    "acceptedAnswers": [
+      "El agua"
+    ],
+    "explanation": "El agua.",
+    "sortOrder": 6,
+    "translation": "the water"
+  },
+  {
+    "id": "articles-construct-4",
+    "topicId": "articles",
+    "kind": "construct",
+    "prompt": "Build: some tables.",
+    "tokens": [
+      "Unas",
+      "Unos",
+      "mesas",
+      "libros"
+    ],
+    "acceptedAnswers": [
+      "Unas mesas"
+    ],
+    "explanation": "Mesas is feminine plural.",
+    "sortOrder": 7,
+    "translation": "some tables"
+  },
+  {
+    "id": "articles-apply-1",
+    "topicId": "articles",
+    "kind": "apply",
+    "prompt": "Order a coffee, any coffee.",
+    "tokens": [
+      "Un",
+      "El",
+      "café",
+      "por",
+      "favor"
+    ],
+    "acceptedAnswers": [
+      "Un café, por favor"
+    ],
+    "explanation": "Un café, por favor.",
+    "sortOrder": 8,
+    "translation": "A coffee, please."
+  },
+  {
+    "id": "articles-apply-2",
+    "topicId": "articles",
+    "kind": "apply",
+    "prompt": "Point to the house.",
+    "tokens": [
+      "Es",
+      "la",
+      "una",
+      "casa",
+      "libro"
+    ],
+    "acceptedAnswers": [
+      "Es la casa"
+    ],
+    "explanation": "Es la casa.",
+    "sortOrder": 9,
+    "translation": "It is the house."
+  },
+  {
+    "id": "articles-apply-3",
+    "topicId": "articles",
+    "kind": "apply",
+    "prompt": "Ask for the water.",
+    "tokens": [
+      "El",
+      "La",
+      "agua",
+      "leche",
+      "por",
+      "favor"
+    ],
+    "acceptedAnswers": [
+      "El agua, por favor"
+    ],
+    "explanation": "El agua, por favor.",
+    "sortOrder": 10,
+    "translation": "The water, please."
+  },
+  {
+    "id": "articles-apply-4",
+    "topicId": "articles",
+    "kind": "apply",
+    "prompt": "You need more than one table.",
+    "tokens": [
+      "Necesito",
+      "unas",
+      "unos",
+      "mesas",
+      "libros"
+    ],
+    "acceptedAnswers": [
+      "Necesito unas mesas"
+    ],
+    "explanation": "Necesito unas mesas.",
+    "sortOrder": 11,
+    "translation": "I need some tables."
+  }
+]

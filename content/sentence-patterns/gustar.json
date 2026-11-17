@@ -1,0 +1,45 @@
+[
+  {
+    "id": "gustar-one",
+    "topicId": "gustar",
+    "title": "One thing",
+    "frame": "me, te, le, nos, os, or les + gusta + singular noun",
+    "slots": [
+      {
+        "name": "person",
+        "description": "me, te, le, nos, os, or les",
+        "wordIds": []
+      },
+      {
+        "name": "thing",
+        "description": "one thing, such as el café",
+        "wordIds": [
+          "food-and-drink-cafe",
+          "useful-verbs-gustar"
+        ]
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "gustar-many",
+    "topicId": "gustar",
+    "title": "More than one thing",
+    "frame": "me gusta becomes me gustan with a plural",
+    "slots": [
+      {
+        "name": "person",
+        "description": "me for I",
+        "wordIds": []
+      },
+      {
+        "name": "things",
+        "description": "a plural noun such as los libros",
+        "wordIds": [
+          "work-and-study-libro"
+        ]
+      }
+    ],
+    "sortOrder": 1
+  }
+]

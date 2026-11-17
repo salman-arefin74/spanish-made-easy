@@ -1,0 +1,50 @@
+{
+  "id": "present-er-ir",
+  "title": "Present tense: -er and -ir",
+  "sortOrder": 10,
+  "prerequisiteId": "present-ar",
+  "explanation": "Comer uses -o, -es, -e, -emos, -éis, and -en: como, comes, come, comemos, coméis, comen. Vivir uses -o, -es, -e, -imos, -ís, and -en: vivo, vives, vive, vivimos, vivís, viven.\n\nThe yo form of both families ends in -o. The tú form of both ends in -es. The plural endings are the part that separates them.",
+  "commonMistake": "Giving vivir an -ar ending, such as vivas, or putting the accent on the wrong letter in coméis and vivís.",
+  "examples": [
+    {
+      "spanish": "Como pan.",
+      "english": "I eat bread.",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "Comes pan.",
+      "english": "You eat bread.",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "Come en casa.",
+      "english": "She eats at home.",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "Comemos pan.",
+      "english": "We eat bread.",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "Bebo agua.",
+      "english": "I drink water.",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "Vivo en Madrid.",
+      "english": "I live in Madrid.",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "Vivís en casa.",
+      "english": "You live at home.",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "Viven en Madrid.",
+      "english": "They live in Madrid.",
+      "sortOrder": 7
+    }
+  ]
+}

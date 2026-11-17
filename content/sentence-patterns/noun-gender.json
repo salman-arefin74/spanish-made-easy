@@ -1,0 +1,46 @@
+[
+  {
+    "id": "noun-gender-masculine",
+    "topicId": "noun-gender",
+    "title": "Masculine noun",
+    "frame": "el or un + masculine noun",
+    "slots": [
+      {
+        "name": "article",
+        "description": "el or un",
+        "wordIds": []
+      },
+      {
+        "name": "noun",
+        "description": "a masculine noun such as café or libro",
+        "wordIds": [
+          "food-and-drink-cafe",
+          "work-and-study-libro"
+        ]
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "noun-gender-feminine",
+    "topicId": "noun-gender",
+    "title": "Feminine noun",
+    "frame": "la or una + feminine noun",
+    "slots": [
+      {
+        "name": "article",
+        "description": "la or una",
+        "wordIds": []
+      },
+      {
+        "name": "noun",
+        "description": "a feminine noun such as leche or casa",
+        "wordIds": [
+          "food-and-drink-leche",
+          "the-home-casa"
+        ]
+      }
+    ],
+    "sortOrder": 1
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "id": "ser-vs-estar",
+  "title": "Ser and estar",
+  "sortOrder": 8,
+  "prerequisiteId": "estar",
+  "explanation": "Ser answers what something is. Estar answers where it is, or how it is right now. Soy Ana and soy de Madrid use ser. Estoy en Madrid and estoy bien use estar.\n\nThe same English verb to be covers both. The Spanish verb follows the meaning, not the English sentence.",
+  "commonMistake": "Translating every to be as ser. Check whether the sentence is identity, origin, place, or a current condition.",
+  "examples": [
+    {
+      "spanish": "Soy Ana.",
+      "english": "I am Ana.",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "Estoy bien.",
+      "english": "I am fine.",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "Soy de Madrid.",
+      "english": "I am from Madrid.",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "Estoy en Madrid.",
+      "english": "I am in Madrid.",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "Es profesora.",
+      "english": "She is a teacher.",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "Está en casa.",
+      "english": "She is at home.",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "Somos amigos.",
+      "english": "We are friends.",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "Estamos en el parque.",
+      "english": "We are in the park.",
+      "sortOrder": 7
+    }
+  ]
+}

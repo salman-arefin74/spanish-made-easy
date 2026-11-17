@@ -1,0 +1,210 @@
+[
+  {
+    "id": "ser-vs-estar-understand-1",
+    "topicId": "ser-vs-estar",
+    "kind": "understand",
+    "prompt": "Which sentence says what you are?",
+    "choices": [
+      "Soy Ana.",
+      "Estoy Ana."
+    ],
+    "acceptedAnswers": [
+      "Soy Ana."
+    ],
+    "explanation": "A name uses ser.",
+    "sortOrder": 0,
+    "translation": "I am Ana."
+  },
+  {
+    "id": "ser-vs-estar-understand-2",
+    "topicId": "ser-vs-estar",
+    "kind": "understand",
+    "prompt": "Which sentence says where you are?",
+    "choices": [
+      "Estoy en Madrid.",
+      "Soy en Madrid."
+    ],
+    "acceptedAnswers": [
+      "Estoy en Madrid."
+    ],
+    "explanation": "A location uses estar.",
+    "sortOrder": 1,
+    "translation": "I am in Madrid."
+  },
+  {
+    "id": "ser-vs-estar-understand-3",
+    "topicId": "ser-vs-estar",
+    "kind": "understand",
+    "prompt": "Which sentence says where she is from?",
+    "choices": [
+      "Es de Madrid.",
+      "Está de Madrid."
+    ],
+    "acceptedAnswers": [
+      "Es de Madrid."
+    ],
+    "explanation": "Origin uses ser.",
+    "sortOrder": 2,
+    "translation": "She is from Madrid."
+  },
+  {
+    "id": "ser-vs-estar-understand-4",
+    "topicId": "ser-vs-estar",
+    "kind": "understand",
+    "prompt": "Which sentence says how you are?",
+    "choices": [
+      "Estoy bien.",
+      "Soy bien."
+    ],
+    "acceptedAnswers": [
+      "Estoy bien."
+    ],
+    "explanation": "A current state uses estar.",
+    "sortOrder": 3,
+    "translation": "I am fine."
+  },
+  {
+    "id": "ser-vs-estar-construct-1",
+    "topicId": "ser-vs-estar",
+    "kind": "construct",
+    "prompt": "Build: I am from Madrid.",
+    "tokens": [
+      "Soy",
+      "Estoy",
+      "de",
+      "Madrid"
+    ],
+    "acceptedAnswers": [
+      "Soy de Madrid"
+    ],
+    "explanation": "Soy de Madrid.",
+    "sortOrder": 4,
+    "translation": "I am from Madrid."
+  },
+  {
+    "id": "ser-vs-estar-construct-2",
+    "topicId": "ser-vs-estar",
+    "kind": "construct",
+    "prompt": "Build: I am in Madrid.",
+    "tokens": [
+      "Estoy",
+      "Soy",
+      "en",
+      "Madrid"
+    ],
+    "acceptedAnswers": [
+      "Estoy en Madrid"
+    ],
+    "explanation": "Estoy en Madrid.",
+    "sortOrder": 5,
+    "translation": "I am in Madrid."
+  },
+  {
+    "id": "ser-vs-estar-construct-3",
+    "topicId": "ser-vs-estar",
+    "kind": "construct",
+    "prompt": "Build: she is a teacher.",
+    "tokens": [
+      "Es",
+      "Está",
+      "profesora",
+      "casa"
+    ],
+    "acceptedAnswers": [
+      "Es profesora"
+    ],
+    "explanation": "Es profesora.",
+    "sortOrder": 6,
+    "translation": "She is a teacher."
+  },
+  {
+    "id": "ser-vs-estar-construct-4",
+    "topicId": "ser-vs-estar",
+    "kind": "construct",
+    "prompt": "Build: she is at home.",
+    "tokens": [
+      "Está",
+      "Es",
+      "en",
+      "casa"
+    ],
+    "acceptedAnswers": [
+      "Está en casa"
+    ],
+    "explanation": "Está en casa.",
+    "sortOrder": 7,
+    "translation": "She is at home."
+  },
+  {
+    "id": "ser-vs-estar-apply-1",
+    "topicId": "ser-vs-estar",
+    "kind": "apply",
+    "prompt": "Someone asks who you are.",
+    "tokens": [
+      "Soy",
+      "Estoy",
+      "Ana",
+      "bien"
+    ],
+    "acceptedAnswers": [
+      "Soy Ana"
+    ],
+    "explanation": "Soy Ana.",
+    "sortOrder": 8,
+    "translation": "I am Ana."
+  },
+  {
+    "id": "ser-vs-estar-apply-2",
+    "topicId": "ser-vs-estar",
+    "kind": "apply",
+    "prompt": "Someone asks how you are.",
+    "tokens": [
+      "Estoy",
+      "Soy",
+      "bien",
+      "Ana"
+    ],
+    "acceptedAnswers": [
+      "Estoy bien"
+    ],
+    "explanation": "Estoy bien.",
+    "sortOrder": 9,
+    "translation": "I am fine."
+  },
+  {
+    "id": "ser-vs-estar-apply-3",
+    "topicId": "ser-vs-estar",
+    "kind": "apply",
+    "prompt": "Someone asks where you are from.",
+    "tokens": [
+      "Soy",
+      "de",
+      "Madrid",
+      "Estoy"
+    ],
+    "acceptedAnswers": [
+      "Soy de Madrid"
+    ],
+    "explanation": "Soy de Madrid.",
+    "sortOrder": 10,
+    "translation": "I am from Madrid."
+  },
+  {
+    "id": "ser-vs-estar-apply-4",
+    "topicId": "ser-vs-estar",
+    "kind": "apply",
+    "prompt": "Someone asks where you are now.",
+    "tokens": [
+      "Estoy",
+      "en",
+      "casa",
+      "Soy"
+    ],
+    "acceptedAnswers": [
+      "Estoy en casa"
+    ],
+    "explanation": "Estoy en casa.",
+    "sortOrder": 11,
+    "translation": "I am at home."
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "id": "ser",
+  "title": "Ser",
+  "sortOrder": 6,
+  "prerequisiteId": "pronouns",
+  "explanation": "Ser says what someone or something is: a name, an origin, or a profession. The present forms are soy, eres, es, somos, sois, and son.\n\nSois is the Spain form for a group you know. In much of Latin America that meaning uses son.",
+  "commonMistake": "Using estar for a name, a hometown, or a job. Those use ser.",
+  "examples": [
+    {
+      "spanish": "Soy Ana.",
+      "english": "I am Ana.",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "Soy de Madrid.",
+      "english": "I am from Madrid.",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "Eres de Madrid.",
+      "english": "You are from Madrid.",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "Es profesora.",
+      "english": "She is a teacher.",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "Somos amigos.",
+      "english": "We are friends.",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "Sois de España.",
+      "english": "You are from Spain.",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "Son estudiantes.",
+      "english": "They are students.",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "Ella es Ana.",
+      "english": "She is Ana.",
+      "sortOrder": 7
+    }
+  ]
+}

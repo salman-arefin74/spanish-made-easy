@@ -1,0 +1,212 @@
+[
+  {
+    "id": "querer-understand-1",
+    "topicId": "querer",
+    "kind": "understand",
+    "prompt": "Which sentence says you want a coffee?",
+    "choices": [
+      "Quiero un café.",
+      "Quiero a un café."
+    ],
+    "acceptedAnswers": [
+      "Quiero un café."
+    ],
+    "explanation": "The noun follows quiero directly.",
+    "sortOrder": 0,
+    "translation": "I want a coffee."
+  },
+  {
+    "id": "querer-understand-2",
+    "topicId": "querer",
+    "kind": "understand",
+    "prompt": "Which sentence says you want to eat?",
+    "choices": [
+      "Quiero comer.",
+      "Quiero como."
+    ],
+    "acceptedAnswers": [
+      "Quiero comer."
+    ],
+    "explanation": "The second verb is the infinitive.",
+    "sortOrder": 1,
+    "translation": "I want to eat."
+  },
+  {
+    "id": "querer-understand-3",
+    "topicId": "querer",
+    "kind": "understand",
+    "prompt": "Which is the polite way to ask for a coffee?",
+    "choices": [
+      "Me gustaría un café.",
+      "Quiero a café."
+    ],
+    "acceptedAnswers": [
+      "Me gustaría un café."
+    ],
+    "explanation": "Me gustaría is the polite chunk.",
+    "sortOrder": 2,
+    "translation": "I would like a coffee."
+  },
+  {
+    "id": "querer-understand-4",
+    "topicId": "querer",
+    "kind": "understand",
+    "prompt": "Which sentence tells friends in Spain that they want milk?",
+    "choices": [
+      "Queréis leche.",
+      "Quieres leche."
+    ],
+    "acceptedAnswers": [
+      "Queréis leche."
+    ],
+    "explanation": "Vosotros takes queréis.",
+    "sortOrder": 3,
+    "translation": "You want milk."
+  },
+  {
+    "id": "querer-construct-1",
+    "topicId": "querer",
+    "kind": "construct",
+    "prompt": "Build: I want a coffee.",
+    "tokens": [
+      "Quiero",
+      "un",
+      "café",
+      "a"
+    ],
+    "acceptedAnswers": [
+      "Quiero un café"
+    ],
+    "explanation": "Quiero un café.",
+    "sortOrder": 4,
+    "translation": "I want a coffee."
+  },
+  {
+    "id": "querer-construct-2",
+    "topicId": "querer",
+    "kind": "construct",
+    "prompt": "Build: I want to eat.",
+    "tokens": [
+      "Quiero",
+      "comer",
+      "como",
+      "un"
+    ],
+    "acceptedAnswers": [
+      "Quiero comer"
+    ],
+    "explanation": "Quiero comer.",
+    "sortOrder": 5,
+    "translation": "I want to eat."
+  },
+  {
+    "id": "querer-construct-3",
+    "topicId": "querer",
+    "kind": "construct",
+    "prompt": "Build: I would like a coffee.",
+    "tokens": [
+      "Me",
+      "gustaría",
+      "un",
+      "café"
+    ],
+    "acceptedAnswers": [
+      "Me gustaría un café"
+    ],
+    "explanation": "Me gustaría un café.",
+    "sortOrder": 6,
+    "translation": "I would like a coffee."
+  },
+  {
+    "id": "querer-construct-4",
+    "topicId": "querer",
+    "kind": "construct",
+    "prompt": "Build: we want water.",
+    "tokens": [
+      "Queremos",
+      "agua",
+      "Quiero",
+      "leche"
+    ],
+    "acceptedAnswers": [
+      "Queremos agua"
+    ],
+    "explanation": "Queremos agua.",
+    "sortOrder": 7,
+    "translation": "We want water."
+  },
+  {
+    "id": "querer-apply-1",
+    "topicId": "querer",
+    "kind": "apply",
+    "prompt": "Order a coffee at a bar.",
+    "tokens": [
+      "Quiero",
+      "un",
+      "café",
+      "por",
+      "favor"
+    ],
+    "acceptedAnswers": [
+      "Quiero un café, por favor"
+    ],
+    "explanation": "Quiero un café, por favor.",
+    "sortOrder": 8,
+    "translation": "I want a coffee, please."
+  },
+  {
+    "id": "querer-apply-2",
+    "topicId": "querer",
+    "kind": "apply",
+    "prompt": "Order a juice. Spain uses zumo.",
+    "tokens": [
+      "Quiero",
+      "un",
+      "zumo",
+      "jugo"
+    ],
+    "acceptedAnswers": [
+      "Quiero un zumo",
+      "Quiero un jugo"
+    ],
+    "explanation": "In Spain, say zumo. Jugo is listed because it is widely used elsewhere.",
+    "sortOrder": 9,
+    "translation": "I want a juice."
+  },
+  {
+    "id": "querer-apply-3",
+    "topicId": "querer",
+    "kind": "apply",
+    "prompt": "Say politely that you would like water.",
+    "tokens": [
+      "Me",
+      "gustaría",
+      "agua",
+      "Quiero"
+    ],
+    "acceptedAnswers": [
+      "Me gustaría agua"
+    ],
+    "explanation": "Me gustaría agua.",
+    "sortOrder": 10,
+    "translation": "I would like water."
+  },
+  {
+    "id": "querer-apply-4",
+    "topicId": "querer",
+    "kind": "apply",
+    "prompt": "You are hungry and you want to eat.",
+    "tokens": [
+      "Quiero",
+      "comer",
+      "como",
+      "pan"
+    ],
+    "acceptedAnswers": [
+      "Quiero comer"
+    ],
+    "explanation": "Quiero comer.",
+    "sortOrder": 11,
+    "translation": "I want to eat."
+  }
+]

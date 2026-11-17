@@ -1,0 +1,50 @@
+{
+  "id": "ir",
+  "title": "Ir",
+  "sortOrder": 11,
+  "prerequisiteId": "present-ar",
+  "explanation": "Ir is irregular. The present forms are voy, vas, va, vamos, vais, and van. Voy a plus a place says where you are going. Voy a plus an infinitive says what you are going to do.\n\nA plus el becomes al: voy al banco. A plus la stays a la: voy a la estación.",
+  "commonMistake": "Saying vo or yo voy a el banco. The form is voy, and a el contracts to al.",
+  "examples": [
+    {
+      "spanish": "Voy al banco.",
+      "english": "I am going to the bank.",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "Vas a la estación.",
+      "english": "You are going to the station.",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "Va al parque.",
+      "english": "She is going to the park.",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "Vamos al museo.",
+      "english": "We are going to the museum.",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "Vais a casa.",
+      "english": "You are going home.",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "Van al banco.",
+      "english": "They are going to the bank.",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "Voy a comer.",
+      "english": "I am going to eat.",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "Vamos a hablar.",
+      "english": "We are going to talk.",
+      "sortOrder": 7
+    }
+  ]
+}

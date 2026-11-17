@@ -116,6 +116,24 @@ An exam is 15 questions drawn from the seeded bank: A1, A2, or mixed. A retake a
 
 Progress is the home page. It shows your own counts, including zeroes before you have studied, and one next step. There is no sample history.
 
+## Real-life Spanish
+
+Run [supabase/migrations/0006_scenarios.sql](supabase/migrations/0006_scenarios.sql) in the SQL editor, then `npm run seed` from `spanish-made-easy/`. The same command updates the words, the lessons, and the twelve situations.
+
+Each situation has an aim, phrases from the word bank, a short dialogue, and comprehension and construction exercises. Five correct answers out of six finish it. Try again replaces the stored score. A situation does not use the daily vocabulary target. Where the dialogue uses ordenador, móvil, coger, vosotros, zumo, or piso, the page says what Spain calls that thing.
+
+Progress counts a situation only after it is finished. Before the SQL is applied, the course card says the situations are not loaded yet.
+
 ## Hosting
 
-The site is a static Vite app. `public/_redirects` sends unknown paths to `index.html` so client-side routes work on Cloudflare Pages. Deployment is not part of this milestone.
+The site is a static Vite app for Cloudflare Pages. There is no install prompt and no offline cache. `public/_redirects` sends unknown paths to `index.html`.
+
+1. In the Cloudflare dashboard, create a Pages project from this repository. Set the root directory to `spanish-made-easy`.
+2. Build command: `npm run build`. Output directory: `dist`.
+3. Add `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`, and `VITE_TURNSTILE_SITE_KEY` as build variables. Do not add `SUPABASE_SERVICE_ROLE_KEY`. That key stays in your local `.env` for `npm run seed`.
+4. In the Turnstile widget, add the `pages.dev` hostname next to `localhost` and `127.0.0.1`.
+5. In Supabase Authentication → URL configuration, add the Pages address.
+
+A second account cannot read the first account's progress. The situation policies allow every signed-in learner to read the dialogues, and allow each learner to read and write only their own score. To check it, finish one situation on one account and open Progress on the other. The second account still shows that situation as not started.
+
+`npm run build` writes `dist/`. The service-role key must not appear in those files. Search the build for `sb_secret_` and `service_role` before you publish.

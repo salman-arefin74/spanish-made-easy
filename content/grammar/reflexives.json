@@ -1,0 +1,50 @@
+{
+  "id": "reflexives",
+  "title": "Reflexive verbs",
+  "sortOrder": 17,
+  "prerequisiteId": "present-ar",
+  "explanation": "A reflexive verb uses a pronoun that matches the subject. Llamarse is the verb for names: me llamo, te llamas, se llama, nos llamamos, os llamáis, se llaman.\n\nMe llamo Ana means my name is Ana. The pronoun sits before the conjugated verb. Os is the Spain form for a group you know.",
+  "commonMistake": "Mixing the pronoun and the ending, as in me llamas or se llamo.",
+  "examples": [
+    {
+      "spanish": "Me llamo Ana.",
+      "english": "My name is Ana.",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "Te llamas Pablo.",
+      "english": "Your name is Pablo.",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "Se llama Ana.",
+      "english": "Her name is Ana.",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "Nos llamamos Ana y Pablo.",
+      "english": "Our names are Ana and Pablo.",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "¿Cómo te llamas?",
+      "english": "What is your name?",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "El profesor se llama Pablo.",
+      "english": "The teacher's name is Pablo.",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "¿Cómo se llama?",
+      "english": "What is his name?",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "Os llamáis Ana y Pablo.",
+      "english": "Your names are Ana and Pablo.",
+      "sortOrder": 7
+    }
+  ]
+}

@@ -12,6 +12,7 @@ describe("progress page", () => {
       studyDays: [],
       topics: [],
       exams: [],
+      situations: [],
       today: "2026-11-17",
       dailyTarget: 10,
     })
@@ -22,5 +23,6 @@ describe("progress page", () => {
     )
     expect(screen.getByText(/will not see it again for a week/i)).toBeInTheDocument()
     expect(screen.getByText(/comes back tomorrow/i)).toBeInTheDocument()
+    expect(screen.getByText(/situations are not loaded yet/i)).toBeInTheDocument()
   })
 })

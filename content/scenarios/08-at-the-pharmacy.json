@@ -1,0 +1,78 @@
+{
+  "id": "at-the-pharmacy",
+  "title": "At the pharmacy",
+  "aim": "Say your head hurts and understand the answer.",
+  "spainNote": null,
+  "sortOrder": 8,
+  "phrases": [
+    { "wordId": "town-and-places-farmacia", "spanish": "farmacia", "english": "pharmacy" },
+    { "wordId": "body-and-health-dolor", "spanish": "dolor", "english": "pain" },
+    { "wordId": "body-and-health-cabeza", "spanish": "cabeza", "english": "head" },
+    { "wordId": "body-and-health-pastilla", "spanish": "pastilla", "english": "tablet" },
+    { "wordId": "body-and-health-receta", "spanish": "receta", "english": "prescription" }
+  ],
+  "turns": [
+    { "speaker": "Ana", "spanish": "Buenos días. Me duele la cabeza.", "english": "Good morning. My head hurts." },
+    { "speaker": "Farmacéutica", "spanish": "¿Tiene dolor de cabeza?", "english": "Do you have a headache?" },
+    { "speaker": "Ana", "spanish": "Sí.", "english": "Yes." },
+    { "speaker": "Farmacéutica", "spanish": "Esta pastilla no necesita receta.", "english": "This tablet does not need a prescription." },
+    { "speaker": "Ana", "spanish": "Gracias.", "english": "Thank you." },
+    { "speaker": "Farmacéutica", "spanish": "De nada.", "english": "You're welcome." }
+  ],
+  "exercises": [
+    {
+      "id": "at-the-pharmacy-hurt",
+      "kind": "comprehension",
+      "prompt": "Which line says her head hurts?",
+      "choices": ["Buenos días. Me duele la cabeza.", "Esta pastilla no necesita receta.", "De nada."],
+      "acceptedAnswers": ["Buenos días. Me duele la cabeza."],
+      "translation": "Good morning. My head hurts.",
+      "explanation": "La cabeza is the head."
+    },
+    {
+      "id": "at-the-pharmacy-word",
+      "kind": "comprehension",
+      "prompt": "Which line asks about the headache?",
+      "choices": ["¿Tiene dolor de cabeza?", "Esta pastilla no necesita receta.", "De nada."],
+      "acceptedAnswers": ["¿Tiene dolor de cabeza?"],
+      "translation": "Do you have a headache?",
+      "explanation": "Dolor de cabeza is a headache."
+    },
+    {
+      "id": "at-the-pharmacy-need",
+      "kind": "comprehension",
+      "prompt": "Which line says the tablet needs no prescription?",
+      "choices": ["Esta pastilla no necesita receta.", "Buenos días. Me duele la cabeza.", "¿Tiene dolor de cabeza?"],
+      "acceptedAnswers": ["Esta pastilla no necesita receta."],
+      "translation": "This tablet does not need a prescription.",
+      "explanation": "No necesita receta means no prescription is needed."
+    },
+    {
+      "id": "at-the-pharmacy-head",
+      "kind": "construct",
+      "prompt": "Say your head hurts.",
+      "tokens": ["Me", "duele", "la", "cabeza"],
+      "acceptedAnswers": ["Me duele la cabeza"],
+      "translation": "My head hurts.",
+      "explanation": "Me duele la cabeza is the usual way to say it."
+    },
+    {
+      "id": "at-the-pharmacy-pain",
+      "kind": "construct",
+      "prompt": "Ask if the person has a headache.",
+      "tokens": ["Tiene", "dolor", "de", "cabeza"],
+      "acceptedAnswers": ["Tiene dolor de cabeza"],
+      "translation": "Do you have a headache?",
+      "explanation": "The spoken question is ¿Tiene dolor de cabeza?"
+    },
+    {
+      "id": "at-the-pharmacy-tablet",
+      "kind": "construct",
+      "prompt": "Say this tablet does not need a prescription.",
+      "tokens": ["Esta", "pastilla", "no", "necesita", "receta"],
+      "acceptedAnswers": ["Esta pastilla no necesita receta"],
+      "translation": "This tablet does not need a prescription.",
+      "explanation": "Receta is the prescription."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "place-en",
+    "topicId": "place",
+    "title": "In, on, or at",
+    "frame": "estar + en + place",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "a form of estar",
+        "wordIds": []
+      },
+      {
+        "name": "place",
+        "description": "a place such as la mesa, el parque, or casa",
+        "wordIds": [
+          "the-home-mesa",
+          "town-and-places-parque",
+          "the-home-casa"
+        ]
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "place-a",
+    "topicId": "place",
+    "title": "Toward",
+    "frame": "ir + a or al + place",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "a form of ir",
+        "wordIds": [
+          "useful-verbs-ir"
+        ]
+      },
+      {
+        "name": "place",
+        "description": "a place such as la estación or el banco",
+        "wordIds": [
+          "town-and-places-estacion",
+          "town-and-places-banco",
+          "town-and-places-museo"
+        ]
+      }
+    ],
+    "sortOrder": 1
+  },
+  {
+    "id": "place-de",
+    "topicId": "place",
+    "title": "Near, with de",
+    "frame": "cerca de or cerca del + place",
+    "slots": [
+      {
+        "name": "phrase",
+        "description": "cerca de, or cerca del before el",
+        "wordIds": []
+      },
+      {
+        "name": "place",
+        "description": "a place such as el parque",
+        "wordIds": [
+          "town-and-places-parque",
+          "the-home-casa"
+        ]
+      }
+    ],
+    "sortOrder": 2
+  }
+]

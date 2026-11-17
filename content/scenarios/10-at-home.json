@@ -1,0 +1,78 @@
+{
+  "id": "at-home",
+  "title": "At home",
+  "aim": "Say you live in a flat and name the rooms.",
+  "spainNote": "In Spain, a flat is un piso. The floor of a building is also un piso.",
+  "sortOrder": 10,
+  "phrases": [
+    { "wordId": "the-home-piso", "spanish": "piso", "english": "flat" },
+    { "wordId": "the-home-cocina", "spanish": "cocina", "english": "kitchen" },
+    { "wordId": "the-home-salon", "spanish": "salón", "english": "living room" },
+    { "wordId": "the-home-bano", "spanish": "baño", "english": "bathroom" },
+    { "wordId": "the-home-llave", "spanish": "llave", "english": "key" }
+  ],
+  "turns": [
+    { "speaker": "Luis", "spanish": "¿Vives en un piso?", "english": "Do you live in a flat?" },
+    { "speaker": "Ana", "spanish": "Sí, vivo en un piso pequeño.", "english": "Yes, I live in a small flat." },
+    { "speaker": "Luis", "spanish": "¿Tiene cocina?", "english": "Does it have a kitchen?" },
+    { "speaker": "Ana", "spanish": "Sí, tiene cocina y salón.", "english": "Yes, it has a kitchen and a living room." },
+    { "speaker": "Luis", "spanish": "¿Dónde está el baño?", "english": "Where is the bathroom?" },
+    { "speaker": "Ana", "spanish": "El baño está allí. La llave está aquí.", "english": "The bathroom is over there. The key is here." }
+  ],
+  "exercises": [
+    {
+      "id": "at-home-place",
+      "kind": "comprehension",
+      "prompt": "Which line says where Ana lives?",
+      "choices": ["Sí, vivo en un piso pequeño.", "Sí, tiene cocina y salón.", "¿Dónde está el baño?"],
+      "acceptedAnswers": ["Sí, vivo en un piso pequeño."],
+      "translation": "Yes, I live in a small flat.",
+      "explanation": "In Spain, un piso is a flat."
+    },
+    {
+      "id": "at-home-rooms",
+      "kind": "comprehension",
+      "prompt": "Which line names the kitchen and the living room?",
+      "choices": ["Sí, tiene cocina y salón.", "Sí, vivo en un piso pequeño.", "¿Dónde está el baño?"],
+      "acceptedAnswers": ["Sí, tiene cocina y salón."],
+      "translation": "Yes, it has a kitchen and a living room.",
+      "explanation": "Cocina is the kitchen and salón is the living room."
+    },
+    {
+      "id": "at-home-key",
+      "kind": "comprehension",
+      "prompt": "Which line says where the key is?",
+      "choices": ["El baño está allí. La llave está aquí.", "¿Vives en un piso?", "Sí, vivo en un piso pequeño."],
+      "acceptedAnswers": ["El baño está allí. La llave está aquí."],
+      "translation": "The bathroom is over there. The key is here.",
+      "explanation": "Aquí means here."
+    },
+    {
+      "id": "at-home-live",
+      "kind": "construct",
+      "prompt": "Say you live in a small flat.",
+      "tokens": ["Vivo", "en", "un", "piso", "pequeño"],
+      "acceptedAnswers": ["Vivo en un piso pequeño"],
+      "translation": "I live in a small flat.",
+      "explanation": "Piso is the Spain word for a flat."
+    },
+    {
+      "id": "at-home-kitchen",
+      "kind": "construct",
+      "prompt": "Say it has a kitchen and a living room.",
+      "tokens": ["Tiene", "cocina", "y", "salón"],
+      "acceptedAnswers": ["Tiene cocina y salón"],
+      "translation": "It has a kitchen and a living room.",
+      "explanation": "Salón is the living room."
+    },
+    {
+      "id": "at-home-bath",
+      "kind": "construct",
+      "prompt": "Ask where the bathroom is.",
+      "tokens": ["Dónde", "está", "el", "baño"],
+      "acceptedAnswers": ["Dónde está el baño"],
+      "translation": "Where is the bathroom?",
+      "explanation": "The spoken question is ¿Dónde está el baño?"
+    }
+  ]
+}

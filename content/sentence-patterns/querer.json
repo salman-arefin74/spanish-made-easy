@@ -1,0 +1,71 @@
+[
+  {
+    "id": "querer-noun",
+    "topicId": "querer",
+    "title": "Wanting a thing",
+    "frame": "quiero, quieres, quiere, queremos, queréis, or quieren + noun",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "a form of querer",
+        "wordIds": [
+          "shopping-and-money-querer"
+        ]
+      },
+      {
+        "name": "thing",
+        "description": "a noun such as café, zumo, or pan",
+        "wordIds": [
+          "food-and-drink-cafe",
+          "food-and-drink-zumo",
+          "food-and-drink-pan"
+        ]
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "querer-verb",
+    "topicId": "querer",
+    "title": "Wanting to do something",
+    "frame": "querer + infinitive",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "quiero",
+        "wordIds": [
+          "shopping-and-money-querer"
+        ]
+      },
+      {
+        "name": "action",
+        "description": "an infinitive such as comer",
+        "wordIds": [
+          "useful-verbs-comer"
+        ]
+      }
+    ],
+    "sortOrder": 1
+  },
+  {
+    "id": "querer-polite",
+    "topicId": "querer",
+    "title": "A polite request",
+    "frame": "me gustaría + noun",
+    "slots": [
+      {
+        "name": "phrase",
+        "description": "me gustaría",
+        "wordIds": []
+      },
+      {
+        "name": "thing",
+        "description": "what you would like, such as un café",
+        "wordIds": [
+          "food-and-drink-cafe"
+        ]
+      }
+    ],
+    "sortOrder": 2
+  }
+]

@@ -1,0 +1,221 @@
+[
+  {
+    "id": "place-understand-1",
+    "topicId": "place",
+    "kind": "understand",
+    "prompt": "Where is the book?",
+    "choices": [
+      "El libro está en la mesa.",
+      "El libro está a la mesa."
+    ],
+    "acceptedAnswers": [
+      "El libro está en la mesa."
+    ],
+    "explanation": "On the table uses en.",
+    "sortOrder": 0,
+    "translation": "The book is on the table."
+  },
+  {
+    "id": "place-understand-2",
+    "topicId": "place",
+    "kind": "understand",
+    "prompt": "You are going to the bank.",
+    "choices": [
+      "Voy al banco.",
+      "Voy en el banco."
+    ],
+    "acceptedAnswers": [
+      "Voy al banco."
+    ],
+    "explanation": "Toward the bank uses al.",
+    "sortOrder": 1,
+    "translation": "I am going to the bank."
+  },
+  {
+    "id": "place-understand-3",
+    "topicId": "place",
+    "kind": "understand",
+    "prompt": "The house is near the park.",
+    "choices": [
+      "La casa está cerca del parque.",
+      "La casa está cerca de el parque."
+    ],
+    "acceptedAnswers": [
+      "La casa está cerca del parque."
+    ],
+    "explanation": "De and el become del.",
+    "sortOrder": 2,
+    "translation": "The house is near the park."
+  },
+  {
+    "id": "place-understand-4",
+    "topicId": "place",
+    "kind": "understand",
+    "prompt": "You are at home.",
+    "choices": [
+      "Estoy en casa.",
+      "Estoy a casa."
+    ],
+    "acceptedAnswers": [
+      "Estoy en casa."
+    ],
+    "explanation": "At home uses en.",
+    "sortOrder": 3,
+    "translation": "I am at home."
+  },
+  {
+    "id": "place-construct-1",
+    "topicId": "place",
+    "kind": "construct",
+    "prompt": "Build: the book is on the table.",
+    "tokens": [
+      "El",
+      "libro",
+      "está",
+      "en",
+      "la",
+      "mesa"
+    ],
+    "acceptedAnswers": [
+      "El libro está en la mesa"
+    ],
+    "explanation": "El libro está en la mesa.",
+    "sortOrder": 4,
+    "translation": "The book is on the table."
+  },
+  {
+    "id": "place-construct-2",
+    "topicId": "place",
+    "kind": "construct",
+    "prompt": "Build: I am going to the station.",
+    "tokens": [
+      "Voy",
+      "a",
+      "la",
+      "estación",
+      "al"
+    ],
+    "acceptedAnswers": [
+      "Voy a la estación"
+    ],
+    "explanation": "Voy a la estación.",
+    "sortOrder": 5,
+    "translation": "I am going to the station."
+  },
+  {
+    "id": "place-construct-3",
+    "topicId": "place",
+    "kind": "construct",
+    "prompt": "Build: I am going to the bank.",
+    "tokens": [
+      "Voy",
+      "al",
+      "banco",
+      "a",
+      "el"
+    ],
+    "acceptedAnswers": [
+      "Voy al banco"
+    ],
+    "explanation": "Voy al banco.",
+    "sortOrder": 6,
+    "translation": "I am going to the bank."
+  },
+  {
+    "id": "place-construct-4",
+    "topicId": "place",
+    "kind": "construct",
+    "prompt": "Build: the house is near the park.",
+    "tokens": [
+      "La",
+      "casa",
+      "está",
+      "cerca",
+      "del",
+      "parque"
+    ],
+    "acceptedAnswers": [
+      "La casa está cerca del parque"
+    ],
+    "explanation": "La casa está cerca del parque.",
+    "sortOrder": 7,
+    "translation": "The house is near the park."
+  },
+  {
+    "id": "place-apply-1",
+    "topicId": "place",
+    "kind": "apply",
+    "prompt": "Tell someone where the book is.",
+    "tokens": [
+      "El",
+      "libro",
+      "está",
+      "en",
+      "la",
+      "mesa"
+    ],
+    "acceptedAnswers": [
+      "El libro está en la mesa"
+    ],
+    "explanation": "El libro está en la mesa.",
+    "sortOrder": 8,
+    "translation": "The book is on the table."
+  },
+  {
+    "id": "place-apply-2",
+    "topicId": "place",
+    "kind": "apply",
+    "prompt": "Say that you are in the park.",
+    "tokens": [
+      "Estoy",
+      "en",
+      "el",
+      "parque",
+      "al"
+    ],
+    "acceptedAnswers": [
+      "Estoy en el parque"
+    ],
+    "explanation": "Estoy en el parque.",
+    "sortOrder": 9,
+    "translation": "I am in the park."
+  },
+  {
+    "id": "place-apply-3",
+    "topicId": "place",
+    "kind": "apply",
+    "prompt": "Say that you are going to the museum.",
+    "tokens": [
+      "Voy",
+      "al",
+      "museo",
+      "en"
+    ],
+    "acceptedAnswers": [
+      "Voy al museo"
+    ],
+    "explanation": "Voy al museo.",
+    "sortOrder": 10,
+    "translation": "I am going to the museum."
+  },
+  {
+    "id": "place-apply-4",
+    "topicId": "place",
+    "kind": "apply",
+    "prompt": "Say that the house is near the park.",
+    "tokens": [
+      "La",
+      "casa",
+      "está",
+      "cerca",
+      "del",
+      "parque"
+    ],
+    "acceptedAnswers": [
+      "La casa está cerca del parque"
+    ],
+    "explanation": "La casa está cerca del parque.",
+    "sortOrder": 11,
+    "translation": "The house is near the park."
+  }
+]

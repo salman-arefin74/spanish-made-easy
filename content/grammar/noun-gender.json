@@ -1,0 +1,50 @@
+{
+  "id": "noun-gender",
+  "title": "Noun gender",
+  "sortOrder": 1,
+  "prerequisiteId": null,
+  "explanation": "Every Spanish noun is masculine or feminine. The ending is a hint, not a rule: libro ends in -o and is masculine, casa ends in -a and is feminine. Día and mapa end in -a and are masculine. Mano ends in -o and is feminine.\n\nThe article is the signal to trust. El and un go with a masculine singular noun. La and una go with a feminine singular noun.",
+  "commonMistake": "Choosing the article from the English word, or treating agua as masculine. Agua is feminine. The singular uses el because la agua is hard to say.",
+  "examples": [
+    {
+      "spanish": "el café",
+      "english": "the coffee",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "la leche",
+      "english": "the milk",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "el libro",
+      "english": "the book",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "la casa",
+      "english": "the house",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "el día",
+      "english": "the day",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "la mano",
+      "english": "the hand",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "el mapa",
+      "english": "the map",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "el problema",
+      "english": "the problem",
+      "sortOrder": 7
+    }
+  ]
+}

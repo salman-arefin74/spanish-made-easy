@@ -1,0 +1,67 @@
+[
+  {
+    "id": "estar-place",
+    "topicId": "estar",
+    "title": "Where someone is",
+    "frame": "estar + en + place",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "a form of estar",
+        "wordIds": []
+      },
+      {
+        "name": "place",
+        "description": "a place such as casa, el parque, or el banco",
+        "wordIds": [
+          "the-home-casa",
+          "town-and-places-parque",
+          "town-and-places-banco"
+        ]
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "estar-state",
+    "topicId": "estar",
+    "title": "How someone is",
+    "frame": "estar + bien",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "estoy, estás, está, estamos, estáis, or están",
+        "wordIds": []
+      },
+      {
+        "name": "state",
+        "description": "bien for fine",
+        "wordIds": [
+          "everyday-essentials-bien"
+        ]
+      }
+    ],
+    "sortOrder": 1
+  },
+  {
+    "id": "estar-condition",
+    "topicId": "estar",
+    "title": "A condition right now",
+    "frame": "noun + estar + adjective",
+    "slots": [
+      {
+        "name": "noun",
+        "description": "the thing you can check now",
+        "wordIds": [
+          "food-and-drink-cafe"
+        ]
+      },
+      {
+        "name": "verb",
+        "description": "está",
+        "wordIds": []
+      }
+    ],
+    "sortOrder": 2
+  }
+]

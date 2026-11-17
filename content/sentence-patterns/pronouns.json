@@ -1,0 +1,46 @@
+[
+  {
+    "id": "pronouns-one",
+    "topicId": "pronouns",
+    "title": "One person",
+    "frame": "yo, tú, usted, él, or ella + verb",
+    "slots": [
+      {
+        "name": "pronoun",
+        "description": "yo, tú, usted, él, or ella",
+        "wordIds": []
+      },
+      {
+        "name": "person",
+        "description": "the person the sentence is about",
+        "wordIds": [
+          "work-and-study-profesora",
+          "people-and-family-madre"
+        ]
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "pronouns-group",
+    "topicId": "pronouns",
+    "title": "A group in Spain",
+    "frame": "nosotros, vosotros, ellos, or ellas + verb",
+    "slots": [
+      {
+        "name": "pronoun",
+        "description": "vosotros for you all in Spain",
+        "wordIds": []
+      },
+      {
+        "name": "person",
+        "description": "a person noun when the sentence names one",
+        "wordIds": [
+          "people-and-family-amigo",
+          "work-and-study-profesora"
+        ]
+      }
+    ],
+    "sortOrder": 1
+  }
+]

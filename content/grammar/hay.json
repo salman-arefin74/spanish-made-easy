@@ -1,0 +1,50 @@
+{
+  "id": "hay",
+  "title": "Hay",
+  "sortOrder": 16,
+  "prerequisiteId": "articles",
+  "explanation": "Hay means there is or there are. It does not change for singular and plural. Hay un café and hay libros use the same verb.\n\nNo hay says there is not any. Hay is for existence. Estar is for where a particular thing is.",
+  "commonMistake": "Using está when you mean there is one, as in está un banco. Existence uses hay.",
+  "examples": [
+    {
+      "spanish": "Hay un banco.",
+      "english": "There is a bank.",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "Hay un café.",
+      "english": "There is a coffee.",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "Hay libros.",
+      "english": "There are books.",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "Hay una casa.",
+      "english": "There is a house.",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "Hay un problema.",
+      "english": "There is a problem.",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "No hay leche.",
+      "english": "There is no milk.",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "No hay pan.",
+      "english": "There is no bread.",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "No hay agua.",
+      "english": "There is no water.",
+      "sortOrder": 7
+    }
+  ]
+}

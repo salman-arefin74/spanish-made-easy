@@ -1,0 +1,79 @@
+{
+  "id": "the-weekend",
+  "title": "The weekend",
+  "aim": "Talk about the weekend and say goodbye.",
+  "spainNote": null,
+  "sortOrder": 12,
+  "phrases": [
+    { "wordId": "time-and-calendar-fin-de-semana", "spanish": "fin de semana", "english": "weekend" },
+    { "wordId": "time-and-calendar-hoy", "spanish": "hoy", "english": "today" },
+    { "wordId": "time-and-calendar-manana", "spanish": "mañana", "english": "tomorrow" },
+    { "wordId": "weather-and-nature-sol", "spanish": "sol", "english": "sun" },
+    { "wordId": "work-and-study-trabajo", "spanish": "trabajo", "english": "work or job" },
+    { "wordId": "everyday-essentials-hasta-luego", "spanish": "hasta luego", "english": "see you later" }
+  ],
+  "turns": [
+    { "speaker": "Luis", "spanish": "¿Qué tal el fin de semana?", "english": "How was the weekend?" },
+    { "speaker": "Ana", "spanish": "Muy bien, gracias.", "english": "Very well, thank you." },
+    { "speaker": "Luis", "spanish": "Hoy hace sol.", "english": "It is sunny today." },
+    { "speaker": "Ana", "spanish": "Mañana trabajo.", "english": "I work tomorrow." },
+    { "speaker": "Luis", "spanish": "Vale.", "english": "Okay." },
+    { "speaker": "Ana", "spanish": "Hasta luego.", "english": "See you later." }
+  ],
+  "exercises": [
+    {
+      "id": "the-weekend-topic",
+      "kind": "comprehension",
+      "prompt": "Which line asks about the weekend?",
+      "choices": ["¿Qué tal el fin de semana?", "Hoy hace sol.", "Mañana trabajo."],
+      "acceptedAnswers": ["¿Qué tal el fin de semana?"],
+      "translation": "How was the weekend?",
+      "explanation": "El fin de semana is the weekend."
+    },
+    {
+      "id": "the-weekend-weather",
+      "kind": "comprehension",
+      "prompt": "Which line says it is sunny today?",
+      "choices": ["Hoy hace sol.", "Mañana trabajo.", "Hasta luego."],
+      "acceptedAnswers": ["Hoy hace sol."],
+      "translation": "It is sunny today.",
+      "explanation": "Hace sol means it is sunny."
+    },
+    {
+      "id": "the-weekend-tomorrow",
+      "kind": "comprehension",
+      "prompt": "Which line says Ana works tomorrow?",
+      "choices": ["Mañana trabajo.", "Hoy hace sol.", "Muy bien, gracias."],
+      "acceptedAnswers": ["Mañana trabajo."],
+      "translation": "I work tomorrow.",
+      "explanation": "Mañana trabajo means I work tomorrow."
+    },
+    {
+      "id": "the-weekend-ask",
+      "kind": "construct",
+      "prompt": "Ask how the weekend was.",
+      "tokens": ["Qué", "tal", "el", "fin", "de", "semana"],
+      "acceptedAnswers": ["Qué tal el fin de semana"],
+      "translation": "How was the weekend?",
+      "explanation": "The spoken question is ¿Qué tal el fin de semana?"
+    },
+    {
+      "id": "the-weekend-sun",
+      "kind": "construct",
+      "prompt": "Say it is sunny today.",
+      "tokens": ["Hoy", "hace", "sol"],
+      "acceptedAnswers": ["Hoy hace sol"],
+      "translation": "It is sunny today.",
+      "explanation": "Sol is the sun."
+    },
+    {
+      "id": "the-weekend-work",
+      "kind": "construct",
+      "prompt": "Say you work tomorrow.",
+      "tokens": ["Mañana", "trabajo"],
+      "acceptedAnswers": ["Mañana trabajo"],
+      "translation": "I work tomorrow.",
+      "explanation": "Mañana is tomorrow."
+    }
+  ]
+}

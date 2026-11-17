@@ -1,0 +1,213 @@
+[
+  {
+    "id": "ir-understand-1",
+    "topicId": "ir",
+    "kind": "understand",
+    "prompt": "Which sentence says you are going to the bank?",
+    "choices": [
+      "Voy al banco.",
+      "Voy a el banco."
+    ],
+    "acceptedAnswers": [
+      "Voy al banco."
+    ],
+    "explanation": "A and el contract to al.",
+    "sortOrder": 0,
+    "translation": "I am going to the bank."
+  },
+  {
+    "id": "ir-understand-2",
+    "topicId": "ir",
+    "kind": "understand",
+    "prompt": "Which sentence says she is going to the station?",
+    "choices": [
+      "Va a la estación.",
+      "Voy a la estación."
+    ],
+    "acceptedAnswers": [
+      "Va a la estación."
+    ],
+    "explanation": "She takes va. La does not contract.",
+    "sortOrder": 1,
+    "translation": "She is going to the station."
+  },
+  {
+    "id": "ir-understand-3",
+    "topicId": "ir",
+    "kind": "understand",
+    "prompt": "Which sentence says you are going to eat?",
+    "choices": [
+      "Voy a comer.",
+      "Voy comer."
+    ],
+    "acceptedAnswers": [
+      "Voy a comer."
+    ],
+    "explanation": "The plan needs a before the infinitive.",
+    "sortOrder": 2,
+    "translation": "I am going to eat."
+  },
+  {
+    "id": "ir-understand-4",
+    "topicId": "ir",
+    "kind": "understand",
+    "prompt": "Which sentence says we are going to the museum?",
+    "choices": [
+      "Vamos al museo.",
+      "Vamos a el museo."
+    ],
+    "acceptedAnswers": [
+      "Vamos al museo."
+    ],
+    "explanation": "A el becomes al.",
+    "sortOrder": 3,
+    "translation": "We are going to the museum."
+  },
+  {
+    "id": "ir-construct-1",
+    "topicId": "ir",
+    "kind": "construct",
+    "prompt": "Build: I am going to the bank.",
+    "tokens": [
+      "Voy",
+      "al",
+      "a",
+      "el",
+      "banco"
+    ],
+    "acceptedAnswers": [
+      "Voy al banco"
+    ],
+    "explanation": "Voy al banco.",
+    "sortOrder": 4,
+    "translation": "I am going to the bank."
+  },
+  {
+    "id": "ir-construct-2",
+    "topicId": "ir",
+    "kind": "construct",
+    "prompt": "Build: you are going to the station.",
+    "tokens": [
+      "Vas",
+      "Voy",
+      "a",
+      "la",
+      "estación"
+    ],
+    "acceptedAnswers": [
+      "Vas a la estación"
+    ],
+    "explanation": "Vas a la estación.",
+    "sortOrder": 5,
+    "translation": "You are going to the station."
+  },
+  {
+    "id": "ir-construct-3",
+    "topicId": "ir",
+    "kind": "construct",
+    "prompt": "Build: I am going to eat.",
+    "tokens": [
+      "Voy",
+      "a",
+      "comer",
+      "como"
+    ],
+    "acceptedAnswers": [
+      "Voy a comer"
+    ],
+    "explanation": "Voy a comer.",
+    "sortOrder": 6,
+    "translation": "I am going to eat."
+  },
+  {
+    "id": "ir-construct-4",
+    "topicId": "ir",
+    "kind": "construct",
+    "prompt": "Build: we are going to talk.",
+    "tokens": [
+      "Vamos",
+      "a",
+      "hablar",
+      "hablo"
+    ],
+    "acceptedAnswers": [
+      "Vamos a hablar"
+    ],
+    "explanation": "Vamos a hablar.",
+    "sortOrder": 7,
+    "translation": "We are going to talk."
+  },
+  {
+    "id": "ir-apply-1",
+    "topicId": "ir",
+    "kind": "apply",
+    "prompt": "Tell a friend you are going to the bank.",
+    "tokens": [
+      "Voy",
+      "al",
+      "banco",
+      "a",
+      "el"
+    ],
+    "acceptedAnswers": [
+      "Voy al banco"
+    ],
+    "explanation": "Voy al banco.",
+    "sortOrder": 8,
+    "translation": "I am going to the bank."
+  },
+  {
+    "id": "ir-apply-2",
+    "topicId": "ir",
+    "kind": "apply",
+    "prompt": "Say that she is going to the park.",
+    "tokens": [
+      "Va",
+      "al",
+      "parque",
+      "Voy"
+    ],
+    "acceptedAnswers": [
+      "Va al parque"
+    ],
+    "explanation": "Va al parque.",
+    "sortOrder": 9,
+    "translation": "She is going to the park."
+  },
+  {
+    "id": "ir-apply-3",
+    "topicId": "ir",
+    "kind": "apply",
+    "prompt": "Say that you are going home.",
+    "tokens": [
+      "Voy",
+      "a",
+      "casa",
+      "al"
+    ],
+    "acceptedAnswers": [
+      "Voy a casa"
+    ],
+    "explanation": "Casa does not take el here: voy a casa.",
+    "sortOrder": 10,
+    "translation": "I am going home."
+  },
+  {
+    "id": "ir-apply-4",
+    "topicId": "ir",
+    "kind": "apply",
+    "prompt": "Tell the group you are all going to the museum.",
+    "tokens": [
+      "Vamos",
+      "al",
+      "museo",
+      "Voy"
+    ],
+    "acceptedAnswers": [
+      "Vamos al museo"
+    ],
+    "explanation": "Vamos al museo.",
+    "sortOrder": 11,
+    "translation": "We are going to the museum."
+  }
+]

@@ -2,7 +2,7 @@
 
 Spanish Made Easy is a static Vite single-page app. The browser will talk to Supabase with the public anon key and the signed-in user's JWT. There is no application server, no AI API, and no paid service.
 
-Accounts, the vocabulary bank, sentence builder, revision, exams, and the progress board are implemented. Real-life situations are still empty on purpose.
+Accounts, the vocabulary bank, sentence builder, revision, exams, the progress board, and the twelve real-life situations are implemented. The site is built as static files for Cloudflare Pages.
 
 ## Accounts
 
@@ -37,7 +37,7 @@ Studying a lot, adding vocabulary, or deploying the site does not cause that pau
 
 ## Hosting
 
-The site will be deployed to Cloudflare Pages on the free `pages.dev` subdomain. Pages Free allows 500 builds a month and does not meter static traffic through a credit pool. It does not pause the site for inactivity. If the build quota runs out, the last deployment keeps serving.
+The site is deployed to Cloudflare Pages on the free `pages.dev` subdomain. Pages Free allows 500 builds a month and does not meter static traffic through a credit pool. It does not pause the site for inactivity. If the build quota runs out, the last deployment keeps serving. The Pages project gets only the public `VITE_` keys. The service-role key is not a build variable and must not appear in `dist/`.
 
 `public/_redirects` contains `/* /index.html 200` so the client router handles paths such as `/vocabulary`. Do not enable Cloudflare Workers for this app unless a later milestone has a job the static site cannot do.
 
@@ -47,4 +47,4 @@ Netlify's free credit pool is a poor fit because production deploys and bandwidt
 
 The six routes are Progress, Vocabulary, Sentence Builder, Revision, Exams, and Real-Life Spanish. On a narrow screen the navigation is a bottom bar. From the `md` breakpoint it is a side bar with the labels visible. The reading column has a maximum width.
 
-Vocabulary reads the seeded bank and records "I know this" or "Still learning" on the signed-in user's own rows. The first answer sets the next review to the next local day and does not mark the word known. A later review uses Again, Hard, Good, or Easy. A word is known only when a successful review sets an interval of at least 7 days. Sentence Builder reads the seeded grammar lessons. One row per learner per topic stores the latest score, and 80 percent rounded up marks the topic finished. A later topic names the earlier one and still opens. Grammar and exams do not spend the vocabulary target. An exam is 15 questions from the bank, and each attempt is kept. The progress board reads only that learner's rows. Real-life situations say that module is not built yet.
+Vocabulary reads the seeded bank and records "I know this" or "Still learning" on the signed-in user's own rows. The first answer sets the next review to the next local day and does not mark the word known. A later review uses Again, Hard, Good, or Easy. A word is known only when a successful review sets an interval of at least 7 days. Sentence Builder reads the seeded grammar lessons. One row per learner per topic stores the latest score, and 80 percent rounded up marks the topic finished. A later topic names the earlier one and still opens. Grammar and exams do not spend the vocabulary target. An exam is 15 questions from the bank, and each attempt is kept. The progress board reads only that learner's rows. Real-life Spanish is twelve seeded dialogues. One row per learner per situation stores the latest score, and 80 percent rounded up marks it finished. A situation does not spend the vocabulary target.

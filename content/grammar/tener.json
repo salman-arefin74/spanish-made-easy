@@ -1,0 +1,50 @@
+{
+  "id": "tener",
+  "title": "Tener",
+  "sortOrder": 12,
+  "prerequisiteId": "pronouns",
+  "explanation": "Tener means to have, and it also covers age and some states. The present forms are tengo, tienes, tiene, tenemos, tenéis, and tienen.\n\nTengo hambre means I am hungry. Tengo veinte años means I am twenty. Spanish does not use ser for those.",
+  "commonMistake": "Saying soy hambre or soy veinte años. Both use tener.",
+  "examples": [
+    {
+      "spanish": "Tengo un libro.",
+      "english": "I have a book.",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "Tienes un coche.",
+      "english": "You have a car.",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "Tiene un libro.",
+      "english": "She has a book.",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "Tenemos hambre.",
+      "english": "We are hungry.",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "Tenéis hambre.",
+      "english": "You are hungry.",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "Tienen un coche.",
+      "english": "They have a car.",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "Tengo hambre.",
+      "english": "I am hungry.",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "Tengo veinte años.",
+      "english": "I am twenty.",
+      "sortOrder": 7
+    }
+  ]
+}

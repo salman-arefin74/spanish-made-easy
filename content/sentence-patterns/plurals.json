@@ -1,0 +1,46 @@
+[
+  {
+    "id": "plurals-vowel",
+    "topicId": "plurals",
+    "title": "Plural after a vowel",
+    "frame": "noun ending in a vowel + s",
+    "slots": [
+      {
+        "name": "article",
+        "description": "los or las",
+        "wordIds": []
+      },
+      {
+        "name": "noun",
+        "description": "a plural such as libros or casas",
+        "wordIds": [
+          "work-and-study-libro",
+          "the-home-casa"
+        ]
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "plurals-consonant",
+    "topicId": "plurals",
+    "title": "Plural after a consonant",
+    "frame": "noun ending in a consonant + es",
+    "slots": [
+      {
+        "name": "article",
+        "description": "los or las",
+        "wordIds": []
+      },
+      {
+        "name": "noun",
+        "description": "a plural such as trenes or estaciones",
+        "wordIds": [
+          "travel-and-transport-tren",
+          "town-and-places-estacion"
+        ]
+      }
+    ],
+    "sortOrder": 1
+  }
+]

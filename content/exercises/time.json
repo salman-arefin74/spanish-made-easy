@@ -1,0 +1,211 @@
+[
+  {
+    "id": "time-understand-1",
+    "topicId": "time",
+    "kind": "understand",
+    "prompt": "Which sentence is one o'clock?",
+    "choices": [
+      "Es la una.",
+      "Son las una."
+    ],
+    "acceptedAnswers": [
+      "Es la una."
+    ],
+    "explanation": "One o'clock uses es la una.",
+    "sortOrder": 0,
+    "translation": "It is one o'clock."
+  },
+  {
+    "id": "time-understand-2",
+    "topicId": "time",
+    "kind": "understand",
+    "prompt": "Which sentence is two o'clock?",
+    "choices": [
+      "Son las dos.",
+      "Es las dos."
+    ],
+    "acceptedAnswers": [
+      "Son las dos."
+    ],
+    "explanation": "Every hour except one uses son las.",
+    "sortOrder": 1,
+    "translation": "It is two o'clock."
+  },
+  {
+    "id": "time-understand-3",
+    "topicId": "time",
+    "kind": "understand",
+    "prompt": "Which sentence is 8 in the evening on the 24-hour clock?",
+    "choices": [
+      "Son las veinte.",
+      "Son las ocho de la mañana."
+    ],
+    "acceptedAnswers": [
+      "Son las veinte."
+    ],
+    "explanation": "Veinte is 20:00, which is 8 in the evening.",
+    "sortOrder": 2,
+    "translation": "It is eight in the evening."
+  },
+  {
+    "id": "time-understand-4",
+    "topicId": "time",
+    "kind": "understand",
+    "prompt": "Which phrase means on Mondays?",
+    "choices": [
+      "Los lunes.",
+      "El lunes son."
+    ],
+    "acceptedAnswers": [
+      "Los lunes."
+    ],
+    "explanation": "A repeated day uses the plural: los lunes.",
+    "sortOrder": 3,
+    "translation": "On Mondays."
+  },
+  {
+    "id": "time-construct-1",
+    "topicId": "time",
+    "kind": "construct",
+    "prompt": "Build: it is one o'clock.",
+    "tokens": [
+      "Es",
+      "la",
+      "una",
+      "Son"
+    ],
+    "acceptedAnswers": [
+      "Es la una"
+    ],
+    "explanation": "Es la una.",
+    "sortOrder": 4,
+    "translation": "It is one o'clock."
+  },
+  {
+    "id": "time-construct-2",
+    "topicId": "time",
+    "kind": "construct",
+    "prompt": "Build: it is two o'clock.",
+    "tokens": [
+      "Son",
+      "las",
+      "dos",
+      "Es"
+    ],
+    "acceptedAnswers": [
+      "Son las dos"
+    ],
+    "explanation": "Son las dos.",
+    "sortOrder": 5,
+    "translation": "It is two o'clock."
+  },
+  {
+    "id": "time-construct-3",
+    "topicId": "time",
+    "kind": "construct",
+    "prompt": "Build: it is 8 in the evening.",
+    "tokens": [
+      "Son",
+      "las",
+      "veinte",
+      "ocho"
+    ],
+    "acceptedAnswers": [
+      "Son las veinte"
+    ],
+    "explanation": "Son las veinte.",
+    "sortOrder": 6,
+    "translation": "It is eight in the evening."
+  },
+  {
+    "id": "time-construct-4",
+    "topicId": "time",
+    "kind": "construct",
+    "prompt": "Build: at three.",
+    "tokens": [
+      "A",
+      "las",
+      "tres",
+      "Es"
+    ],
+    "acceptedAnswers": [
+      "A las tres"
+    ],
+    "explanation": "A las tres.",
+    "sortOrder": 7,
+    "translation": "At three."
+  },
+  {
+    "id": "time-apply-1",
+    "topicId": "time",
+    "kind": "apply",
+    "prompt": "Someone asks the time. It is one.",
+    "tokens": [
+      "Es",
+      "la",
+      "una",
+      "Son"
+    ],
+    "acceptedAnswers": [
+      "Es la una"
+    ],
+    "explanation": "Es la una.",
+    "sortOrder": 8,
+    "translation": "It is one o'clock."
+  },
+  {
+    "id": "time-apply-2",
+    "topicId": "time",
+    "kind": "apply",
+    "prompt": "Someone asks the time. It is two.",
+    "tokens": [
+      "Son",
+      "las",
+      "dos",
+      "Es"
+    ],
+    "acceptedAnswers": [
+      "Son las dos"
+    ],
+    "explanation": "Son las dos.",
+    "sortOrder": 9,
+    "translation": "It is two o'clock."
+  },
+  {
+    "id": "time-apply-3",
+    "topicId": "time",
+    "kind": "apply",
+    "prompt": "You agree to meet at three.",
+    "tokens": [
+      "A",
+      "las",
+      "tres",
+      "Son"
+    ],
+    "acceptedAnswers": [
+      "A las tres"
+    ],
+    "explanation": "A las tres.",
+    "sortOrder": 10,
+    "translation": "At three."
+  },
+  {
+    "id": "time-apply-4",
+    "topicId": "time",
+    "kind": "apply",
+    "prompt": "You study on Mondays, in the morning.",
+    "tokens": [
+      "Los",
+      "lunes",
+      "por",
+      "la",
+      "mañana"
+    ],
+    "acceptedAnswers": [
+      "Los lunes por la mañana"
+    ],
+    "explanation": "Los lunes por la mañana.",
+    "sortOrder": 11,
+    "translation": "On Mondays in the morning."
+  }
+]

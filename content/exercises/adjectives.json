@@ -1,0 +1,214 @@
+[
+  {
+    "id": "adjectives-understand-1",
+    "topicId": "adjectives",
+    "kind": "understand",
+    "prompt": "Which phrase describes a big house?",
+    "choices": [
+      "la casa grande",
+      "la grande casa"
+    ],
+    "acceptedAnswers": [
+      "la casa grande"
+    ],
+    "explanation": "The adjective usually follows the noun.",
+    "sortOrder": 0,
+    "translation": "the big house"
+  },
+  {
+    "id": "adjectives-understand-2",
+    "topicId": "adjectives",
+    "kind": "understand",
+    "prompt": "Which phrase describes new books?",
+    "choices": [
+      "los libros nuevos",
+      "los libros nuevas"
+    ],
+    "acceptedAnswers": [
+      "los libros nuevos"
+    ],
+    "explanation": "Libros is masculine plural, so the adjective is nuevos.",
+    "sortOrder": 1,
+    "translation": "the new books"
+  },
+  {
+    "id": "adjectives-understand-3",
+    "topicId": "adjectives",
+    "kind": "understand",
+    "prompt": "Which phrase describes a red house?",
+    "choices": [
+      "la casa roja",
+      "la casa rojo"
+    ],
+    "acceptedAnswers": [
+      "la casa roja"
+    ],
+    "explanation": "Casa is feminine, so rojo becomes roja.",
+    "sortOrder": 2,
+    "translation": "the red house"
+  },
+  {
+    "id": "adjectives-understand-4",
+    "topicId": "adjectives",
+    "kind": "understand",
+    "prompt": "Which phrase describes a difficult problem?",
+    "choices": [
+      "un problema difícil",
+      "una problema difícil"
+    ],
+    "acceptedAnswers": [
+      "un problema difícil"
+    ],
+    "explanation": "Problema is masculine.",
+    "sortOrder": 3,
+    "translation": "a difficult problem"
+  },
+  {
+    "id": "adjectives-construct-1",
+    "topicId": "adjectives",
+    "kind": "construct",
+    "prompt": "Build: the big house.",
+    "tokens": [
+      "La",
+      "casa",
+      "grande",
+      "grandes"
+    ],
+    "acceptedAnswers": [
+      "La casa grande"
+    ],
+    "explanation": "La casa grande.",
+    "sortOrder": 4,
+    "translation": "the big house"
+  },
+  {
+    "id": "adjectives-construct-2",
+    "topicId": "adjectives",
+    "kind": "construct",
+    "prompt": "Build: the new books.",
+    "tokens": [
+      "Los",
+      "libros",
+      "nuevos",
+      "nuevas"
+    ],
+    "acceptedAnswers": [
+      "Los libros nuevos"
+    ],
+    "explanation": "Los libros nuevos.",
+    "sortOrder": 5,
+    "translation": "the new books"
+  },
+  {
+    "id": "adjectives-construct-3",
+    "topicId": "adjectives",
+    "kind": "construct",
+    "prompt": "Build: the red book.",
+    "tokens": [
+      "El",
+      "libro",
+      "rojo",
+      "roja"
+    ],
+    "acceptedAnswers": [
+      "El libro rojo"
+    ],
+    "explanation": "El libro rojo.",
+    "sortOrder": 6,
+    "translation": "the red book"
+  },
+  {
+    "id": "adjectives-construct-4",
+    "topicId": "adjectives",
+    "kind": "construct",
+    "prompt": "Build: a difficult problem.",
+    "tokens": [
+      "Un",
+      "problema",
+      "difícil",
+      "difíciles"
+    ],
+    "acceptedAnswers": [
+      "Un problema difícil"
+    ],
+    "explanation": "Un problema difícil.",
+    "sortOrder": 7,
+    "translation": "a difficult problem"
+  },
+  {
+    "id": "adjectives-apply-1",
+    "topicId": "adjectives",
+    "kind": "apply",
+    "prompt": "Tell a friend which house you want.",
+    "tokens": [
+      "Quiero",
+      "la",
+      "casa",
+      "grande",
+      "grandes"
+    ],
+    "acceptedAnswers": [
+      "Quiero la casa grande"
+    ],
+    "explanation": "Quiero la casa grande.",
+    "sortOrder": 8,
+    "translation": "I want the big house."
+  },
+  {
+    "id": "adjectives-apply-2",
+    "topicId": "adjectives",
+    "kind": "apply",
+    "prompt": "You want the new books.",
+    "tokens": [
+      "Quiero",
+      "los",
+      "libros",
+      "nuevos",
+      "nuevas"
+    ],
+    "acceptedAnswers": [
+      "Quiero los libros nuevos"
+    ],
+    "explanation": "Quiero los libros nuevos.",
+    "sortOrder": 9,
+    "translation": "I want the new books."
+  },
+  {
+    "id": "adjectives-apply-3",
+    "topicId": "adjectives",
+    "kind": "apply",
+    "prompt": "Describe the book on the table.",
+    "tokens": [
+      "El",
+      "libro",
+      "es",
+      "rojo",
+      "roja"
+    ],
+    "acceptedAnswers": [
+      "El libro es rojo"
+    ],
+    "explanation": "El libro es rojo.",
+    "sortOrder": 10,
+    "translation": "The book is red."
+  },
+  {
+    "id": "adjectives-apply-4",
+    "topicId": "adjectives",
+    "kind": "apply",
+    "prompt": "The water in the glass is cold.",
+    "tokens": [
+      "El",
+      "agua",
+      "está",
+      "fría",
+      "frío"
+    ],
+    "acceptedAnswers": [
+      "El agua está fría"
+    ],
+    "explanation": "Agua is feminine, so the adjective is fría.",
+    "sortOrder": 11,
+    "translation": "The water is cold."
+  }
+]

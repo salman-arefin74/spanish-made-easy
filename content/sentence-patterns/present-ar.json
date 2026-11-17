@@ -1,0 +1,46 @@
+[
+  {
+    "id": "present-ar-singular",
+    "topicId": "present-ar",
+    "title": "I, you, he, and she",
+    "frame": "hablo, hablas, or habla",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "hablo, hablas, or habla",
+        "wordIds": [
+          "work-and-study-hablar"
+        ]
+      },
+      {
+        "name": "rest",
+        "description": "what or whom you speak",
+        "wordIds": []
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "present-ar-plural",
+    "topicId": "present-ar",
+    "title": "We, you all, and they",
+    "frame": "hablamos, habláis, or hablan",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "hablamos, habláis, or hablan",
+        "wordIds": [
+          "work-and-study-hablar"
+        ]
+      },
+      {
+        "name": "place",
+        "description": "where, such as en casa",
+        "wordIds": [
+          "the-home-casa"
+        ]
+      }
+    ],
+    "sortOrder": 1
+  }
+]

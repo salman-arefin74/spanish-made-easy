@@ -1,0 +1,211 @@
+[
+  {
+    "id": "hay-understand-1",
+    "topicId": "hay",
+    "kind": "understand",
+    "prompt": "Which sentence says a bank exists here?",
+    "choices": [
+      "Hay un banco.",
+      "Está un banco."
+    ],
+    "acceptedAnswers": [
+      "Hay un banco."
+    ],
+    "explanation": "Existence uses hay.",
+    "sortOrder": 0,
+    "translation": "There is a bank."
+  },
+  {
+    "id": "hay-understand-2",
+    "topicId": "hay",
+    "kind": "understand",
+    "prompt": "Which sentence says books exist here?",
+    "choices": [
+      "Hay libros.",
+      "Hay libro."
+    ],
+    "acceptedAnswers": [
+      "Hay libros."
+    ],
+    "explanation": "Hay does not change, and the noun shows the plural.",
+    "sortOrder": 1,
+    "translation": "There are books."
+  },
+  {
+    "id": "hay-understand-3",
+    "topicId": "hay",
+    "kind": "understand",
+    "prompt": "Which sentence says there is no milk?",
+    "choices": [
+      "No hay leche.",
+      "Hay no leche."
+    ],
+    "acceptedAnswers": [
+      "No hay leche."
+    ],
+    "explanation": "No comes before hay.",
+    "sortOrder": 2,
+    "translation": "There is no milk."
+  },
+  {
+    "id": "hay-understand-4",
+    "topicId": "hay",
+    "kind": "understand",
+    "prompt": "Which sentence says there is a problem?",
+    "choices": [
+      "Hay un problema.",
+      "Es un hay problema."
+    ],
+    "acceptedAnswers": [
+      "Hay un problema."
+    ],
+    "explanation": "Hay un problema.",
+    "sortOrder": 3,
+    "translation": "There is a problem."
+  },
+  {
+    "id": "hay-construct-1",
+    "topicId": "hay",
+    "kind": "construct",
+    "prompt": "Build: there is a bank.",
+    "tokens": [
+      "Hay",
+      "un",
+      "banco",
+      "Está"
+    ],
+    "acceptedAnswers": [
+      "Hay un banco"
+    ],
+    "explanation": "Hay un banco.",
+    "sortOrder": 4,
+    "translation": "There is a bank."
+  },
+  {
+    "id": "hay-construct-2",
+    "topicId": "hay",
+    "kind": "construct",
+    "prompt": "Build: there are books.",
+    "tokens": [
+      "Hay",
+      "libros",
+      "un",
+      "libro"
+    ],
+    "acceptedAnswers": [
+      "Hay libros"
+    ],
+    "explanation": "Hay libros.",
+    "sortOrder": 5,
+    "translation": "There are books."
+  },
+  {
+    "id": "hay-construct-3",
+    "topicId": "hay",
+    "kind": "construct",
+    "prompt": "Build: there is no milk.",
+    "tokens": [
+      "No",
+      "hay",
+      "leche",
+      "Hay"
+    ],
+    "acceptedAnswers": [
+      "No hay leche"
+    ],
+    "explanation": "No hay leche.",
+    "sortOrder": 6,
+    "translation": "There is no milk."
+  },
+  {
+    "id": "hay-construct-4",
+    "topicId": "hay",
+    "kind": "construct",
+    "prompt": "Build: there is no water.",
+    "tokens": [
+      "No",
+      "hay",
+      "agua",
+      "leche"
+    ],
+    "acceptedAnswers": [
+      "No hay agua"
+    ],
+    "explanation": "No hay agua.",
+    "sortOrder": 7,
+    "translation": "There is no water."
+  },
+  {
+    "id": "hay-apply-1",
+    "topicId": "hay",
+    "kind": "apply",
+    "prompt": "Someone asks if there is a bank nearby.",
+    "tokens": [
+      "Hay",
+      "un",
+      "banco",
+      "Está"
+    ],
+    "acceptedAnswers": [
+      "Hay un banco"
+    ],
+    "explanation": "Hay un banco.",
+    "sortOrder": 8,
+    "translation": "There is a bank."
+  },
+  {
+    "id": "hay-apply-2",
+    "topicId": "hay",
+    "kind": "apply",
+    "prompt": "You can see books on the table and you report that they are there.",
+    "tokens": [
+      "Hay",
+      "libros",
+      "en",
+      "la",
+      "mesa"
+    ],
+    "acceptedAnswers": [
+      "Hay libros en la mesa"
+    ],
+    "explanation": "Hay libros en la mesa.",
+    "sortOrder": 9,
+    "translation": "There are books on the table."
+  },
+  {
+    "id": "hay-apply-3",
+    "topicId": "hay",
+    "kind": "apply",
+    "prompt": "The café has no milk.",
+    "tokens": [
+      "No",
+      "hay",
+      "leche",
+      "Hay"
+    ],
+    "acceptedAnswers": [
+      "No hay leche"
+    ],
+    "explanation": "No hay leche.",
+    "sortOrder": 10,
+    "translation": "There is no milk."
+  },
+  {
+    "id": "hay-apply-4",
+    "topicId": "hay",
+    "kind": "apply",
+    "prompt": "You want to say there is no bread.",
+    "tokens": [
+      "No",
+      "hay",
+      "pan",
+      "leche"
+    ],
+    "acceptedAnswers": [
+      "No hay pan"
+    ],
+    "explanation": "No hay pan.",
+    "sortOrder": 11,
+    "translation": "There is no bread."
+  }
+]

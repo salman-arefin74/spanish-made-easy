@@ -1,0 +1,214 @@
+[
+  {
+    "id": "ser-understand-1",
+    "topicId": "ser",
+    "kind": "understand",
+    "prompt": "How do you say that you are Ana?",
+    "choices": [
+      "Soy Ana.",
+      "Estoy Ana."
+    ],
+    "acceptedAnswers": [
+      "Soy Ana."
+    ],
+    "explanation": "A name uses ser.",
+    "sortOrder": 0,
+    "translation": "I am Ana."
+  },
+  {
+    "id": "ser-understand-2",
+    "topicId": "ser",
+    "kind": "understand",
+    "prompt": "How do you say that she is from Madrid?",
+    "choices": [
+      "Es de Madrid.",
+      "Está de Madrid."
+    ],
+    "acceptedAnswers": [
+      "Es de Madrid."
+    ],
+    "explanation": "Origin uses ser.",
+    "sortOrder": 1,
+    "translation": "She is from Madrid."
+  },
+  {
+    "id": "ser-understand-3",
+    "topicId": "ser",
+    "kind": "understand",
+    "prompt": "How do you say that we are friends?",
+    "choices": [
+      "Somos amigos.",
+      "Estamos amigos."
+    ],
+    "acceptedAnswers": [
+      "Somos amigos."
+    ],
+    "explanation": "What you are uses ser.",
+    "sortOrder": 2,
+    "translation": "We are friends."
+  },
+  {
+    "id": "ser-understand-4",
+    "topicId": "ser",
+    "kind": "understand",
+    "prompt": "You tell a group of friends in Spain that they are from Spain.",
+    "choices": [
+      "Sois de España.",
+      "Son de España."
+    ],
+    "acceptedAnswers": [
+      "Sois de España."
+    ],
+    "explanation": "Sois is the Spain form. Latin America usually says son.",
+    "sortOrder": 3,
+    "translation": "You are from Spain."
+  },
+  {
+    "id": "ser-construct-1",
+    "topicId": "ser",
+    "kind": "construct",
+    "prompt": "Build: I am Ana.",
+    "tokens": [
+      "Soy",
+      "Estoy",
+      "Ana",
+      "Madrid"
+    ],
+    "acceptedAnswers": [
+      "Soy Ana"
+    ],
+    "explanation": "Soy Ana.",
+    "sortOrder": 4,
+    "translation": "I am Ana."
+  },
+  {
+    "id": "ser-construct-2",
+    "topicId": "ser",
+    "kind": "construct",
+    "prompt": "Build: I am from Madrid.",
+    "tokens": [
+      "Soy",
+      "de",
+      "Madrid",
+      "Estoy"
+    ],
+    "acceptedAnswers": [
+      "Soy de Madrid"
+    ],
+    "explanation": "Soy de Madrid.",
+    "sortOrder": 5,
+    "translation": "I am from Madrid."
+  },
+  {
+    "id": "ser-construct-3",
+    "topicId": "ser",
+    "kind": "construct",
+    "prompt": "Build: she is a teacher.",
+    "tokens": [
+      "Es",
+      "Está",
+      "profesora",
+      "profesor"
+    ],
+    "acceptedAnswers": [
+      "Es profesora"
+    ],
+    "explanation": "Es profesora.",
+    "sortOrder": 6,
+    "translation": "She is a teacher."
+  },
+  {
+    "id": "ser-construct-4",
+    "topicId": "ser",
+    "kind": "construct",
+    "prompt": "Build: they are students.",
+    "tokens": [
+      "Son",
+      "Están",
+      "estudiantes",
+      "amigos"
+    ],
+    "acceptedAnswers": [
+      "Son estudiantes"
+    ],
+    "explanation": "Son estudiantes.",
+    "sortOrder": 7,
+    "translation": "They are students."
+  },
+  {
+    "id": "ser-apply-1",
+    "topicId": "ser",
+    "kind": "apply",
+    "prompt": "Someone asks your name.",
+    "tokens": [
+      "Soy",
+      "Yo",
+      "Ana",
+      "Estoy"
+    ],
+    "acceptedAnswers": [
+      "Soy Ana",
+      "Yo soy Ana"
+    ],
+    "explanation": "Soy Ana. Yo soy Ana is the same meaning with the pronoun.",
+    "sortOrder": 8,
+    "translation": "I am Ana."
+  },
+  {
+    "id": "ser-apply-2",
+    "topicId": "ser",
+    "kind": "apply",
+    "prompt": "Someone asks where you are from.",
+    "tokens": [
+      "Soy",
+      "Yo",
+      "de",
+      "Madrid",
+      "Estoy"
+    ],
+    "acceptedAnswers": [
+      "Soy de Madrid",
+      "Yo soy de Madrid"
+    ],
+    "explanation": "Origin uses ser.",
+    "sortOrder": 9,
+    "translation": "I am from Madrid."
+  },
+  {
+    "id": "ser-apply-3",
+    "topicId": "ser",
+    "kind": "apply",
+    "prompt": "Introduce a woman as a teacher.",
+    "tokens": [
+      "Es",
+      "Ella",
+      "profesora",
+      "profesor"
+    ],
+    "acceptedAnswers": [
+      "Es profesora",
+      "Ella es profesora"
+    ],
+    "explanation": "Es profesora.",
+    "sortOrder": 10,
+    "translation": "She is a teacher."
+  },
+  {
+    "id": "ser-apply-4",
+    "topicId": "ser",
+    "kind": "apply",
+    "prompt": "Tell friends in Spain that they are from Spain.",
+    "tokens": [
+      "Sois",
+      "de",
+      "España",
+      "Son"
+    ],
+    "acceptedAnswers": [
+      "Sois de España"
+    ],
+    "explanation": "Sois de España.",
+    "sortOrder": 11,
+    "translation": "You are from Spain."
+  }
+]

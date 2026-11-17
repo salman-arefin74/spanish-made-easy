@@ -1,0 +1,79 @@
+{
+  "id": "asking-the-way",
+  "title": "Asking the way",
+  "aim": "Ask where the pharmacy is and follow the direction.",
+  "spainNote": null,
+  "sortOrder": 5,
+  "phrases": [
+    { "wordId": "everyday-essentials-perdon", "spanish": "perdón", "english": "excuse me" },
+    { "wordId": "town-and-places-farmacia", "spanish": "farmacia", "english": "pharmacy" },
+    { "wordId": "town-and-places-cerca", "spanish": "cerca", "english": "near" },
+    { "wordId": "town-and-places-derecha", "spanish": "derecha", "english": "right" },
+    { "wordId": "everyday-essentials-gracias", "spanish": "gracias", "english": "thank you" },
+    { "wordId": "everyday-essentials-de-nada", "spanish": "de nada", "english": "you're welcome" }
+  ],
+  "turns": [
+    { "speaker": "Ana", "spanish": "Perdón, ¿dónde está la farmacia?", "english": "Excuse me, where is the pharmacy?" },
+    { "speaker": "Señor", "spanish": "La farmacia está cerca.", "english": "The pharmacy is near." },
+    { "speaker": "Ana", "spanish": "¿A la izquierda o a la derecha?", "english": "To the left or to the right?" },
+    { "speaker": "Señor", "spanish": "A la derecha.", "english": "To the right." },
+    { "speaker": "Ana", "spanish": "Gracias.", "english": "Thank you." },
+    { "speaker": "Señor", "spanish": "De nada.", "english": "You're welcome." }
+  ],
+  "exercises": [
+    {
+      "id": "asking-the-way-place",
+      "kind": "comprehension",
+      "prompt": "Which line asks for the pharmacy?",
+      "choices": ["Perdón, ¿dónde está la farmacia?", "La farmacia está cerca.", "A la derecha."],
+      "acceptedAnswers": ["Perdón, ¿dónde está la farmacia?"],
+      "translation": "Excuse me, where is the pharmacy?",
+      "explanation": "She asks for la farmacia."
+    },
+    {
+      "id": "asking-the-way-near",
+      "kind": "comprehension",
+      "prompt": "Which line says the pharmacy is near?",
+      "choices": ["La farmacia está cerca.", "A la derecha.", "De nada."],
+      "acceptedAnswers": ["La farmacia está cerca."],
+      "translation": "The pharmacy is near.",
+      "explanation": "Cerca means near."
+    },
+    {
+      "id": "asking-the-way-turn",
+      "kind": "comprehension",
+      "prompt": "Which line gives the direction?",
+      "choices": ["A la derecha.", "La farmacia está cerca.", "Perdón, ¿dónde está la farmacia?"],
+      "acceptedAnswers": ["A la derecha."],
+      "translation": "To the right.",
+      "explanation": "A la derecha means to the right."
+    },
+    {
+      "id": "asking-the-way-ask",
+      "kind": "construct",
+      "prompt": "Ask where the pharmacy is.",
+      "tokens": ["Dónde", "está", "la", "farmacia"],
+      "acceptedAnswers": ["Dónde está la farmacia"],
+      "translation": "Where is the pharmacy?",
+      "explanation": "Start with perdón if you need someone's attention."
+    },
+    {
+      "id": "asking-the-way-close",
+      "kind": "construct",
+      "prompt": "Say the pharmacy is near.",
+      "tokens": ["La", "farmacia", "está", "cerca"],
+      "acceptedAnswers": ["La farmacia está cerca"],
+      "translation": "The pharmacy is near.",
+      "explanation": "Cerca comes after está."
+    },
+    {
+      "id": "asking-the-way-right",
+      "kind": "construct",
+      "prompt": "Say to the right.",
+      "tokens": ["A", "la", "derecha"],
+      "acceptedAnswers": ["A la derecha"],
+      "translation": "To the right.",
+      "explanation": "Derecha is right."
+    }
+  ]
+}

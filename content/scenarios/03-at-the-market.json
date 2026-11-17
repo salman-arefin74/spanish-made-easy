@@ -1,0 +1,78 @@
+{
+  "id": "at-the-market",
+  "title": "At the market",
+  "aim": "Buy bread and fruit and ask the price.",
+  "spainNote": null,
+  "sortOrder": 3,
+  "phrases": [
+    { "wordId": "food-and-drink-pan", "spanish": "pan", "english": "bread" },
+    { "wordId": "food-and-drink-manzana", "spanish": "manzana", "english": "apple" },
+    { "wordId": "useful-verbs-cuanto-cuesta", "spanish": "¿cuánto cuesta?", "english": "how much is it?" },
+    { "wordId": "everyday-essentials-por-favor", "spanish": "por favor", "english": "please" },
+    { "wordId": "everyday-essentials-gracias", "spanish": "gracias", "english": "thank you" }
+  ],
+  "turns": [
+    { "speaker": "Ana", "spanish": "El pan, por favor.", "english": "The bread, please." },
+    { "speaker": "Tendero", "spanish": "Aquí tiene el pan.", "english": "Here is the bread." },
+    { "speaker": "Ana", "spanish": "¿Cuánto cuesta?", "english": "How much is it?" },
+    { "speaker": "Tendero", "spanish": "Cuesta un euro.", "english": "It costs one euro." },
+    { "speaker": "Ana", "spanish": "Una manzana, por favor.", "english": "An apple, please." },
+    { "speaker": "Tendero", "spanish": "Vale. Gracias.", "english": "Okay. Thank you." }
+  ],
+  "exercises": [
+    {
+      "id": "at-the-market-first",
+      "kind": "comprehension",
+      "prompt": "Which line asks for the bread?",
+      "choices": ["El pan, por favor.", "Una manzana, por favor.", "¿Cuánto cuesta?"],
+      "acceptedAnswers": ["El pan, por favor."],
+      "translation": "The bread, please.",
+      "explanation": "She starts with el pan."
+    },
+    {
+      "id": "at-the-market-price",
+      "kind": "comprehension",
+      "prompt": "Which line asks the price?",
+      "choices": ["¿Cuánto cuesta?", "El pan, por favor.", "Una manzana, por favor."],
+      "acceptedAnswers": ["¿Cuánto cuesta?"],
+      "translation": "How much is it?",
+      "explanation": "¿Cuánto cuesta? asks the price."
+    },
+    {
+      "id": "at-the-market-fruit",
+      "kind": "comprehension",
+      "prompt": "Which line asks for the apple?",
+      "choices": ["Una manzana, por favor.", "El pan, por favor.", "¿Cuánto cuesta?"],
+      "acceptedAnswers": ["Una manzana, por favor."],
+      "translation": "An apple, please.",
+      "explanation": "She adds una manzana."
+    },
+    {
+      "id": "at-the-market-bread",
+      "kind": "construct",
+      "prompt": "Ask for the bread politely.",
+      "tokens": ["El", "pan", "por", "favor"],
+      "acceptedAnswers": ["El pan por favor"],
+      "translation": "The bread, please.",
+      "explanation": "El pan is the bread."
+    },
+    {
+      "id": "at-the-market-cost",
+      "kind": "construct",
+      "prompt": "Ask how much it costs.",
+      "tokens": ["Cuánto", "cuesta"],
+      "acceptedAnswers": ["Cuánto cuesta"],
+      "translation": "How much is it?",
+      "explanation": "The question is ¿Cuánto cuesta?"
+    },
+    {
+      "id": "at-the-market-apple",
+      "kind": "construct",
+      "prompt": "Ask for an apple politely.",
+      "tokens": ["Una", "manzana", "por", "favor"],
+      "acceptedAnswers": ["Una manzana por favor"],
+      "translation": "An apple, please.",
+      "explanation": "Manzana is a feminine noun, so it takes una."
+    }
+  ]
+}

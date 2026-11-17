@@ -1,0 +1,215 @@
+[
+  {
+    "id": "pronouns-understand-1",
+    "topicId": "pronouns",
+    "kind": "understand",
+    "prompt": "You are talking about yourself.",
+    "choices": [
+      "Yo soy Ana.",
+      "Tú soy Ana."
+    ],
+    "acceptedAnswers": [
+      "Yo soy Ana."
+    ],
+    "explanation": "Yo is the pronoun for yourself.",
+    "sortOrder": 0,
+    "translation": "I am Ana."
+  },
+  {
+    "id": "pronouns-understand-2",
+    "topicId": "pronouns",
+    "kind": "understand",
+    "prompt": "You are talking to one friend.",
+    "choices": [
+      "Tú eres Pablo.",
+      "Vosotros eres Pablo."
+    ],
+    "acceptedAnswers": [
+      "Tú eres Pablo."
+    ],
+    "explanation": "Tú is for one person.",
+    "sortOrder": 1,
+    "translation": "You are Pablo."
+  },
+  {
+    "id": "pronouns-understand-3",
+    "topicId": "pronouns",
+    "kind": "understand",
+    "prompt": "You are talking to several friends in Spain.",
+    "choices": [
+      "Vosotros sois de España.",
+      "Tú sois de España."
+    ],
+    "acceptedAnswers": [
+      "Vosotros sois de España."
+    ],
+    "explanation": "In Spain, vosotros is you for a group. Latin America usually says ustedes.",
+    "sortOrder": 2,
+    "translation": "You are from Spain."
+  },
+  {
+    "id": "pronouns-understand-4",
+    "topicId": "pronouns",
+    "kind": "understand",
+    "prompt": "You are talking about a group of women.",
+    "choices": [
+      "Ellas son amigas.",
+      "Ellos son amigas."
+    ],
+    "acceptedAnswers": [
+      "Ellas son amigas."
+    ],
+    "explanation": "Ellas is the feminine they.",
+    "sortOrder": 3,
+    "translation": "They are friends."
+  },
+  {
+    "id": "pronouns-construct-1",
+    "topicId": "pronouns",
+    "kind": "construct",
+    "prompt": "Build: I am Ana.",
+    "tokens": [
+      "Yo",
+      "Tú",
+      "soy",
+      "Ana"
+    ],
+    "acceptedAnswers": [
+      "Yo soy Ana"
+    ],
+    "explanation": "Yo soy Ana.",
+    "sortOrder": 4,
+    "translation": "I am Ana."
+  },
+  {
+    "id": "pronouns-construct-2",
+    "topicId": "pronouns",
+    "kind": "construct",
+    "prompt": "Build: you are Pablo, to one friend.",
+    "tokens": [
+      "Tú",
+      "Vosotros",
+      "eres",
+      "Pablo"
+    ],
+    "acceptedAnswers": [
+      "Tú eres Pablo"
+    ],
+    "explanation": "Tú eres Pablo.",
+    "sortOrder": 5,
+    "translation": "You are Pablo."
+  },
+  {
+    "id": "pronouns-construct-3",
+    "topicId": "pronouns",
+    "kind": "construct",
+    "prompt": "Build: she is Ana.",
+    "tokens": [
+      "Ella",
+      "Él",
+      "es",
+      "Ana"
+    ],
+    "acceptedAnswers": [
+      "Ella es Ana"
+    ],
+    "explanation": "Ella es Ana.",
+    "sortOrder": 6,
+    "translation": "She is Ana."
+  },
+  {
+    "id": "pronouns-construct-4",
+    "topicId": "pronouns",
+    "kind": "construct",
+    "prompt": "Build: you all are from Spain, to friends in Spain.",
+    "tokens": [
+      "Vosotros",
+      "Tú",
+      "sois",
+      "de",
+      "España"
+    ],
+    "acceptedAnswers": [
+      "Vosotros sois de España"
+    ],
+    "explanation": "Vosotros sois de España.",
+    "sortOrder": 7,
+    "translation": "You are from Spain."
+  },
+  {
+    "id": "pronouns-apply-1",
+    "topicId": "pronouns",
+    "kind": "apply",
+    "prompt": "Someone asks who you are. Start with the pronoun.",
+    "tokens": [
+      "Yo",
+      "Tú",
+      "soy",
+      "Ana",
+      "es"
+    ],
+    "acceptedAnswers": [
+      "Yo soy Ana"
+    ],
+    "explanation": "Yo soy Ana.",
+    "sortOrder": 8,
+    "translation": "I am Ana."
+  },
+  {
+    "id": "pronouns-apply-2",
+    "topicId": "pronouns",
+    "kind": "apply",
+    "prompt": "Introduce Ana.",
+    "tokens": [
+      "Ella",
+      "Él",
+      "es",
+      "Ana",
+      "soy"
+    ],
+    "acceptedAnswers": [
+      "Ella es Ana"
+    ],
+    "explanation": "Ella es Ana.",
+    "sortOrder": 9,
+    "translation": "She is Ana."
+  },
+  {
+    "id": "pronouns-apply-3",
+    "topicId": "pronouns",
+    "kind": "apply",
+    "prompt": "Speak politely to one teacher.",
+    "tokens": [
+      "Usted",
+      "Tú",
+      "es",
+      "la",
+      "profesora"
+    ],
+    "acceptedAnswers": [
+      "Usted es la profesora"
+    ],
+    "explanation": "Usted is the polite singular.",
+    "sortOrder": 10,
+    "translation": "You are the teacher."
+  },
+  {
+    "id": "pronouns-apply-4",
+    "topicId": "pronouns",
+    "kind": "apply",
+    "prompt": "Tell a group of friends in Spain where they are from.",
+    "tokens": [
+      "Vosotros",
+      "Ellos",
+      "sois",
+      "de",
+      "España"
+    ],
+    "acceptedAnswers": [
+      "Vosotros sois de España"
+    ],
+    "explanation": "Use vosotros in Spain. The Latin American form is ustedes son.",
+    "sortOrder": 11,
+    "translation": "You are from Spain."
+  }
+]

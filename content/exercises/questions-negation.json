@@ -1,0 +1,213 @@
+[
+  {
+    "id": "questions-negation-understand-1",
+    "topicId": "questions-negation",
+    "kind": "understand",
+    "prompt": "Which sentence asks where the bank is?",
+    "choices": [
+      "¿Dónde está el banco?",
+      "El banco está aquí."
+    ],
+    "acceptedAnswers": [
+      "¿Dónde está el banco?"
+    ],
+    "explanation": "Dónde asks where. The accent stays.",
+    "sortOrder": 0,
+    "translation": "Where is the bank?"
+  },
+  {
+    "id": "questions-negation-understand-2",
+    "topicId": "questions-negation",
+    "kind": "understand",
+    "prompt": "Which sentence asks what the person wants?",
+    "choices": [
+      "¿Qué quieres?",
+      "Quiero un café."
+    ],
+    "acceptedAnswers": [
+      "¿Qué quieres?"
+    ],
+    "explanation": "Qué asks what.",
+    "sortOrder": 1,
+    "translation": "What do you want?"
+  },
+  {
+    "id": "questions-negation-understand-3",
+    "topicId": "questions-negation",
+    "kind": "understand",
+    "prompt": "Which sentence says you do not want coffee?",
+    "choices": [
+      "No quiero café.",
+      "Quiero no café."
+    ],
+    "acceptedAnswers": [
+      "No quiero café."
+    ],
+    "explanation": "No comes before the verb.",
+    "sortOrder": 2,
+    "translation": "I do not want coffee."
+  },
+  {
+    "id": "questions-negation-understand-4",
+    "topicId": "questions-negation",
+    "kind": "understand",
+    "prompt": "Which sentence says you are not at home?",
+    "choices": [
+      "No estoy en casa.",
+      "Estoy no en casa."
+    ],
+    "acceptedAnswers": [
+      "No estoy en casa."
+    ],
+    "explanation": "No comes before estoy.",
+    "sortOrder": 3,
+    "translation": "I am not at home."
+  },
+  {
+    "id": "questions-negation-construct-1",
+    "topicId": "questions-negation",
+    "kind": "construct",
+    "prompt": "Build: where is the bank?",
+    "tokens": [
+      "Dónde",
+      "está",
+      "el",
+      "banco",
+      "Donde"
+    ],
+    "acceptedAnswers": [
+      "¿Dónde está el banco?"
+    ],
+    "explanation": "The accent is part of dónde. The opening question mark is optional for the checker.",
+    "sortOrder": 4,
+    "translation": "Where is the bank?"
+  },
+  {
+    "id": "questions-negation-construct-2",
+    "topicId": "questions-negation",
+    "kind": "construct",
+    "prompt": "Build: what do you want?",
+    "tokens": [
+      "Qué",
+      "quieres",
+      "Que",
+      "café"
+    ],
+    "acceptedAnswers": [
+      "¿Qué quieres?"
+    ],
+    "explanation": "Qué keeps the accent.",
+    "sortOrder": 5,
+    "translation": "What do you want?"
+  },
+  {
+    "id": "questions-negation-construct-3",
+    "topicId": "questions-negation",
+    "kind": "construct",
+    "prompt": "Build: I do not want coffee.",
+    "tokens": [
+      "No",
+      "quiero",
+      "café",
+      "Quiero"
+    ],
+    "acceptedAnswers": [
+      "No quiero café"
+    ],
+    "explanation": "No quiero café.",
+    "sortOrder": 6,
+    "translation": "I do not want coffee."
+  },
+  {
+    "id": "questions-negation-construct-4",
+    "topicId": "questions-negation",
+    "kind": "construct",
+    "prompt": "Build: I am not hungry.",
+    "tokens": [
+      "No",
+      "tengo",
+      "hambre",
+      "Tengo"
+    ],
+    "acceptedAnswers": [
+      "No tengo hambre"
+    ],
+    "explanation": "No tengo hambre.",
+    "sortOrder": 7,
+    "translation": "I am not hungry."
+  },
+  {
+    "id": "questions-negation-apply-1",
+    "topicId": "questions-negation",
+    "kind": "apply",
+    "prompt": "You are looking for the bank.",
+    "tokens": [
+      "Dónde",
+      "está",
+      "el",
+      "banco",
+      "aquí"
+    ],
+    "acceptedAnswers": [
+      "¿Dónde está el banco?"
+    ],
+    "explanation": "¿Dónde está el banco?",
+    "sortOrder": 8,
+    "translation": "Where is the bank?"
+  },
+  {
+    "id": "questions-negation-apply-2",
+    "topicId": "questions-negation",
+    "kind": "apply",
+    "prompt": "A waiter asks what you want. Answer that you do not want coffee.",
+    "tokens": [
+      "No",
+      "quiero",
+      "café",
+      "Quiero"
+    ],
+    "acceptedAnswers": [
+      "No quiero café"
+    ],
+    "explanation": "No quiero café.",
+    "sortOrder": 9,
+    "translation": "I do not want coffee."
+  },
+  {
+    "id": "questions-negation-apply-3",
+    "topicId": "questions-negation",
+    "kind": "apply",
+    "prompt": "A friend asks if you are at home. You are not.",
+    "tokens": [
+      "No",
+      "estoy",
+      "en",
+      "casa",
+      "Estoy"
+    ],
+    "acceptedAnswers": [
+      "No estoy en casa"
+    ],
+    "explanation": "No estoy en casa.",
+    "sortOrder": 10,
+    "translation": "I am not at home."
+  },
+  {
+    "id": "questions-negation-apply-4",
+    "topicId": "questions-negation",
+    "kind": "apply",
+    "prompt": "Ask one friend if they speak Spanish.",
+    "tokens": [
+      "Hablas",
+      "español",
+      "Hablo",
+      "inglés"
+    ],
+    "acceptedAnswers": [
+      "¿Hablas español?"
+    ],
+    "explanation": "¿Hablas español?",
+    "sortOrder": 11,
+    "translation": "Do you speak Spanish?"
+  }
+]

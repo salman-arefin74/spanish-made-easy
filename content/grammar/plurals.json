@@ -1,0 +1,50 @@
+{
+  "id": "plurals",
+  "title": "Plurals",
+  "sortOrder": 3,
+  "prerequisiteId": "articles",
+  "explanation": "A noun ending in a vowel usually adds -s: casa, casas. A noun ending in a consonant usually adds -es: tren, trenes. A final -z becomes -ces: lápiz, lápices.\n\nThe article changes with the noun. Los is masculine plural. Las is feminine plural.",
+  "commonMistake": "Adding -es to a noun that already ends in a vowel, as in libroes, or keeping a singular article with a plural noun.",
+  "examples": [
+    {
+      "spanish": "los libros",
+      "english": "the books",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "las casas",
+      "english": "the houses",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "los cafés",
+      "english": "the coffees",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "las estaciones",
+      "english": "the stations",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "los trenes",
+      "english": "the trains",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "las madres",
+      "english": "the mothers",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "los lápices",
+      "english": "the pencils",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "los profesores",
+      "english": "the teachers",
+      "sortOrder": 7
+    }
+  ]
+}

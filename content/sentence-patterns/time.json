@@ -1,0 +1,65 @@
+[
+  {
+    "id": "time-one",
+    "topicId": "time",
+    "title": "One o'clock",
+    "frame": "es la una",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "es la for one o'clock",
+        "wordIds": []
+      },
+      {
+        "name": "hour",
+        "description": "una",
+        "wordIds": [
+          "time-and-calendar-hora"
+        ]
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "time-hours",
+    "topicId": "time",
+    "title": "The other hours",
+    "frame": "son las + hour",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "son las",
+        "wordIds": []
+      },
+      {
+        "name": "hour",
+        "description": "dos, tres, or veinte on the 24-hour clock",
+        "wordIds": [
+          "time-and-calendar-hora"
+        ]
+      }
+    ],
+    "sortOrder": 1
+  },
+  {
+    "id": "time-when",
+    "topicId": "time",
+    "title": "When",
+    "frame": "a las + hour, los + day, or por la mañana",
+    "slots": [
+      {
+        "name": "when",
+        "description": "a las, los, or por la",
+        "wordIds": []
+      },
+      {
+        "name": "day",
+        "description": "a day such as lunes, or mañana",
+        "wordIds": [
+          "time-and-calendar-lunes"
+        ]
+      }
+    ],
+    "sortOrder": 2
+  }
+]

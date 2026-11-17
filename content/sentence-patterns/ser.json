@@ -1,0 +1,66 @@
+[
+  {
+    "id": "ser-name",
+    "topicId": "ser",
+    "title": "A name",
+    "frame": "ser + name",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "soy, eres, es, somos, sois, or son",
+        "wordIds": []
+      },
+      {
+        "name": "who",
+        "description": "a name, or a person such as amigo",
+        "wordIds": [
+          "people-and-family-amigo"
+        ]
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "ser-origin",
+    "topicId": "ser",
+    "title": "Origin",
+    "frame": "ser + de + place",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "a form of ser",
+        "wordIds": []
+      },
+      {
+        "name": "place",
+        "description": "a place after de",
+        "wordIds": [
+          "town-and-places-estacion"
+        ]
+      }
+    ],
+    "sortOrder": 1
+  },
+  {
+    "id": "ser-job",
+    "topicId": "ser",
+    "title": "A profession",
+    "frame": "ser + profession",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "es for he or she",
+        "wordIds": []
+      },
+      {
+        "name": "job",
+        "description": "a profession such as profesora",
+        "wordIds": [
+          "work-and-study-profesora",
+          "work-and-study-profesor"
+        ]
+      }
+    ],
+    "sortOrder": 2
+  }
+]

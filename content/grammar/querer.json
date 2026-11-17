@@ -1,0 +1,50 @@
+{
+  "id": "querer",
+  "title": "Querer",
+  "sortOrder": 13,
+  "prerequisiteId": "tener",
+  "explanation": "Querer says what you want. The present forms are quiero, quieres, quiere, queremos, queréis, and quieren. Quiero plus a noun is a thing. Quiero plus an infinitive is an action.\n\nMe gustaría is the polite chunk for I would like. Memorise it as a phrase. In Spain, juice is zumo. Jugo is widely understood and is listed where this lesson accepts it.",
+  "commonMistake": "Saying quiero a un café, or using quiero plus a conjugated verb. The second verb stays in the infinitive: quiero comer.",
+  "examples": [
+    {
+      "spanish": "Quiero un café.",
+      "english": "I want a coffee.",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "Quieres un zumo.",
+      "english": "You want a juice.",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "Quiere pan.",
+      "english": "She wants bread.",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "Queremos agua.",
+      "english": "We want water.",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "Queréis leche.",
+      "english": "You want milk.",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "Quieren pan.",
+      "english": "They want bread.",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "Quiero comer.",
+      "english": "I want to eat.",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "Me gustaría un café.",
+      "english": "I would like a coffee.",
+      "sortOrder": 7
+    }
+  ]
+}

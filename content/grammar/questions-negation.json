@@ -1,0 +1,50 @@
+{
+  "id": "questions-negation",
+  "title": "Questions and negation",
+  "sortOrder": 15,
+  "prerequisiteId": "ser-vs-estar",
+  "explanation": "A spoken question can use the same words as a statement, with the voice going up. In writing, Spanish adds ¿ at the start and ? at the end.\n\nNo comes directly before the verb: no quiero café, no estoy en casa. The written marks are optional for the checker. The accent on dónde and qué is not optional.",
+  "commonMistake": "Putting no after the verb, or writing donde without the accent when you mean where.",
+  "examples": [
+    {
+      "spanish": "¿Dónde está el banco?",
+      "english": "Where is the bank?",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "¿Qué quieres?",
+      "english": "What do you want?",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "¿Cómo estás?",
+      "english": "How are you?",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "¿Eres de Madrid?",
+      "english": "Are you from Madrid?",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "¿Hablas español?",
+      "english": "Do you speak Spanish?",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "No quiero café.",
+      "english": "I do not want coffee.",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "No estoy en casa.",
+      "english": "I am not at home.",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "No tengo hambre.",
+      "english": "I am not hungry.",
+      "sortOrder": 7
+    }
+  ]
+}

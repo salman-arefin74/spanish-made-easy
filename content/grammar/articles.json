@@ -1,0 +1,50 @@
+{
+  "id": "articles",
+  "title": "Articles",
+  "sortOrder": 2,
+  "prerequisiteId": "noun-gender",
+  "explanation": "El, la, los, and las point to a specific noun: the coffee you both mean, the house you can see. Un, una, unos, and unas introduce one that is new or not specific: a coffee, some tables.\n\nAgua is feminine, but the singular article is el: el agua. The plural returns to the feminine form: las aguas. Un becomes una in front of a feminine noun, including agua in careful speech some people say un agua; this lesson uses el agua and una casa.",
+  "commonMistake": "Using la agua. The singular form is el agua, and the noun is still feminine.",
+  "examples": [
+    {
+      "spanish": "el café",
+      "english": "the coffee",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "un café",
+      "english": "a coffee",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "la casa",
+      "english": "the house",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "una casa",
+      "english": "a house",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "los libros",
+      "english": "the books",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "unas mesas",
+      "english": "some tables",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "el agua",
+      "english": "the water",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "las aguas",
+      "english": "the waters",
+      "sortOrder": 7
+    }
+  ]
+}

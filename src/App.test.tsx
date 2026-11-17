@@ -69,6 +69,14 @@ describe("application shell", () => {
     expect(screen.queryByText(/not built yet/i)).not.toBeInTheDocument()
   })
 
+  it("opens real-life Spanish without a sample dialogue", async () => {
+    render(<App initialAuth={readyLearner} />)
+    screen.getByRole("link", { name: "Real-Life Spanish" }).click()
+    expect(await screen.findByRole("heading", { level: 1, name: "Real-Life Spanish" })).toBeInTheDocument()
+    expect(screen.getByText(/does not show a sample dialogue/i)).toBeInTheDocument()
+    expect(screen.queryByText(/not built yet/i)).not.toBeInTheDocument()
+  })
+
   it("asks a signed-out visitor to sign in before the study sections", async () => {
     render(<App />)
     expect(await screen.findByRole("heading", { name: "Sign in" })).toBeInTheDocument()

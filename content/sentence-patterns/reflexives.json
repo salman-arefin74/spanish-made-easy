@@ -1,0 +1,44 @@
+[
+  {
+    "id": "reflexives-name",
+    "topicId": "reflexives",
+    "title": "Saying your name",
+    "frame": "me llamo, te llamas, or se llama + name",
+    "slots": [
+      {
+        "name": "pronoun",
+        "description": "me, te, or se, matching the ending",
+        "wordIds": []
+      },
+      {
+        "name": "verb",
+        "description": "a form of llamarse",
+        "wordIds": [
+          "useful-verbs-llamar"
+        ]
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "reflexives-ask",
+    "topicId": "reflexives",
+    "title": "Asking a name",
+    "frame": "¿Cómo te llamas? or ¿Cómo se llama?",
+    "slots": [
+      {
+        "name": "question",
+        "description": "cómo plus the matching pronoun and verb",
+        "wordIds": [
+          "useful-verbs-llamar"
+        ]
+      },
+      {
+        "name": "person",
+        "description": "te for a friend, se for someone else",
+        "wordIds": []
+      }
+    ],
+    "sortOrder": 1
+  }
+]

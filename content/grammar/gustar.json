@@ -1,0 +1,50 @@
+{
+  "id": "gustar",
+  "title": "Gustar",
+  "sortOrder": 14,
+  "prerequisiteId": "plurals",
+  "explanation": "Gustar works backwards from the English verb to like. The thing is the subject. Me gusta el café means the coffee is pleasing to me. A plural thing uses gustan: me gustan los libros.\n\nThe little word matches the person: me, te, le, nos, os, les. Os is the Spain form for a group you know.",
+  "commonMistake": "Saying yo gusto el café. The usual sentence is me gusta el café.",
+  "examples": [
+    {
+      "spanish": "Me gusta el café.",
+      "english": "I like coffee.",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "Te gusta el café.",
+      "english": "You like coffee.",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "Le gusta la leche.",
+      "english": "She likes milk.",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "Nos gusta el parque.",
+      "english": "We like the park.",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "Os gusta el café.",
+      "english": "You like coffee.",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "Les gusta el tren.",
+      "english": "They like the train.",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "Me gustan los libros.",
+      "english": "I like the books.",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "Me gustan las casas.",
+      "english": "I like the houses.",
+      "sortOrder": 7
+    }
+  ]
+}

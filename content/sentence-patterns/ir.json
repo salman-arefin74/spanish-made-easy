@@ -1,0 +1,76 @@
+[
+  {
+    "id": "ir-place",
+    "topicId": "ir",
+    "title": "Going to a place",
+    "frame": "voy, vas, va, vamos, vais, or van + a or al + place",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "a form of ir",
+        "wordIds": [
+          "useful-verbs-ir"
+        ]
+      },
+      {
+        "name": "place",
+        "description": "a place such as el banco or la estación",
+        "wordIds": [
+          "town-and-places-banco",
+          "town-and-places-estacion",
+          "town-and-places-parque",
+          "town-and-places-museo"
+        ]
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "ir-plan",
+    "topicId": "ir",
+    "title": "Going to do something",
+    "frame": "ir + a + infinitive",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "a form of ir",
+        "wordIds": [
+          "useful-verbs-ir"
+        ]
+      },
+      {
+        "name": "action",
+        "description": "an infinitive such as comer or hablar",
+        "wordIds": [
+          "useful-verbs-comer",
+          "work-and-study-hablar"
+        ]
+      }
+    ],
+    "sortOrder": 1
+  },
+  {
+    "id": "ir-group",
+    "topicId": "ir",
+    "title": "We go",
+    "frame": "vamos + a or al + place",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "vamos",
+        "wordIds": [
+          "useful-verbs-ir"
+        ]
+      },
+      {
+        "name": "place",
+        "description": "a place such as el museo",
+        "wordIds": [
+          "town-and-places-museo",
+          "the-home-casa"
+        ]
+      }
+    ],
+    "sortOrder": 2
+  }
+]

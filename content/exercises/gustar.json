@@ -1,0 +1,218 @@
+[
+  {
+    "id": "gustar-understand-1",
+    "topicId": "gustar",
+    "kind": "understand",
+    "prompt": "Which sentence says you like coffee?",
+    "choices": [
+      "Me gusta el café.",
+      "Yo gusto el café."
+    ],
+    "acceptedAnswers": [
+      "Me gusta el café."
+    ],
+    "explanation": "The coffee is the subject.",
+    "sortOrder": 0,
+    "translation": "I like coffee."
+  },
+  {
+    "id": "gustar-understand-2",
+    "topicId": "gustar",
+    "kind": "understand",
+    "prompt": "Which sentence says you like the books?",
+    "choices": [
+      "Me gustan los libros.",
+      "Me gusta los libros."
+    ],
+    "acceptedAnswers": [
+      "Me gustan los libros."
+    ],
+    "explanation": "A plural subject uses gustan.",
+    "sortOrder": 1,
+    "translation": "I like the books."
+  },
+  {
+    "id": "gustar-understand-3",
+    "topicId": "gustar",
+    "kind": "understand",
+    "prompt": "Which sentence says she likes milk?",
+    "choices": [
+      "Le gusta la leche.",
+      "Me gusta la leche."
+    ],
+    "acceptedAnswers": [
+      "Le gusta la leche."
+    ],
+    "explanation": "Le is the form for him or her.",
+    "sortOrder": 2,
+    "translation": "She likes milk."
+  },
+  {
+    "id": "gustar-understand-4",
+    "topicId": "gustar",
+    "kind": "understand",
+    "prompt": "Which sentence says you all like coffee, in Spain?",
+    "choices": [
+      "Os gusta el café.",
+      "Les gusta el café."
+    ],
+    "acceptedAnswers": [
+      "Os gusta el café."
+    ],
+    "explanation": "Os is the Spain form for a group you know.",
+    "sortOrder": 3,
+    "translation": "You like coffee."
+  },
+  {
+    "id": "gustar-construct-1",
+    "topicId": "gustar",
+    "kind": "construct",
+    "prompt": "Build: I like coffee.",
+    "tokens": [
+      "Me",
+      "gusta",
+      "el",
+      "café",
+      "gusto"
+    ],
+    "acceptedAnswers": [
+      "Me gusta el café"
+    ],
+    "explanation": "Me gusta el café.",
+    "sortOrder": 4,
+    "translation": "I like coffee."
+  },
+  {
+    "id": "gustar-construct-2",
+    "topicId": "gustar",
+    "kind": "construct",
+    "prompt": "Build: I like the books.",
+    "tokens": [
+      "Me",
+      "gustan",
+      "los",
+      "libros",
+      "gusta"
+    ],
+    "acceptedAnswers": [
+      "Me gustan los libros"
+    ],
+    "explanation": "Me gustan los libros.",
+    "sortOrder": 5,
+    "translation": "I like the books."
+  },
+  {
+    "id": "gustar-construct-3",
+    "topicId": "gustar",
+    "kind": "construct",
+    "prompt": "Build: we like the park.",
+    "tokens": [
+      "Nos",
+      "gusta",
+      "el",
+      "parque",
+      "Me"
+    ],
+    "acceptedAnswers": [
+      "Nos gusta el parque"
+    ],
+    "explanation": "Nos gusta el parque.",
+    "sortOrder": 6,
+    "translation": "We like the park."
+  },
+  {
+    "id": "gustar-construct-4",
+    "topicId": "gustar",
+    "kind": "construct",
+    "prompt": "Build: they like the train.",
+    "tokens": [
+      "Les",
+      "gusta",
+      "el",
+      "tren",
+      "Os"
+    ],
+    "acceptedAnswers": [
+      "Les gusta el tren"
+    ],
+    "explanation": "Les gusta el tren.",
+    "sortOrder": 7,
+    "translation": "They like the train."
+  },
+  {
+    "id": "gustar-apply-1",
+    "topicId": "gustar",
+    "kind": "apply",
+    "prompt": "A friend asks about coffee. You like it.",
+    "tokens": [
+      "Me",
+      "gusta",
+      "el",
+      "café",
+      "gusto"
+    ],
+    "acceptedAnswers": [
+      "Me gusta el café"
+    ],
+    "explanation": "Me gusta el café.",
+    "sortOrder": 8,
+    "translation": "I like coffee."
+  },
+  {
+    "id": "gustar-apply-2",
+    "topicId": "gustar",
+    "kind": "apply",
+    "prompt": "You like the books on the table.",
+    "tokens": [
+      "Me",
+      "gustan",
+      "los",
+      "libros",
+      "gusta"
+    ],
+    "acceptedAnswers": [
+      "Me gustan los libros"
+    ],
+    "explanation": "Me gustan los libros.",
+    "sortOrder": 9,
+    "translation": "I like the books."
+  },
+  {
+    "id": "gustar-apply-3",
+    "topicId": "gustar",
+    "kind": "apply",
+    "prompt": "Say that she likes milk.",
+    "tokens": [
+      "Le",
+      "gusta",
+      "la",
+      "leche",
+      "Me"
+    ],
+    "acceptedAnswers": [
+      "Le gusta la leche"
+    ],
+    "explanation": "Le gusta la leche.",
+    "sortOrder": 10,
+    "translation": "She likes milk."
+  },
+  {
+    "id": "gustar-apply-4",
+    "topicId": "gustar",
+    "kind": "apply",
+    "prompt": "You are with friends in Spain. Say that they like coffee.",
+    "tokens": [
+      "Os",
+      "gusta",
+      "el",
+      "café",
+      "Les"
+    ],
+    "acceptedAnswers": [
+      "Os gusta el café"
+    ],
+    "explanation": "Os gusta el café. Latin America usually says les gusta.",
+    "sortOrder": 11,
+    "translation": "You like coffee."
+  }
+]

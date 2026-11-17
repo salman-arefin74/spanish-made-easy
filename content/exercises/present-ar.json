@@ -1,0 +1,211 @@
+[
+  {
+    "id": "present-ar-understand-1",
+    "topicId": "present-ar",
+    "kind": "understand",
+    "prompt": "Which form is I speak?",
+    "choices": [
+      "Hablo español.",
+      "Hablas español."
+    ],
+    "acceptedAnswers": [
+      "Hablo español."
+    ],
+    "explanation": "Yo takes hablo.",
+    "sortOrder": 0,
+    "translation": "I speak Spanish."
+  },
+  {
+    "id": "present-ar-understand-2",
+    "topicId": "present-ar",
+    "kind": "understand",
+    "prompt": "Which form is you speak, to one friend?",
+    "choices": [
+      "Hablas inglés.",
+      "Hablo inglés."
+    ],
+    "acceptedAnswers": [
+      "Hablas inglés."
+    ],
+    "explanation": "Tú takes hablas.",
+    "sortOrder": 1,
+    "translation": "You speak English."
+  },
+  {
+    "id": "present-ar-understand-3",
+    "topicId": "present-ar",
+    "kind": "understand",
+    "prompt": "Which form is you all speak, in Spain?",
+    "choices": [
+      "Habláis español.",
+      "Hablas español."
+    ],
+    "acceptedAnswers": [
+      "Habláis español."
+    ],
+    "explanation": "Vosotros takes habláis.",
+    "sortOrder": 2,
+    "translation": "You speak Spanish."
+  },
+  {
+    "id": "present-ar-understand-4",
+    "topicId": "present-ar",
+    "kind": "understand",
+    "prompt": "Which form is they speak?",
+    "choices": [
+      "Hablan con la profesora.",
+      "Habla con la profesora."
+    ],
+    "acceptedAnswers": [
+      "Hablan con la profesora."
+    ],
+    "explanation": "Ellos and ellas take hablan.",
+    "sortOrder": 3,
+    "translation": "They speak with the teacher."
+  },
+  {
+    "id": "present-ar-construct-1",
+    "topicId": "present-ar",
+    "kind": "construct",
+    "prompt": "Build: I speak Spanish.",
+    "tokens": [
+      "Hablo",
+      "Hablas",
+      "español",
+      "inglés"
+    ],
+    "acceptedAnswers": [
+      "Hablo español"
+    ],
+    "explanation": "Hablo español.",
+    "sortOrder": 4,
+    "translation": "I speak Spanish."
+  },
+  {
+    "id": "present-ar-construct-2",
+    "topicId": "present-ar",
+    "kind": "construct",
+    "prompt": "Build: you speak English.",
+    "tokens": [
+      "Hablas",
+      "Hablo",
+      "inglés",
+      "español"
+    ],
+    "acceptedAnswers": [
+      "Hablas inglés"
+    ],
+    "explanation": "Hablas inglés.",
+    "sortOrder": 5,
+    "translation": "You speak English."
+  },
+  {
+    "id": "present-ar-construct-3",
+    "topicId": "present-ar",
+    "kind": "construct",
+    "prompt": "Build: we speak at home.",
+    "tokens": [
+      "Hablamos",
+      "Hablan",
+      "en",
+      "casa"
+    ],
+    "acceptedAnswers": [
+      "Hablamos en casa"
+    ],
+    "explanation": "Hablamos en casa.",
+    "sortOrder": 6,
+    "translation": "We speak at home."
+  },
+  {
+    "id": "present-ar-construct-4",
+    "topicId": "present-ar",
+    "kind": "construct",
+    "prompt": "Build: you all speak Spanish, in Spain.",
+    "tokens": [
+      "Habláis",
+      "Hablas",
+      "español",
+      "casa"
+    ],
+    "acceptedAnswers": [
+      "Habláis español"
+    ],
+    "explanation": "Habláis español.",
+    "sortOrder": 7,
+    "translation": "You speak Spanish."
+  },
+  {
+    "id": "present-ar-apply-1",
+    "topicId": "present-ar",
+    "kind": "apply",
+    "prompt": "Someone asks if you speak Spanish. Say that you do.",
+    "tokens": [
+      "Hablo",
+      "Hablas",
+      "español",
+      "inglés"
+    ],
+    "acceptedAnswers": [
+      "Hablo español"
+    ],
+    "explanation": "Hablo español.",
+    "sortOrder": 8,
+    "translation": "I speak Spanish."
+  },
+  {
+    "id": "present-ar-apply-2",
+    "topicId": "present-ar",
+    "kind": "apply",
+    "prompt": "Tell one friend that they speak English.",
+    "tokens": [
+      "Hablas",
+      "Hablo",
+      "inglés",
+      "español"
+    ],
+    "acceptedAnswers": [
+      "Hablas inglés"
+    ],
+    "explanation": "Hablas inglés.",
+    "sortOrder": 9,
+    "translation": "You speak English."
+  },
+  {
+    "id": "present-ar-apply-3",
+    "topicId": "present-ar",
+    "kind": "apply",
+    "prompt": "Say that your group speaks at home.",
+    "tokens": [
+      "Hablamos",
+      "en",
+      "casa",
+      "Hablan"
+    ],
+    "acceptedAnswers": [
+      "Hablamos en casa"
+    ],
+    "explanation": "Hablamos en casa.",
+    "sortOrder": 10,
+    "translation": "We speak at home."
+  },
+  {
+    "id": "present-ar-apply-4",
+    "topicId": "present-ar",
+    "kind": "apply",
+    "prompt": "Say that they speak with the teacher.",
+    "tokens": [
+      "Hablan",
+      "con",
+      "la",
+      "profesora",
+      "Habla"
+    ],
+    "acceptedAnswers": [
+      "Hablan con la profesora"
+    ],
+    "explanation": "Hablan con la profesora.",
+    "sortOrder": 11,
+    "translation": "They speak with the teacher."
+  }
+]

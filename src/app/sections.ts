@@ -46,6 +46,6 @@ export const sections: Section[] = [
     label: 'Real-Life Spanish',
     lede: 'Spanish for situations you will actually be in.',
     empty:
-      'Real-Life Spanish is not built yet. Situations and dialogues are not available.',
+      'Real-life Spanish opens after the situation tables are seeded. This page does not show a sample dialogue.',
   },
 ]

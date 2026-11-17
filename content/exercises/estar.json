@@ -1,0 +1,215 @@
+[
+  {
+    "id": "estar-understand-1",
+    "topicId": "estar",
+    "kind": "understand",
+    "prompt": "How do you say that you are at home?",
+    "choices": [
+      "Estoy en casa.",
+      "Soy en casa."
+    ],
+    "acceptedAnswers": [
+      "Estoy en casa."
+    ],
+    "explanation": "A place uses estar.",
+    "sortOrder": 0,
+    "translation": "I am at home."
+  },
+  {
+    "id": "estar-understand-2",
+    "topicId": "estar",
+    "kind": "understand",
+    "prompt": "A friend asks how you are.",
+    "choices": [
+      "Estoy bien.",
+      "Soy bien."
+    ],
+    "acceptedAnswers": [
+      "Estoy bien."
+    ],
+    "explanation": "How you are right now uses estar.",
+    "sortOrder": 1,
+    "translation": "I am fine."
+  },
+  {
+    "id": "estar-understand-3",
+    "topicId": "estar",
+    "kind": "understand",
+    "prompt": "Where is she?",
+    "choices": [
+      "Está en Madrid.",
+      "Es en Madrid."
+    ],
+    "acceptedAnswers": [
+      "Está en Madrid."
+    ],
+    "explanation": "Location uses estar.",
+    "sortOrder": 2,
+    "translation": "She is in Madrid."
+  },
+  {
+    "id": "estar-understand-4",
+    "topicId": "estar",
+    "kind": "understand",
+    "prompt": "The coffee you are holding is hot.",
+    "choices": [
+      "El café está caliente.",
+      "El café es caliente."
+    ],
+    "acceptedAnswers": [
+      "El café está caliente."
+    ],
+    "explanation": "A temperature you can feel uses estar.",
+    "sortOrder": 3,
+    "translation": "The coffee is hot."
+  },
+  {
+    "id": "estar-construct-1",
+    "topicId": "estar",
+    "kind": "construct",
+    "prompt": "Build: I am at home.",
+    "tokens": [
+      "Estoy",
+      "Soy",
+      "en",
+      "casa"
+    ],
+    "acceptedAnswers": [
+      "Estoy en casa"
+    ],
+    "explanation": "Estoy en casa.",
+    "sortOrder": 4,
+    "translation": "I am at home."
+  },
+  {
+    "id": "estar-construct-2",
+    "topicId": "estar",
+    "kind": "construct",
+    "prompt": "Build: she is in the park.",
+    "tokens": [
+      "Está",
+      "Es",
+      "en",
+      "el",
+      "parque"
+    ],
+    "acceptedAnswers": [
+      "Está en el parque"
+    ],
+    "explanation": "Está en el parque.",
+    "sortOrder": 5,
+    "translation": "She is in the park."
+  },
+  {
+    "id": "estar-construct-3",
+    "topicId": "estar",
+    "kind": "construct",
+    "prompt": "Build: we are fine.",
+    "tokens": [
+      "Estamos",
+      "Somos",
+      "bien",
+      "casa"
+    ],
+    "acceptedAnswers": [
+      "Estamos bien"
+    ],
+    "explanation": "Estamos bien.",
+    "sortOrder": 6,
+    "translation": "We are fine."
+  },
+  {
+    "id": "estar-construct-4",
+    "topicId": "estar",
+    "kind": "construct",
+    "prompt": "Build: the coffee is hot.",
+    "tokens": [
+      "El",
+      "café",
+      "está",
+      "es",
+      "caliente"
+    ],
+    "acceptedAnswers": [
+      "El café está caliente"
+    ],
+    "explanation": "El café está caliente.",
+    "sortOrder": 7,
+    "translation": "The coffee is hot."
+  },
+  {
+    "id": "estar-apply-1",
+    "topicId": "estar",
+    "kind": "apply",
+    "prompt": "A friend calls and asks how you are.",
+    "tokens": [
+      "Estoy",
+      "Soy",
+      "bien",
+      "gracias"
+    ],
+    "acceptedAnswers": [
+      "Estoy bien",
+      "Estoy bien, gracias"
+    ],
+    "explanation": "Estoy bien.",
+    "sortOrder": 8,
+    "translation": "I am fine."
+  },
+  {
+    "id": "estar-apply-2",
+    "topicId": "estar",
+    "kind": "apply",
+    "prompt": "Someone asks where you are.",
+    "tokens": [
+      "Estoy",
+      "en",
+      "casa",
+      "Soy"
+    ],
+    "acceptedAnswers": [
+      "Estoy en casa"
+    ],
+    "explanation": "Estoy en casa.",
+    "sortOrder": 9,
+    "translation": "I am at home."
+  },
+  {
+    "id": "estar-apply-3",
+    "topicId": "estar",
+    "kind": "apply",
+    "prompt": "You and a friend are in the park.",
+    "tokens": [
+      "Estamos",
+      "en",
+      "el",
+      "parque",
+      "Somos"
+    ],
+    "acceptedAnswers": [
+      "Estamos en el parque"
+    ],
+    "explanation": "Estamos en el parque.",
+    "sortOrder": 10,
+    "translation": "We are in the park."
+  },
+  {
+    "id": "estar-apply-4",
+    "topicId": "estar",
+    "kind": "apply",
+    "prompt": "Warn someone that the coffee is hot.",
+    "tokens": [
+      "El",
+      "café",
+      "está",
+      "caliente",
+      "es"
+    ],
+    "acceptedAnswers": [
+      "El café está caliente"
+    ],
+    "explanation": "El café está caliente.",
+    "sortOrder": 11,
+    "translation": "The coffee is hot."
+  }
+]

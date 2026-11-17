@@ -1,0 +1,78 @@
+{
+  "id": "at-the-hotel",
+  "title": "At the hotel",
+  "aim": "Check in with a booking and collect the key.",
+  "spainNote": null,
+  "sortOrder": 7,
+  "phrases": [
+    { "wordId": "town-and-places-hotel", "spanish": "hotel", "english": "hotel" },
+    { "wordId": "travel-and-transport-reserva", "spanish": "reserva", "english": "booking" },
+    { "wordId": "travel-and-transport-pasaporte", "spanish": "pasaporte", "english": "passport" },
+    { "wordId": "the-home-habitacion", "spanish": "habitación", "english": "bedroom or room" },
+    { "wordId": "the-home-llave", "spanish": "llave", "english": "key" }
+  ],
+  "turns": [
+    { "speaker": "Ana", "spanish": "Hola. Tengo una reserva.", "english": "Hello. I have a booking." },
+    { "speaker": "Recepcionista", "spanish": "¿Me deja su pasaporte?", "english": "May I have your passport?" },
+    { "speaker": "Ana", "spanish": "Sí. Aquí está mi pasaporte.", "english": "Yes. Here is my passport." },
+    { "speaker": "Recepcionista", "spanish": "Es la habitación doce.", "english": "It is room twelve." },
+    { "speaker": "Ana", "spanish": "¿Me da la llave?", "english": "Can you give me the key?" },
+    { "speaker": "Recepcionista", "spanish": "Aquí tiene la llave.", "english": "Here is the key." }
+  ],
+  "exercises": [
+    {
+      "id": "at-the-hotel-booking",
+      "kind": "comprehension",
+      "prompt": "Which line says Ana has a booking?",
+      "choices": ["Hola. Tengo una reserva.", "¿Me deja su pasaporte?", "Aquí tiene la llave."],
+      "acceptedAnswers": ["Hola. Tengo una reserva."],
+      "translation": "Hello. I have a booking.",
+      "explanation": "Una reserva is a booking."
+    },
+    {
+      "id": "at-the-hotel-document",
+      "kind": "comprehension",
+      "prompt": "Which line asks for the passport?",
+      "choices": ["¿Me deja su pasaporte?", "Es la habitación doce.", "¿Me da la llave?"],
+      "acceptedAnswers": ["¿Me deja su pasaporte?"],
+      "translation": "May I have your passport?",
+      "explanation": "The receptionist asks for el pasaporte."
+    },
+    {
+      "id": "at-the-hotel-key",
+      "kind": "comprehension",
+      "prompt": "Which line hands over the key?",
+      "choices": ["Aquí tiene la llave.", "Hola. Tengo una reserva.", "Es la habitación doce."],
+      "acceptedAnswers": ["Aquí tiene la llave."],
+      "translation": "Here is the key.",
+      "explanation": "La llave is the key."
+    },
+    {
+      "id": "at-the-hotel-have",
+      "kind": "construct",
+      "prompt": "Say you have a booking.",
+      "tokens": ["Tengo", "una", "reserva"],
+      "acceptedAnswers": ["Tengo una reserva"],
+      "translation": "I have a booking.",
+      "explanation": "Reserva is the booking."
+    },
+    {
+      "id": "at-the-hotel-room",
+      "kind": "construct",
+      "prompt": "Say it is room twelve.",
+      "tokens": ["Es", "la", "habitación", "doce"],
+      "acceptedAnswers": ["Es la habitación doce"],
+      "translation": "It is room twelve.",
+      "explanation": "Habitación is the room."
+    },
+    {
+      "id": "at-the-hotel-ask-key",
+      "kind": "construct",
+      "prompt": "Ask for the key.",
+      "tokens": ["Me", "da", "la", "llave"],
+      "acceptedAnswers": ["Me da la llave"],
+      "translation": "Can you give me the key?",
+      "explanation": "The spoken question is ¿Me da la llave?"
+    }
+  ]
+}

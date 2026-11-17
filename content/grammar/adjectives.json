@@ -1,0 +1,50 @@
+{
+  "id": "adjectives",
+  "title": "Adjectives",
+  "sortOrder": 4,
+  "prerequisiteId": "articles",
+  "explanation": "An adjective usually follows the noun, and it matches the noun in gender and number. Rojo becomes roja, rojos, or rojas. Grande and difícil do not change for gender. They do change for number: grandes, difíciles.\n\nAgua is feminine, so the adjective is feminine too: el agua fría.",
+  "commonMistake": "Leaving the adjective in the masculine form after a feminine noun, or putting it before the noun by habit from English.",
+  "examples": [
+    {
+      "spanish": "la casa grande",
+      "english": "the big house",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "el libro grande",
+      "english": "the big book",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "el libro rojo",
+      "english": "the red book",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "la casa roja",
+      "english": "the red house",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "los libros nuevos",
+      "english": "the new books",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "las casas nuevas",
+      "english": "the new houses",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "un problema difícil",
+      "english": "a difficult problem",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "el agua fría",
+      "english": "the cold water",
+      "sortOrder": 7
+    }
+  ]
+}

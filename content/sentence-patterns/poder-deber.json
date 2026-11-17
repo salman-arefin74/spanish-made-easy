@@ -1,0 +1,73 @@
+[
+  {
+    "id": "poder-deber-can",
+    "topicId": "poder-deber",
+    "title": "Can",
+    "frame": "poder + infinitive",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "puedo, puedes, puede, podemos, podéis, or pueden",
+        "wordIds": [
+          "useful-verbs-poder"
+        ]
+      },
+      {
+        "name": "action",
+        "description": "an infinitive such as hablar or comer",
+        "wordIds": [
+          "work-and-study-hablar",
+          "useful-verbs-comer"
+        ]
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "poder-deber-must",
+    "topicId": "poder-deber",
+    "title": "Must",
+    "frame": "deber + infinitive",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "debo, debes, debe, debemos, debéis, or deben",
+        "wordIds": [
+          "useful-verbs-deber"
+        ]
+      },
+      {
+        "name": "action",
+        "description": "an infinitive such as estudiar",
+        "wordIds": [
+          "work-and-study-estudiar"
+        ]
+      }
+    ],
+    "sortOrder": 1
+  },
+  {
+    "id": "poder-deber-choice",
+    "topicId": "poder-deber",
+    "title": "Prefer",
+    "frame": "prefiero + noun",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "prefiero",
+        "wordIds": [
+          "useful-verbs-preferir"
+        ]
+      },
+      {
+        "name": "thing",
+        "description": "what you prefer, such as el café or el zumo",
+        "wordIds": [
+          "food-and-drink-cafe",
+          "food-and-drink-zumo"
+        ]
+      }
+    ],
+    "sortOrder": 2
+  }
+]

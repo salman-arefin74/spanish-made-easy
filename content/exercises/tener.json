@@ -1,0 +1,210 @@
+[
+  {
+    "id": "tener-understand-1",
+    "topicId": "tener",
+    "kind": "understand",
+    "prompt": "How do you say that you have a book?",
+    "choices": [
+      "Tengo un libro.",
+      "Soy un libro."
+    ],
+    "acceptedAnswers": [
+      "Tengo un libro."
+    ],
+    "explanation": "Possession uses tener.",
+    "sortOrder": 0,
+    "translation": "I have a book."
+  },
+  {
+    "id": "tener-understand-2",
+    "topicId": "tener",
+    "kind": "understand",
+    "prompt": "How do you say that you are hungry?",
+    "choices": [
+      "Tengo hambre.",
+      "Soy hambre."
+    ],
+    "acceptedAnswers": [
+      "Tengo hambre."
+    ],
+    "explanation": "Hunger uses tener.",
+    "sortOrder": 1,
+    "translation": "I am hungry."
+  },
+  {
+    "id": "tener-understand-3",
+    "topicId": "tener",
+    "kind": "understand",
+    "prompt": "How do you say that you are twenty?",
+    "choices": [
+      "Tengo veinte años.",
+      "Soy veinte años."
+    ],
+    "acceptedAnswers": [
+      "Tengo veinte años."
+    ],
+    "explanation": "Age uses tener.",
+    "sortOrder": 2,
+    "translation": "I am twenty."
+  },
+  {
+    "id": "tener-understand-4",
+    "topicId": "tener",
+    "kind": "understand",
+    "prompt": "You tell a group of friends in Spain that they are hungry.",
+    "choices": [
+      "Tenéis hambre.",
+      "Tienes hambre."
+    ],
+    "acceptedAnswers": [
+      "Tenéis hambre."
+    ],
+    "explanation": "Vosotros takes tenéis.",
+    "sortOrder": 3,
+    "translation": "You are hungry."
+  },
+  {
+    "id": "tener-construct-1",
+    "topicId": "tener",
+    "kind": "construct",
+    "prompt": "Build: I have a book.",
+    "tokens": [
+      "Tengo",
+      "Soy",
+      "un",
+      "libro"
+    ],
+    "acceptedAnswers": [
+      "Tengo un libro"
+    ],
+    "explanation": "Tengo un libro.",
+    "sortOrder": 4,
+    "translation": "I have a book."
+  },
+  {
+    "id": "tener-construct-2",
+    "topicId": "tener",
+    "kind": "construct",
+    "prompt": "Build: you have a car.",
+    "tokens": [
+      "Tienes",
+      "Tengo",
+      "un",
+      "coche"
+    ],
+    "acceptedAnswers": [
+      "Tienes un coche"
+    ],
+    "explanation": "Tienes un coche.",
+    "sortOrder": 5,
+    "translation": "You have a car."
+  },
+  {
+    "id": "tener-construct-3",
+    "topicId": "tener",
+    "kind": "construct",
+    "prompt": "Build: I am hungry.",
+    "tokens": [
+      "Tengo",
+      "hambre",
+      "Soy",
+      "años"
+    ],
+    "acceptedAnswers": [
+      "Tengo hambre"
+    ],
+    "explanation": "Tengo hambre.",
+    "sortOrder": 6,
+    "translation": "I am hungry."
+  },
+  {
+    "id": "tener-construct-4",
+    "topicId": "tener",
+    "kind": "construct",
+    "prompt": "Build: I am twenty.",
+    "tokens": [
+      "Tengo",
+      "veinte",
+      "años",
+      "Soy"
+    ],
+    "acceptedAnswers": [
+      "Tengo veinte años"
+    ],
+    "explanation": "Tengo veinte años.",
+    "sortOrder": 7,
+    "translation": "I am twenty."
+  },
+  {
+    "id": "tener-apply-1",
+    "topicId": "tener",
+    "kind": "apply",
+    "prompt": "Someone asks what you have with you. You have a book.",
+    "tokens": [
+      "Tengo",
+      "un",
+      "libro",
+      "Soy"
+    ],
+    "acceptedAnswers": [
+      "Tengo un libro"
+    ],
+    "explanation": "Tengo un libro.",
+    "sortOrder": 8,
+    "translation": "I have a book."
+  },
+  {
+    "id": "tener-apply-2",
+    "topicId": "tener",
+    "kind": "apply",
+    "prompt": "You have not eaten. Say so.",
+    "tokens": [
+      "Tengo",
+      "hambre",
+      "Soy",
+      "bien"
+    ],
+    "acceptedAnswers": [
+      "Tengo hambre"
+    ],
+    "explanation": "Tengo hambre.",
+    "sortOrder": 9,
+    "translation": "I am hungry."
+  },
+  {
+    "id": "tener-apply-3",
+    "topicId": "tener",
+    "kind": "apply",
+    "prompt": "Someone asks your age. You are twenty.",
+    "tokens": [
+      "Tengo",
+      "veinte",
+      "años",
+      "Soy"
+    ],
+    "acceptedAnswers": [
+      "Tengo veinte años"
+    ],
+    "explanation": "Tengo veinte años.",
+    "sortOrder": 10,
+    "translation": "I am twenty."
+  },
+  {
+    "id": "tener-apply-4",
+    "topicId": "tener",
+    "kind": "apply",
+    "prompt": "Say that your group is hungry.",
+    "tokens": [
+      "Tenemos",
+      "hambre",
+      "Tengo",
+      "años"
+    ],
+    "acceptedAnswers": [
+      "Tenemos hambre"
+    ],
+    "explanation": "Tenemos hambre.",
+    "sortOrder": 11,
+    "translation": "We are hungry."
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "id": "in-a-shop",
+  "title": "In a shop",
+  "aim": "Ask for a larger size and pay by card.",
+  "spainNote": null,
+  "sortOrder": 4,
+  "phrases": [
+    { "wordId": "shopping-and-money-talla", "spanish": "talla", "english": "size" },
+    { "wordId": "shopping-and-money-grande", "spanish": "grande", "english": "big" },
+    { "wordId": "shopping-and-money-probador", "spanish": "probador", "english": "fitting room" },
+    { "wordId": "shopping-and-money-tarjeta", "spanish": "tarjeta", "english": "card" },
+    { "wordId": "shopping-and-money-efectivo", "spanish": "efectivo", "english": "cash" }
+  ],
+  "turns": [
+    { "speaker": "Ana", "spanish": "Quiero una talla grande, por favor.", "english": "I want a large size, please." },
+    { "speaker": "Dependienta", "spanish": "El probador está allí.", "english": "The fitting room is over there." },
+    { "speaker": "Ana", "spanish": "Gracias.", "english": "Thank you." },
+    { "speaker": "Dependienta", "spanish": "¿Paga con tarjeta o en efectivo?", "english": "Are you paying by card or in cash?" },
+    { "speaker": "Ana", "spanish": "Con tarjeta, por favor.", "english": "By card, please." },
+    { "speaker": "Dependienta", "spanish": "Vale.", "english": "Okay." }
+  ],
+  "exercises": [
+    {
+      "id": "in-a-shop-size",
+      "kind": "comprehension",
+      "prompt": "Which line asks for a large size?",
+      "choices": ["Quiero una talla grande, por favor.", "El probador está allí.", "Con tarjeta, por favor."],
+      "acceptedAnswers": ["Quiero una talla grande, por favor."],
+      "translation": "I want a large size, please.",
+      "explanation": "Talla grande is a large size."
+    },
+    {
+      "id": "in-a-shop-room",
+      "kind": "comprehension",
+      "prompt": "Which line points to the fitting room?",
+      "choices": ["El probador está allí.", "Quiero una talla grande, por favor.", "Con tarjeta, por favor."],
+      "acceptedAnswers": ["El probador está allí."],
+      "translation": "The fitting room is over there.",
+      "explanation": "El probador is the fitting room."
+    },
+    {
+      "id": "in-a-shop-pay",
+      "kind": "comprehension",
+      "prompt": "Which line says she will pay by card?",
+      "choices": ["Con tarjeta, por favor.", "El probador está allí.", "Quiero una talla grande, por favor."],
+      "acceptedAnswers": ["Con tarjeta, por favor."],
+      "translation": "By card, please.",
+      "explanation": "She chooses tarjeta, not efectivo."
+    },
+    {
+      "id": "in-a-shop-large",
+      "kind": "construct",
+      "prompt": "Ask for a large size.",
+      "tokens": ["Quiero", "una", "talla", "grande"],
+      "acceptedAnswers": ["Quiero una talla grande"],
+      "translation": "I want a large size.",
+      "explanation": "Talla is the size."
+    },
+    {
+      "id": "in-a-shop-fitting",
+      "kind": "construct",
+      "prompt": "Say the fitting room is over there.",
+      "tokens": ["El", "probador", "está", "allí"],
+      "acceptedAnswers": ["El probador está allí"],
+      "translation": "The fitting room is over there.",
+      "explanation": "Allí means over there."
+    },
+    {
+      "id": "in-a-shop-card",
+      "kind": "construct",
+      "prompt": "Say you will pay by card.",
+      "tokens": ["Con", "tarjeta", "por", "favor"],
+      "acceptedAnswers": ["Con tarjeta por favor"],
+      "translation": "By card, please.",
+      "explanation": "Tarjeta is the card."
+    }
+  ]
+}

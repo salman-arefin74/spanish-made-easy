@@ -1,0 +1,211 @@
+[
+  {
+    "id": "reflexives-understand-1",
+    "topicId": "reflexives",
+    "kind": "understand",
+    "prompt": "How do you give your own name?",
+    "choices": [
+      "Me llamo Ana.",
+      "Me llamas Ana."
+    ],
+    "acceptedAnswers": [
+      "Me llamo Ana."
+    ],
+    "explanation": "Me matches llamo.",
+    "sortOrder": 0,
+    "translation": "My name is Ana."
+  },
+  {
+    "id": "reflexives-understand-2",
+    "topicId": "reflexives",
+    "kind": "understand",
+    "prompt": "How do you ask one friend their name?",
+    "choices": [
+      "¿Cómo te llamas?",
+      "¿Cómo me llamo?"
+    ],
+    "acceptedAnswers": [
+      "¿Cómo te llamas?"
+    ],
+    "explanation": "Te llamas is for the person you are talking to.",
+    "sortOrder": 1,
+    "translation": "What is your name?"
+  },
+  {
+    "id": "reflexives-understand-3",
+    "topicId": "reflexives",
+    "kind": "understand",
+    "prompt": "How do you say her name is Ana?",
+    "choices": [
+      "Se llama Ana.",
+      "Me llama Ana."
+    ],
+    "acceptedAnswers": [
+      "Se llama Ana."
+    ],
+    "explanation": "Se llama is for another person.",
+    "sortOrder": 2,
+    "translation": "Her name is Ana."
+  },
+  {
+    "id": "reflexives-understand-4",
+    "topicId": "reflexives",
+    "kind": "understand",
+    "prompt": "Which pronoun matches the teacher?",
+    "choices": [
+      "El profesor se llama Pablo.",
+      "El profesor me llamo Pablo."
+    ],
+    "acceptedAnswers": [
+      "El profesor se llama Pablo."
+    ],
+    "explanation": "The teacher takes se llama.",
+    "sortOrder": 3,
+    "translation": "The teacher's name is Pablo."
+  },
+  {
+    "id": "reflexives-construct-1",
+    "topicId": "reflexives",
+    "kind": "construct",
+    "prompt": "Build: my name is Ana.",
+    "tokens": [
+      "Me",
+      "llamo",
+      "Ana",
+      "llamas"
+    ],
+    "acceptedAnswers": [
+      "Me llamo Ana"
+    ],
+    "explanation": "Me llamo Ana.",
+    "sortOrder": 4,
+    "translation": "My name is Ana."
+  },
+  {
+    "id": "reflexives-construct-2",
+    "topicId": "reflexives",
+    "kind": "construct",
+    "prompt": "Build: what is your name?",
+    "tokens": [
+      "Cómo",
+      "te",
+      "llamas",
+      "llamo"
+    ],
+    "acceptedAnswers": [
+      "¿Cómo te llamas?"
+    ],
+    "explanation": "¿Cómo te llamas?",
+    "sortOrder": 5,
+    "translation": "What is your name?"
+  },
+  {
+    "id": "reflexives-construct-3",
+    "topicId": "reflexives",
+    "kind": "construct",
+    "prompt": "Build: her name is Ana.",
+    "tokens": [
+      "Se",
+      "llama",
+      "Ana",
+      "llamo"
+    ],
+    "acceptedAnswers": [
+      "Se llama Ana"
+    ],
+    "explanation": "Se llama Ana.",
+    "sortOrder": 6,
+    "translation": "Her name is Ana."
+  },
+  {
+    "id": "reflexives-construct-4",
+    "topicId": "reflexives",
+    "kind": "construct",
+    "prompt": "Build: the teacher's name is Pablo.",
+    "tokens": [
+      "El",
+      "profesor",
+      "se",
+      "llama",
+      "Pablo"
+    ],
+    "acceptedAnswers": [
+      "El profesor se llama Pablo"
+    ],
+    "explanation": "El profesor se llama Pablo.",
+    "sortOrder": 7,
+    "translation": "The teacher's name is Pablo."
+  },
+  {
+    "id": "reflexives-apply-1",
+    "topicId": "reflexives",
+    "kind": "apply",
+    "prompt": "Introduce yourself as Ana.",
+    "tokens": [
+      "Me",
+      "llamo",
+      "Ana",
+      "Te"
+    ],
+    "acceptedAnswers": [
+      "Me llamo Ana"
+    ],
+    "explanation": "Me llamo Ana.",
+    "sortOrder": 8,
+    "translation": "My name is Ana."
+  },
+  {
+    "id": "reflexives-apply-2",
+    "topicId": "reflexives",
+    "kind": "apply",
+    "prompt": "Ask one friend their name.",
+    "tokens": [
+      "Cómo",
+      "te",
+      "llamas",
+      "se"
+    ],
+    "acceptedAnswers": [
+      "¿Cómo te llamas?"
+    ],
+    "explanation": "¿Cómo te llamas?",
+    "sortOrder": 9,
+    "translation": "What is your name?"
+  },
+  {
+    "id": "reflexives-apply-3",
+    "topicId": "reflexives",
+    "kind": "apply",
+    "prompt": "Introduce Ana.",
+    "tokens": [
+      "Se",
+      "llama",
+      "Ana",
+      "Me"
+    ],
+    "acceptedAnswers": [
+      "Se llama Ana"
+    ],
+    "explanation": "Se llama Ana.",
+    "sortOrder": 10,
+    "translation": "Her name is Ana."
+  },
+  {
+    "id": "reflexives-apply-4",
+    "topicId": "reflexives",
+    "kind": "apply",
+    "prompt": "Ask politely for another person's name.",
+    "tokens": [
+      "Cómo",
+      "se",
+      "llama",
+      "te"
+    ],
+    "acceptedAnswers": [
+      "¿Cómo se llama?"
+    ],
+    "explanation": "¿Cómo se llama?",
+    "sortOrder": 11,
+    "translation": "What is their name?"
+  }
+]

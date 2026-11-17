@@ -1,0 +1,70 @@
+[
+  {
+    "id": "tener-thing",
+    "topicId": "tener",
+    "title": "Having something",
+    "frame": "tener + un or una + noun",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "tengo, tienes, tiene, tenemos, tenéis, or tienen",
+        "wordIds": [
+          "useful-verbs-tener"
+        ]
+      },
+      {
+        "name": "thing",
+        "description": "a noun such as libro or coche",
+        "wordIds": [
+          "work-and-study-libro",
+          "travel-and-transport-coche"
+        ]
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "tener-state",
+    "topicId": "tener",
+    "title": "Hungry",
+    "frame": "tener + hambre",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "a form of tener",
+        "wordIds": [
+          "useful-verbs-tener"
+        ]
+      },
+      {
+        "name": "state",
+        "description": "hambre",
+        "wordIds": [
+          "food-and-drink-hambre"
+        ]
+      }
+    ],
+    "sortOrder": 1
+  },
+  {
+    "id": "tener-age",
+    "topicId": "tener",
+    "title": "Age",
+    "frame": "tener + number + años",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "tengo for your own age",
+        "wordIds": [
+          "useful-verbs-tener"
+        ]
+      },
+      {
+        "name": "years",
+        "description": "a number plus años",
+        "wordIds": []
+      }
+    ],
+    "sortOrder": 2
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "id": "present-er-ir-understand-1",
+    "topicId": "present-er-ir",
+    "kind": "understand",
+    "prompt": "Which form is I eat?",
+    "choices": [
+      "Como pan.",
+      "Comes pan."
+    ],
+    "acceptedAnswers": [
+      "Como pan."
+    ],
+    "explanation": "Yo takes como.",
+    "sortOrder": 0,
+    "translation": "I eat bread."
+  },
+  {
+    "id": "present-er-ir-understand-2",
+    "topicId": "present-er-ir",
+    "kind": "understand",
+    "prompt": "Which form is you eat?",
+    "choices": [
+      "Comes pan.",
+      "Como pan."
+    ],
+    "acceptedAnswers": [
+      "Comes pan."
+    ],
+    "explanation": "Tú takes comes.",
+    "sortOrder": 1,
+    "translation": "You eat bread."
+  },
+  {
+    "id": "present-er-ir-understand-3",
+    "topicId": "present-er-ir",
+    "kind": "understand",
+    "prompt": "Which form is I live?",
+    "choices": [
+      "Vivo en Madrid.",
+      "Vives en Madrid."
+    ],
+    "acceptedAnswers": [
+      "Vivo en Madrid."
+    ],
+    "explanation": "Yo takes vivo.",
+    "sortOrder": 2,
+    "translation": "I live in Madrid."
+  },
+  {
+    "id": "present-er-ir-understand-4",
+    "topicId": "present-er-ir",
+    "kind": "understand",
+    "prompt": "Which form is you all live, in Spain?",
+    "choices": [
+      "Vivís en casa.",
+      "Vives en casa."
+    ],
+    "acceptedAnswers": [
+      "Vivís en casa."
+    ],
+    "explanation": "Vosotros takes vivís.",
+    "sortOrder": 3,
+    "translation": "You live at home."
+  },
+  {
+    "id": "present-er-ir-construct-1",
+    "topicId": "present-er-ir",
+    "kind": "construct",
+    "prompt": "Build: I eat bread.",
+    "tokens": [
+      "Como",
+      "Comes",
+      "pan",
+      "agua"
+    ],
+    "acceptedAnswers": [
+      "Como pan"
+    ],
+    "explanation": "Como pan.",
+    "sortOrder": 4,
+    "translation": "I eat bread."
+  },
+  {
+    "id": "present-er-ir-construct-2",
+    "topicId": "present-er-ir",
+    "kind": "construct",
+    "prompt": "Build: I drink water.",
+    "tokens": [
+      "Bebo",
+      "Bebes",
+      "agua",
+      "pan"
+    ],
+    "acceptedAnswers": [
+      "Bebo agua"
+    ],
+    "explanation": "Bebo agua.",
+    "sortOrder": 5,
+    "translation": "I drink water."
+  },
+  {
+    "id": "present-er-ir-construct-3",
+    "topicId": "present-er-ir",
+    "kind": "construct",
+    "prompt": "Build: I live in Madrid.",
+    "tokens": [
+      "Vivo",
+      "Vives",
+      "en",
+      "Madrid"
+    ],
+    "acceptedAnswers": [
+      "Vivo en Madrid"
+    ],
+    "explanation": "Vivo en Madrid.",
+    "sortOrder": 6,
+    "translation": "I live in Madrid."
+  },
+  {
+    "id": "present-er-ir-construct-4",
+    "topicId": "present-er-ir",
+    "kind": "construct",
+    "prompt": "Build: they live in Madrid.",
+    "tokens": [
+      "Viven",
+      "Vive",
+      "en",
+      "Madrid"
+    ],
+    "acceptedAnswers": [
+      "Viven en Madrid"
+    ],
+    "explanation": "Viven en Madrid.",
+    "sortOrder": 7,
+    "translation": "They live in Madrid."
+  },
+  {
+    "id": "present-er-ir-apply-1",
+    "topicId": "present-er-ir",
+    "kind": "apply",
+    "prompt": "Say what you eat.",
+    "tokens": [
+      "Como",
+      "pan",
+      "Comes",
+      "agua"
+    ],
+    "acceptedAnswers": [
+      "Como pan"
+    ],
+    "explanation": "Como pan.",
+    "sortOrder": 8,
+    "translation": "I eat bread."
+  },
+  {
+    "id": "present-er-ir-apply-2",
+    "topicId": "present-er-ir",
+    "kind": "apply",
+    "prompt": "Say what you drink.",
+    "tokens": [
+      "Bebo",
+      "agua",
+      "Bebes",
+      "leche"
+    ],
+    "acceptedAnswers": [
+      "Bebo agua"
+    ],
+    "explanation": "Bebo agua.",
+    "sortOrder": 9,
+    "translation": "I drink water."
+  },
+  {
+    "id": "present-er-ir-apply-3",
+    "topicId": "present-er-ir",
+    "kind": "apply",
+    "prompt": "Tell someone where you live.",
+    "tokens": [
+      "Vivo",
+      "en",
+      "Madrid",
+      "Vives"
+    ],
+    "acceptedAnswers": [
+      "Vivo en Madrid"
+    ],
+    "explanation": "Vivo en Madrid.",
+    "sortOrder": 10,
+    "translation": "I live in Madrid."
+  },
+  {
+    "id": "present-er-ir-apply-4",
+    "topicId": "present-er-ir",
+    "kind": "apply",
+    "prompt": "Say that your group eats bread.",
+    "tokens": [
+      "Comemos",
+      "pan",
+      "Comen",
+      "agua"
+    ],
+    "acceptedAnswers": [
+      "Comemos pan"
+    ],
+    "explanation": "Comemos pan.",
+    "sortOrder": 11,
+    "translation": "We eat bread."
+  }
+]

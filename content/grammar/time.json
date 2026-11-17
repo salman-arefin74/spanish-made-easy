@@ -1,0 +1,50 @@
+{
+  "id": "time",
+  "title": "Time",
+  "sortOrder": 20,
+  "prerequisiteId": "ser",
+  "explanation": "Clock time uses ser. One o'clock is es la una. Every other hour on the clock uses son las: son las dos, son las tres. Spain often uses the 24-hour clock, so son las veinte is 8 in the evening.\n\nA las gives the time of an event: a las tres. Los lunes means on Mondays. Por la mañana means in the morning.",
+  "commonMistake": "Using es las dos, or using estar for the hour. One o'clock is the only hour with es la.",
+  "examples": [
+    {
+      "spanish": "¿Qué hora es?",
+      "english": "What time is it?",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "Es la una.",
+      "english": "It is one o'clock.",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "Son las dos.",
+      "english": "It is two o'clock.",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "Son las tres.",
+      "english": "It is three o'clock.",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "Son las veinte.",
+      "english": "It is 8 in the evening.",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "A las tres.",
+      "english": "At three.",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "Los lunes.",
+      "english": "On Mondays.",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "Por la mañana.",
+      "english": "In the morning.",
+      "sortOrder": 7
+    }
+  ]
+}

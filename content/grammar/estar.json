@@ -1,0 +1,50 @@
+{
+  "id": "estar",
+  "title": "Estar",
+  "sortOrder": 7,
+  "prerequisiteId": "pronouns",
+  "explanation": "Estar says where someone is, or how they are right now. The present forms are estoy, estás, está, estamos, estáis, and están.\n\nEstoy bien answers how are you. Estoy en casa answers where are you. A condition you can notice now, such as hot coffee, also uses estar.",
+  "commonMistake": "Using ser for a place. Estoy en casa, not soy en casa.",
+  "examples": [
+    {
+      "spanish": "Estoy en casa.",
+      "english": "I am at home.",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "Estoy bien.",
+      "english": "I am fine.",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "Estás en casa.",
+      "english": "You are at home.",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "Está en Madrid.",
+      "english": "She is in Madrid.",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "Estamos en el parque.",
+      "english": "We are in the park.",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "Estáis bien.",
+      "english": "You are fine.",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "Están en el banco.",
+      "english": "They are at the bank.",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "El café está caliente.",
+      "english": "The coffee is hot.",
+      "sortOrder": 7
+    }
+  ]
+}

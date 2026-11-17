@@ -1,0 +1,50 @@
+{
+  "id": "pronouns",
+  "title": "Subject pronouns",
+  "sortOrder": 5,
+  "prerequisiteId": "noun-gender",
+  "explanation": "Yo is I. Tú is you, for one person you know. Usted is the polite form for one person. Él and ella are he and she. Nosotros is we. In Spain, vosotros is you for a group you know. Ellos is they, and ellas is they for a group of women.\n\nMuch of Latin America uses ustedes, not vosotros, for a group. This lesson practises the Spain form. The verb endings come in the next topics. The sentences here are ones you can reuse.",
+  "commonMistake": "Using vosotros for one person, or using él for a woman.",
+  "examples": [
+    {
+      "spanish": "Yo soy Ana.",
+      "english": "I am Ana.",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "Tú eres Pablo.",
+      "english": "You are Pablo.",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "Usted es la profesora.",
+      "english": "You are the teacher.",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "Él es Pablo.",
+      "english": "He is Pablo.",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "Ella es Ana.",
+      "english": "She is Ana.",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "Nosotros somos amigos.",
+      "english": "We are friends.",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "Vosotros sois de España.",
+      "english": "You are from Spain.",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "Ellas son amigas.",
+      "english": "They are friends.",
+      "sortOrder": 7
+    }
+  ]
+}

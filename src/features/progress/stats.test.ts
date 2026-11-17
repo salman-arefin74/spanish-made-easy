@@ -29,6 +29,7 @@ describe("progress figures", () => {
       studyDays: [],
       topics: [{ id: "noun-gender", title: "Noun gender", sortOrder: 1, finished: false }],
       exams: [],
+      situations: [],
       today: "2026-11-16",
       dailyTarget: 10,
     })
@@ -41,6 +42,7 @@ describe("progress figures", () => {
     expect(board.action.label).toBe("Learn your first words")
     expect(board.exams).toEqual([])
     expect(board.situationsFinished).toBe(0)
+    expect(board.situationsTotal).toBe(0)
   })
 
   it("counts a word as known only after a successful review of at least 7 days", () => {
@@ -56,6 +58,7 @@ describe("progress figures", () => {
         { id: "articles", title: "Articles", sortOrder: 2, finished: false },
       ],
       exams: [{ id: "attempt-1", examSet: "A1", correct: 12, total: 15, createdAt: "2026-11-16T10:00:00.000Z" }],
+      situations: [{ finished: true }, { finished: false }],
       today: "2026-11-16",
       dailyTarget: 10,
     })
@@ -68,5 +71,7 @@ describe("progress figures", () => {
     expect(board.grammarFinished).toBe(1)
     expect(board.nextTopic?.title).toBe("Articles")
     expect(board.nextReview).toBe("Due now")
+    expect(board.situationsFinished).toBe(1)
+    expect(board.situationsTotal).toBe(2)
   })
 })

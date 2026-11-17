@@ -1,0 +1,212 @@
+[
+  {
+    "id": "poder-deber-understand-1",
+    "topicId": "poder-deber",
+    "kind": "understand",
+    "prompt": "Which sentence says you can speak?",
+    "choices": [
+      "Puedo hablar.",
+      "Puedo hablo."
+    ],
+    "acceptedAnswers": [
+      "Puedo hablar."
+    ],
+    "explanation": "The second verb is the infinitive.",
+    "sortOrder": 0,
+    "translation": "I can speak."
+  },
+  {
+    "id": "poder-deber-understand-2",
+    "topicId": "poder-deber",
+    "kind": "understand",
+    "prompt": "Which sentence says you must study?",
+    "choices": [
+      "Debo estudiar.",
+      "Debo estudio."
+    ],
+    "acceptedAnswers": [
+      "Debo estudiar."
+    ],
+    "explanation": "Debo is followed by the infinitive.",
+    "sortOrder": 1,
+    "translation": "I must study."
+  },
+  {
+    "id": "poder-deber-understand-3",
+    "topicId": "poder-deber",
+    "kind": "understand",
+    "prompt": "Which sentence says you prefer coffee?",
+    "choices": [
+      "Prefiero el café.",
+      "Prefiero el café es."
+    ],
+    "acceptedAnswers": [
+      "Prefiero el café."
+    ],
+    "explanation": "Preferir can take a noun.",
+    "sortOrder": 2,
+    "translation": "I prefer coffee."
+  },
+  {
+    "id": "poder-deber-understand-4",
+    "topicId": "poder-deber",
+    "kind": "understand",
+    "prompt": "Which sentence says we can go?",
+    "choices": [
+      "Podemos ir.",
+      "Puedo ir."
+    ],
+    "acceptedAnswers": [
+      "Podemos ir."
+    ],
+    "explanation": "Nosotros takes podemos.",
+    "sortOrder": 3,
+    "translation": "We can go."
+  },
+  {
+    "id": "poder-deber-construct-1",
+    "topicId": "poder-deber",
+    "kind": "construct",
+    "prompt": "Build: I can speak.",
+    "tokens": [
+      "Puedo",
+      "hablar",
+      "hablo",
+      "comer"
+    ],
+    "acceptedAnswers": [
+      "Puedo hablar"
+    ],
+    "explanation": "Puedo hablar.",
+    "sortOrder": 4,
+    "translation": "I can speak."
+  },
+  {
+    "id": "poder-deber-construct-2",
+    "topicId": "poder-deber",
+    "kind": "construct",
+    "prompt": "Build: I must study.",
+    "tokens": [
+      "Debo",
+      "estudiar",
+      "estudio",
+      "comer"
+    ],
+    "acceptedAnswers": [
+      "Debo estudiar"
+    ],
+    "explanation": "Debo estudiar.",
+    "sortOrder": 5,
+    "translation": "I must study."
+  },
+  {
+    "id": "poder-deber-construct-3",
+    "topicId": "poder-deber",
+    "kind": "construct",
+    "prompt": "Build: I prefer coffee.",
+    "tokens": [
+      "Prefiero",
+      "el",
+      "café",
+      "zumo"
+    ],
+    "acceptedAnswers": [
+      "Prefiero el café"
+    ],
+    "explanation": "Prefiero el café.",
+    "sortOrder": 6,
+    "translation": "I prefer coffee."
+  },
+  {
+    "id": "poder-deber-construct-4",
+    "topicId": "poder-deber",
+    "kind": "construct",
+    "prompt": "Build: you can eat.",
+    "tokens": [
+      "Puedes",
+      "comer",
+      "como",
+      "Puedo"
+    ],
+    "acceptedAnswers": [
+      "Puedes comer"
+    ],
+    "explanation": "Puedes comer.",
+    "sortOrder": 7,
+    "translation": "You can eat."
+  },
+  {
+    "id": "poder-deber-apply-1",
+    "topicId": "poder-deber",
+    "kind": "apply",
+    "prompt": "Someone asks if you can speak. Say that you can.",
+    "tokens": [
+      "Puedo",
+      "hablar",
+      "hablo",
+      "español"
+    ],
+    "acceptedAnswers": [
+      "Puedo hablar"
+    ],
+    "explanation": "Puedo hablar.",
+    "sortOrder": 8,
+    "translation": "I can speak."
+  },
+  {
+    "id": "poder-deber-apply-2",
+    "topicId": "poder-deber",
+    "kind": "apply",
+    "prompt": "You have class later. Say that you must study.",
+    "tokens": [
+      "Debo",
+      "estudiar",
+      "estudio",
+      "hoy"
+    ],
+    "acceptedAnswers": [
+      "Debo estudiar"
+    ],
+    "explanation": "Debo estudiar.",
+    "sortOrder": 9,
+    "translation": "I must study."
+  },
+  {
+    "id": "poder-deber-apply-3",
+    "topicId": "poder-deber",
+    "kind": "apply",
+    "prompt": "The waiter offers coffee or juice. You prefer juice. Spain uses zumo.",
+    "tokens": [
+      "Prefiero",
+      "el",
+      "zumo",
+      "jugo"
+    ],
+    "acceptedAnswers": [
+      "Prefiero el zumo",
+      "Prefiero el jugo"
+    ],
+    "explanation": "In Spain, say zumo.",
+    "sortOrder": 10,
+    "translation": "I prefer juice."
+  },
+  {
+    "id": "poder-deber-apply-4",
+    "topicId": "poder-deber",
+    "kind": "apply",
+    "prompt": "Your group can go to the bank.",
+    "tokens": [
+      "Podemos",
+      "ir",
+      "al",
+      "banco",
+      "Puedo"
+    ],
+    "acceptedAnswers": [
+      "Podemos ir al banco"
+    ],
+    "explanation": "Podemos ir al banco.",
+    "sortOrder": 11,
+    "translation": "We can go to the bank."
+  }
+]

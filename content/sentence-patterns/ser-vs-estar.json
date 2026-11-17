@@ -1,0 +1,46 @@
+[
+  {
+    "id": "ser-vs-estar-identity",
+    "topicId": "ser-vs-estar",
+    "title": "What someone is",
+    "frame": "ser + name, origin, or profession",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "a form of ser",
+        "wordIds": []
+      },
+      {
+        "name": "complement",
+        "description": "a name, de + place, or a job",
+        "wordIds": [
+          "work-and-study-profesora"
+        ]
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "ser-vs-estar-place",
+    "topicId": "ser-vs-estar",
+    "title": "Where someone is",
+    "frame": "estar + en + place, or estar + bien",
+    "slots": [
+      {
+        "name": "verb",
+        "description": "a form of estar",
+        "wordIds": []
+      },
+      {
+        "name": "place",
+        "description": "a place or bien",
+        "wordIds": [
+          "the-home-casa",
+          "town-and-places-parque",
+          "everyday-essentials-bien"
+        ]
+      }
+    ],
+    "sortOrder": 1
+  }
+]

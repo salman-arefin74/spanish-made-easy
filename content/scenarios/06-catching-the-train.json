@@ -1,0 +1,78 @@
+{
+  "id": "catching-the-train",
+  "title": "Catching the train",
+  "aim": "Buy a ticket and catch the train.",
+  "spainNote": "In Spain, coger means to take or catch. In much of Latin America the verb is avoided.",
+  "sortOrder": 6,
+  "phrases": [
+    { "wordId": "travel-and-transport-billete", "spanish": "billete", "english": "ticket" },
+    { "wordId": "travel-and-transport-tren", "spanish": "tren", "english": "train" },
+    { "wordId": "travel-and-transport-anden", "spanish": "andén", "english": "platform" },
+    { "wordId": "travel-and-transport-retraso", "spanish": "retraso", "english": "delay" },
+    { "wordId": "travel-and-transport-coger", "spanish": "coger", "english": "to catch" }
+  ],
+  "turns": [
+    { "speaker": "Ana", "spanish": "Un billete para el tren, por favor.", "english": "A ticket for the train, please." },
+    { "speaker": "Taquillero", "spanish": "Sale del andén tres.", "english": "It leaves from platform three." },
+    { "speaker": "Ana", "spanish": "¿Hay retraso?", "english": "Is there a delay?" },
+    { "speaker": "Taquillero", "spanish": "No hay retraso.", "english": "There is no delay." },
+    { "speaker": "Ana", "spanish": "Voy a coger el tren.", "english": "I am going to catch the train." },
+    { "speaker": "Taquillero", "spanish": "Vale.", "english": "Okay." }
+  ],
+  "exercises": [
+    {
+      "id": "catching-the-train-buy",
+      "kind": "comprehension",
+      "prompt": "Which line asks for the ticket?",
+      "choices": ["Un billete para el tren, por favor.", "Sale del andén tres.", "Voy a coger el tren."],
+      "acceptedAnswers": ["Un billete para el tren, por favor."],
+      "translation": "A ticket for the train, please.",
+      "explanation": "Un billete is a ticket."
+    },
+    {
+      "id": "catching-the-train-platform",
+      "kind": "comprehension",
+      "prompt": "Which line names the platform?",
+      "choices": ["Sale del andén tres.", "No hay retraso.", "Un billete para el tren, por favor."],
+      "acceptedAnswers": ["Sale del andén tres."],
+      "translation": "It leaves from platform three.",
+      "explanation": "Andén is the platform."
+    },
+    {
+      "id": "catching-the-train-delay",
+      "kind": "comprehension",
+      "prompt": "Which line says there is no delay?",
+      "choices": ["No hay retraso.", "¿Hay retraso?", "Voy a coger el tren."],
+      "acceptedAnswers": ["No hay retraso."],
+      "translation": "There is no delay.",
+      "explanation": "No hay retraso means there is no delay."
+    },
+    {
+      "id": "catching-the-train-ticket",
+      "kind": "construct",
+      "prompt": "Ask for a train ticket.",
+      "tokens": ["Un", "billete", "para", "el", "tren"],
+      "acceptedAnswers": ["Un billete para el tren"],
+      "translation": "A ticket for the train.",
+      "explanation": "Billete is the ticket."
+    },
+    {
+      "id": "catching-the-train-ask-delay",
+      "kind": "construct",
+      "prompt": "Ask if there is a delay.",
+      "tokens": ["Hay", "retraso"],
+      "acceptedAnswers": ["Hay retraso"],
+      "translation": "Is there a delay?",
+      "explanation": "The spoken question is ¿Hay retraso?"
+    },
+    {
+      "id": "catching-the-train-catch",
+      "kind": "construct",
+      "prompt": "Say you are going to catch the train.",
+      "tokens": ["Voy", "a", "coger", "el", "tren"],
+      "acceptedAnswers": ["Voy a coger el tren"],
+      "translation": "I am going to catch the train.",
+      "explanation": "In Spain, coger means to catch."
+    }
+  ]
+}

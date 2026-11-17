@@ -1,0 +1,68 @@
+[
+  {
+    "id": "articles-definite",
+    "topicId": "articles",
+    "title": "A specific noun",
+    "frame": "el, la, los, or las + noun",
+    "slots": [
+      {
+        "name": "article",
+        "description": "el, la, los, or las",
+        "wordIds": []
+      },
+      {
+        "name": "noun",
+        "description": "the noun you both already mean",
+        "wordIds": [
+          "food-and-drink-cafe",
+          "the-home-casa",
+          "work-and-study-libro"
+        ]
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "articles-indefinite",
+    "topicId": "articles",
+    "title": "A new noun",
+    "frame": "un, una, unos, or unas + noun",
+    "slots": [
+      {
+        "name": "article",
+        "description": "un, una, unos, or unas",
+        "wordIds": []
+      },
+      {
+        "name": "noun",
+        "description": "a noun that is new in the conversation",
+        "wordIds": [
+          "food-and-drink-cafe",
+          "the-home-casa"
+        ]
+      }
+    ],
+    "sortOrder": 1
+  },
+  {
+    "id": "articles-agua",
+    "topicId": "articles",
+    "title": "Feminine agua",
+    "frame": "el agua in the singular",
+    "slots": [
+      {
+        "name": "article",
+        "description": "el in the singular",
+        "wordIds": []
+      },
+      {
+        "name": "noun",
+        "description": "agua, which stays feminine",
+        "wordIds": [
+          "food-and-drink-agua"
+        ]
+      }
+    ],
+    "sortOrder": 2
+  }
+]

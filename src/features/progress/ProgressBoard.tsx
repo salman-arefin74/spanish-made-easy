@@ -54,7 +54,9 @@ export function ProgressView({ figures }: { figures: BoardFigures }) {
           </p>
           <p className="mt-4 text-cream">Introduced: {figures.introduced}</p>
           <Bar label="Situations finished" value={figures.situationsFinished} total={figures.situationsTotal} />
-          <p className="mt-2 text-sm text-muted">Situations are not in the course yet.</p>
+          {figures.situationsTotal === 0 ? (
+            <p className="mt-2 text-sm text-muted">Situations are not loaded yet.</p>
+          ) : null}
         </Block>
         <Block title="Memory">
           <p className="mt-3 text-cream">Due now: {figures.due}</p>
@@ -121,7 +123,9 @@ export function ProgressBoard() {
       supabase.from("grammar_topics").select("id, title, sort_order"),
       supabase.from("user_grammar_progress").select("topic_id, finished").eq("user_id", userId),
       supabase.from("quiz_attempts").select("id, exam_set, correct_count, total_count, created_at").eq("user_id", userId).order("created_at", { ascending: false }).limit(5),
-    ]).then(([words, progress, days, topics, grammar, exams]) => {
+      supabase.from("situations").select("id"),
+      supabase.from("user_situation_progress").select("situation_id, finished").eq("user_id", userId),
+    ]).then(([words, progress, days, topics, grammar, exams, situations, situationProgress]) => {
       if (!active) return
       const today = localDateISO(new Date())
       if (words.error || progress.error) {
@@ -164,6 +168,13 @@ export function ProgressBoard() {
         studyDays: days.error ? [] : (days.data ?? []).map((row) => row.studied_on),
         topics: topicRows,
         exams: examRows,
+        situations: situations.error
+          ? []
+          : (situations.data ?? []).map((situation) => ({
+              finished: situationProgress.error
+                ? false
+                : (situationProgress.data ?? []).some((row) => row.situation_id === situation.id && row.finished),
+            })),
         today,
         dailyTarget: auth.profile?.daily_learning_target ?? 10,
       })

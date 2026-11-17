@@ -1,0 +1,50 @@
+{
+  "id": "present-ar",
+  "title": "Present tense: -ar",
+  "sortOrder": 9,
+  "prerequisiteId": "pronouns",
+  "explanation": "A regular -ar verb changes the ending, not the stem. Hablar becomes hablo, hablas, habla, hablamos, habláis, and hablan.\n\nHabláis is the Spain form for a group you know. The pronoun is often left out because the ending already says who.",
+  "commonMistake": "Using the yo ending for everybody, or forgetting the accent in habláis.",
+  "examples": [
+    {
+      "spanish": "Hablo español.",
+      "english": "I speak Spanish.",
+      "sortOrder": 0
+    },
+    {
+      "spanish": "Hablas inglés.",
+      "english": "You speak English.",
+      "sortOrder": 1
+    },
+    {
+      "spanish": "Habla con Ana.",
+      "english": "She speaks with Ana.",
+      "sortOrder": 2
+    },
+    {
+      "spanish": "Hablamos en casa.",
+      "english": "We speak at home.",
+      "sortOrder": 3
+    },
+    {
+      "spanish": "Habláis español.",
+      "english": "You speak Spanish.",
+      "sortOrder": 4
+    },
+    {
+      "spanish": "Hablan con la profesora.",
+      "english": "They speak with the teacher.",
+      "sortOrder": 5
+    },
+    {
+      "spanish": "Yo hablo.",
+      "english": "I speak.",
+      "sortOrder": 6
+    },
+    {
+      "spanish": "Nosotros hablamos.",
+      "english": "We speak.",
+      "sortOrder": 7
+    }
+  ]
+}

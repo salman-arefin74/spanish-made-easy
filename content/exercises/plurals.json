@@ -1,0 +1,214 @@
+[
+  {
+    "id": "plurals-understand-1",
+    "topicId": "plurals",
+    "kind": "understand",
+    "prompt": "Which is the plural of libro?",
+    "choices": [
+      "los libros",
+      "los libroes"
+    ],
+    "acceptedAnswers": [
+      "los libros"
+    ],
+    "explanation": "Libro ends in a vowel, so add -s.",
+    "sortOrder": 0,
+    "translation": "the books"
+  },
+  {
+    "id": "plurals-understand-2",
+    "topicId": "plurals",
+    "kind": "understand",
+    "prompt": "Which is the plural of estación?",
+    "choices": [
+      "las estaciones",
+      "las estacións"
+    ],
+    "acceptedAnswers": [
+      "las estaciones"
+    ],
+    "explanation": "Estación ends in a consonant, so add -es.",
+    "sortOrder": 1,
+    "translation": "the stations"
+  },
+  {
+    "id": "plurals-understand-3",
+    "topicId": "plurals",
+    "kind": "understand",
+    "prompt": "Which is the plural of café?",
+    "choices": [
+      "los cafés",
+      "las cafés"
+    ],
+    "acceptedAnswers": [
+      "los cafés"
+    ],
+    "explanation": "Café stays masculine in the plural.",
+    "sortOrder": 2,
+    "translation": "the coffees"
+  },
+  {
+    "id": "plurals-understand-4",
+    "topicId": "plurals",
+    "kind": "understand",
+    "prompt": "Which is the plural of madre?",
+    "choices": [
+      "las madres",
+      "los madres"
+    ],
+    "acceptedAnswers": [
+      "las madres"
+    ],
+    "explanation": "Madre is feminine, so the plural article is las.",
+    "sortOrder": 3,
+    "translation": "the mothers"
+  },
+  {
+    "id": "plurals-construct-1",
+    "topicId": "plurals",
+    "kind": "construct",
+    "prompt": "Build: the books.",
+    "tokens": [
+      "Los",
+      "Las",
+      "libros",
+      "casas"
+    ],
+    "acceptedAnswers": [
+      "Los libros"
+    ],
+    "explanation": "Los libros.",
+    "sortOrder": 4,
+    "translation": "the books"
+  },
+  {
+    "id": "plurals-construct-2",
+    "topicId": "plurals",
+    "kind": "construct",
+    "prompt": "Build: the houses.",
+    "tokens": [
+      "Los",
+      "Las",
+      "casas",
+      "libros"
+    ],
+    "acceptedAnswers": [
+      "Las casas"
+    ],
+    "explanation": "Las casas.",
+    "sortOrder": 5,
+    "translation": "the houses"
+  },
+  {
+    "id": "plurals-construct-3",
+    "topicId": "plurals",
+    "kind": "construct",
+    "prompt": "Build: the trains.",
+    "tokens": [
+      "Los",
+      "Las",
+      "trenes",
+      "estaciones"
+    ],
+    "acceptedAnswers": [
+      "Los trenes"
+    ],
+    "explanation": "Los trenes.",
+    "sortOrder": 6,
+    "translation": "the trains"
+  },
+  {
+    "id": "plurals-construct-4",
+    "topicId": "plurals",
+    "kind": "construct",
+    "prompt": "Build: the stations.",
+    "tokens": [
+      "Los",
+      "Las",
+      "estaciones",
+      "trenes"
+    ],
+    "acceptedAnswers": [
+      "Las estaciones"
+    ],
+    "explanation": "Las estaciones.",
+    "sortOrder": 7,
+    "translation": "the stations"
+  },
+  {
+    "id": "plurals-apply-1",
+    "topicId": "plurals",
+    "kind": "apply",
+    "prompt": "You are buying two coffees.",
+    "tokens": [
+      "Dos",
+      "cafés",
+      "café",
+      "por",
+      "favor"
+    ],
+    "acceptedAnswers": [
+      "Dos cafés, por favor"
+    ],
+    "explanation": "Dos cafés, por favor.",
+    "sortOrder": 8,
+    "translation": "Two coffees, please."
+  },
+  {
+    "id": "plurals-apply-2",
+    "topicId": "plurals",
+    "kind": "apply",
+    "prompt": "You need the books for class.",
+    "tokens": [
+      "Necesito",
+      "los",
+      "las",
+      "libros",
+      "casas"
+    ],
+    "acceptedAnswers": [
+      "Necesito los libros"
+    ],
+    "explanation": "Necesito los libros.",
+    "sortOrder": 9,
+    "translation": "I need the books."
+  },
+  {
+    "id": "plurals-apply-3",
+    "topicId": "plurals",
+    "kind": "apply",
+    "prompt": "You are looking for the trains.",
+    "tokens": [
+      "Los",
+      "Las",
+      "trenes",
+      "están",
+      "aquí"
+    ],
+    "acceptedAnswers": [
+      "Los trenes están aquí"
+    ],
+    "explanation": "Los trenes están aquí.",
+    "sortOrder": 10,
+    "translation": "The trains are here."
+  },
+  {
+    "id": "plurals-apply-4",
+    "topicId": "plurals",
+    "kind": "apply",
+    "prompt": "Point to the houses.",
+    "tokens": [
+      "Las",
+      "Los",
+      "casas",
+      "están",
+      "aquí"
+    ],
+    "acceptedAnswers": [
+      "Las casas están aquí"
+    ],
+    "explanation": "Las casas están aquí.",
+    "sortOrder": 11,
+    "translation": "The houses are here."
+  }
+]

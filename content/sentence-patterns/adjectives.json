@@ -1,0 +1,72 @@
+[
+  {
+    "id": "adjectives-gender",
+    "topicId": "adjectives",
+    "title": "Adjective after the noun",
+    "frame": "noun + adjective that matches gender",
+    "slots": [
+      {
+        "name": "noun",
+        "description": "the noun",
+        "wordIds": [
+          "the-home-casa",
+          "work-and-study-libro"
+        ]
+      },
+      {
+        "name": "adjective",
+        "description": "an adjective such as rojo or grande",
+        "wordIds": [
+          "descriptions-rojo",
+          "descriptions-grande-desc"
+        ]
+      }
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "adjectives-number",
+    "topicId": "adjectives",
+    "title": "Plural adjective",
+    "frame": "plural noun + plural adjective",
+    "slots": [
+      {
+        "name": "noun",
+        "description": "a plural noun",
+        "wordIds": [
+          "work-and-study-libro",
+          "the-home-casa"
+        ]
+      },
+      {
+        "name": "adjective",
+        "description": "the plural form, such as nuevos",
+        "wordIds": [
+          "descriptions-nuevo"
+        ]
+      }
+    ],
+    "sortOrder": 1
+  },
+  {
+    "id": "adjectives-same",
+    "topicId": "adjectives",
+    "title": "An adjective that keeps its ending",
+    "frame": "noun + difícil",
+    "slots": [
+      {
+        "name": "noun",
+        "description": "problema stays masculine",
+        "wordIds": []
+      },
+      {
+        "name": "adjective",
+        "description": "difícil does not change for gender",
+        "wordIds": [
+          "descriptions-dificil"
+        ]
+      }
+    ],
+    "sortOrder": 2
+  }
+]

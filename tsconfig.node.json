@@ -25,6 +25,7 @@
     "src/content/validate.ts",
     "src/content/files.ts",
     "src/content/grammar.ts",
+    "src/content/scenarios.ts",
     "src/features/sentence-builder/validate.ts"
   ]
 }

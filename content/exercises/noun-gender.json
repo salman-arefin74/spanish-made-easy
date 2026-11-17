@@ -1,0 +1,216 @@
+[
+  {
+    "id": "noun-gender-understand-1",
+    "topicId": "noun-gender",
+    "kind": "understand",
+    "prompt": "Which phrase names the coffee?",
+    "choices": [
+      "el café",
+      "la café"
+    ],
+    "acceptedAnswers": [
+      "el café"
+    ],
+    "explanation": "Café is masculine.",
+    "sortOrder": 0,
+    "translation": "the coffee"
+  },
+  {
+    "id": "noun-gender-understand-2",
+    "topicId": "noun-gender",
+    "kind": "understand",
+    "prompt": "Which phrase names the milk?",
+    "choices": [
+      "la leche",
+      "el leche"
+    ],
+    "acceptedAnswers": [
+      "la leche"
+    ],
+    "explanation": "Leche is feminine.",
+    "sortOrder": 1,
+    "translation": "the milk"
+  },
+  {
+    "id": "noun-gender-understand-3",
+    "topicId": "noun-gender",
+    "kind": "understand",
+    "prompt": "Which phrase names the hand?",
+    "choices": [
+      "la mano",
+      "el mano"
+    ],
+    "acceptedAnswers": [
+      "la mano"
+    ],
+    "explanation": "Mano is feminine even though it ends in -o.",
+    "sortOrder": 2,
+    "translation": "the hand"
+  },
+  {
+    "id": "noun-gender-understand-4",
+    "topicId": "noun-gender",
+    "kind": "understand",
+    "prompt": "Which phrase names the day?",
+    "choices": [
+      "el día",
+      "la día"
+    ],
+    "acceptedAnswers": [
+      "el día"
+    ],
+    "explanation": "Día is masculine even though it ends in -a.",
+    "sortOrder": 3,
+    "translation": "the day"
+  },
+  {
+    "id": "noun-gender-construct-1",
+    "topicId": "noun-gender",
+    "kind": "construct",
+    "prompt": "Build the Spanish for the coffee.",
+    "tokens": [
+      "El",
+      "La",
+      "café",
+      "leche"
+    ],
+    "acceptedAnswers": [
+      "El café"
+    ],
+    "explanation": "Use el with café.",
+    "sortOrder": 4,
+    "translation": "the coffee"
+  },
+  {
+    "id": "noun-gender-construct-2",
+    "topicId": "noun-gender",
+    "kind": "construct",
+    "prompt": "Build the Spanish for the milk.",
+    "tokens": [
+      "El",
+      "La",
+      "café",
+      "leche"
+    ],
+    "acceptedAnswers": [
+      "La leche"
+    ],
+    "explanation": "Use la with leche.",
+    "sortOrder": 5,
+    "translation": "the milk"
+  },
+  {
+    "id": "noun-gender-construct-3",
+    "topicId": "noun-gender",
+    "kind": "construct",
+    "prompt": "Build the Spanish for a book.",
+    "tokens": [
+      "Un",
+      "Una",
+      "libro",
+      "casa"
+    ],
+    "acceptedAnswers": [
+      "Un libro"
+    ],
+    "explanation": "Libro is masculine, so the article is un.",
+    "sortOrder": 6,
+    "translation": "a book"
+  },
+  {
+    "id": "noun-gender-construct-4",
+    "topicId": "noun-gender",
+    "kind": "construct",
+    "prompt": "Build the Spanish for a house.",
+    "tokens": [
+      "Un",
+      "Una",
+      "libro",
+      "casa"
+    ],
+    "acceptedAnswers": [
+      "Una casa"
+    ],
+    "explanation": "Casa is feminine, so the article is una.",
+    "sortOrder": 7,
+    "translation": "a house"
+  },
+  {
+    "id": "noun-gender-apply-1",
+    "topicId": "noun-gender",
+    "kind": "apply",
+    "prompt": "You are at a bar. Ask for the coffee.",
+    "tokens": [
+      "El",
+      "La",
+      "café",
+      "leche",
+      "por",
+      "favor"
+    ],
+    "acceptedAnswers": [
+      "El café, por favor"
+    ],
+    "explanation": "El café, por favor.",
+    "sortOrder": 8,
+    "translation": "The coffee, please."
+  },
+  {
+    "id": "noun-gender-apply-2",
+    "topicId": "noun-gender",
+    "kind": "apply",
+    "prompt": "You want the milk.",
+    "tokens": [
+      "El",
+      "La",
+      "leche",
+      "café",
+      "por",
+      "favor"
+    ],
+    "acceptedAnswers": [
+      "La leche, por favor"
+    ],
+    "explanation": "La leche, por favor.",
+    "sortOrder": 9,
+    "translation": "The milk, please."
+  },
+  {
+    "id": "noun-gender-apply-3",
+    "topicId": "noun-gender",
+    "kind": "apply",
+    "prompt": "You need a book for class.",
+    "tokens": [
+      "Necesito",
+      "un",
+      "una",
+      "libro",
+      "casa"
+    ],
+    "acceptedAnswers": [
+      "Necesito un libro"
+    ],
+    "explanation": "Necesito un libro.",
+    "sortOrder": 10,
+    "translation": "I need a book."
+  },
+  {
+    "id": "noun-gender-apply-4",
+    "topicId": "noun-gender",
+    "kind": "apply",
+    "prompt": "You are describing the house.",
+    "tokens": [
+      "Es",
+      "un",
+      "una",
+      "casa",
+      "libro"
+    ],
+    "acceptedAnswers": [
+      "Es una casa"
+    ],
+    "explanation": "Es una casa.",
+    "sortOrder": 11,
+    "translation": "It is a house."
+  }
+]

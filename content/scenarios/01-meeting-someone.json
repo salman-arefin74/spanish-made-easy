@@ -1,0 +1,78 @@
+{
+  "id": "meeting-someone",
+  "title": "Meeting someone",
+  "aim": "Greet someone and say your name.",
+  "spainNote": null,
+  "sortOrder": 1,
+  "phrases": [
+    { "wordId": "everyday-essentials-hola", "spanish": "hola", "english": "hello" },
+    { "wordId": "everyday-essentials-buenos-dias", "spanish": "buenos días", "english": "good morning" },
+    { "wordId": "everyday-essentials-me-llamo", "spanish": "me llamo", "english": "my name is" },
+    { "wordId": "everyday-essentials-gracias", "spanish": "gracias", "english": "thank you" },
+    { "wordId": "everyday-essentials-hasta-luego", "spanish": "hasta luego", "english": "see you later" }
+  ],
+  "turns": [
+    { "speaker": "Ana", "spanish": "Hola, buenos días.", "english": "Hello, good morning." },
+    { "speaker": "Luis", "spanish": "Buenos días. ¿Cómo te llamas?", "english": "Good morning. What is your name?" },
+    { "speaker": "Ana", "spanish": "Me llamo Ana.", "english": "My name is Ana." },
+    { "speaker": "Luis", "spanish": "Me llamo Luis.", "english": "My name is Luis." },
+    { "speaker": "Ana", "spanish": "Gracias. Hasta luego.", "english": "Thank you. See you later." },
+    { "speaker": "Luis", "spanish": "Hasta luego.", "english": "See you later." }
+  ],
+  "exercises": [
+    {
+      "id": "meeting-someone-name",
+      "kind": "comprehension",
+      "prompt": "Which line gives Ana's name?",
+      "choices": ["Me llamo Ana.", "Me llamo Luis.", "Hasta luego."],
+      "acceptedAnswers": ["Me llamo Ana."],
+      "translation": "My name is Ana.",
+      "explanation": "Ana says Me llamo Ana."
+    },
+    {
+      "id": "meeting-someone-end",
+      "kind": "comprehension",
+      "prompt": "Which line do they say at the end?",
+      "choices": ["Hasta luego.", "Hola, buenos días.", "Me llamo Ana."],
+      "acceptedAnswers": ["Hasta luego."],
+      "translation": "See you later.",
+      "explanation": "Hasta luego means see you later."
+    },
+    {
+      "id": "meeting-someone-first",
+      "kind": "comprehension",
+      "prompt": "Which line opens the conversation?",
+      "choices": ["Hola, buenos días.", "Me llamo Luis.", "Hasta luego."],
+      "acceptedAnswers": ["Hola, buenos días."],
+      "translation": "Hello, good morning.",
+      "explanation": "Ana starts with Hola, buenos días."
+    },
+    {
+      "id": "meeting-someone-hello",
+      "kind": "construct",
+      "prompt": "Say hello and good morning.",
+      "tokens": ["Hola", "buenos", "días"],
+      "acceptedAnswers": ["Hola buenos días"],
+      "translation": "Hello, good morning.",
+      "explanation": "This is the greeting Ana uses."
+    },
+    {
+      "id": "meeting-someone-introduce",
+      "kind": "construct",
+      "prompt": "Say that your name is Ana.",
+      "tokens": ["Me", "llamo", "Ana"],
+      "acceptedAnswers": ["Me llamo Ana"],
+      "translation": "My name is Ana.",
+      "explanation": "Me llamo plus the name."
+    },
+    {
+      "id": "meeting-someone-later",
+      "kind": "construct",
+      "prompt": "Say see you later.",
+      "tokens": ["Hasta", "luego"],
+      "acceptedAnswers": ["Hasta luego"],
+      "translation": "See you later.",
+      "explanation": "Both speakers close with hasta luego."
+    }
+  ]
+}

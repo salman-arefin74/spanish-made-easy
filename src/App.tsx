@@ -12,6 +12,7 @@ import { SignUpPage } from "./features/auth/SignUpPage.tsx"
 import { ExamPage } from "./features/exams/ExamPage.tsx"
 import { ProgressBoard } from "./features/progress/ProgressBoard.tsx"
 import { ReviewPage } from "./features/revision/ReviewSession.tsx"
+import { SituationListPage, SituationRoute } from "./features/scenarios/SituationPage.tsx"
 import { LessonRoute, SentenceBuilderPage } from "./features/sentence-builder/LessonPage.tsx"
 import { VocabularyPage } from "./features/vocabulary/CategoryList.tsx"
 import { VocabularySessionPage } from "./features/vocabulary/FlashcardSession.tsx"
@@ -92,8 +93,24 @@ export function App({ initialAuth }: { initialAuth?: AuthState } = {}) {
                 </RequireAuth>
               }
             />
+            <Route
+              path="/real-life-spanish"
+              element={
+                <RequireAuth allow="ready">
+                  <SituationListPage />
+                </RequireAuth>
+              }
+            />
+            <Route
+              path="/real-life-spanish/:situationId"
+              element={
+                <RequireAuth allow="ready">
+                  <SituationRoute />
+                </RequireAuth>
+              }
+            />
             {sections
-              .filter((section) => !["/", "/vocabulary", "/sentence-builder", "/revision", "/exams"].includes(section.to))
+              .filter((section) => !["/", "/vocabulary", "/sentence-builder", "/revision", "/exams", "/real-life-spanish"].includes(section.to))
               .map((section) => (
                 <Route
                   key={section.to}
