@@ -9,6 +9,9 @@ import { AuthProvider, RequireAuth, type AuthState } from "./features/auth/Requi
 import { SettingsPage } from "./features/auth/SettingsPage.tsx"
 import { SignInPage } from "./features/auth/SignInPage.tsx"
 import { SignUpPage } from "./features/auth/SignUpPage.tsx"
+import { ExamPage } from "./features/exams/ExamPage.tsx"
+import { ProgressBoard } from "./features/progress/ProgressBoard.tsx"
+import { ReviewPage } from "./features/revision/ReviewSession.tsx"
 import { LessonRoute, SentenceBuilderPage } from "./features/sentence-builder/LessonPage.tsx"
 import { VocabularyPage } from "./features/vocabulary/CategoryList.tsx"
 import { VocabularySessionPage } from "./features/vocabulary/FlashcardSession.tsx"
@@ -33,6 +36,30 @@ export function App({ initialAuth }: { initialAuth?: AuthState } = {}) {
             <Route path="/privacy" element={<PrivacyPage />} />
             <Route path="/onboarding" element={<OnboardingPage />} />
             <Route path="/settings" element={<SettingsPage />} />
+            <Route
+              path="/"
+              element={
+                <RequireAuth allow="ready">
+                  <ProgressBoard />
+                </RequireAuth>
+              }
+            />
+            <Route
+              path="/revision"
+              element={
+                <RequireAuth allow="ready">
+                  <ReviewPage />
+                </RequireAuth>
+              }
+            />
+            <Route
+              path="/exams"
+              element={
+                <RequireAuth allow="ready">
+                  <ExamPage />
+                </RequireAuth>
+              }
+            />
             <Route
               path="/vocabulary"
               element={
@@ -66,7 +93,7 @@ export function App({ initialAuth }: { initialAuth?: AuthState } = {}) {
               }
             />
             {sections
-              .filter((section) => section.to !== "/vocabulary" && section.to !== "/sentence-builder")
+              .filter((section) => !["/", "/vocabulary", "/sentence-builder", "/revision", "/exams"].includes(section.to))
               .map((section) => (
                 <Route
                   key={section.to}

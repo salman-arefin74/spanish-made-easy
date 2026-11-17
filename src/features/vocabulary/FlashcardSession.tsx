@@ -5,6 +5,7 @@ import { EmptyState } from "../../components/ui/EmptyState.tsx"
 import { PageHeading } from "../../components/ui/PageHeading.tsx"
 import { useAuth } from "../auth/RequireAuth.tsx"
 import { getSupabase } from "../../lib/supabase/client.ts"
+import { recordStudyDay } from "../progress/studyDay.ts"
 import { loadBank, type BankResult, type StudyWord } from "./bank.ts"
 import {
   answerCard,
@@ -90,7 +91,7 @@ export function FlashcardSession({
     return (
       <>
         <PageHeading title={title} lede="Every word from this session." />
-        <p className="mt-6 text-lg text-cream">{sessionPosition(state)} finished.</p>
+        <p className="mt-6 text-lg text-cream">{sessionPosition(state)} finished. These words are due tomorrow. A first answer does not mark them known.</p>
         <ul className="mt-6 space-y-3">
           {state.finished.map((card) => {
             const word = words.find((item) => item.id === card.id)
@@ -222,18 +223,22 @@ export function VocabularySessionPage() {
     const supabase = getSupabase()
     if (!supabase || !auth.userId) throw new Error("Your session is missing. Sign in again.")
     const today = localDateISO(new Date())
-    const { error } = await supabase.from("user_word_progress").insert({
-      user_id: auth.userId,
-      word_id: word.id,
-      introduced_on: today,
-      last_response: answer,
-      last_reviewed_on: today,
-      next_review_on: nextLocalDateISO(new Date()),
-      interval_days: 1,
-      ease: 2.5,
-      repetitions: answer === "know" ? 1 : 0,
-    })
+    const { error } = await supabase.from("user_word_progress").upsert(
+      {
+        user_id: auth.userId,
+        word_id: word.id,
+        introduced_on: today,
+        last_response: answer,
+        last_reviewed_on: today,
+        next_review_on: nextLocalDateISO(new Date()),
+        interval_days: 1,
+        ease: 2.5,
+        repetitions: answer === "know" ? 1 : 0,
+      },
+      { onConflict: "user_id,word_id" },
+    )
     if (error) throw new Error(error.message)
+    await recordStudyDay(supabase, auth.userId, today)
   }
 
   if (result.status === "loading" || today === null) {

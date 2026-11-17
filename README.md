@@ -106,6 +106,16 @@ If the grammar tables are already loaded, run [supabase/migrations/0004_exercise
 
 A topic finishes at 80 percent, rounded up. Twelve exercises need 10 correct. Try again replaces the stored score. A later topic names the earlier one to study first, and the lesson still opens. Grammar does not use the daily vocabulary target. The checker accepts the answers listed for that exercise, including a listed Latin American variant, and it keeps accents. It does not claim to judge every possible Spanish sentence.
 
+## Revision, exams, and progress
+
+Run [supabase/migrations/0005_revision_and_exams.sql](supabase/migrations/0005_revision_and_exams.sql) in the SQL editor after the vocabulary migration. It lets a review store Again, Hard, Good, or Easy, records the days you answer a vocabulary card, and keeps every exam attempt.
+
+Revision is the words whose next review date is today or earlier. Again comes back tomorrow. Hard comes back sooner than Good. Easy comes back later than Good. A word counts as known only after a successful review sets an interval of at least 7 days. The first "I know this" does not do that.
+
+An exam is 15 questions drawn from the seeded bank: A1, A2, or mixed. A retake adds a new attempt. The A2 exam stays closed until A2 words are in the bank.
+
+Progress is the home page. It shows your own counts, including zeroes before you have studied, and one next step. There is no sample history.
+
 ## Hosting
 
 The site is a static Vite app. `public/_redirects` sends unknown paths to `index.html` so client-side routes work on Cloudflare Pages. Deployment is not part of this milestone.

@@ -2,7 +2,7 @@
 
 Spanish Made Easy is a static Vite single-page app. The browser will talk to Supabase with the public anon key and the signed-in user's JWT. There is no application server, no AI API, and no paid service.
 
-Accounts, the vocabulary bank, and sentence builder are implemented. Revision, exams, the progress board, and real-life situations are still empty on purpose.
+Accounts, the vocabulary bank, sentence builder, revision, exams, and the progress board are implemented. Real-life situations are still empty on purpose.
 
 ## Accounts
 
@@ -47,4 +47,4 @@ Netlify's free credit pool is a poor fit because production deploys and bandwidt
 
 The six routes are Progress, Vocabulary, Sentence Builder, Revision, Exams, and Real-Life Spanish. On a narrow screen the navigation is a bottom bar. From the `md` breakpoint it is a side bar with the labels visible. The reading column has a maximum width.
 
-Vocabulary reads the seeded bank and records "I know this" or "Still learning" on the signed-in user's own rows. The first answer sets the next review to the next local day and does not mark the word known. Sentence Builder reads the seeded grammar lessons. One row per learner per topic stores the latest score, and 80 percent rounded up marks the topic finished. A later topic names the earlier one and still opens. Grammar does not spend the vocabulary target. Revision, exams, and real-life situations say that module is not built yet. The progress page does not show zeroes or sample scores.
+Vocabulary reads the seeded bank and records "I know this" or "Still learning" on the signed-in user's own rows. The first answer sets the next review to the next local day and does not mark the word known. A later review uses Again, Hard, Good, or Easy. A word is known only when a successful review sets an interval of at least 7 days. Sentence Builder reads the seeded grammar lessons. One row per learner per topic stores the latest score, and 80 percent rounded up marks the topic finished. A later topic names the earlier one and still opens. Grammar and exams do not spend the vocabulary target. An exam is 15 questions from the bank, and each attempt is kept. The progress board reads only that learner's rows. Real-life situations say that module is not built yet.

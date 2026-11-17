@@ -47,8 +47,9 @@ describe("application shell", () => {
   it("does not invent progress on the progress page", () => {
     render(<App initialAuth={readyLearner} />)
     expect(screen.getByRole("heading", { level: 1, name: "Progress" })).toBeInTheDocument()
-    expect(screen.getByText(/not built yet/i)).toBeInTheDocument()
+    expect(screen.getByText(/does not show sample scores/i)).toBeInTheDocument()
     expect(screen.queryByText(/%/)).not.toBeInTheDocument()
+    expect(screen.queryByText(/learn your first words/i)).not.toBeInTheDocument()
   })
 
   it("opens a section without showing sample study data", async () => {

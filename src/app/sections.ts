@@ -13,7 +13,7 @@ export const sections: Section[] = [
     end: true,
     lede: 'Your study, once there is something to show.',
     empty:
-      'Progress is not built yet. This board will show your own words, reviews, and exams. There is no sample history on this page.',
+      'Progress reads your own words, reviews, and exams. This page does not show sample scores.',
   },
   {
     to: '/vocabulary',
@@ -33,13 +33,13 @@ export const sections: Section[] = [
     to: '/revision',
     label: 'Revision',
     lede: 'Words that are ready to review.',
-    empty: 'Revision is not built yet. There is no review queue.',
+    empty: 'Revision opens after the review SQL is applied. This page does not show a sample queue.',
   },
   {
     to: '/exams',
     label: 'Exams',
     lede: 'A check on what you can actually do.',
-    empty: 'Exams are not built yet. There are no scores to show.',
+    empty: 'Exams open after the word bank is seeded. This page does not show sample questions.',
   },
   {
     to: '/real-life-spanish',
